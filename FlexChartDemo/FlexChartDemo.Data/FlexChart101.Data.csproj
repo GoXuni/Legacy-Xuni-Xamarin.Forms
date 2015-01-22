@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EF41F01E-6CF7-4778-A3FE-B61F9671FE09}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FlexChartDemo.Data</RootNamespace>
+    <AssemblyName>FlexChart101.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <NuGetPackageImportStamp>e4e5f923</NuGetPackageImportStamp>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Chart\ChartSampleFactory.cs" />
+    <Compile Include="Chart\Entities\FinacialData.cs" />
+    <Compile Include="Chart\Entities\SalesExpensesDownloadsEntity.cs" />
+    <Compile Include="Repo\Repository.cs" />
+    <Compile Include="Views\ChartSampleGrid.cs" />
+    <Compile Include="Repo\XmlRepository.cs" />
+    <Compile Include="Chart\ChartSample.cs" />
+    <Compile Include="Chart\ChartSampleDataType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Chart\ChartSampleViewType.cs" />
+    <Compile Include="Views\ChartSampleViewFactory.cs" />
+    <Compile Include="Views\Common\CountryRenderChartTooltip.cs" />
+    <Compile Include="Views\Common\Pickers.cs" />
+    <Compile Include="Views\Common\Utility.cs" />
+    <Compile Include="Views\ResponsiveFlexChart.cs" />
+    <Compile Include="Views\Samples\BaseSample.cs" />
+    <Compile Include="Views\Samples\BubbleChartSample.cs" />
+    <Compile Include="Views\Samples\ChartTypesSample.cs" />
+    <Compile Include="Views\Samples\DynamicChartsSample.cs" />
+    <Compile Include="Views\Samples\FinacialChart.cs" />
+    <Compile Include="Views\Samples\HitTest.xaml.cs">
+      <DependentUpon>HitTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Samples\ToggleSeriesSample.cs" />
+    <Compile Include="Views\Samples\SelectionModesSample.cs" />
+    <Compile Include="Views\Samples\ThemingSample.cs" />
+    <Compile Include="Views\Samples\CustomizingAxesSample.cs" />
+    <Compile Include="Views\Samples\StylingSeriesSample.cs" />
+    <Compile Include="Views\Samples\TooltipsSample.cs" />
+    <Compile Include="Views\Samples\TitleAndLegendSample.cs" />
+    <Compile Include="Views\Samples\MixedChartTypesSample.cs" />
+    <Compile Include="Views\Samples\GettingStartedSample.cs" />
+    <Compile Include="Views\Samples\ZoomingAndScrolling.cs" />
+    <Compile Include="Views\WrapLayout.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FlexChartDemoData_en.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\chart_column.png" />
+    <EmbeddedResource Include="Images\chart_composite.png" />
+    <EmbeddedResource Include="Images\chart_dynamic.png" />
+    <EmbeddedResource Include="Images\chart_tooltip.png" />
+    <EmbeddedResource Include="Images\themes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\chart_area.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\chart_aggregate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Germany.png" />
+    <EmbeddedResource Include="Images\Greece.png" />
+    <EmbeddedResource Include="Images\Italy.png" />
+    <EmbeddedResource Include="Images\Japan.png" />
+    <EmbeddedResource Include="Images\UK.png" />
+    <EmbeddedResource Include="Images\US.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\chart_bubble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\packages\Xamarin.Forms.1.3.1.6296\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\packages\Xamarin.Forms.1.3.1.6296\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Xuni.Xamarin.ChartCore">
+      <HintPath>..\packages\Xuni.FlexChart.1.3.20151.6\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.ChartCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Xuni.Xamarin.Core">
+      <HintPath>..\packages\Xuni.FlexChart.1.3.20151.6\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xuni.Xamarin.FlexChart">
+      <HintPath>..\packages\Xuni.FlexChart.1.3.20151.6\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.FlexChart.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Samples\HitTest.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

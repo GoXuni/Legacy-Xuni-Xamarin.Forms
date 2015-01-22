@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfPieChartSample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PieChartSample>
+    <Name>Getting Started</Name>
+    <Description>Shows a simple pie chart with tooltips</Description>
+    <PieChartSampleDataType>0</PieChartSampleDataType>
+    <PieChartSampleViewType>0</PieChartSampleViewType>
+    <ThumbnailImage>pie.png</ThumbnailImage>
+  </PieChartSample>
+  <PieChartSample>
+    <Name>Basic Features</Name>
+    <Description>Control inner radius, offset, and start angle.</Description>
+    <PieChartSampleDataType>0</PieChartSampleDataType>
+    <PieChartSampleViewType>1</PieChartSampleViewType>
+    <ThumbnailImage>pie_selection.png</ThumbnailImage>
+  </PieChartSample>
+  <PieChartSample>
+    <Name>Legend And Titles</Name>
+    <Description>Control header, footer, and legend positioning.</Description>
+    <PieChartSampleDataType>0</PieChartSampleDataType>
+    <PieChartSampleViewType>2</PieChartSampleViewType>
+    <ThumbnailImage>pie_title.png</ThumbnailImage>
+  </PieChartSample>
+  <PieChartSample>
+    <Name>SelectionSample</Name>
+    <Description>Control selection offset and position.</Description>
+    <PieChartSampleDataType>0</PieChartSampleDataType>
+    <PieChartSampleViewType>3</PieChartSampleViewType>
+    <ThumbnailImage>pie_selection.png</ThumbnailImage>
+  </PieChartSample>
+  <PieChartSample>
+    <Name>Theming</Name>
+    <Description>Shows the ability to customize styles</Description>
+    <PieChartSampleDataType>0</PieChartSampleDataType>
+    <PieChartSampleViewType>4</PieChartSampleViewType>
+    <ThumbnailImage>themes.png</ThumbnailImage>
+  </PieChartSample>
+</ArrayOfPieChartSample>

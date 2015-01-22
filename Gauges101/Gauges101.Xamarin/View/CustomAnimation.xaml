@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Xamarin.Gauge;assembly=Xuni.Xamarin.Gauge"
+             x:Class="GaugeDemo.CustomAnimation"
+             Padding="20">
+    <StackLayout VerticalOptions="FillAndExpand">
+        <Label Text="Custom Animations" HorizontalOptions="Center" Font="Large"/>
+        <xuni:XuniLinearGauge x:Name="linearGauge" IsAnimated="False" Value="{Binding Value}" PointerColor="#FF3A6CC1">
+            <xuni:XuniLinearGauge.Ranges>
+                <xuni:GaugeRange Min="0" Max="40" Color="Red"/>
+                <xuni:GaugeRange Min="40" Max="80" Color="Yellow"/>
+                <xuni:GaugeRange Min="80" Max="100" Color="Green"/>
+            </xuni:XuniLinearGauge.Ranges>
+        </xuni:XuniLinearGauge>
+        <xuni:XuniRadialGauge x:Name="radialGauge" IsAnimated="False" Value="{Binding Value}" PointerColor="#FF3A6CC1" VerticalOptions="FillAndExpand">
+            <xuni:XuniRadialGauge.Ranges>
+                <xuni:GaugeRange Min="0" Max="40" Color="Red"/>
+                <xuni:GaugeRange Min="40" Max="80" Color="Yellow"/>
+                <xuni:GaugeRange Min="80" Max="100" Color="Green"/>
+            </xuni:XuniRadialGauge.Ranges>
+        </xuni:XuniRadialGauge>
+    </StackLayout>
+</ContentPage>

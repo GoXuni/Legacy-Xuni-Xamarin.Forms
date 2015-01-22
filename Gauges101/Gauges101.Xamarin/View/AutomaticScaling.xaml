@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Xamarin.Gauge;assembly=Xuni.Xamarin.Gauge"
+             x:Class="GaugeDemo.AutomaticScaling"
+             Padding="20">
+    <StackLayout VerticalOptions="FillAndExpand">
+        <Label Text="Automatic Scaling" HorizontalOptions="Center" Font="Large"/>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Start Angle " VerticalOptions="Center"/>
+            <Label x:Name="StartAngleLabel" VerticalOptions="Center"/>
+            <Stepper x:Name="StartAngleStepper" Value="{Binding StartAngle,Mode=TwoWay}" Maximum="360" Increment="45" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Sweep Angle " VerticalOptions="Center"/>
+            <Label x:Name="SweepAngleLabel" VerticalOptions="Center"/>
+            <Stepper x:Name="SweepAngleStepper" Value="{Binding SweepAngle,Mode=TwoWay}" Minimum="45" Maximum="360" Increment="45" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        <xuni:XuniRadialGauge x:Name="Gauge" Min="{Binding Min}" Max="{Binding Max}" Value="{Binding Value}" StartAngle="{Binding StartAngle}" SweepAngle="{Binding SweepAngle}" ShowText="{Binding ShowText}" VerticalOptions="FillAndExpand"/>
+    </StackLayout>
+</ContentPage>
