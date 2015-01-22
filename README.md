@@ -1,2 +1,6 @@
 # Samples
-All Xuni Samples
+All Xuni Beta Samples
+
+-FlexChart
+-FlexPie
+-Gauges
