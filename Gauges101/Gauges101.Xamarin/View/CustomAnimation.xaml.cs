@@ -35,7 +35,7 @@ namespace GaugeDemo
         }
 
         private Random _rand = new Random();
-        private async Task AnimateNextStep()
+        private void AnimateNextStep()
         {
             double nextValue = _rand.Next(0, 100);
             var linearGaugeAnimation = new Animation(d => linearGauge.Value = d, linearGauge.Value, nextValue, Easing.CubicInOut);

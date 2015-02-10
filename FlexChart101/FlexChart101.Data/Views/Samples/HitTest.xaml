@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
+             xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
+             x:Class="FlexChartDemo.Data.Views.Samples.HitTest"
+             Title="Hit Test">
+
+  <StackLayout VerticalOptions="FillAndExpand">
+    <sample:ResponsiveFlexChart x:Name="flexChart" Tapped="flexChart_Tapped"
+                    HeaderText="Trigonometric functions" FooterText="Cartesian coordinates"
+                    ChartType="LineSymbol" >
+      <sample:ResponsiveFlexChart.Series>
+        <xuni:ChartSeries x:Name="seriesCosX"  Binding="Y" Name="cos(x)"  />
+        <xuni:ChartSeries x:Name="seriesSinX"  Binding="Y" Name="sin(x)"  />
+      </sample:ResponsiveFlexChart.Series>
+    </sample:ResponsiveFlexChart>
+    <StackLayout x:Name="stackHitTest" >
+      <Label  Text="{Binding ChartElement, StringFormat='Chart Element:{0}'}" />
+      <StackLayout x:Name="stackSeries">
+        <Label  Text="{Binding Series.Name, StringFormat='Series Name:{0}'}" />
+        <StackLayout x:Name="stackData">
+          <Label  Text="{Binding PointIndex, StringFormat='Point Index:{0}'}" />
+          <StackLayout Orientation="Horizontal" >
+            <Label  Text="{Binding XValue, StringFormat='X:{0:F2}'}" />
+            <Label  Text="{Binding YValue, StringFormat='Y:{0:F2}'}" />
+          </StackLayout>
+        </StackLayout>
+      </StackLayout>
+    </StackLayout>
+  </StackLayout>
+
+</BaseSample>

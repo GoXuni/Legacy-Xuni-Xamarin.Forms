@@ -14,6 +14,8 @@ namespace GaugeDemo
         double _min = 0;
         double _max = 100;
         double _value;
+        double _step = 1;
+        string _format;
         bool _showRanges;
         bool _autoScale;
         double _startAngle = 0;
@@ -54,6 +56,9 @@ namespace GaugeDemo
                 RaisePropertyChanged("ValueSelectedIndex");
             }
         }
+
+        public double Step { get { return _step; } set { _step = value; RaisePropertyChanged("Step"); } }
+        public string Format { get { return _format; } set { _format = value; RaisePropertyChanged("Format"); } }
         public bool ShowRanges { get { return _showRanges; } set { _showRanges = value; RaisePropertyChanged("ShowRanges"); } }
         public double StartAngle { get { return _startAngle; } set { _startAngle = value; RaisePropertyChanged("StartAngle"); } }
         public double SweepAngle { get { return _sweepAngle; } set { _sweepAngle = value; RaisePropertyChanged("SweepAngle"); } }
@@ -82,18 +87,18 @@ namespace GaugeDemo
             {
                 return new List<string> 
                 { 
-                    XuniLinearGaugeDirection.Right.ToString(),
-                    XuniLinearGaugeDirection.Left.ToString(),
-                    XuniLinearGaugeDirection.Down.ToString(),
-                    XuniLinearGaugeDirection.Up.ToString(),
+                    LinearGaugeDirection.Right.ToString(),
+                    LinearGaugeDirection.Left.ToString(),
+                    LinearGaugeDirection.Down.ToString(),
+                    LinearGaugeDirection.Up.ToString(),
                 };
             }
         }
-        public XuniLinearGaugeDirection Direction
+        public LinearGaugeDirection Direction
         {
             get
             {
-                return (XuniLinearGaugeDirection)Enum.Parse(typeof(XuniLinearGaugeDirection), DirectionItems[DirectionSelectedIndex]);
+                return (LinearGaugeDirection)Enum.Parse(typeof(LinearGaugeDirection), DirectionItems[DirectionSelectedIndex]);
             }
         }
 

@@ -11,7 +11,7 @@ namespace GaugeDemo
     public partial class AutomaticScaling
     {
         private Random _rand = new Random();
-        private TimeSpan _stepDuration = TimeSpan.FromSeconds(4);
+        private uint _stepDuration = 4000;
 
         public AutomaticScaling()
         {
@@ -39,7 +39,7 @@ namespace GaugeDemo
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            await Task.Delay(Gauge.LoadAnimation.Duration);
+            await Task.Delay(TimeSpan.FromMilliseconds(Gauge.LoadAnimation.Duration));
             await AnimateNextStep();
         }
 
@@ -48,7 +48,7 @@ namespace GaugeDemo
             var viewModel = BindingContext as SampleViewModel;
             double nextValue = _rand.Next((int)viewModel.Min, (int)viewModel.Max);
             viewModel.Value = nextValue;
-            await Task.Delay(_stepDuration);
+            await Task.Delay(TimeSpan.FromMilliseconds(_stepDuration));
             await AnimateNextStep();
         }
 

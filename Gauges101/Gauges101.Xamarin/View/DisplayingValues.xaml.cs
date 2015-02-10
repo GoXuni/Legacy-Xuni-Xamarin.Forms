@@ -13,7 +13,7 @@ namespace GaugeDemo
         {
             InitializeComponent();
 
-            BindingContext = new SampleViewModel() { Value = 25, ShowRanges = false };
+            BindingContext = new SampleViewModel() { Max = 1, Value = .25, Step = .01, Format = "P0", ShowRanges = false };
         }
 
         protected override void OnBindingContextChanged()

@@ -118,10 +118,12 @@
       <HintPath>..\packages\Xamarin.Forms.1.3.1.6296\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.6\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.Core.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.3.20151.8\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Xuni.Xamarin.Gauge">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.6\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.Gauge.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.3.20151.8\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.Gauge.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>

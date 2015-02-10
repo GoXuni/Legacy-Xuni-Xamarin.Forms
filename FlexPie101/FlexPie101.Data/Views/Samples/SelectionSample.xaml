@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexPie;assembly=Xuni.Xamarin.FlexPie"
+             xmlns:common="clr-namespace:FlexPieDemo.Data.Views.Common;assembly=FlexPie101.Data"
+             x:Class="FlexPieDemo.Data.Views.Samples.SelectionSample"
+             Title="Selection"
+            Padding="20">
+  <StackLayout >
+    <Grid BindingContext="{x:Reference flexPie}">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+
+      <Label Text="Selected Item offset"/>
+      <StackLayout  Grid.Column="1" >
+        <Label BindingContext="{x:Reference stepperOffset}" Text="{Binding Value}" />
+        <common:PreciseStepper x:Name="stepperOffset" Value="{Binding SelectedItemOffset,Mode=TwoWay}" Maximum="0.5" Minimum="0" Increment="0.1"/>
+      </StackLayout>
+      <Label Grid.Row="1" Text="Position" />
+      <Picker Grid.Row="1" Grid.Column="1" x:Name="pickerPosition" />
+      <Label Grid.Row="2" Text="IsAnimated?"/>
+      <Switch IsToggled="{Binding IsAnimated,Mode=TwoWay}"
+              Grid.Row="2" Grid.Column="1" />
+    </Grid>
+    <xuni:FlexPie SelectedItemOffset=".2"
+                  SelectedBorderColor="#ff0000"
+                  SelectedBorderWidth="3"
+                  SelectedDashes="1,1"
+                  SelectionMode="Point"
+                  BindingName = "Name" Binding = "Value"
+                  x:Name="flexPie" />
+  </StackLayout>
+
+</BaseSample>

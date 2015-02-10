@@ -1,3 +1,4 @@
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gauges101.Xamarin", "Gauges101.Xamarin\Gauges101.Xamarin.csproj", "{58BB811A-5E44-4E4C-85A9-F495182B3632}"
@@ -9,7 +10,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gauges101.iOS", "Gauges101.iOS\Gauges101.iOS.csproj", "{A02F6473-6FFD-4E65-8A54-2CADC14E37DF}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
 		Ad-Hoc|ARM = Ad-Hoc|ARM
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone
@@ -245,6 +246,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = GaugeDemo.Android\GaugeDemo.Android.csproj
