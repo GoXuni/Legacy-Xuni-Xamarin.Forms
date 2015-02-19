@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Xamarin.Gauge;assembly=Xuni.Xamarin.Gauge"
-             x:Class="GaugeDemo.DisplayingValues" 
+             x:Class="Gauges101.DisplayingValues" 
              Padding="20">
     <StackLayout VerticalOptions="FillAndExpand">
         <Label Text="Displaying Values" HorizontalOptions="Center" Font="Large"/>
@@ -11,19 +11,23 @@
             <Picker x:Name="showItemsPicker" Title="Show text" SelectedIndex="{Binding ShowTextSelectedIndex,Mode=TwoWay}" HorizontalOptions="FillAndExpand"/>
         </StackLayout>
         <Stepper Minimum="{Binding Min}" Maximum="{Binding Max}" Value="{Binding Value}" Increment="0.25" HorizontalOptions="Center"/>
-        <xuni:XuniLinearGauge Min="{Binding Min}" Max="{Binding Max}" Value="{Binding Value,Mode=TwoWay}" Step="{Binding Step}" Format="{Binding Format}" ShowText="{Binding ShowTextViaSelectedIndex}" ShowRanges="{Binding ShowRanges}" IsReadOnly="False">
-            <xuni:XuniLinearGauge.Ranges>
-                <xuni:GaugeRange Min="0" Max="40" Color="#22B14C"/>
-                <xuni:GaugeRange Min="40" Max="80" Color="#FF8080"/>
-                <xuni:GaugeRange Min="80" Max="100" Color="#00A2E8"/>
-            </xuni:XuniLinearGauge.Ranges>
-        </xuni:XuniLinearGauge>
-        <xuni:XuniRadialGauge Min="{Binding Min}" Max="{Binding Max}" Value="{Binding Value,Mode=TwoWay}" Step="{Binding Step}" Format="{Binding Format}" ShowText="{Binding ShowTextViaSelectedIndex}" ShowRanges="{Binding ShowRanges}" IsReadOnly="False" VerticalOptions="FillAndExpand">
-            <xuni:XuniRadialGauge.Ranges>
-                <xuni:GaugeRange Min="0" Max="40" Color="#22B14C"/>
-                <xuni:GaugeRange Min="40" Max="80" Color="#FF8080"/>
-                <xuni:GaugeRange Min="80" Max="100" Color="#00A2E8"/>
-            </xuni:XuniRadialGauge.Ranges>
-        </xuni:XuniRadialGauge>
+        <StackLayout>
+            <xuni:XuniLinearGauge Min="{Binding Min}" Max="{Binding Max}" Value="{Binding Value,Mode=TwoWay}" Step="{Binding Step}" Format="{Binding Format}" ShowText="{Binding ShowTextViaSelectedIndex}" ShowRanges="{Binding ShowRanges}" IsReadOnly="False">
+                <xuni:XuniLinearGauge.Ranges>
+                    <xuni:GaugeRange Min="0" Max="40" Color="#22B14C"/>
+                    <xuni:GaugeRange Min="40" Max="80" Color="#FF8080"/>
+                    <xuni:GaugeRange Min="80" Max="100" Color="#00A2E8"/>
+                </xuni:XuniLinearGauge.Ranges>
+            </xuni:XuniLinearGauge>
+        </StackLayout>
+        <StackLayout VerticalOptions="FillAndExpand">
+            <xuni:XuniRadialGauge Min="{Binding Min}" Max="{Binding Max}" Value="{Binding Value,Mode=TwoWay}" Step="{Binding Step}" Format="{Binding Format}" ShowText="{Binding ShowTextViaSelectedIndex}" ShowRanges="{Binding ShowRanges}" IsReadOnly="False" VerticalOptions="FillAndExpand">
+                <xuni:XuniRadialGauge.Ranges>
+                    <xuni:GaugeRange Min="0" Max="40" Color="#22B14C"/>
+                    <xuni:GaugeRange Min="40" Max="80" Color="#FF8080"/>
+                    <xuni:GaugeRange Min="80" Max="100" Color="#00A2E8"/>
+                </xuni:XuniRadialGauge.Ranges>
+            </xuni:XuniRadialGauge>
+        </StackLayout>
     </StackLayout>
 </ContentPage>

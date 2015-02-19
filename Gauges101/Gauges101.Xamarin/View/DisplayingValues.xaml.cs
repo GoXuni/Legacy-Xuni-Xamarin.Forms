@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xuni.Xamarin.Gauge;
 
-namespace GaugeDemo
+namespace Gauges101
 {
     public partial class DisplayingValues
     {

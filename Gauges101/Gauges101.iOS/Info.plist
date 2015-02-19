@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>GaugeDemo.iOS</string>
+	<string>Gauges 101</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.your-company.GaugeDemo.iOS</string>
+	<string>com.componentone.Gauges101</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

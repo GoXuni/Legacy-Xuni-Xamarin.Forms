@@ -25,7 +25,10 @@
         <Label Text="Footer"/>
         <Entry BindingContext="{x:Reference flexPie}" Text="{Binding FooterText,Mode=TwoWay}" />
       </StackLayout>
-      <Picker Grid.Row="1" x:Name="pickerLegendPosition" />
+      <StackLayout  Grid.Row="1">
+        <Label Text="Legend Position"/>
+        <Picker  x:Name="pickerLegendPosition" />
+      </StackLayout>
     </Grid>
     <xuni:FlexPie SelectedItemOffset=".2"
                   SelectedBorderColor="#ff0000"

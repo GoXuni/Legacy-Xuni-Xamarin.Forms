@@ -8,16 +8,16 @@
   <StackLayout>
 	<Grid Padding="10">
 		<Grid.BackgroundColor>
-			<OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" Android="#1F1F1F" WinPhone="#1F1F1F" />
+			<OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />
 		</Grid.BackgroundColor>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>
 			<RowDefinition Height="Auto"/>
 		</Grid.RowDefinitions>
 		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="3*"/>
+			<ColumnDefinition Width="3*"/>
 			<ColumnDefinition Width="2*"/>
-			<ColumnDefinition Width="2*"/>
-			<ColumnDefinition Width="*"/>
 		</Grid.ColumnDefinitions>
 		<Label Text="Chart Type" Grid.Row="0" Grid.Column="0" FontSize="12" />
 		<Label Text="Stacking" Grid.Row="0" Grid.Column="1" FontSize="12" />
@@ -26,13 +26,13 @@
     	<Picker x:Name="pickerStackType" Grid.Row="1" Grid.Column="1" Title="Stacking Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged="pickerStackType_SelectedIndexChanged" />
     	<Switch x:Name="toggleRotated" Grid.Row="1" Grid.Column="2" BindingContext="{x:Reference flexChart}" IsToggled="{Binding Rotated,Mode=OneWayToSource}" />
 	</Grid>
-    <sample:ResponsiveFlexChart x:Name="flexChart" BindingX="Name" >
-      <sample:ResponsiveFlexChart.Series>
+    <sample:AdaptiveFlexChart x:Name="flexChart" BindingX="Name" >
+      <sample:AdaptiveFlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
         <xuni:ChartSeries Binding="Expenses" Name="Expenses" />
         <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
-      </sample:ResponsiveFlexChart.Series>
-    </sample:ResponsiveFlexChart>
+      </sample:AdaptiveFlexChart.Series>
+    </sample:AdaptiveFlexChart>
    
   </StackLayout>
  

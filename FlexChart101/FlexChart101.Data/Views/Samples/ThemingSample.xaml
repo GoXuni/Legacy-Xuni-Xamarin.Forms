@@ -9,7 +9,7 @@
   <StackLayout>
 	<Grid Padding="10">
 		<Grid.BackgroundColor>
-			<OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" Android="#1F1F1F" WinPhone="#1F1F1F" />
+			<OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />
 		</Grid.BackgroundColor>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>
@@ -21,13 +21,13 @@
 		<Label Text="Palettes" Grid.Row="0" Grid.Column="0" FontSize="12" />
         <Picker x:Name="picker" Grid.Row="1" Grid.Column="0" Title="Palettes" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "picker_SelectedIndexChanged"/>
 	</Grid>
-    <sample:ResponsiveFlexChart x:Name="flexChart" BindingX="Name">
-      <sample:ResponsiveFlexChart.Series>
+    <sample:AdaptiveFlexChart x:Name="flexChart" BindingX="Name">
+      <sample:AdaptiveFlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
         <xuni:ChartSeries Binding="Expenses" Name="Expenses" />
         <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
-      </sample:ResponsiveFlexChart.Series>
-    </sample:ResponsiveFlexChart>
+      </sample:AdaptiveFlexChart.Series>
+    </sample:AdaptiveFlexChart>
    
   </StackLayout>
  

@@ -6,11 +6,11 @@
              x:Class="FlexChartDemo.Data.Views.Samples.FinancialChart"
              Title="Financial Chart">
   <StackLayout >
-      <sample:ResponsiveFlexChart x:Name="flexChart" ChartType = "Candle"  BindingX="Date">
-        <sample:ResponsiveFlexChart.Series>
+      <sample:AdaptiveFlexChart x:Name="flexChart" ChartType = "Candle"  BindingX="Date">
+        <sample:AdaptiveFlexChart.Series>
           <xuni:ChartSeries Binding="High,Low,Open,Close" Name="Series1" SymbolBorderWidth="2" />
-        </sample:ResponsiveFlexChart.Series>
-    </sample:ResponsiveFlexChart>
+        </sample:AdaptiveFlexChart.Series>
+    </sample:AdaptiveFlexChart>
    
   </StackLayout>
  

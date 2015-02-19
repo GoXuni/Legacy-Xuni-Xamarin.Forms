@@ -5,7 +5,7 @@ using System.IO;
 using System.Xml.Serialization;
 using System.Collections.Generic;
 
-namespace GaugeDemo
+namespace Gauges101
 {
     public class XmlRepository : Repository
     {
@@ -16,7 +16,7 @@ namespace GaugeDemo
             var assembly = typeof(XmlRepository).GetTypeInfo().Assembly;
 
             //TODO: add culture
-            Stream stream = assembly.GetManifestResourceStream("GaugeDemo.GaugeDemoData_en.xml");
+            Stream stream = assembly.GetManifestResourceStream("Gauges101.GaugeDemoData_en.xml");
 
             using (var reader = new System.IO.StreamReader(stream))
             {

@@ -14,6 +14,7 @@ namespace FlexChartDemo.Data.Views.Samples
         public ChartTypesSample()
         {
             InitializeComponent();
+            FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
 
             this.pickerChartType.Items.Add(ChartType.Column.ToString());
@@ -26,8 +27,9 @@ namespace FlexChartDemo.Data.Views.Samples
             {
                 this.pickerStackType.Items.Add(item);
             }
-            this.pickerChartType.SelectedIndex = 0;
+            this.pickerChartType.SelectedIndex = 5;
             this.pickerStackType.SelectedIndex = 0;
+            this.flexChart.ZoomMode = ZoomMode.XY;
         }
 
         void pickerChartType_SelectedIndexChanged(object sender, EventArgs e)

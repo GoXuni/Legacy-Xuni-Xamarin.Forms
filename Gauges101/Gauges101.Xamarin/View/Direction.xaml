@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Xamarin.Gauge;assembly=Xuni.Xamarin.Gauge"
-             x:Class="GaugeDemo.Direction">
+             x:Class="Gauges101.Direction"
+             Padding="20">
     <StackLayout VerticalOptions="FillAndExpand">
         <Label Text="Direction" HorizontalOptions="Center" Font="Large"/>
         <StackLayout Orientation="Horizontal">
@@ -11,8 +12,10 @@
         </StackLayout>
 
         <StackLayout Orientation="{Binding DirectionOrientation}" VerticalOptions="FillAndExpand">
-            <xuni:XuniLinearGauge Value="{Binding Value,Mode=TwoWay}" Direction="{Binding Direction}" IsReadOnly="False"/>
-            <xuni:XuniBulletGraph Value="{Binding Value,Mode=TwoWay}" Direction="{Binding Direction}" IsReadOnly="False" Good="80" Bad="45" Target="90"/>
+            <xuni:XuniLinearGauge Value="{Binding Value,Mode=TwoWay}" Direction="{Binding Direction}" ShowText="All" IsReadOnly="False"/>
+            <StackLayout VerticalOptions="FillAndExpand">
+            	<xuni:XuniBulletGraph x:Name="bulletGraph" Value="{Binding Value,Mode=TwoWay}" Direction="{Binding Direction}" ShowText="All" IsReadOnly="False" Good="80" Bad="45" Target="90"/>
+        	</StackLayout>
         </StackLayout>
     </StackLayout>
 </ContentPage>

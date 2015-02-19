@@ -41,32 +41,30 @@ namespace GaugeDemo.Android
 			global::Xuni.Xamarin.Core.Render.Android.Resource.Raw.globalize_zh = global::GaugeDemo.Android.Resource.Raw.globalize_zh;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.String.ApplicationName = global::GaugeDemo.Android.Resource.String.ApplicationName;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.String.Hello = global::GaugeDemo.Android.Resource.String.Hello;
-			global::Xuni.Xamarin.Core.Render.Android.Resource.String.app_name = global::GaugeDemo.Android.Resource.String.app_name;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.Style.AppBaseTheme = global::GaugeDemo.Android.Resource.Style.AppBaseTheme;
-			global::Xuni.Xamarin.Core.Render.Android.Resource.Style.AppTheme = global::GaugeDemo.Android.Resource.Style.AppTheme;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.backgroundColor = global::GaugeDemo.Android.Resource.Attribute.backgroundColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.bulletBadRangeColor = global::GaugeDemo.Android.Resource.Attribute.bulletBadRangeColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.bulletGoodRangeColor = global::GaugeDemo.Android.Resource.Attribute.bulletGoodRangeColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.bulletTargetRangeColor = global::GaugeDemo.Android.Resource.Attribute.bulletTargetRangeColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.faceBorderColor = global::GaugeDemo.Android.Resource.Attribute.faceBorderColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.faceBorderWidth = global::GaugeDemo.Android.Resource.Attribute.faceBorderWidth;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.faceColor = global::GaugeDemo.Android.Resource.Attribute.faceColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.gaughWidth = global::GaugeDemo.Android.Resource.Attribute.gaughWidth;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.linearGaugeDirection = global::GaugeDemo.Android.Resource.Attribute.linearGaugeDirection;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.maxFontColor = global::GaugeDemo.Android.Resource.Attribute.maxFontColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.maxFontSize = global::GaugeDemo.Android.Resource.Attribute.maxFontSize;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.maxFontTypeFace = global::GaugeDemo.Android.Resource.Attribute.maxFontTypeFace;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.minFontColor = global::GaugeDemo.Android.Resource.Attribute.minFontColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.minFontSize = global::GaugeDemo.Android.Resource.Attribute.minFontSize;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.minFontTypeFace = global::GaugeDemo.Android.Resource.Attribute.minFontTypeFace;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.pointerColor = global::GaugeDemo.Android.Resource.Attribute.pointerColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.pointerWidth = global::GaugeDemo.Android.Resource.Attribute.pointerWidth;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.radialStartAngle = global::GaugeDemo.Android.Resource.Attribute.radialStartAngle;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.radialSweepAngle = global::GaugeDemo.Android.Resource.Attribute.radialSweepAngle;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_backgroundColor = global::GaugeDemo.Android.Resource.Attribute.flexGauge_backgroundColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_bulletBadRangeColor = global::GaugeDemo.Android.Resource.Attribute.flexGauge_bulletBadRangeColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_bulletGoodRangeColor = global::GaugeDemo.Android.Resource.Attribute.flexGauge_bulletGoodRangeColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_bulletTargetRangeColor = global::GaugeDemo.Android.Resource.Attribute.flexGauge_bulletTargetRangeColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_faceBorderColor = global::GaugeDemo.Android.Resource.Attribute.flexGauge_faceBorderColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_faceBorderWidth = global::GaugeDemo.Android.Resource.Attribute.flexGauge_faceBorderWidth;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_faceColor = global::GaugeDemo.Android.Resource.Attribute.flexGauge_faceColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_gaughWidth = global::GaugeDemo.Android.Resource.Attribute.flexGauge_gaughWidth;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_linearGaugeDirection = global::GaugeDemo.Android.Resource.Attribute.flexGauge_linearGaugeDirection;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_maxFontColor = global::GaugeDemo.Android.Resource.Attribute.flexGauge_maxFontColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_maxFontSize = global::GaugeDemo.Android.Resource.Attribute.flexGauge_maxFontSize;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_maxFontTypeFace = global::GaugeDemo.Android.Resource.Attribute.flexGauge_maxFontTypeFace;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_minFontColor = global::GaugeDemo.Android.Resource.Attribute.flexGauge_minFontColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_minFontSize = global::GaugeDemo.Android.Resource.Attribute.flexGauge_minFontSize;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_minFontTypeFace = global::GaugeDemo.Android.Resource.Attribute.flexGauge_minFontTypeFace;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_pointerColor = global::GaugeDemo.Android.Resource.Attribute.flexGauge_pointerColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_pointerWidth = global::GaugeDemo.Android.Resource.Attribute.flexGauge_pointerWidth;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_radialStartAngle = global::GaugeDemo.Android.Resource.Attribute.flexGauge_radialStartAngle;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_radialSweepAngle = global::GaugeDemo.Android.Resource.Attribute.flexGauge_radialSweepAngle;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_valueFontColor = global::GaugeDemo.Android.Resource.Attribute.flexGauge_valueFontColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_valueFontSize = global::GaugeDemo.Android.Resource.Attribute.flexGauge_valueFontSize;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.flexGauge_valueFontTypeFace = global::GaugeDemo.Android.Resource.Attribute.flexGauge_valueFontTypeFace;
 			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.ringoFlexGauge = global::GaugeDemo.Android.Resource.Attribute.ringoFlexGauge;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.valueFontColor = global::GaugeDemo.Android.Resource.Attribute.valueFontColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.valueFontSize = global::GaugeDemo.Android.Resource.Attribute.valueFontSize;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Attribute.valueFontTypeFace = global::GaugeDemo.Android.Resource.Attribute.valueFontTypeFace;
 			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Color.ceruleanPointerColor = global::GaugeDemo.Android.Resource.Color.ceruleanPointerColor;
 			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Color.cocoaPointerColor = global::GaugeDemo.Android.Resource.Color.cocoaPointerColor;
 			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Color.coralPointerColor = global::GaugeDemo.Android.Resource.Color.coralPointerColor;
@@ -144,28 +142,28 @@ namespace GaugeDemo.Android
 			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Style.Style_Ringo_FlexGauge_Superhero = global::GaugeDemo.Android.Resource.Style.Style_Ringo_FlexGauge_Superhero;
 			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Style.Theme_Ringo_FlexGauge_Default = global::GaugeDemo.Android.Resource.Style.Theme_Ringo_FlexGauge_Default;
 			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge = global::GaugeDemo.Android.Resource.Styleable.FlexGauge;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_backgroundColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_backgroundColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_bulletBadRangeColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_bulletBadRangeColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_bulletGoodRangeColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_bulletGoodRangeColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_bulletTargetRangeColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_bulletTargetRangeColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_faceBorderColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_faceBorderColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_faceBorderWidth = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_faceBorderWidth;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_faceColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_faceColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_gaughWidth = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_gaughWidth;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_linearGaugeDirection = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_linearGaugeDirection;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_maxFontColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_maxFontColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_maxFontSize = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_maxFontSize;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_maxFontTypeFace = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_maxFontTypeFace;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_minFontColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_minFontColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_minFontSize = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_minFontSize;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_minFontTypeFace = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_minFontTypeFace;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_pointerColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_pointerColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_pointerWidth = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_pointerWidth;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_radialStartAngle = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_radialStartAngle;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_radialSweepAngle = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_radialSweepAngle;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_valueFontColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_valueFontColor;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_valueFontSize = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_valueFontSize;
-			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_valueFontTypeFace = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_valueFontTypeFace;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_backgroundColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_backgroundColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_bulletBadRangeColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_bulletBadRangeColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_bulletGoodRangeColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_bulletGoodRangeColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_bulletTargetRangeColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_bulletTargetRangeColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_faceBorderColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_faceBorderColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_faceBorderWidth = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_faceBorderWidth;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_faceColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_faceColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_gaughWidth = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_gaughWidth;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_linearGaugeDirection = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_linearGaugeDirection;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_maxFontColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_maxFontColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_maxFontSize = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_maxFontSize;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_maxFontTypeFace = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_maxFontTypeFace;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_minFontColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_minFontColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_minFontSize = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_minFontSize;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_minFontTypeFace = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_minFontTypeFace;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_pointerColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_pointerColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_pointerWidth = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_pointerWidth;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_radialStartAngle = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_radialStartAngle;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_radialSweepAngle = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_radialSweepAngle;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_valueFontColor = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_valueFontColor;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_valueFontSize = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_valueFontSize;
+			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.FlexGauge_flexGauge_valueFontTypeFace = global::GaugeDemo.Android.Resource.Styleable.FlexGauge_flexGauge_valueFontTypeFace;
 			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.RingoFlexGaugeTheme = global::GaugeDemo.Android.Resource.Styleable.RingoFlexGaugeTheme;
 			global::Xuni.Xamarin.Gauge.Render.Android.Resource.Styleable.RingoFlexGaugeTheme_ringoFlexGauge = global::GaugeDemo.Android.Resource.Styleable.RingoFlexGaugeTheme_ringoFlexGauge;
 		}
@@ -174,73 +172,73 @@ namespace GaugeDemo.Android
 		{
 			
 			// aapt resource value: 0x7f010000
-			public const int backgroundColor = 2130771968;
+			public const int flexGauge_backgroundColor = 2130771968;
 			
 			// aapt resource value: 0x7f010011
-			public const int bulletBadRangeColor = 2130771985;
+			public const int flexGauge_bulletBadRangeColor = 2130771985;
 			
 			// aapt resource value: 0x7f010010
-			public const int bulletGoodRangeColor = 2130771984;
+			public const int flexGauge_bulletGoodRangeColor = 2130771984;
 			
 			// aapt resource value: 0x7f010012
-			public const int bulletTargetRangeColor = 2130771986;
+			public const int flexGauge_bulletTargetRangeColor = 2130771986;
 			
 			// aapt resource value: 0x7f01000e
-			public const int faceBorderColor = 2130771982;
+			public const int flexGauge_faceBorderColor = 2130771982;
 			
 			// aapt resource value: 0x7f01000f
-			public const int faceBorderWidth = 2130771983;
+			public const int flexGauge_faceBorderWidth = 2130771983;
 			
 			// aapt resource value: 0x7f01000c
-			public const int faceColor = 2130771980;
+			public const int flexGauge_faceColor = 2130771980;
 			
 			// aapt resource value: 0x7f01000a
-			public const int gaughWidth = 2130771978;
+			public const int flexGauge_gaughWidth = 2130771978;
 			
 			// aapt resource value: 0x7f010015
-			public const int linearGaugeDirection = 2130771989;
+			public const int flexGauge_linearGaugeDirection = 2130771989;
 			
 			// aapt resource value: 0x7f010003
-			public const int maxFontColor = 2130771971;
+			public const int flexGauge_maxFontColor = 2130771971;
 			
 			// aapt resource value: 0x7f010006
-			public const int maxFontSize = 2130771974;
+			public const int flexGauge_maxFontSize = 2130771974;
 			
 			// aapt resource value: 0x7f010009
-			public const int maxFontTypeFace = 2130771977;
+			public const int flexGauge_maxFontTypeFace = 2130771977;
 			
 			// aapt resource value: 0x7f010002
-			public const int minFontColor = 2130771970;
+			public const int flexGauge_minFontColor = 2130771970;
 			
 			// aapt resource value: 0x7f010005
-			public const int minFontSize = 2130771973;
+			public const int flexGauge_minFontSize = 2130771973;
 			
 			// aapt resource value: 0x7f010008
-			public const int minFontTypeFace = 2130771976;
+			public const int flexGauge_minFontTypeFace = 2130771976;
 			
 			// aapt resource value: 0x7f01000d
-			public const int pointerColor = 2130771981;
+			public const int flexGauge_pointerColor = 2130771981;
 			
 			// aapt resource value: 0x7f01000b
-			public const int pointerWidth = 2130771979;
+			public const int flexGauge_pointerWidth = 2130771979;
 			
 			// aapt resource value: 0x7f010013
-			public const int radialStartAngle = 2130771987;
+			public const int flexGauge_radialStartAngle = 2130771987;
 			
 			// aapt resource value: 0x7f010014
-			public const int radialSweepAngle = 2130771988;
+			public const int flexGauge_radialSweepAngle = 2130771988;
+			
+			// aapt resource value: 0x7f010001
+			public const int flexGauge_valueFontColor = 2130771969;
+			
+			// aapt resource value: 0x7f010004
+			public const int flexGauge_valueFontSize = 2130771972;
+			
+			// aapt resource value: 0x7f010007
+			public const int flexGauge_valueFontTypeFace = 2130771975;
 			
 			// aapt resource value: 0x7f010016
 			public const int ringoFlexGauge = 2130771990;
-			
-			// aapt resource value: 0x7f010001
-			public const int valueFontColor = 2130771969;
-			
-			// aapt resource value: 0x7f010004
-			public const int valueFontSize = 2130771972;
-			
-			// aapt resource value: 0x7f010007
-			public const int valueFontTypeFace = 2130771975;
 			
 			static Attribute()
 			{
@@ -634,70 +632,70 @@ namespace GaugeDemo.Android
 					2130771989};
 			
 			// aapt resource value: 0
-			public const int FlexGauge_backgroundColor = 0;
+			public const int FlexGauge_flexGauge_backgroundColor = 0;
 			
 			// aapt resource value: 17
-			public const int FlexGauge_bulletBadRangeColor = 17;
+			public const int FlexGauge_flexGauge_bulletBadRangeColor = 17;
 			
 			// aapt resource value: 16
-			public const int FlexGauge_bulletGoodRangeColor = 16;
+			public const int FlexGauge_flexGauge_bulletGoodRangeColor = 16;
 			
 			// aapt resource value: 18
-			public const int FlexGauge_bulletTargetRangeColor = 18;
+			public const int FlexGauge_flexGauge_bulletTargetRangeColor = 18;
 			
 			// aapt resource value: 14
-			public const int FlexGauge_faceBorderColor = 14;
+			public const int FlexGauge_flexGauge_faceBorderColor = 14;
 			
 			// aapt resource value: 15
-			public const int FlexGauge_faceBorderWidth = 15;
+			public const int FlexGauge_flexGauge_faceBorderWidth = 15;
 			
 			// aapt resource value: 12
-			public const int FlexGauge_faceColor = 12;
+			public const int FlexGauge_flexGauge_faceColor = 12;
 			
 			// aapt resource value: 10
-			public const int FlexGauge_gaughWidth = 10;
+			public const int FlexGauge_flexGauge_gaughWidth = 10;
 			
 			// aapt resource value: 21
-			public const int FlexGauge_linearGaugeDirection = 21;
+			public const int FlexGauge_flexGauge_linearGaugeDirection = 21;
 			
 			// aapt resource value: 3
-			public const int FlexGauge_maxFontColor = 3;
+			public const int FlexGauge_flexGauge_maxFontColor = 3;
 			
 			// aapt resource value: 6
-			public const int FlexGauge_maxFontSize = 6;
+			public const int FlexGauge_flexGauge_maxFontSize = 6;
 			
 			// aapt resource value: 9
-			public const int FlexGauge_maxFontTypeFace = 9;
+			public const int FlexGauge_flexGauge_maxFontTypeFace = 9;
 			
 			// aapt resource value: 2
-			public const int FlexGauge_minFontColor = 2;
+			public const int FlexGauge_flexGauge_minFontColor = 2;
 			
 			// aapt resource value: 5
-			public const int FlexGauge_minFontSize = 5;
+			public const int FlexGauge_flexGauge_minFontSize = 5;
 			
 			// aapt resource value: 8
-			public const int FlexGauge_minFontTypeFace = 8;
+			public const int FlexGauge_flexGauge_minFontTypeFace = 8;
 			
 			// aapt resource value: 13
-			public const int FlexGauge_pointerColor = 13;
+			public const int FlexGauge_flexGauge_pointerColor = 13;
 			
 			// aapt resource value: 11
-			public const int FlexGauge_pointerWidth = 11;
+			public const int FlexGauge_flexGauge_pointerWidth = 11;
 			
 			// aapt resource value: 19
-			public const int FlexGauge_radialStartAngle = 19;
+			public const int FlexGauge_flexGauge_radialStartAngle = 19;
 			
 			// aapt resource value: 20
-			public const int FlexGauge_radialSweepAngle = 20;
+			public const int FlexGauge_flexGauge_radialSweepAngle = 20;
 			
 			// aapt resource value: 1
-			public const int FlexGauge_valueFontColor = 1;
+			public const int FlexGauge_flexGauge_valueFontColor = 1;
 			
 			// aapt resource value: 4
-			public const int FlexGauge_valueFontSize = 4;
+			public const int FlexGauge_flexGauge_valueFontSize = 4;
 			
 			// aapt resource value: 7
-			public const int FlexGauge_valueFontTypeFace = 7;
+			public const int FlexGauge_flexGauge_valueFontTypeFace = 7;
 			
 			public static int[] RingoFlexGaugeTheme = new int[] {
 					2130771990};

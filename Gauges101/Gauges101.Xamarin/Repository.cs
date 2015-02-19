@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GaugeDemo
+namespace Gauges101
 {
     public interface Repository
     {

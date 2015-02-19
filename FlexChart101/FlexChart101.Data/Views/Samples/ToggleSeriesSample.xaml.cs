@@ -16,27 +16,7 @@ namespace FlexChartDemo.Data.Views.Samples
         {
             InitializeComponent();
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
-            //foreach (var item in Enum.GetNames(typeof(ChartType)))
-            //{
-            //     this.pickerChartType.Items.Add(item);
-            //}
-            //foreach (var item in Enum.GetNames(typeof(ChartSelectionModeType)))
-            //{
-            //    this.pickerSelectionMode.Items.Add(item);
-            //}
-            //this.pickerChartType.SelectedIndex = 0;
-            //this.pickerSelectionMode.SelectedIndex = 0;
         }
-
-        //void pickerChartType_SelectedIndexChanged(object sender, EventArgs e)
-        //{
-        //    this.flexChart.ChartType = (ChartType)Enum.Parse(typeof(ChartType), this.pickerChartType.Items[this.pickerChartType.SelectedIndex]);
-        //}
-
-        //void pickerSelectionMode_SelectedIndexChanged(object sender, EventArgs e)
-        //{
-        //    this.flexChart.SelectionMode = (ChartSelectionModeType)Enum.Parse(typeof(ChartSelectionModeType), this.pickerSelectionMode.Items[this.pickerSelectionMode.SelectedIndex]);
-        //}      
     }
     public class SeriesVisibilityBoolConverter : IValueConverter
     {

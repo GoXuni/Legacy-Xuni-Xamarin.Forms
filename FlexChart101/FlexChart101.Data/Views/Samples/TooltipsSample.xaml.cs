@@ -13,8 +13,8 @@ namespace FlexChartDemo.Data.Views.Samples
         public TooltipsSample()
         {
             InitializeComponent();
+            FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
             this.chart.ItemsSource = ChartSampleFactory.CreateEntityList();
-      
         }
     }
 }

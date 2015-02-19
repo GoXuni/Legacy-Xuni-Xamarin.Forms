@@ -14,7 +14,7 @@ namespace FlexChartDemo.Data.Views.Samples
         public HitTest()
         {
             InitializeComponent();
-
+            FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
             int len = 40;
             List<Point> listCosTuple = new List<Point>();
             List<Point> listSinTuple = new List<Point>();
@@ -31,9 +31,11 @@ namespace FlexChartDemo.Data.Views.Samples
         void flexChart_Tapped(object sender, Xuni.Xamarin.Core.Events.XuniTappedEventArgs e)
         {
             FlexChartHitTestInfo hitTest = this.flexChart.HitTest(e.HitPoint);
+
             this.stackHitTest.BindingContext = hitTest;
-            this.stackSeries.IsVisible = hitTest.Series != null;
-            this.stackData.IsVisible = hitTest.PointIndex != -1;
+            this.stackSeries.IsVisible = hitTest != null && hitTest.Series != null;
+            this.stackData.IsVisible = hitTest != null ? hitTest.PointIndex != -1 : false;
+
         }
     }
 }

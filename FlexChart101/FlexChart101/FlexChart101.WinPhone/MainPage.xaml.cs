@@ -5,7 +5,7 @@ using System.Net;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Navigation;
-using Xuni.Xamarin.FlexChart.Render.WinPhone;
+using Xuni.Xamarin.FlexChart.Platform.WinPhone;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Xamarin.Forms;
@@ -18,17 +18,12 @@ namespace FlexChartDemo.WinPhone
     {
         public MainPage()
         {
-            // ViewRenderer can not be loaded from an external dll.
-            //http://forums.xamarin.com/discussion/18456/custom-renderer-in-external-dll-not-working
-            Startup startup = new Startup();
+            FlexChartRenderer.Init();
             InitializeComponent();
             SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;
 
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new FlexChartDemo.App()); 
-            
-            //Forms.Init();
-            //Content = FlexChartDemo.App.GetMainPage().ConvertPageToUIElement(this);
         }
     }
 }

@@ -107,32 +107,32 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.Forms.Core">
-      <HintPath>..\packages\Xamarin.Forms.1.3.1.6296\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
+      <HintPath>..\packages\Xamarin.Forms.1.3.4.6332\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Platform.iOS">
-      <HintPath>..\packages\Xamarin.Forms.1.3.1.6296\lib\Xamarin.iOS10\Xamarin.Forms.Platform.iOS.dll</HintPath>
+      <HintPath>..\packages\Xamarin.Forms.1.3.4.6332\lib\Xamarin.iOS10\Xamarin.Forms.Platform.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Xaml">
-      <HintPath>..\packages\Xamarin.Forms.1.3.1.6296\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+      <HintPath>..\packages\Xamarin.Forms.1.3.4.6332\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.iOS" />
     <Reference Include="Xuni.Xamarin.Core">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.8\lib\Xamarin.iOS10\Xuni.Xamarin.Core.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.3.20151.14\lib\Xamarin.iOS10\Xuni.Xamarin.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core.Binding.iOS">
-      <HintPath>..\packages\Xuni.Core.1.3.20151.8\lib\Xamarin.iOS10\Xuni.Xamarin.Core.Binding.iOS.dll</HintPath>
+      <HintPath>..\packages\Xuni.Core.1.3.20151.14\lib\Xamarin.iOS10\Xuni.Xamarin.Core.Binding.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core.Render.iOS">
-      <HintPath>..\packages\Xuni.Core.1.3.20151.8\lib\Xamarin.iOS10\Xuni.Xamarin.Core.Render.iOS.dll</HintPath>
+      <HintPath>..\packages\Xuni.Core.1.3.20151.14\lib\Xamarin.iOS10\Xuni.Xamarin.Core.Render.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Gauge">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.8\lib\Xamarin.iOS10\Xuni.Xamarin.Gauge.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.3.20151.14\lib\Xamarin.iOS10\Xuni.Xamarin.Gauge.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Gauge.Binding.iOS">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.8\lib\Xamarin.iOS10\Xuni.Xamarin.Gauge.Binding.iOS.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.3.20151.14\lib\Xamarin.iOS10\Xuni.Xamarin.Gauge.Binding.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Gauge.Render.iOS">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.8\lib\Xamarin.iOS10\Xuni.Xamarin.Gauge.Render.iOS.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.3.20151.14\lib\Xamarin.iOS10\Xuni.Xamarin.Gauge.Render.iOS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -169,11 +169,11 @@
     <BundleResource Include="Resources\Default-Portrait%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <Import Project="..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <Import Project="..\packages\Xamarin.Forms.1.3.4.6332\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.3.4.6332\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.1.3.1.6296\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.1.3.4.6332\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.1.3.4.6332\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
   </Target>
 </Project>

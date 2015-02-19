@@ -26,125 +26,8 @@ namespace FlexChartDemo.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.cocoaPalette = global::FlexChartDemo.Droid.Resource.Array.cocoaPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.coralPalette = global::FlexChartDemo.Droid.Resource.Array.coralPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.darkPalette = global::FlexChartDemo.Droid.Resource.Array.darkPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.defaultPalette = global::FlexChartDemo.Droid.Resource.Array.defaultPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.highConstrastPalette = global::FlexChartDemo.Droid.Resource.Array.highConstrastPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.lightPalette = global::FlexChartDemo.Droid.Resource.Array.lightPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.midnightPalette = global::FlexChartDemo.Droid.Resource.Array.midnightPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.minimalPalette = global::FlexChartDemo.Droid.Resource.Array.minimalPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.modernPalette = global::FlexChartDemo.Droid.Resource.Array.modernPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.organicPalette = global::FlexChartDemo.Droid.Resource.Array.organicPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.slatePalette = global::FlexChartDemo.Droid.Resource.Array.slatePalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.backgroundColor = global::FlexChartDemo.Droid.Resource.Attribute.backgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.borderColor = global::FlexChartDemo.Droid.Resource.Attribute.borderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.borderWidth = global::FlexChartDemo.Droid.Resource.Attribute.borderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.footer = global::FlexChartDemo.Droid.Resource.Attribute.footer;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.footerFontColor = global::FlexChartDemo.Droid.Resource.Attribute.footerFontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.footerFontGravity = global::FlexChartDemo.Droid.Resource.Attribute.footerFontGravity;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.footerFontSize = global::FlexChartDemo.Droid.Resource.Attribute.footerFontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.footerFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.footerFontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.footerFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.footerFontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.header = global::FlexChartDemo.Droid.Resource.Attribute.header;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.headerFontColor = global::FlexChartDemo.Droid.Resource.Attribute.headerFontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.headerFontGravity = global::FlexChartDemo.Droid.Resource.Attribute.headerFontGravity;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.headerFontSize = global::FlexChartDemo.Droid.Resource.Attribute.headerFontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.headerFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.headerFontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.headerFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.headerFontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_FontColor = global::FlexChartDemo.Droid.Resource.Attribute.legend_FontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_FontSize = global::FlexChartDemo.Droid.Resource.Attribute.legend_FontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_FontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.legend_FontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_FontWeight = global::FlexChartDemo.Droid.Resource.Attribute.legend_FontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_backgroundColor = global::FlexChartDemo.Droid.Resource.Attribute.legend_backgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_borderColor = global::FlexChartDemo.Droid.Resource.Attribute.legend_borderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_borderWidth = global::FlexChartDemo.Droid.Resource.Attribute.legend_borderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.palette = global::FlexChartDemo.Droid.Resource.Attribute.palette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.plotAreabackgroundColor = global::FlexChartDemo.Droid.Resource.Attribute.plotAreabackgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.ringoFlexChartCore = global::FlexChartDemo.Droid.Resource.Attribute.ringoFlexChartCore;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.selectedBorderColor = global::FlexChartDemo.Droid.Resource.Attribute.selectedBorderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.selectedBorderWidth = global::FlexChartDemo.Droid.Resource.Attribute.selectedBorderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultBackgroundColor = global::FlexChartDemo.Droid.Resource.Color.defaultBackgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultBorderColor = global::FlexChartDemo.Droid.Resource.Color.defaultBorderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultFooterFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultFooterFontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultHeaderFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultHeaderFontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultLegend_FontColor = global::FlexChartDemo.Droid.Resource.Color.defaultLegend_FontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultLegend_backgroundColor = global::FlexChartDemo.Droid.Resource.Color.defaultLegend_backgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultLegend_borderColor = global::FlexChartDemo.Droid.Resource.Color.defaultLegend_borderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultPlotAreabackgroundColor = global::FlexChartDemo.Droid.Resource.Color.defaultPlotAreabackgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultSelectedBorderColor = global::FlexChartDemo.Droid.Resource.Color.defaultSelectedBorderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Dimension.defaultBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultBorderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Dimension.defaultFooterFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFooterFontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Dimension.defaultHeaderFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultHeaderFontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Dimension.defaultLegend_FontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultLegend_FontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Dimension.defaultLegend_borderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultLegend_borderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Dimension.defaultSelectedBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultSelectedBorderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Drawable.ic_launcher = global::FlexChartDemo.Droid.Resource.Drawable.ic_launcher;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.BOLD = global::FlexChartDemo.Droid.Resource.Id.BOLD;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.BOLD_ITALIC = global::FlexChartDemo.Droid.Resource.Id.BOLD_ITALIC;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.CENTER_HORIZONTAL = global::FlexChartDemo.Droid.Resource.Id.CENTER_HORIZONTAL;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.ITALIC = global::FlexChartDemo.Droid.Resource.Id.ITALIC;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.LEFT = global::FlexChartDemo.Droid.Resource.Id.LEFT;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.NORMAL = global::FlexChartDemo.Droid.Resource.Id.NORMAL;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.RIGHT = global::FlexChartDemo.Droid.Resource.Id.RIGHT;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Integer.defaultFooterFontGravity = global::FlexChartDemo.Droid.Resource.Integer.defaultFooterFontGravity;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Integer.defaultFooterFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFooterFontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Integer.defaultHeaderFontGravity = global::FlexChartDemo.Droid.Resource.Integer.defaultHeaderFontGravity;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Integer.defaultHeaderFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultHeaderFontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Integer.defaultLegend_FontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultLegend_FontWeight;
 			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.ApplicationName = global::FlexChartDemo.Droid.Resource.String.ApplicationName;
 			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.Hello = global::FlexChartDemo.Droid.Resource.String.Hello;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.app_name = global::FlexChartDemo.Droid.Resource.String.app_name;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.defaultFooterFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFooterFontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.defaultHeaderFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultHeaderFontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.defaultLegend_FontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultLegend_FontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.hello_world = global::FlexChartDemo.Droid.Resource.String.hello_world;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.AppBaseTheme = global::FlexChartDemo.Droid.Resource.Style.AppBaseTheme;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.AppTheme = global::FlexChartDemo.Droid.Resource.Style.AppTheme;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Cocoa = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Cocoa;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Coral = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Coral;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Dark = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Dark;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Default = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Default;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_HighContrast = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_HighContrast;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Light = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Light;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Midnight = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Midnight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Minimal = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Minimal;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Modern = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Modern;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Organic = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Organic;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Slate = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Slate;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Theme_Ringo_FlexChartCore_Cocoa = global::FlexChartDemo.Droid.Resource.Style.Theme_Ringo_FlexChartCore_Cocoa;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Theme_Ringo_FlexChartCore_Default = global::FlexChartDemo.Droid.Resource.Style.Theme_Ringo_FlexChartCore_Default;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_backgroundColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_backgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_borderColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_borderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_borderWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_borderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_footer = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_footer;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_footerFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_footerFontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_footerFontGravity = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_footerFontGravity;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_footerFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_footerFontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_footerFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_footerFontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_footerFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_footerFontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_header = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_header;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_headerFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_headerFontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_headerFontGravity = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_headerFontGravity;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_headerFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_headerFontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_headerFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_headerFontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_headerFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_headerFontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_FontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_FontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_FontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_FontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_backgroundColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_backgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_borderColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_borderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_borderWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_borderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_palette = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_palette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_plotAreabackgroundColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_plotAreabackgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_selectedBorderColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_selectedBorderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_selectedBorderWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_selectedBorderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.RingoFlexChartCoreTheme = global::FlexChartDemo.Droid.Resource.Styleable.RingoFlexChartCoreTheme;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.RingoFlexChartCoreTheme_ringoFlexChartCore = global::FlexChartDemo.Droid.Resource.Styleable.RingoFlexChartCoreTheme_ringoFlexChartCore;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.Drawable.default_chart_tooltip = global::FlexChartDemo.Droid.Resource.Drawable.default_chart_tooltip;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.Drawable.ic_launcher = global::FlexChartDemo.Droid.Resource.Drawable.ic_launcher;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.Id.tooltipContent = global::FlexChartDemo.Droid.Resource.Id.tooltipContent;
@@ -160,171 +43,168 @@ namespace FlexChartDemo.Droid
 			global::Xuni.Xamarin.Core.Render.Android.Resource.Raw.globalize_zh = global::FlexChartDemo.Droid.Resource.Raw.globalize_zh;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.String.ApplicationName = global::FlexChartDemo.Droid.Resource.String.ApplicationName;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.String.Hello = global::FlexChartDemo.Droid.Resource.String.Hello;
-			global::Xuni.Xamarin.Core.Render.Android.Resource.String.app_name = global::FlexChartDemo.Droid.Resource.String.app_name;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.Style.AppBaseTheme = global::FlexChartDemo.Droid.Resource.Style.AppBaseTheme;
-			global::Xuni.Xamarin.Core.Render.Android.Resource.Style.AppTheme = global::FlexChartDemo.Droid.Resource.Style.AppTheme;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.cocoaPalette = global::FlexChartDemo.Droid.Resource.Array.cocoaPalette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.coralPalette = global::FlexChartDemo.Droid.Resource.Array.coralPalette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.darkPalette = global::FlexChartDemo.Droid.Resource.Array.darkPalette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.defaultPalette = global::FlexChartDemo.Droid.Resource.Array.defaultPalette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.highConstrastPalette = global::FlexChartDemo.Droid.Resource.Array.highConstrastPalette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.lightPalette = global::FlexChartDemo.Droid.Resource.Array.lightPalette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.midnightPalette = global::FlexChartDemo.Droid.Resource.Array.midnightPalette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.minimalPalette = global::FlexChartDemo.Droid.Resource.Array.minimalPalette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.modernPalette = global::FlexChartDemo.Droid.Resource.Array.modernPalette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.organicPalette = global::FlexChartDemo.Droid.Resource.Array.organicPalette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.slatePalette = global::FlexChartDemo.Droid.Resource.Array.slatePalette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_axisLineVisible = global::FlexChartDemo.Droid.Resource.Attribute.axisX_axisLineVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_format = global::FlexChartDemo.Droid.Resource.Attribute.axisX_format;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_labelAngle = global::FlexChartDemo.Droid.Resource.Attribute.axisX_labelAngle;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_labelFontColor = global::FlexChartDemo.Droid.Resource.Attribute.axisX_labelFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_labelFontSize = global::FlexChartDemo.Droid.Resource.Attribute.axisX_labelFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_labelFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.axisX_labelFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_labelFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.axisX_labelFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_labelsVisible = global::FlexChartDemo.Droid.Resource.Attribute.axisX_labelsVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_lineColor = global::FlexChartDemo.Droid.Resource.Attribute.axisX_lineColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_lineWidth = global::FlexChartDemo.Droid.Resource.Attribute.axisX_lineWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_majorGridColor = global::FlexChartDemo.Droid.Resource.Attribute.axisX_majorGridColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_majorGridFill = global::FlexChartDemo.Droid.Resource.Attribute.axisX_majorGridFill;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_majorGridVisible = global::FlexChartDemo.Droid.Resource.Attribute.axisX_majorGridVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_majorGridWidth = global::FlexChartDemo.Droid.Resource.Attribute.axisX_majorGridWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_majorTickColor = global::FlexChartDemo.Droid.Resource.Attribute.axisX_majorTickColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Attribute.axisX_majorTickOverlap;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_majorTickWidth = global::FlexChartDemo.Droid.Resource.Attribute.axisX_majorTickWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_minorGridColor = global::FlexChartDemo.Droid.Resource.Attribute.axisX_minorGridColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_minorGridFill = global::FlexChartDemo.Droid.Resource.Attribute.axisX_minorGridFill;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_minorGridVisible = global::FlexChartDemo.Droid.Resource.Attribute.axisX_minorGridVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_minorGridWidth = global::FlexChartDemo.Droid.Resource.Attribute.axisX_minorGridWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_minorTickColor = global::FlexChartDemo.Droid.Resource.Attribute.axisX_minorTickColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Attribute.axisX_minorTickOverlap;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_minorTickWidth = global::FlexChartDemo.Droid.Resource.Attribute.axisX_minorTickWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_titleFontColor = global::FlexChartDemo.Droid.Resource.Attribute.axisX_titleFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_titleFontSize = global::FlexChartDemo.Droid.Resource.Attribute.axisX_titleFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_titleFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.axisX_titleFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisX_titleFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.axisX_titleFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_axisLineVisible = global::FlexChartDemo.Droid.Resource.Attribute.axisY_axisLineVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_format = global::FlexChartDemo.Droid.Resource.Attribute.axisY_format;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_labelAngle = global::FlexChartDemo.Droid.Resource.Attribute.axisY_labelAngle;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_labelFontColor = global::FlexChartDemo.Droid.Resource.Attribute.axisY_labelFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_labelFontSize = global::FlexChartDemo.Droid.Resource.Attribute.axisY_labelFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_labelFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.axisY_labelFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_labelFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.axisY_labelFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_labelsVisible = global::FlexChartDemo.Droid.Resource.Attribute.axisY_labelsVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_lineColor = global::FlexChartDemo.Droid.Resource.Attribute.axisY_lineColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_lineWidth = global::FlexChartDemo.Droid.Resource.Attribute.axisY_lineWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_majorGridColor = global::FlexChartDemo.Droid.Resource.Attribute.axisY_majorGridColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_majorGridFill = global::FlexChartDemo.Droid.Resource.Attribute.axisY_majorGridFill;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_majorGridVisible = global::FlexChartDemo.Droid.Resource.Attribute.axisY_majorGridVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_majorGridWidth = global::FlexChartDemo.Droid.Resource.Attribute.axisY_majorGridWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_majorTickColor = global::FlexChartDemo.Droid.Resource.Attribute.axisY_majorTickColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Attribute.axisY_majorTickOverlap;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_majorTickWidth = global::FlexChartDemo.Droid.Resource.Attribute.axisY_majorTickWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_minorGridColor = global::FlexChartDemo.Droid.Resource.Attribute.axisY_minorGridColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_minorGridFill = global::FlexChartDemo.Droid.Resource.Attribute.axisY_minorGridFill;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_minorGridVisible = global::FlexChartDemo.Droid.Resource.Attribute.axisY_minorGridVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_minorGridWidth = global::FlexChartDemo.Droid.Resource.Attribute.axisY_minorGridWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_minorTickColor = global::FlexChartDemo.Droid.Resource.Attribute.axisY_minorTickColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Attribute.axisY_minorTickOverlap;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_minorTickWidth = global::FlexChartDemo.Droid.Resource.Attribute.axisY_minorTickWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_titleFontColor = global::FlexChartDemo.Droid.Resource.Attribute.axisY_titleFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_titleFontSize = global::FlexChartDemo.Droid.Resource.Attribute.axisY_titleFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_titleFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.axisY_titleFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.axisY_titleFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.axisY_titleFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.backgroundColor = global::FlexChartDemo.Droid.Resource.Attribute.backgroundColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.binding = global::FlexChartDemo.Droid.Resource.Attribute.binding;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.borderColor = global::FlexChartDemo.Droid.Resource.Attribute.borderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.borderWidth = global::FlexChartDemo.Droid.Resource.Attribute.borderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.chartType = global::FlexChartDemo.Droid.Resource.Attribute.chartType;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.footer = global::FlexChartDemo.Droid.Resource.Attribute.footer;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.footerFontColor = global::FlexChartDemo.Droid.Resource.Attribute.footerFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.footerFontGravity = global::FlexChartDemo.Droid.Resource.Attribute.footerFontGravity;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.footerFontSize = global::FlexChartDemo.Droid.Resource.Attribute.footerFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.footerFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.footerFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.footerFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.footerFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.header = global::FlexChartDemo.Droid.Resource.Attribute.header;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.headerFontColor = global::FlexChartDemo.Droid.Resource.Attribute.headerFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.headerFontGravity = global::FlexChartDemo.Droid.Resource.Attribute.headerFontGravity;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.headerFontSize = global::FlexChartDemo.Droid.Resource.Attribute.headerFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.headerFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.headerFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.headerFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.headerFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.legend_FontColor = global::FlexChartDemo.Droid.Resource.Attribute.legend_FontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.legend_FontSize = global::FlexChartDemo.Droid.Resource.Attribute.legend_FontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.legend_FontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.legend_FontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.legend_FontWeight = global::FlexChartDemo.Droid.Resource.Attribute.legend_FontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.legend_backgroundColor = global::FlexChartDemo.Droid.Resource.Attribute.legend_backgroundColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.legend_borderColor = global::FlexChartDemo.Droid.Resource.Attribute.legend_borderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.legend_borderWidth = global::FlexChartDemo.Droid.Resource.Attribute.legend_borderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.name = global::FlexChartDemo.Droid.Resource.Attribute.name;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.palette = global::FlexChartDemo.Droid.Resource.Attribute.palette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.plotAreabackgroundColor = global::FlexChartDemo.Droid.Resource.Attribute.plotAreabackgroundColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.flexChartCocoaPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartCocoaPalette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.flexChartCoralPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartCoralPalette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.flexChartDarkPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartDarkPalette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.flexChartDefaultFlexChartPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartDefaultFlexChartPalette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.flexChartHighConstrastPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartHighConstrastPalette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.flexChartLightPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartLightPalette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.flexChartMidnightPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartMidnightPalette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.flexChartMinimalPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartMinimalPalette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.flexChartModernPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartModernPalette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.flexChartOrganicPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartOrganicPalette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Array.flexChartSlatePalette = global::FlexChartDemo.Droid.Resource.Array.flexChartSlatePalette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChartSeries_binding = global::FlexChartDemo.Droid.Resource.Attribute.flexChartSeries_binding;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChartSeries_borderColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChartSeries_borderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChartSeries_borderWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChartSeries_borderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChartSeries_chartType = global::FlexChartDemo.Droid.Resource.Attribute.flexChartSeries_chartType;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChartSeries_color = global::FlexChartDemo.Droid.Resource.Attribute.flexChartSeries_color;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChartSeries_name = global::FlexChartDemo.Droid.Resource.Attribute.flexChartSeries_name;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChartSeries_symbolBorderColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChartSeries_symbolBorderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChartSeries_symbolBorderWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChartSeries_symbolBorderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChartSeries_symbolColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChartSeries_symbolColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChartSeries_visibility = global::FlexChartDemo.Droid.Resource.Attribute.flexChartSeries_visibility;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_axisLineVisible = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_axisLineVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_format = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_format;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_labelAngle = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_labelAngle;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_labelFontColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_labelFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_labelFontSize = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_labelFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_labelFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_labelFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_labelFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_labelFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_labelsVisible = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_labelsVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_lineColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_lineColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_lineWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_lineWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_majorGridColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_majorGridColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_majorGridFill = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_majorGridFill;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_majorGridVisible = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_majorGridVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_majorGridWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_majorGridWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_majorTickColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_majorTickColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_majorTickOverlap;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_majorTickWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_majorTickWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_minorGridColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_minorGridColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_minorGridFill = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_minorGridFill;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_minorGridVisible = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_minorGridVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_minorGridWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_minorGridWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_minorTickColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_minorTickColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_minorTickOverlap;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_minorTickWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_minorTickWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_titleFontColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_titleFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_titleFontSize = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_titleFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_titleFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_titleFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisX_titleFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisX_titleFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_axisLineVisible = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_axisLineVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_format = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_format;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_labelAngle = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_labelAngle;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_labelFontColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_labelFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_labelFontSize = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_labelFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_labelFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_labelFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_labelFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_labelFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_labelsVisible = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_labelsVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_lineColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_lineColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_lineWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_lineWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_majorGridColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_majorGridColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_majorGridFill = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_majorGridFill;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_majorGridVisible = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_majorGridVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_majorGridWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_majorGridWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_majorTickColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_majorTickColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_majorTickOverlap;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_majorTickWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_majorTickWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_minorGridColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_minorGridColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_minorGridFill = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_minorGridFill;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_minorGridVisible = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_minorGridVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_minorGridWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_minorGridWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_minorTickColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_minorTickColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_minorTickOverlap;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_minorTickWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_minorTickWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_titleFontColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_titleFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_titleFontSize = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_titleFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_titleFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_titleFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_axisY_titleFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_axisY_titleFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_backgroundColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_backgroundColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_borderColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_borderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_borderWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_borderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_chartType = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_chartType;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_footer = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_footer;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_footerFontColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_footerFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_footerFontGravity = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_footerFontGravity;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_footerFontSize = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_footerFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_footerFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_footerFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_footerFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_footerFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_header = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_header;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_headerFontColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_headerFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_headerFontGravity = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_headerFontGravity;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_headerFontSize = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_headerFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_headerFontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_headerFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_headerFontWeight = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_headerFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_legend_FontColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_legend_FontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_legend_FontSize = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_legend_FontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_legend_FontTypeface = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_legend_FontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_legend_FontWeight = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_legend_FontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_legend_backgroundColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_legend_backgroundColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_legend_borderColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_legend_borderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_legend_borderWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_legend_borderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_palette = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_palette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_plotAreabackgroundColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_plotAreabackgroundColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_selectedBorderColor = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_selectedBorderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_selectedBorderWidth = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_selectedBorderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.flexChart_stackingType = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_stackingType;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.ringoFlexChart = global::FlexChartDemo.Droid.Resource.Attribute.ringoFlexChart;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.ringoFlexChartCore = global::FlexChartDemo.Droid.Resource.Attribute.ringoFlexChartCore;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.selectedBorderColor = global::FlexChartDemo.Droid.Resource.Attribute.selectedBorderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.selectedBorderWidth = global::FlexChartDemo.Droid.Resource.Attribute.selectedBorderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.seriesBorderColor = global::FlexChartDemo.Droid.Resource.Attribute.seriesBorderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.seriesBorderWidth = global::FlexChartDemo.Droid.Resource.Attribute.seriesBorderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.seriesChartType = global::FlexChartDemo.Droid.Resource.Attribute.seriesChartType;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.seriesColor = global::FlexChartDemo.Droid.Resource.Attribute.seriesColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.seriesSymbolBorderColor = global::FlexChartDemo.Droid.Resource.Attribute.seriesSymbolBorderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.seriesSymbolBorderWidth = global::FlexChartDemo.Droid.Resource.Attribute.seriesSymbolBorderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.seriesSymbolColor = global::FlexChartDemo.Droid.Resource.Attribute.seriesSymbolColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.seriesVisibility = global::FlexChartDemo.Droid.Resource.Attribute.seriesVisibility;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Attribute.stackingType = global::FlexChartDemo.Droid.Resource.Attribute.stackingType;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisX_labelFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisX_labelFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisX_lineColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisX_lineColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisX_majorGridColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisX_majorGridColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisX_majorGridFill = global::FlexChartDemo.Droid.Resource.Color.defaultAxisX_majorGridFill;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisX_majorTickColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisX_majorTickColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisX_minorGridColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisX_minorGridColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisX_minorGridFill = global::FlexChartDemo.Droid.Resource.Color.defaultAxisX_minorGridFill;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisX_minorTickColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisX_minorTickColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisX_titleFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisX_titleFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisY_labelFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisY_labelFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisY_lineColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisY_lineColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisY_majorGridColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisY_majorGridColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisY_majorGridFill = global::FlexChartDemo.Droid.Resource.Color.defaultAxisY_majorGridFill;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisY_majorTickColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisY_majorTickColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisY_minorGridColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisY_minorGridColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisY_minorGridFill = global::FlexChartDemo.Droid.Resource.Color.defaultAxisY_minorGridFill;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisY_minorTickColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisY_minorTickColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultAxisY_titleFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultAxisY_titleFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultBackgroundColor = global::FlexChartDemo.Droid.Resource.Color.defaultBackgroundColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultBorderColor = global::FlexChartDemo.Droid.Resource.Color.defaultBorderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFooterFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultFooterFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultHeaderFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultHeaderFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultLegend_FontColor = global::FlexChartDemo.Droid.Resource.Color.defaultLegend_FontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultLegend_backgroundColor = global::FlexChartDemo.Droid.Resource.Color.defaultLegend_backgroundColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultLegend_borderColor = global::FlexChartDemo.Droid.Resource.Color.defaultLegend_borderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultPlotAreabackgroundColor = global::FlexChartDemo.Droid.Resource.Color.defaultPlotAreabackgroundColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultSelectedBorderColor = global::FlexChartDemo.Droid.Resource.Color.defaultSelectedBorderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultSeriesBorderColor = global::FlexChartDemo.Droid.Resource.Color.defaultSeriesBorderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultSeriesColor = global::FlexChartDemo.Droid.Resource.Color.defaultSeriesColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultSeriesSymbolBorderColor = global::FlexChartDemo.Droid.Resource.Color.defaultSeriesSymbolBorderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultSeriesSymbolColor = global::FlexChartDemo.Droid.Resource.Color.defaultSeriesSymbolColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisX_labelAngle = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisX_labelAngle;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisX_labelFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisX_labelFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisX_lineWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisX_lineWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisX_majorGridWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisX_majorGridWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisX_majorTickWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisX_majorTickWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisX_minorGridWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisX_minorGridWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisX_minorTickWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisX_minorTickWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisX_titleFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisX_titleFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisY_labelAngle = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisY_labelAngle;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisY_labelFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisY_labelFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisY_lineWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisY_lineWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisY_majorGridWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisY_majorGridWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisY_majorTickWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisY_majorTickWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisY_minorGridWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisY_minorGridWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisY_minorTickWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisY_minorTickWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultAxisY_titleFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultAxisY_titleFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultBorderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFooterFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFooterFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultHeaderFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultHeaderFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultLegend_FontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultLegend_FontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultLegend_borderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultLegend_borderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultSelectedBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultSelectedBorderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultSeriesBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultSeriesBorderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultSeriesSymbolBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultSeriesSymbolBorderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisX_labelFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisX_labelFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisX_lineColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisX_lineColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisX_majorGridColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisX_majorGridColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisX_majorGridFill = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisX_majorGridFill;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisX_majorTickColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisX_majorTickColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisX_minorGridColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisX_minorGridColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisX_minorGridFill = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisX_minorGridFill;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisX_minorTickColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisX_minorTickColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisX_titleFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisX_titleFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisY_labelFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisY_labelFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisY_lineColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisY_lineColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisY_majorGridColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisY_majorGridColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisY_majorGridFill = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisY_majorGridFill;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisY_majorTickColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisY_majorTickColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisY_minorGridColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisY_minorGridColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisY_minorGridFill = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisY_minorGridFill;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisY_minorTickColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisY_minorTickColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartAxisY_titleFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartAxisY_titleFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartBackgroundColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartBackgroundColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartBorderColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartBorderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartFooterFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartFooterFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartHeaderFontColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartHeaderFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartLegend_FontColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartLegend_FontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartLegend_backgroundColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartLegend_backgroundColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartLegend_borderColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartLegend_borderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartPlotAreabackgroundColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartPlotAreabackgroundColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartSelectedBorderColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartSelectedBorderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartSeriesBorderColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartSeriesBorderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartSeriesColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartSeriesColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartSeriesSymbolBorderColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartSeriesSymbolBorderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Color.defaultFlexChartSeriesSymbolColor = global::FlexChartDemo.Droid.Resource.Color.defaultFlexChartSeriesSymbolColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisX_labelAngle = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_labelAngle;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisX_labelFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_labelFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisX_lineWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_lineWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisX_majorGridWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_majorGridWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisX_majorTickWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_majorTickWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisX_minorGridWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_minorGridWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisX_minorTickWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_minorTickWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisX_titleFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_titleFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisY_labelAngle = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_labelAngle;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisY_labelFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_labelFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisY_lineWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_lineWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisY_majorGridWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_majorGridWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisY_majorTickWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_majorTickWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisY_minorGridWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_minorGridWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisY_minorTickWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_minorTickWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartAxisY_titleFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_titleFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartBorderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartFooterFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartFooterFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartHeaderFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartHeaderFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartLegend_FontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartLegend_FontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartLegend_borderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartLegend_borderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartSelectedBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartSelectedBorderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartSeriesBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartSeriesBorderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Dimension.defaultFlexChartSeriesSymbolBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartSeriesSymbolBorderWidth;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Drawable.ic_launcher = global::FlexChartDemo.Droid.Resource.Drawable.ic_launcher;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Id.AREA = global::FlexChartDemo.Droid.Resource.Id.AREA;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Id.BAR = global::FlexChartDemo.Droid.Resource.Id.BAR;
@@ -356,42 +236,40 @@ namespace FlexChartDemo.Droid
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Id.STACKED100pc = global::FlexChartDemo.Droid.Resource.Id.STACKED100pc;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Id.TRUE = global::FlexChartDemo.Droid.Resource.Id.TRUE;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Id.VISIBLE = global::FlexChartDemo.Droid.Resource.Id.VISIBLE;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisX_axisLineVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisX_axisLineVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisX_labelFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisX_labelFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisX_labelsVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisX_labelsVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisX_majorGridVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisX_majorGridVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisX_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisX_majorTickOverlap;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisX_minorGridVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisX_minorGridVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisX_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisX_minorTickOverlap;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisX_titleFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisX_titleFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisY_axisLineVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisY_axisLineVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisY_labelFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisY_labelFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisY_labelsVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisY_labelsVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisY_majorGridVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisY_majorGridVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisY_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisY_majorTickOverlap;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisY_minorGridVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisY_minorGridVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisY_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisY_minorTickOverlap;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultAxisY_titleFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultAxisY_titleFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultChartType = global::FlexChartDemo.Droid.Resource.Integer.defaultChartType;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFooterFontGravity = global::FlexChartDemo.Droid.Resource.Integer.defaultFooterFontGravity;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFooterFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFooterFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultHeaderFontGravity = global::FlexChartDemo.Droid.Resource.Integer.defaultHeaderFontGravity;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultHeaderFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultHeaderFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultLegend_FontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultLegend_FontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultSeriesChartType = global::FlexChartDemo.Droid.Resource.Integer.defaultSeriesChartType;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultSeriesVisibility = global::FlexChartDemo.Droid.Resource.Integer.defaultSeriesVisibility;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultStackingType = global::FlexChartDemo.Droid.Resource.Integer.defaultStackingType;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisX_axisLineVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_axisLineVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisX_labelFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_labelFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisX_labelsVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_labelsVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisX_majorGridVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_majorGridVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisX_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_majorTickOverlap;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisX_minorGridVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_minorGridVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisX_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_minorTickOverlap;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisX_titleFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_titleFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisY_axisLineVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_axisLineVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisY_labelFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_labelFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisY_labelsVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_labelsVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisY_majorGridVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_majorGridVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisY_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_majorTickOverlap;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisY_minorGridVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_minorGridVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisY_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_minorTickOverlap;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartAxisY_titleFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_titleFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartChartType = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartChartType;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartFooterFontGravity = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartFooterFontGravity;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartFooterFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartFooterFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartHeaderFontGravity = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartHeaderFontGravity;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartHeaderFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartHeaderFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartLegend_FontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartLegend_FontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartSeriesChartType = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartSeriesChartType;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartSeriesVisibility = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartSeriesVisibility;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Integer.defaultFlexChartStackingType = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartStackingType;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.ApplicationName = global::FlexChartDemo.Droid.Resource.String.ApplicationName;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.Hello = global::FlexChartDemo.Droid.Resource.String.Hello;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.app_name = global::FlexChartDemo.Droid.Resource.String.app_name;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultAxisX_labelFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultAxisX_labelFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultAxisX_titleFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultAxisX_titleFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultAxisY_labelFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultAxisY_labelFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultAxisY_titleFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultAxisY_titleFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultFooterFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFooterFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultHeaderFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultHeaderFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultLegend_FontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultLegend_FontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.hello_world = global::FlexChartDemo.Droid.Resource.String.hello_world;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultFlexChartAxisX_labelFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartAxisX_labelFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultFlexChartAxisX_titleFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartAxisX_titleFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultFlexChartAxisY_labelFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartAxisY_labelFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultFlexChartAxisY_titleFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartAxisY_titleFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultFlexChartFooterFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartFooterFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultFlexChartHeaderFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartHeaderFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.String.defaultFlexChartLegend_FontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartLegend_FontTypeface;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.AppBaseTheme = global::FlexChartDemo.Droid.Resource.Style.AppBaseTheme;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.AppTheme = global::FlexChartDemo.Droid.Resource.Style.AppTheme;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo;
@@ -407,160 +285,143 @@ namespace FlexChartDemo.Droid
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChart_Modern = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChart_Modern;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChart_Organic = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChart_Organic;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChart_Slate = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChart_Slate;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChartCore = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Cocoa = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Cocoa;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Coral = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Coral;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Dark = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Dark;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Default = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Default;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_HighContrast = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_HighContrast;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Light = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Light;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Midnight = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Midnight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Minimal = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Minimal;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Modern = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Modern;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Organic = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Organic;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Slate = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Slate;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Style_Ringo_Series = global::FlexChartDemo.Droid.Resource.Style.Style_Ringo_Series;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Theme_Ringo_FlexChart_Default = global::FlexChartDemo.Droid.Resource.Style.Theme_Ringo_FlexChart_Default;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Theme_Ringo_FlexChartCore_Cocoa = global::FlexChartDemo.Droid.Resource.Style.Theme_Ringo_FlexChartCore_Cocoa;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Style.Theme_Ringo_FlexChartCore_Default = global::FlexChartDemo.Droid.Resource.Style.Theme_Ringo_FlexChartCore_Default;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_axisLineVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_axisLineVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_format = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_format;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_labelAngle = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_labelAngle;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_labelFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_labelFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_labelFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_labelFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_labelFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_labelFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_labelFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_labelFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_labelsVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_labelsVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_lineColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_lineColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_lineWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_lineWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_majorGridColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_majorGridColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_majorGridFill = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_majorGridFill;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_majorGridVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_majorGridVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_majorGridWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_majorGridWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_majorTickColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_majorTickColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_majorTickOverlap;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_majorTickWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_majorTickWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_minorGridColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_minorGridColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_minorGridFill = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_minorGridFill;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_minorGridVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_minorGridVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_minorGridWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_minorGridWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_minorTickColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_minorTickColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_minorTickOverlap;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_minorTickWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_minorTickWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_titleFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_titleFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_titleFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_titleFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_titleFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_titleFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisX_titleFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisX_titleFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_axisLineVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_axisLineVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_format = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_format;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_labelAngle = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_labelAngle;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_labelFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_labelFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_labelFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_labelFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_labelFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_labelFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_labelFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_labelFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_labelsVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_labelsVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_lineColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_lineColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_lineWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_lineWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_majorGridColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_majorGridColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_majorGridFill = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_majorGridFill;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_majorGridVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_majorGridVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_majorGridWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_majorGridWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_majorTickColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_majorTickColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_majorTickOverlap;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_majorTickWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_majorTickWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_minorGridColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_minorGridColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_minorGridFill = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_minorGridFill;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_minorGridVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_minorGridVisible;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_minorGridWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_minorGridWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_minorTickColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_minorTickColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_minorTickOverlap;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_minorTickWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_minorTickWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_titleFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_titleFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_titleFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_titleFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_titleFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_titleFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_axisY_titleFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_axisY_titleFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_chartType = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_chartType;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_stackingType = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_stackingType;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_backgroundColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_backgroundColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_borderColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_borderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_borderWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_borderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_footer = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_footer;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_footerFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_footerFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_footerFontGravity = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_footerFontGravity;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_footerFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_footerFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_footerFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_footerFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_footerFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_footerFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_header = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_header;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_headerFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_headerFontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_headerFontGravity = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_headerFontGravity;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_headerFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_headerFontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_headerFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_headerFontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_headerFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_headerFontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_legend_FontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_legend_FontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontSize;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_legend_FontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontTypeface;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_legend_FontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontWeight;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_legend_backgroundColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_backgroundColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_legend_borderColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_borderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_legend_borderWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_legend_borderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_palette = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_palette;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_plotAreabackgroundColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_plotAreabackgroundColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_selectedBorderColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_selectedBorderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChartCore_selectedBorderWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChartCore_selectedBorderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.RingoFlexChartCoreTheme = global::FlexChartDemo.Droid.Resource.Styleable.RingoFlexChartCoreTheme;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.RingoFlexChartCoreTheme_ringoFlexChartCore = global::FlexChartDemo.Droid.Resource.Styleable.RingoFlexChartCoreTheme_ringoFlexChartCore;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_axisLineVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_axisLineVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_format = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_format;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_labelAngle = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_labelAngle;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_labelFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_labelFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_labelFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_labelFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_labelFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_labelFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_labelFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_labelFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_labelsVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_labelsVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_lineColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_lineColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_lineWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_lineWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_majorGridColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_majorGridColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_majorGridFill = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_majorGridFill;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_majorGridVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_majorGridVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_majorGridWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_majorGridWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_majorTickColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_majorTickColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_majorTickOverlap;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_majorTickWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_majorTickWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_minorGridColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_minorGridColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_minorGridFill = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_minorGridFill;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_minorGridVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_minorGridVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_minorGridWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_minorGridWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_minorTickColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_minorTickColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_minorTickOverlap;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_minorTickWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_minorTickWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_titleFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_titleFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_titleFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_titleFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_titleFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_titleFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisX_titleFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisX_titleFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_axisLineVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_axisLineVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_format = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_format;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_labelAngle = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_labelAngle;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_labelFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_labelFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_labelFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_labelFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_labelFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_labelFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_labelFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_labelFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_labelsVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_labelsVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_lineColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_lineColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_lineWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_lineWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_majorGridColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_majorGridColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_majorGridFill = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_majorGridFill;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_majorGridVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_majorGridVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_majorGridWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_majorGridWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_majorTickColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_majorTickColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_majorTickOverlap;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_majorTickWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_majorTickWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_minorGridColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_minorGridColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_minorGridFill = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_minorGridFill;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_minorGridVisible = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_minorGridVisible;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_minorGridWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_minorGridWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_minorTickColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_minorTickColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_minorTickOverlap;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_minorTickWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_minorTickWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_titleFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_titleFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_titleFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_titleFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_titleFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_titleFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_axisY_titleFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_axisY_titleFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_backgroundColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_backgroundColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_borderColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_borderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_borderWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_borderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_chartType = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_chartType;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_footer = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_footer;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_footerFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_footerFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_footerFontGravity = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_footerFontGravity;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_footerFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_footerFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_footerFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_footerFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_footerFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_footerFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_header = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_header;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_headerFontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_headerFontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_headerFontGravity = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_headerFontGravity;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_headerFontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_headerFontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_headerFontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_headerFontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_headerFontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_headerFontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_legend_FontColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_legend_FontColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_legend_FontSize = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_legend_FontSize;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_legend_FontTypeface = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_legend_FontTypeface;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_legend_FontWeight = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_legend_FontWeight;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_legend_backgroundColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_legend_backgroundColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_legend_borderColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_legend_borderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_legend_borderWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_legend_borderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_palette = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_palette;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_plotAreabackgroundColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_plotAreabackgroundColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_selectedBorderColor = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_selectedBorderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_selectedBorderWidth = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_selectedBorderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.FlexChart_flexChart_stackingType = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart_flexChart_stackingType;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.RingoFlexChartTheme = global::FlexChartDemo.Droid.Resource.Styleable.RingoFlexChartTheme;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.RingoFlexChartTheme_ringoFlexChart = global::FlexChartDemo.Droid.Resource.Styleable.RingoFlexChartTheme_ringoFlexChart;
 			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series = global::FlexChartDemo.Droid.Resource.Styleable.Series;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_binding = global::FlexChartDemo.Droid.Resource.Styleable.Series_binding;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_name = global::FlexChartDemo.Droid.Resource.Styleable.Series_name;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_seriesBorderColor = global::FlexChartDemo.Droid.Resource.Styleable.Series_seriesBorderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_seriesBorderWidth = global::FlexChartDemo.Droid.Resource.Styleable.Series_seriesBorderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_seriesChartType = global::FlexChartDemo.Droid.Resource.Styleable.Series_seriesChartType;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_seriesColor = global::FlexChartDemo.Droid.Resource.Styleable.Series_seriesColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_seriesSymbolBorderColor = global::FlexChartDemo.Droid.Resource.Styleable.Series_seriesSymbolBorderColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_seriesSymbolBorderWidth = global::FlexChartDemo.Droid.Resource.Styleable.Series_seriesSymbolBorderWidth;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_seriesSymbolColor = global::FlexChartDemo.Droid.Resource.Styleable.Series_seriesSymbolColor;
-			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_seriesVisibility = global::FlexChartDemo.Droid.Resource.Styleable.Series_seriesVisibility;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_flexChartSeries_binding = global::FlexChartDemo.Droid.Resource.Styleable.Series_flexChartSeries_binding;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_flexChartSeries_borderColor = global::FlexChartDemo.Droid.Resource.Styleable.Series_flexChartSeries_borderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_flexChartSeries_borderWidth = global::FlexChartDemo.Droid.Resource.Styleable.Series_flexChartSeries_borderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_flexChartSeries_chartType = global::FlexChartDemo.Droid.Resource.Styleable.Series_flexChartSeries_chartType;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_flexChartSeries_color = global::FlexChartDemo.Droid.Resource.Styleable.Series_flexChartSeries_color;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_flexChartSeries_name = global::FlexChartDemo.Droid.Resource.Styleable.Series_flexChartSeries_name;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_flexChartSeries_symbolBorderColor = global::FlexChartDemo.Droid.Resource.Styleable.Series_flexChartSeries_symbolBorderColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_flexChartSeries_symbolBorderWidth = global::FlexChartDemo.Droid.Resource.Styleable.Series_flexChartSeries_symbolBorderWidth;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_flexChartSeries_symbolColor = global::FlexChartDemo.Droid.Resource.Styleable.Series_flexChartSeries_symbolColor;
+			global::Xuni.Xamarin.FlexChart.Render.Android.Resource.Styleable.Series_flexChartSeries_visibility = global::FlexChartDemo.Droid.Resource.Styleable.Series_flexChartSeries_visibility;
 		}
 		
 		public partial class Array
 		{
 			
 			// aapt resource value: 0x7f0a0001
-			public const int cocoaPalette = 2131361793;
+			public const int flexChartCocoaPalette = 2131361793;
 			
 			// aapt resource value: 0x7f0a0002
-			public const int coralPalette = 2131361794;
+			public const int flexChartCoralPalette = 2131361794;
 			
 			// aapt resource value: 0x7f0a0003
-			public const int darkPalette = 2131361795;
+			public const int flexChartDarkPalette = 2131361795;
 			
 			// aapt resource value: 0x7f0a0000
-			public const int defaultPalette = 2131361792;
+			public const int flexChartDefaultFlexChartPalette = 2131361792;
 			
 			// aapt resource value: 0x7f0a0004
-			public const int highConstrastPalette = 2131361796;
+			public const int flexChartHighConstrastPalette = 2131361796;
 			
 			// aapt resource value: 0x7f0a0005
-			public const int lightPalette = 2131361797;
+			public const int flexChartLightPalette = 2131361797;
 			
 			// aapt resource value: 0x7f0a0006
-			public const int midnightPalette = 2131361798;
+			public const int flexChartMidnightPalette = 2131361798;
 			
 			// aapt resource value: 0x7f0a0007
-			public const int minimalPalette = 2131361799;
+			public const int flexChartMinimalPalette = 2131361799;
 			
 			// aapt resource value: 0x7f0a0008
-			public const int modernPalette = 2131361800;
+			public const int flexChartModernPalette = 2131361800;
 			
 			// aapt resource value: 0x7f0a0009
-			public const int organicPalette = 2131361801;
+			public const int flexChartOrganicPalette = 2131361801;
 			
 			// aapt resource value: 0x7f0a000a
-			public const int slatePalette = 2131361802;
+			public const int flexChartSlatePalette = 2131361802;
 			
 			static Array()
 			{
@@ -575,293 +436,290 @@ namespace FlexChartDemo.Droid
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010005
-			public const int axisX_axisLineVisible = 2130771973;
-			
-			// aapt resource value: 0x7f010027
-			public const int axisX_format = 2130772007;
-			
-			// aapt resource value: 0x7f010017
-			public const int axisX_labelAngle = 2130771991;
-			
-			// aapt resource value: 0x7f010014
-			public const int axisX_labelFontColor = 2130771988;
-			
-			// aapt resource value: 0x7f010015
-			public const int axisX_labelFontSize = 2130771989;
-			
-			// aapt resource value: 0x7f010016
-			public const int axisX_labelFontTypeface = 2130771990;
-			
-			// aapt resource value: 0x7f010002
-			public const int axisX_labelFontWeight = 2130771970;
-			
-			// aapt resource value: 0x7f010004
-			public const int axisX_labelsVisible = 2130771972;
-			
-			// aapt resource value: 0x7f01001b
-			public const int axisX_lineColor = 2130771995;
-			
-			// aapt resource value: 0x7f01001c
-			public const int axisX_lineWidth = 2130771996;
-			
-			// aapt resource value: 0x7f01001d
-			public const int axisX_majorGridColor = 2130771997;
-			
-			// aapt resource value: 0x7f010021
-			public const int axisX_majorGridFill = 2130772001;
-			
-			// aapt resource value: 0x7f010007
-			public const int axisX_majorGridVisible = 2130771975;
-			
-			// aapt resource value: 0x7f01001e
-			public const int axisX_majorGridWidth = 2130771998;
-			
-			// aapt resource value: 0x7f01001f
-			public const int axisX_majorTickColor = 2130771999;
-			
-			// aapt resource value: 0x7f010006
-			public const int axisX_majorTickOverlap = 2130771974;
-			
-			// aapt resource value: 0x7f010020
-			public const int axisX_majorTickWidth = 2130772000;
-			
-			// aapt resource value: 0x7f010022
-			public const int axisX_minorGridColor = 2130772002;
-			
-			// aapt resource value: 0x7f010026
-			public const int axisX_minorGridFill = 2130772006;
-			
-			// aapt resource value: 0x7f010009
-			public const int axisX_minorGridVisible = 2130771977;
-			
-			// aapt resource value: 0x7f010023
-			public const int axisX_minorGridWidth = 2130772003;
-			
-			// aapt resource value: 0x7f010024
-			public const int axisX_minorTickColor = 2130772004;
-			
-			// aapt resource value: 0x7f010008
-			public const int axisX_minorTickOverlap = 2130771976;
-			
-			// aapt resource value: 0x7f010025
-			public const int axisX_minorTickWidth = 2130772005;
-			
-			// aapt resource value: 0x7f010018
-			public const int axisX_titleFontColor = 2130771992;
-			
-			// aapt resource value: 0x7f010019
-			public const int axisX_titleFontSize = 2130771993;
-			
-			// aapt resource value: 0x7f01001a
-			public const int axisX_titleFontTypeface = 2130771994;
-			
-			// aapt resource value: 0x7f010003
-			public const int axisX_titleFontWeight = 2130771971;
-			
-			// aapt resource value: 0x7f01000d
-			public const int axisY_axisLineVisible = 2130771981;
-			
-			// aapt resource value: 0x7f010028
-			public const int axisY_format = 2130772008;
-			
-			// aapt resource value: 0x7f01002c
-			public const int axisY_labelAngle = 2130772012;
-			
-			// aapt resource value: 0x7f010029
-			public const int axisY_labelFontColor = 2130772009;
-			
-			// aapt resource value: 0x7f01002a
-			public const int axisY_labelFontSize = 2130772010;
-			
-			// aapt resource value: 0x7f01002b
-			public const int axisY_labelFontTypeface = 2130772011;
-			
-			// aapt resource value: 0x7f01000a
-			public const int axisY_labelFontWeight = 2130771978;
-			
-			// aapt resource value: 0x7f01000c
-			public const int axisY_labelsVisible = 2130771980;
-			
-			// aapt resource value: 0x7f010030
-			public const int axisY_lineColor = 2130772016;
-			
-			// aapt resource value: 0x7f010031
-			public const int axisY_lineWidth = 2130772017;
-			
-			// aapt resource value: 0x7f010032
-			public const int axisY_majorGridColor = 2130772018;
-			
-			// aapt resource value: 0x7f010036
-			public const int axisY_majorGridFill = 2130772022;
-			
-			// aapt resource value: 0x7f01000e
-			public const int axisY_majorGridVisible = 2130771982;
-			
-			// aapt resource value: 0x7f010033
-			public const int axisY_majorGridWidth = 2130772019;
-			
-			// aapt resource value: 0x7f010034
-			public const int axisY_majorTickColor = 2130772020;
-			
-			// aapt resource value: 0x7f01000f
-			public const int axisY_majorTickOverlap = 2130771983;
-			
-			// aapt resource value: 0x7f010035
-			public const int axisY_majorTickWidth = 2130772021;
-			
-			// aapt resource value: 0x7f010037
-			public const int axisY_minorGridColor = 2130772023;
-			
-			// aapt resource value: 0x7f01003b
-			public const int axisY_minorGridFill = 2130772027;
-			
-			// aapt resource value: 0x7f010010
-			public const int axisY_minorGridVisible = 2130771984;
-			
-			// aapt resource value: 0x7f010038
-			public const int axisY_minorGridWidth = 2130772024;
-			
-			// aapt resource value: 0x7f010039
-			public const int axisY_minorTickColor = 2130772025;
-			
-			// aapt resource value: 0x7f010011
-			public const int axisY_minorTickOverlap = 2130771985;
-			
-			// aapt resource value: 0x7f01003a
-			public const int axisY_minorTickWidth = 2130772026;
-			
-			// aapt resource value: 0x7f01002d
-			public const int axisY_titleFontColor = 2130772013;
-			
-			// aapt resource value: 0x7f01002e
-			public const int axisY_titleFontSize = 2130772014;
-			
-			// aapt resource value: 0x7f01002f
-			public const int axisY_titleFontTypeface = 2130772015;
-			
-			// aapt resource value: 0x7f01000b
-			public const int axisY_titleFontWeight = 2130771979;
-			
-			// aapt resource value: 0x7f010053
-			public const int backgroundColor = 2130772051;
-			
-			// aapt resource value: 0x7f01003d
-			public const int binding = 2130772029;
-			
-			// aapt resource value: 0x7f010054
-			public const int borderColor = 2130772052;
-			
-			// aapt resource value: 0x7f010055
-			public const int borderWidth = 2130772053;
-			
-			// aapt resource value: 0x7f010000
-			public const int chartType = 2130771968;
-			
-			// aapt resource value: 0x7f01004f
-			public const int footer = 2130772047;
-			
-			// aapt resource value: 0x7f010052
-			public const int footerFontColor = 2130772050;
-			
-			// aapt resource value: 0x7f010048
-			public const int footerFontGravity = 2130772040;
-			
-			// aapt resource value: 0x7f010050
-			public const int footerFontSize = 2130772048;
-			
-			// aapt resource value: 0x7f010051
-			public const int footerFontTypeface = 2130772049;
-			
-			// aapt resource value: 0x7f010047
-			public const int footerFontWeight = 2130772039;
-			
-			// aapt resource value: 0x7f01004b
-			public const int header = 2130772043;
-			
-			// aapt resource value: 0x7f01004e
-			public const int headerFontColor = 2130772046;
-			
-			// aapt resource value: 0x7f010046
-			public const int headerFontGravity = 2130772038;
-			
-			// aapt resource value: 0x7f01004c
-			public const int headerFontSize = 2130772044;
-			
-			// aapt resource value: 0x7f01004d
-			public const int headerFontTypeface = 2130772045;
-			
-			// aapt resource value: 0x7f010045
-			public const int headerFontWeight = 2130772037;
-			
-			// aapt resource value: 0x7f01005c
-			public const int legend_FontColor = 2130772060;
-			
-			// aapt resource value: 0x7f01005d
-			public const int legend_FontSize = 2130772061;
-			
-			// aapt resource value: 0x7f01005e
-			public const int legend_FontTypeface = 2130772062;
-			
-			// aapt resource value: 0x7f010049
-			public const int legend_FontWeight = 2130772041;
+			// aapt resource value: 0x7f010057
+			public const int flexChartSeries_binding = 2130772055;
 			
 			// aapt resource value: 0x7f010059
-			public const int legend_backgroundColor = 2130772057;
+			public const int flexChartSeries_borderColor = 2130772057;
 			
 			// aapt resource value: 0x7f01005a
-			public const int legend_borderColor = 2130772058;
+			public const int flexChartSeries_borderWidth = 2130772058;
 			
-			// aapt resource value: 0x7f01005b
-			public const int legend_borderWidth = 2130772059;
-			
-			// aapt resource value: 0x7f01003c
-			public const int name = 2130772028;
-			
-			// aapt resource value: 0x7f01004a
-			public const int palette = 2130772042;
-			
-			// aapt resource value: 0x7f010056
-			public const int plotAreabackgroundColor = 2130772054;
-			
-			// aapt resource value: 0x7f010044
-			public const int ringoFlexChart = 2130772036;
-			
-			// aapt resource value: 0x7f01005f
-			public const int ringoFlexChartCore = 2130772063;
-			
-			// aapt resource value: 0x7f010057
-			public const int selectedBorderColor = 2130772055;
+			// aapt resource value: 0x7f010017
+			public const int flexChartSeries_chartType = 2130771991;
 			
 			// aapt resource value: 0x7f010058
-			public const int selectedBorderWidth = 2130772056;
+			public const int flexChartSeries_color = 2130772056;
 			
-			// aapt resource value: 0x7f01003f
-			public const int seriesBorderColor = 2130772031;
+			// aapt resource value: 0x7f010056
+			public const int flexChartSeries_name = 2130772054;
 			
-			// aapt resource value: 0x7f010040
-			public const int seriesBorderWidth = 2130772032;
+			// aapt resource value: 0x7f01005c
+			public const int flexChartSeries_symbolBorderColor = 2130772060;
 			
-			// aapt resource value: 0x7f010012
-			public const int seriesChartType = 2130771986;
+			// aapt resource value: 0x7f01005d
+			public const int flexChartSeries_symbolBorderWidth = 2130772061;
 			
-			// aapt resource value: 0x7f01003e
-			public const int seriesColor = 2130772030;
+			// aapt resource value: 0x7f01005b
+			public const int flexChartSeries_symbolColor = 2130772059;
 			
-			// aapt resource value: 0x7f010042
-			public const int seriesSymbolBorderColor = 2130772034;
+			// aapt resource value: 0x7f010018
+			public const int flexChartSeries_visibility = 2130771992;
 			
-			// aapt resource value: 0x7f010043
-			public const int seriesSymbolBorderWidth = 2130772035;
+			// aapt resource value: 0x7f01000a
+			public const int flexChart_axisX_axisLineVisible = 2130771978;
 			
 			// aapt resource value: 0x7f010041
-			public const int seriesSymbolColor = 2130772033;
+			public const int flexChart_axisX_format = 2130772033;
+			
+			// aapt resource value: 0x7f010031
+			public const int flexChart_axisX_labelAngle = 2130772017;
+			
+			// aapt resource value: 0x7f01002e
+			public const int flexChart_axisX_labelFontColor = 2130772014;
+			
+			// aapt resource value: 0x7f01002f
+			public const int flexChart_axisX_labelFontSize = 2130772015;
+			
+			// aapt resource value: 0x7f010030
+			public const int flexChart_axisX_labelFontTypeface = 2130772016;
+			
+			// aapt resource value: 0x7f010007
+			public const int flexChart_axisX_labelFontWeight = 2130771975;
+			
+			// aapt resource value: 0x7f010009
+			public const int flexChart_axisX_labelsVisible = 2130771977;
+			
+			// aapt resource value: 0x7f010035
+			public const int flexChart_axisX_lineColor = 2130772021;
+			
+			// aapt resource value: 0x7f010036
+			public const int flexChart_axisX_lineWidth = 2130772022;
+			
+			// aapt resource value: 0x7f010037
+			public const int flexChart_axisX_majorGridColor = 2130772023;
+			
+			// aapt resource value: 0x7f01003b
+			public const int flexChart_axisX_majorGridFill = 2130772027;
+			
+			// aapt resource value: 0x7f01000c
+			public const int flexChart_axisX_majorGridVisible = 2130771980;
+			
+			// aapt resource value: 0x7f010038
+			public const int flexChart_axisX_majorGridWidth = 2130772024;
+			
+			// aapt resource value: 0x7f010039
+			public const int flexChart_axisX_majorTickColor = 2130772025;
+			
+			// aapt resource value: 0x7f01000b
+			public const int flexChart_axisX_majorTickOverlap = 2130771979;
+			
+			// aapt resource value: 0x7f01003a
+			public const int flexChart_axisX_majorTickWidth = 2130772026;
+			
+			// aapt resource value: 0x7f01003c
+			public const int flexChart_axisX_minorGridColor = 2130772028;
+			
+			// aapt resource value: 0x7f010040
+			public const int flexChart_axisX_minorGridFill = 2130772032;
+			
+			// aapt resource value: 0x7f01000e
+			public const int flexChart_axisX_minorGridVisible = 2130771982;
+			
+			// aapt resource value: 0x7f01003d
+			public const int flexChart_axisX_minorGridWidth = 2130772029;
+			
+			// aapt resource value: 0x7f01003e
+			public const int flexChart_axisX_minorTickColor = 2130772030;
+			
+			// aapt resource value: 0x7f01000d
+			public const int flexChart_axisX_minorTickOverlap = 2130771981;
+			
+			// aapt resource value: 0x7f01003f
+			public const int flexChart_axisX_minorTickWidth = 2130772031;
+			
+			// aapt resource value: 0x7f010032
+			public const int flexChart_axisX_titleFontColor = 2130772018;
+			
+			// aapt resource value: 0x7f010033
+			public const int flexChart_axisX_titleFontSize = 2130772019;
+			
+			// aapt resource value: 0x7f010034
+			public const int flexChart_axisX_titleFontTypeface = 2130772020;
+			
+			// aapt resource value: 0x7f010008
+			public const int flexChart_axisX_titleFontWeight = 2130771976;
+			
+			// aapt resource value: 0x7f010012
+			public const int flexChart_axisY_axisLineVisible = 2130771986;
+			
+			// aapt resource value: 0x7f010042
+			public const int flexChart_axisY_format = 2130772034;
+			
+			// aapt resource value: 0x7f010046
+			public const int flexChart_axisY_labelAngle = 2130772038;
+			
+			// aapt resource value: 0x7f010043
+			public const int flexChart_axisY_labelFontColor = 2130772035;
+			
+			// aapt resource value: 0x7f010044
+			public const int flexChart_axisY_labelFontSize = 2130772036;
+			
+			// aapt resource value: 0x7f010045
+			public const int flexChart_axisY_labelFontTypeface = 2130772037;
+			
+			// aapt resource value: 0x7f01000f
+			public const int flexChart_axisY_labelFontWeight = 2130771983;
+			
+			// aapt resource value: 0x7f010011
+			public const int flexChart_axisY_labelsVisible = 2130771985;
+			
+			// aapt resource value: 0x7f01004a
+			public const int flexChart_axisY_lineColor = 2130772042;
+			
+			// aapt resource value: 0x7f01004b
+			public const int flexChart_axisY_lineWidth = 2130772043;
+			
+			// aapt resource value: 0x7f01004c
+			public const int flexChart_axisY_majorGridColor = 2130772044;
+			
+			// aapt resource value: 0x7f010050
+			public const int flexChart_axisY_majorGridFill = 2130772048;
 			
 			// aapt resource value: 0x7f010013
-			public const int seriesVisibility = 2130771987;
+			public const int flexChart_axisY_majorGridVisible = 2130771987;
+			
+			// aapt resource value: 0x7f01004d
+			public const int flexChart_axisY_majorGridWidth = 2130772045;
+			
+			// aapt resource value: 0x7f01004e
+			public const int flexChart_axisY_majorTickColor = 2130772046;
+			
+			// aapt resource value: 0x7f010014
+			public const int flexChart_axisY_majorTickOverlap = 2130771988;
+			
+			// aapt resource value: 0x7f01004f
+			public const int flexChart_axisY_majorTickWidth = 2130772047;
+			
+			// aapt resource value: 0x7f010051
+			public const int flexChart_axisY_minorGridColor = 2130772049;
+			
+			// aapt resource value: 0x7f010055
+			public const int flexChart_axisY_minorGridFill = 2130772053;
+			
+			// aapt resource value: 0x7f010015
+			public const int flexChart_axisY_minorGridVisible = 2130771989;
+			
+			// aapt resource value: 0x7f010052
+			public const int flexChart_axisY_minorGridWidth = 2130772050;
+			
+			// aapt resource value: 0x7f010053
+			public const int flexChart_axisY_minorTickColor = 2130772051;
+			
+			// aapt resource value: 0x7f010016
+			public const int flexChart_axisY_minorTickOverlap = 2130771990;
+			
+			// aapt resource value: 0x7f010054
+			public const int flexChart_axisY_minorTickWidth = 2130772052;
+			
+			// aapt resource value: 0x7f010047
+			public const int flexChart_axisY_titleFontColor = 2130772039;
+			
+			// aapt resource value: 0x7f010048
+			public const int flexChart_axisY_titleFontSize = 2130772040;
+			
+			// aapt resource value: 0x7f010049
+			public const int flexChart_axisY_titleFontTypeface = 2130772041;
+			
+			// aapt resource value: 0x7f010010
+			public const int flexChart_axisY_titleFontWeight = 2130771984;
+			
+			// aapt resource value: 0x7f010022
+			public const int flexChart_backgroundColor = 2130772002;
+			
+			// aapt resource value: 0x7f010023
+			public const int flexChart_borderColor = 2130772003;
+			
+			// aapt resource value: 0x7f010024
+			public const int flexChart_borderWidth = 2130772004;
+			
+			// aapt resource value: 0x7f010005
+			public const int flexChart_chartType = 2130771973;
+			
+			// aapt resource value: 0x7f01001e
+			public const int flexChart_footer = 2130771998;
+			
+			// aapt resource value: 0x7f010021
+			public const int flexChart_footerFontColor = 2130772001;
+			
+			// aapt resource value: 0x7f010003
+			public const int flexChart_footerFontGravity = 2130771971;
+			
+			// aapt resource value: 0x7f01001f
+			public const int flexChart_footerFontSize = 2130771999;
+			
+			// aapt resource value: 0x7f010020
+			public const int flexChart_footerFontTypeface = 2130772000;
+			
+			// aapt resource value: 0x7f010002
+			public const int flexChart_footerFontWeight = 2130771970;
+			
+			// aapt resource value: 0x7f01001a
+			public const int flexChart_header = 2130771994;
+			
+			// aapt resource value: 0x7f01001d
+			public const int flexChart_headerFontColor = 2130771997;
 			
 			// aapt resource value: 0x7f010001
-			public const int stackingType = 2130771969;
+			public const int flexChart_headerFontGravity = 2130771969;
+			
+			// aapt resource value: 0x7f01001b
+			public const int flexChart_headerFontSize = 2130771995;
+			
+			// aapt resource value: 0x7f01001c
+			public const int flexChart_headerFontTypeface = 2130771996;
+			
+			// aapt resource value: 0x7f010000
+			public const int flexChart_headerFontWeight = 2130771968;
+			
+			// aapt resource value: 0x7f01002b
+			public const int flexChart_legend_FontColor = 2130772011;
+			
+			// aapt resource value: 0x7f01002c
+			public const int flexChart_legend_FontSize = 2130772012;
+			
+			// aapt resource value: 0x7f01002d
+			public const int flexChart_legend_FontTypeface = 2130772013;
+			
+			// aapt resource value: 0x7f010004
+			public const int flexChart_legend_FontWeight = 2130771972;
+			
+			// aapt resource value: 0x7f010028
+			public const int flexChart_legend_backgroundColor = 2130772008;
+			
+			// aapt resource value: 0x7f010029
+			public const int flexChart_legend_borderColor = 2130772009;
+			
+			// aapt resource value: 0x7f01002a
+			public const int flexChart_legend_borderWidth = 2130772010;
+			
+			// aapt resource value: 0x7f010019
+			public const int flexChart_palette = 2130771993;
+			
+			// aapt resource value: 0x7f010025
+			public const int flexChart_plotAreabackgroundColor = 2130772005;
+			
+			// aapt resource value: 0x7f010026
+			public const int flexChart_selectedBorderColor = 2130772006;
+			
+			// aapt resource value: 0x7f010027
+			public const int flexChart_selectedBorderWidth = 2130772007;
+			
+			// aapt resource value: 0x7f010006
+			public const int flexChart_stackingType = 2130771974;
+			
+			// aapt resource value: 0x7f01005e
+			public const int ringoFlexChart = 2130772062;
 			
 			static Attribute()
 			{
@@ -877,97 +735,97 @@ namespace FlexChartDemo.Droid
 		{
 			
 			// aapt resource value: 0x7f080000
-			public const int defaultAxisX_labelFontColor = 2131230720;
+			public const int defaultFlexChartAxisX_labelFontColor = 2131230720;
 			
 			// aapt resource value: 0x7f080002
-			public const int defaultAxisX_lineColor = 2131230722;
+			public const int defaultFlexChartAxisX_lineColor = 2131230722;
 			
 			// aapt resource value: 0x7f080003
-			public const int defaultAxisX_majorGridColor = 2131230723;
+			public const int defaultFlexChartAxisX_majorGridColor = 2131230723;
 			
 			// aapt resource value: 0x7f080007
-			public const int defaultAxisX_majorGridFill = 2131230727;
+			public const int defaultFlexChartAxisX_majorGridFill = 2131230727;
 			
 			// aapt resource value: 0x7f080004
-			public const int defaultAxisX_majorTickColor = 2131230724;
+			public const int defaultFlexChartAxisX_majorTickColor = 2131230724;
 			
 			// aapt resource value: 0x7f080005
-			public const int defaultAxisX_minorGridColor = 2131230725;
+			public const int defaultFlexChartAxisX_minorGridColor = 2131230725;
 			
 			// aapt resource value: 0x7f080008
-			public const int defaultAxisX_minorGridFill = 2131230728;
+			public const int defaultFlexChartAxisX_minorGridFill = 2131230728;
 			
 			// aapt resource value: 0x7f080006
-			public const int defaultAxisX_minorTickColor = 2131230726;
+			public const int defaultFlexChartAxisX_minorTickColor = 2131230726;
 			
 			// aapt resource value: 0x7f080001
-			public const int defaultAxisX_titleFontColor = 2131230721;
+			public const int defaultFlexChartAxisX_titleFontColor = 2131230721;
 			
 			// aapt resource value: 0x7f080009
-			public const int defaultAxisY_labelFontColor = 2131230729;
+			public const int defaultFlexChartAxisY_labelFontColor = 2131230729;
 			
 			// aapt resource value: 0x7f08000b
-			public const int defaultAxisY_lineColor = 2131230731;
+			public const int defaultFlexChartAxisY_lineColor = 2131230731;
 			
 			// aapt resource value: 0x7f08000c
-			public const int defaultAxisY_majorGridColor = 2131230732;
+			public const int defaultFlexChartAxisY_majorGridColor = 2131230732;
 			
 			// aapt resource value: 0x7f080010
-			public const int defaultAxisY_majorGridFill = 2131230736;
+			public const int defaultFlexChartAxisY_majorGridFill = 2131230736;
 			
 			// aapt resource value: 0x7f08000d
-			public const int defaultAxisY_majorTickColor = 2131230733;
+			public const int defaultFlexChartAxisY_majorTickColor = 2131230733;
 			
 			// aapt resource value: 0x7f08000e
-			public const int defaultAxisY_minorGridColor = 2131230734;
+			public const int defaultFlexChartAxisY_minorGridColor = 2131230734;
 			
 			// aapt resource value: 0x7f080011
-			public const int defaultAxisY_minorGridFill = 2131230737;
+			public const int defaultFlexChartAxisY_minorGridFill = 2131230737;
 			
 			// aapt resource value: 0x7f08000f
-			public const int defaultAxisY_minorTickColor = 2131230735;
+			public const int defaultFlexChartAxisY_minorTickColor = 2131230735;
 			
 			// aapt resource value: 0x7f08000a
-			public const int defaultAxisY_titleFontColor = 2131230730;
+			public const int defaultFlexChartAxisY_titleFontColor = 2131230730;
 			
 			// aapt resource value: 0x7f080018
-			public const int defaultBackgroundColor = 2131230744;
+			public const int defaultFlexChartBackgroundColor = 2131230744;
 			
 			// aapt resource value: 0x7f080019
-			public const int defaultBorderColor = 2131230745;
+			public const int defaultFlexChartBorderColor = 2131230745;
 			
 			// aapt resource value: 0x7f080017
-			public const int defaultFooterFontColor = 2131230743;
+			public const int defaultFlexChartFooterFontColor = 2131230743;
 			
 			// aapt resource value: 0x7f080016
-			public const int defaultHeaderFontColor = 2131230742;
+			public const int defaultFlexChartHeaderFontColor = 2131230742;
 			
 			// aapt resource value: 0x7f08001e
-			public const int defaultLegend_FontColor = 2131230750;
+			public const int defaultFlexChartLegend_FontColor = 2131230750;
 			
 			// aapt resource value: 0x7f08001c
-			public const int defaultLegend_backgroundColor = 2131230748;
+			public const int defaultFlexChartLegend_backgroundColor = 2131230748;
 			
 			// aapt resource value: 0x7f08001d
-			public const int defaultLegend_borderColor = 2131230749;
+			public const int defaultFlexChartLegend_borderColor = 2131230749;
 			
 			// aapt resource value: 0x7f08001a
-			public const int defaultPlotAreabackgroundColor = 2131230746;
+			public const int defaultFlexChartPlotAreabackgroundColor = 2131230746;
 			
 			// aapt resource value: 0x7f08001b
-			public const int defaultSelectedBorderColor = 2131230747;
+			public const int defaultFlexChartSelectedBorderColor = 2131230747;
 			
 			// aapt resource value: 0x7f080013
-			public const int defaultSeriesBorderColor = 2131230739;
+			public const int defaultFlexChartSeriesBorderColor = 2131230739;
 			
 			// aapt resource value: 0x7f080012
-			public const int defaultSeriesColor = 2131230738;
+			public const int defaultFlexChartSeriesColor = 2131230738;
 			
 			// aapt resource value: 0x7f080015
-			public const int defaultSeriesSymbolBorderColor = 2131230741;
+			public const int defaultFlexChartSeriesSymbolBorderColor = 2131230741;
 			
 			// aapt resource value: 0x7f080014
-			public const int defaultSeriesSymbolColor = 2131230740;
+			public const int defaultFlexChartSeriesSymbolColor = 2131230740;
 			
 			static Color()
 			{
@@ -983,76 +841,76 @@ namespace FlexChartDemo.Droid
 		{
 			
 			// aapt resource value: 0x7f090001
-			public const int defaultAxisX_labelAngle = 2131296257;
+			public const int defaultFlexChartAxisX_labelAngle = 2131296257;
 			
 			// aapt resource value: 0x7f090000
-			public const int defaultAxisX_labelFontSize = 2131296256;
+			public const int defaultFlexChartAxisX_labelFontSize = 2131296256;
 			
 			// aapt resource value: 0x7f090003
-			public const int defaultAxisX_lineWidth = 2131296259;
+			public const int defaultFlexChartAxisX_lineWidth = 2131296259;
 			
 			// aapt resource value: 0x7f090004
-			public const int defaultAxisX_majorGridWidth = 2131296260;
+			public const int defaultFlexChartAxisX_majorGridWidth = 2131296260;
 			
 			// aapt resource value: 0x7f090005
-			public const int defaultAxisX_majorTickWidth = 2131296261;
+			public const int defaultFlexChartAxisX_majorTickWidth = 2131296261;
 			
 			// aapt resource value: 0x7f090006
-			public const int defaultAxisX_minorGridWidth = 2131296262;
+			public const int defaultFlexChartAxisX_minorGridWidth = 2131296262;
 			
 			// aapt resource value: 0x7f090007
-			public const int defaultAxisX_minorTickWidth = 2131296263;
+			public const int defaultFlexChartAxisX_minorTickWidth = 2131296263;
 			
 			// aapt resource value: 0x7f090002
-			public const int defaultAxisX_titleFontSize = 2131296258;
+			public const int defaultFlexChartAxisX_titleFontSize = 2131296258;
 			
 			// aapt resource value: 0x7f090009
-			public const int defaultAxisY_labelAngle = 2131296265;
+			public const int defaultFlexChartAxisY_labelAngle = 2131296265;
 			
 			// aapt resource value: 0x7f090008
-			public const int defaultAxisY_labelFontSize = 2131296264;
+			public const int defaultFlexChartAxisY_labelFontSize = 2131296264;
 			
 			// aapt resource value: 0x7f09000b
-			public const int defaultAxisY_lineWidth = 2131296267;
+			public const int defaultFlexChartAxisY_lineWidth = 2131296267;
 			
 			// aapt resource value: 0x7f09000c
-			public const int defaultAxisY_majorGridWidth = 2131296268;
+			public const int defaultFlexChartAxisY_majorGridWidth = 2131296268;
 			
 			// aapt resource value: 0x7f09000d
-			public const int defaultAxisY_majorTickWidth = 2131296269;
+			public const int defaultFlexChartAxisY_majorTickWidth = 2131296269;
 			
 			// aapt resource value: 0x7f09000e
-			public const int defaultAxisY_minorGridWidth = 2131296270;
+			public const int defaultFlexChartAxisY_minorGridWidth = 2131296270;
 			
 			// aapt resource value: 0x7f09000f
-			public const int defaultAxisY_minorTickWidth = 2131296271;
+			public const int defaultFlexChartAxisY_minorTickWidth = 2131296271;
 			
 			// aapt resource value: 0x7f09000a
-			public const int defaultAxisY_titleFontSize = 2131296266;
+			public const int defaultFlexChartAxisY_titleFontSize = 2131296266;
 			
 			// aapt resource value: 0x7f090014
-			public const int defaultBorderWidth = 2131296276;
+			public const int defaultFlexChartBorderWidth = 2131296276;
 			
 			// aapt resource value: 0x7f090013
-			public const int defaultFooterFontSize = 2131296275;
+			public const int defaultFlexChartFooterFontSize = 2131296275;
 			
 			// aapt resource value: 0x7f090012
-			public const int defaultHeaderFontSize = 2131296274;
+			public const int defaultFlexChartHeaderFontSize = 2131296274;
 			
 			// aapt resource value: 0x7f090017
-			public const int defaultLegend_FontSize = 2131296279;
+			public const int defaultFlexChartLegend_FontSize = 2131296279;
 			
 			// aapt resource value: 0x7f090016
-			public const int defaultLegend_borderWidth = 2131296278;
+			public const int defaultFlexChartLegend_borderWidth = 2131296278;
 			
 			// aapt resource value: 0x7f090015
-			public const int defaultSelectedBorderWidth = 2131296277;
+			public const int defaultFlexChartSelectedBorderWidth = 2131296277;
 			
 			// aapt resource value: 0x7f090010
-			public const int defaultSeriesBorderWidth = 2131296272;
+			public const int defaultFlexChartSeriesBorderWidth = 2131296272;
 			
 			// aapt resource value: 0x7f090011
-			public const int defaultSeriesSymbolBorderWidth = 2131296273;
+			public const int defaultFlexChartSeriesSymbolBorderWidth = 2131296273;
 			
 			static Dimension()
 			{
@@ -1089,95 +947,95 @@ namespace FlexChartDemo.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0000
-			public const int AREA = 2131427328;
-			
-			// aapt resource value: 0x7f0b0001
-			public const int BAR = 2131427329;
-			
-			// aapt resource value: 0x7f0b000f
-			public const int BOLD = 2131427343;
-			
-			// aapt resource value: 0x7f0b0010
-			public const int BOLD_ITALIC = 2131427344;
-			
-			// aapt resource value: 0x7f0b0002
-			public const int BUBBLE = 2131427330;
-			
-			// aapt resource value: 0x7f0b0003
-			public const int CANDLE = 2131427331;
-			
-			// aapt resource value: 0x7f0b001b
-			public const int CENTER_HORIZONTAL = 2131427355;
-			
-			// aapt resource value: 0x7f0b0004
-			public const int COLUMN = 2131427332;
-			
-			// aapt resource value: 0x7f0b0013
-			public const int FALSE = 2131427347;
-			
-			// aapt resource value: 0x7f0b0017
-			public const int HIDDEN = 2131427351;
-			
-			// aapt resource value: 0x7f0b0005
-			public const int HLOC = 2131427333;
-			
-			// aapt resource value: 0x7f0b0015
-			public const int INSIDE = 2131427349;
-			
-			// aapt resource value: 0x7f0b0011
-			public const int ITALIC = 2131427345;
-			
-			// aapt resource value: 0x7f0b001c
-			public const int LEFT = 2131427356;
-			
-			// aapt resource value: 0x7f0b0018
-			public const int LEGEND = 2131427352;
-			
-			// aapt resource value: 0x7f0b0006
-			public const int LINE = 2131427334;
-			
 			// aapt resource value: 0x7f0b0007
-			public const int LINESYMBOLS = 2131427335;
-			
-			// aapt resource value: 0x7f0b000c
-			public const int NONE = 2131427340;
-			
-			// aapt resource value: 0x7f0b0012
-			public const int NORMAL = 2131427346;
-			
-			// aapt resource value: 0x7f0b0016
-			public const int OUTSIDE = 2131427350;
-			
-			// aapt resource value: 0x7f0b0019
-			public const int PLOT = 2131427353;
-			
-			// aapt resource value: 0x7f0b001d
-			public const int RIGHT = 2131427357;
+			public const int AREA = 2131427335;
 			
 			// aapt resource value: 0x7f0b0008
-			public const int SCATTER = 2131427336;
+			public const int BAR = 2131427336;
+			
+			// aapt resource value: 0x7f0b0000
+			public const int BOLD = 2131427328;
+			
+			// aapt resource value: 0x7f0b0001
+			public const int BOLD_ITALIC = 2131427329;
 			
 			// aapt resource value: 0x7f0b0009
-			public const int SPLINE = 2131427337;
+			public const int BUBBLE = 2131427337;
 			
 			// aapt resource value: 0x7f0b000a
-			public const int SPLINEAREA = 2131427338;
+			public const int CANDLE = 2131427338;
+			
+			// aapt resource value: 0x7f0b0004
+			public const int CENTER_HORIZONTAL = 2131427332;
 			
 			// aapt resource value: 0x7f0b000b
-			public const int SPLINESYMBOLS = 2131427339;
+			public const int COLUMN = 2131427339;
 			
-			// aapt resource value: 0x7f0b000d
-			public const int STACKED = 2131427341;
-			
-			// aapt resource value: 0x7f0b000e
-			public const int STACKED100pc = 2131427342;
-			
-			// aapt resource value: 0x7f0b0014
-			public const int TRUE = 2131427348;
+			// aapt resource value: 0x7f0b0016
+			public const int FALSE = 2131427350;
 			
 			// aapt resource value: 0x7f0b001a
-			public const int VISIBLE = 2131427354;
+			public const int HIDDEN = 2131427354;
+			
+			// aapt resource value: 0x7f0b000c
+			public const int HLOC = 2131427340;
+			
+			// aapt resource value: 0x7f0b0018
+			public const int INSIDE = 2131427352;
+			
+			// aapt resource value: 0x7f0b0002
+			public const int ITALIC = 2131427330;
+			
+			// aapt resource value: 0x7f0b0005
+			public const int LEFT = 2131427333;
+			
+			// aapt resource value: 0x7f0b001b
+			public const int LEGEND = 2131427355;
+			
+			// aapt resource value: 0x7f0b000d
+			public const int LINE = 2131427341;
+			
+			// aapt resource value: 0x7f0b000e
+			public const int LINESYMBOLS = 2131427342;
+			
+			// aapt resource value: 0x7f0b0013
+			public const int NONE = 2131427347;
+			
+			// aapt resource value: 0x7f0b0003
+			public const int NORMAL = 2131427331;
+			
+			// aapt resource value: 0x7f0b0019
+			public const int OUTSIDE = 2131427353;
+			
+			// aapt resource value: 0x7f0b001c
+			public const int PLOT = 2131427356;
+			
+			// aapt resource value: 0x7f0b0006
+			public const int RIGHT = 2131427334;
+			
+			// aapt resource value: 0x7f0b000f
+			public const int SCATTER = 2131427343;
+			
+			// aapt resource value: 0x7f0b0010
+			public const int SPLINE = 2131427344;
+			
+			// aapt resource value: 0x7f0b0011
+			public const int SPLINEAREA = 2131427345;
+			
+			// aapt resource value: 0x7f0b0012
+			public const int SPLINESYMBOLS = 2131427346;
+			
+			// aapt resource value: 0x7f0b0014
+			public const int STACKED = 2131427348;
+			
+			// aapt resource value: 0x7f0b0015
+			public const int STACKED100pc = 2131427349;
+			
+			// aapt resource value: 0x7f0b0017
+			public const int TRUE = 2131427351;
+			
+			// aapt resource value: 0x7f0b001d
+			public const int VISIBLE = 2131427357;
 			
 			// aapt resource value: 0x7f0b001f
 			public const int tooltipContent = 2131427359;
@@ -1199,79 +1057,79 @@ namespace FlexChartDemo.Droid
 		{
 			
 			// aapt resource value: 0x7f070004
-			public const int defaultAxisX_axisLineVisible = 2131165188;
+			public const int defaultFlexChartAxisX_axisLineVisible = 2131165188;
 			
 			// aapt resource value: 0x7f070002
-			public const int defaultAxisX_labelFontWeight = 2131165186;
+			public const int defaultFlexChartAxisX_labelFontWeight = 2131165186;
 			
 			// aapt resource value: 0x7f070003
-			public const int defaultAxisX_labelsVisible = 2131165187;
+			public const int defaultFlexChartAxisX_labelsVisible = 2131165187;
 			
 			// aapt resource value: 0x7f070006
-			public const int defaultAxisX_majorGridVisible = 2131165190;
+			public const int defaultFlexChartAxisX_majorGridVisible = 2131165190;
 			
 			// aapt resource value: 0x7f070007
-			public const int defaultAxisX_majorTickOverlap = 2131165191;
+			public const int defaultFlexChartAxisX_majorTickOverlap = 2131165191;
 			
 			// aapt resource value: 0x7f070008
-			public const int defaultAxisX_minorGridVisible = 2131165192;
+			public const int defaultFlexChartAxisX_minorGridVisible = 2131165192;
 			
 			// aapt resource value: 0x7f070009
-			public const int defaultAxisX_minorTickOverlap = 2131165193;
+			public const int defaultFlexChartAxisX_minorTickOverlap = 2131165193;
 			
 			// aapt resource value: 0x7f070005
-			public const int defaultAxisX_titleFontWeight = 2131165189;
+			public const int defaultFlexChartAxisX_titleFontWeight = 2131165189;
 			
 			// aapt resource value: 0x7f07000c
-			public const int defaultAxisY_axisLineVisible = 2131165196;
+			public const int defaultFlexChartAxisY_axisLineVisible = 2131165196;
 			
 			// aapt resource value: 0x7f07000a
-			public const int defaultAxisY_labelFontWeight = 2131165194;
+			public const int defaultFlexChartAxisY_labelFontWeight = 2131165194;
 			
 			// aapt resource value: 0x7f07000b
-			public const int defaultAxisY_labelsVisible = 2131165195;
+			public const int defaultFlexChartAxisY_labelsVisible = 2131165195;
 			
 			// aapt resource value: 0x7f07000e
-			public const int defaultAxisY_majorGridVisible = 2131165198;
+			public const int defaultFlexChartAxisY_majorGridVisible = 2131165198;
 			
 			// aapt resource value: 0x7f07000f
-			public const int defaultAxisY_majorTickOverlap = 2131165199;
+			public const int defaultFlexChartAxisY_majorTickOverlap = 2131165199;
 			
 			// aapt resource value: 0x7f070010
-			public const int defaultAxisY_minorGridVisible = 2131165200;
+			public const int defaultFlexChartAxisY_minorGridVisible = 2131165200;
 			
 			// aapt resource value: 0x7f070011
-			public const int defaultAxisY_minorTickOverlap = 2131165201;
+			public const int defaultFlexChartAxisY_minorTickOverlap = 2131165201;
 			
 			// aapt resource value: 0x7f07000d
-			public const int defaultAxisY_titleFontWeight = 2131165197;
+			public const int defaultFlexChartAxisY_titleFontWeight = 2131165197;
 			
 			// aapt resource value: 0x7f070000
-			public const int defaultChartType = 2131165184;
+			public const int defaultFlexChartChartType = 2131165184;
 			
 			// aapt resource value: 0x7f070017
-			public const int defaultFooterFontGravity = 2131165207;
+			public const int defaultFlexChartFooterFontGravity = 2131165207;
 			
 			// aapt resource value: 0x7f070016
-			public const int defaultFooterFontWeight = 2131165206;
+			public const int defaultFlexChartFooterFontWeight = 2131165206;
 			
 			// aapt resource value: 0x7f070015
-			public const int defaultHeaderFontGravity = 2131165205;
+			public const int defaultFlexChartHeaderFontGravity = 2131165205;
 			
 			// aapt resource value: 0x7f070014
-			public const int defaultHeaderFontWeight = 2131165204;
+			public const int defaultFlexChartHeaderFontWeight = 2131165204;
 			
 			// aapt resource value: 0x7f070018
-			public const int defaultLegend_FontWeight = 2131165208;
+			public const int defaultFlexChartLegend_FontWeight = 2131165208;
 			
 			// aapt resource value: 0x7f070012
-			public const int defaultSeriesChartType = 2131165202;
+			public const int defaultFlexChartSeriesChartType = 2131165202;
 			
 			// aapt resource value: 0x7f070013
-			public const int defaultSeriesVisibility = 2131165203;
+			public const int defaultFlexChartSeriesVisibility = 2131165203;
 			
 			// aapt resource value: 0x7f070001
-			public const int defaultStackingType = 2131165185;
+			public const int defaultFlexChartStackingType = 2131165185;
 			
 			static Integer()
 			{
@@ -1346,31 +1204,25 @@ namespace FlexChartDemo.Droid
 			public const int Hello = 2131034112;
 			
 			// aapt resource value: 0x7f050002
-			public const int app_name = 2131034114;
+			public const int defaultFlexChartAxisX_labelFontTypeface = 2131034114;
 			
 			// aapt resource value: 0x7f050003
-			public const int defaultAxisX_labelFontTypeface = 2131034115;
+			public const int defaultFlexChartAxisX_titleFontTypeface = 2131034115;
 			
 			// aapt resource value: 0x7f050004
-			public const int defaultAxisX_titleFontTypeface = 2131034116;
+			public const int defaultFlexChartAxisY_labelFontTypeface = 2131034116;
 			
 			// aapt resource value: 0x7f050005
-			public const int defaultAxisY_labelFontTypeface = 2131034117;
-			
-			// aapt resource value: 0x7f050006
-			public const int defaultAxisY_titleFontTypeface = 2131034118;
-			
-			// aapt resource value: 0x7f050009
-			public const int defaultFooterFontTypeface = 2131034121;
-			
-			// aapt resource value: 0x7f050008
-			public const int defaultHeaderFontTypeface = 2131034120;
-			
-			// aapt resource value: 0x7f05000a
-			public const int defaultLegend_FontTypeface = 2131034122;
+			public const int defaultFlexChartAxisY_titleFontTypeface = 2131034117;
 			
 			// aapt resource value: 0x7f050007
-			public const int hello_world = 2131034119;
+			public const int defaultFlexChartFooterFontTypeface = 2131034119;
+			
+			// aapt resource value: 0x7f050006
+			public const int defaultFlexChartHeaderFontTypeface = 2131034118;
+			
+			// aapt resource value: 0x7f050008
+			public const int defaultFlexChartLegend_FontTypeface = 2131034120;
 			
 			static String()
 			{
@@ -1391,92 +1243,50 @@ namespace FlexChartDemo.Droid
 			// aapt resource value: 0x7f060001
 			public const int AppTheme = 2131099649;
 			
-			// aapt resource value: 0x7f060010
-			public const int Style_Ringo = 2131099664;
-			
 			// aapt resource value: 0x7f060002
-			public const int Style_Ringo_FlexChart = 2131099650;
-			
-			// aapt resource value: 0x7f060004
-			public const int Style_Ringo_FlexChart_Cocoa = 2131099652;
-			
-			// aapt resource value: 0x7f060005
-			public const int Style_Ringo_FlexChart_Coral = 2131099653;
-			
-			// aapt resource value: 0x7f060006
-			public const int Style_Ringo_FlexChart_Dark = 2131099654;
+			public const int Style_Ringo = 2131099650;
 			
 			// aapt resource value: 0x7f060003
-			public const int Style_Ringo_FlexChart_Default = 2131099651;
+			public const int Style_Ringo_FlexChart = 2131099651;
+			
+			// aapt resource value: 0x7f060005
+			public const int Style_Ringo_FlexChart_Cocoa = 2131099653;
+			
+			// aapt resource value: 0x7f060006
+			public const int Style_Ringo_FlexChart_Coral = 2131099654;
 			
 			// aapt resource value: 0x7f060007
-			public const int Style_Ringo_FlexChart_HighContrast = 2131099655;
+			public const int Style_Ringo_FlexChart_Dark = 2131099655;
+			
+			// aapt resource value: 0x7f060004
+			public const int Style_Ringo_FlexChart_Default = 2131099652;
 			
 			// aapt resource value: 0x7f060008
-			public const int Style_Ringo_FlexChart_Light = 2131099656;
+			public const int Style_Ringo_FlexChart_HighContrast = 2131099656;
 			
 			// aapt resource value: 0x7f060009
-			public const int Style_Ringo_FlexChart_Midnight = 2131099657;
+			public const int Style_Ringo_FlexChart_Light = 2131099657;
 			
 			// aapt resource value: 0x7f06000a
-			public const int Style_Ringo_FlexChart_Minimal = 2131099658;
+			public const int Style_Ringo_FlexChart_Midnight = 2131099658;
 			
 			// aapt resource value: 0x7f06000b
-			public const int Style_Ringo_FlexChart_Modern = 2131099659;
+			public const int Style_Ringo_FlexChart_Minimal = 2131099659;
 			
 			// aapt resource value: 0x7f06000c
-			public const int Style_Ringo_FlexChart_Organic = 2131099660;
+			public const int Style_Ringo_FlexChart_Modern = 2131099660;
 			
 			// aapt resource value: 0x7f06000d
-			public const int Style_Ringo_FlexChart_Slate = 2131099661;
-			
-			// aapt resource value: 0x7f060011
-			public const int Style_Ringo_FlexChartCore = 2131099665;
-			
-			// aapt resource value: 0x7f060013
-			public const int Style_Ringo_FlexChartCore_Cocoa = 2131099667;
-			
-			// aapt resource value: 0x7f060014
-			public const int Style_Ringo_FlexChartCore_Coral = 2131099668;
-			
-			// aapt resource value: 0x7f060015
-			public const int Style_Ringo_FlexChartCore_Dark = 2131099669;
-			
-			// aapt resource value: 0x7f060012
-			public const int Style_Ringo_FlexChartCore_Default = 2131099666;
-			
-			// aapt resource value: 0x7f060016
-			public const int Style_Ringo_FlexChartCore_HighContrast = 2131099670;
-			
-			// aapt resource value: 0x7f060017
-			public const int Style_Ringo_FlexChartCore_Light = 2131099671;
-			
-			// aapt resource value: 0x7f060018
-			public const int Style_Ringo_FlexChartCore_Midnight = 2131099672;
-			
-			// aapt resource value: 0x7f060019
-			public const int Style_Ringo_FlexChartCore_Minimal = 2131099673;
-			
-			// aapt resource value: 0x7f06001a
-			public const int Style_Ringo_FlexChartCore_Modern = 2131099674;
-			
-			// aapt resource value: 0x7f06001b
-			public const int Style_Ringo_FlexChartCore_Organic = 2131099675;
-			
-			// aapt resource value: 0x7f06001c
-			public const int Style_Ringo_FlexChartCore_Slate = 2131099676;
+			public const int Style_Ringo_FlexChart_Organic = 2131099661;
 			
 			// aapt resource value: 0x7f06000e
-			public const int Style_Ringo_Series = 2131099662;
+			public const int Style_Ringo_FlexChart_Slate = 2131099662;
 			
 			// aapt resource value: 0x7f06000f
-			public const int Theme_Ringo_FlexChart_Default = 2131099663;
+			public const int Style_Ringo_Series = 2131099663;
 			
-			// aapt resource value: 0x7f06001e
-			public const int Theme_Ringo_FlexChartCore_Cocoa = 2131099678;
-			
-			// aapt resource value: 0x7f06001d
-			public const int Theme_Ringo_FlexChartCore_Default = 2131099677;
+			// aapt resource value: 0x7f060010
+			public const int Theme_Ringo_FlexChart_Default = 2131099664;
 			
 			static Style()
 			{
@@ -1510,11 +1320,11 @@ namespace FlexChartDemo.Droid
 					2130771983,
 					2130771984,
 					2130771985,
+					2130771986,
+					2130771987,
 					2130771988,
 					2130771989,
 					2130771990,
-					2130771991,
-					2130771992,
 					2130771993,
 					2130771994,
 					2130771995,
@@ -1549,183 +1359,16 @@ namespace FlexChartDemo.Droid
 					2130772024,
 					2130772025,
 					2130772026,
-					2130772027};
-			
-			// aapt resource value: 5
-			public const int FlexChart_axisX_axisLineVisible = 5;
-			
-			// aapt resource value: 37
-			public const int FlexChart_axisX_format = 37;
-			
-			// aapt resource value: 21
-			public const int FlexChart_axisX_labelAngle = 21;
-			
-			// aapt resource value: 18
-			public const int FlexChart_axisX_labelFontColor = 18;
-			
-			// aapt resource value: 19
-			public const int FlexChart_axisX_labelFontSize = 19;
-			
-			// aapt resource value: 20
-			public const int FlexChart_axisX_labelFontTypeface = 20;
-			
-			// aapt resource value: 2
-			public const int FlexChart_axisX_labelFontWeight = 2;
-			
-			// aapt resource value: 4
-			public const int FlexChart_axisX_labelsVisible = 4;
-			
-			// aapt resource value: 25
-			public const int FlexChart_axisX_lineColor = 25;
-			
-			// aapt resource value: 26
-			public const int FlexChart_axisX_lineWidth = 26;
-			
-			// aapt resource value: 27
-			public const int FlexChart_axisX_majorGridColor = 27;
-			
-			// aapt resource value: 31
-			public const int FlexChart_axisX_majorGridFill = 31;
-			
-			// aapt resource value: 7
-			public const int FlexChart_axisX_majorGridVisible = 7;
-			
-			// aapt resource value: 28
-			public const int FlexChart_axisX_majorGridWidth = 28;
-			
-			// aapt resource value: 29
-			public const int FlexChart_axisX_majorTickColor = 29;
-			
-			// aapt resource value: 6
-			public const int FlexChart_axisX_majorTickOverlap = 6;
-			
-			// aapt resource value: 30
-			public const int FlexChart_axisX_majorTickWidth = 30;
-			
-			// aapt resource value: 32
-			public const int FlexChart_axisX_minorGridColor = 32;
-			
-			// aapt resource value: 36
-			public const int FlexChart_axisX_minorGridFill = 36;
-			
-			// aapt resource value: 9
-			public const int FlexChart_axisX_minorGridVisible = 9;
-			
-			// aapt resource value: 33
-			public const int FlexChart_axisX_minorGridWidth = 33;
-			
-			// aapt resource value: 34
-			public const int FlexChart_axisX_minorTickColor = 34;
-			
-			// aapt resource value: 8
-			public const int FlexChart_axisX_minorTickOverlap = 8;
-			
-			// aapt resource value: 35
-			public const int FlexChart_axisX_minorTickWidth = 35;
-			
-			// aapt resource value: 22
-			public const int FlexChart_axisX_titleFontColor = 22;
-			
-			// aapt resource value: 23
-			public const int FlexChart_axisX_titleFontSize = 23;
-			
-			// aapt resource value: 24
-			public const int FlexChart_axisX_titleFontTypeface = 24;
-			
-			// aapt resource value: 3
-			public const int FlexChart_axisX_titleFontWeight = 3;
-			
-			// aapt resource value: 13
-			public const int FlexChart_axisY_axisLineVisible = 13;
-			
-			// aapt resource value: 38
-			public const int FlexChart_axisY_format = 38;
-			
-			// aapt resource value: 42
-			public const int FlexChart_axisY_labelAngle = 42;
-			
-			// aapt resource value: 39
-			public const int FlexChart_axisY_labelFontColor = 39;
-			
-			// aapt resource value: 40
-			public const int FlexChart_axisY_labelFontSize = 40;
-			
-			// aapt resource value: 41
-			public const int FlexChart_axisY_labelFontTypeface = 41;
-			
-			// aapt resource value: 10
-			public const int FlexChart_axisY_labelFontWeight = 10;
-			
-			// aapt resource value: 12
-			public const int FlexChart_axisY_labelsVisible = 12;
-			
-			// aapt resource value: 46
-			public const int FlexChart_axisY_lineColor = 46;
-			
-			// aapt resource value: 47
-			public const int FlexChart_axisY_lineWidth = 47;
-			
-			// aapt resource value: 48
-			public const int FlexChart_axisY_majorGridColor = 48;
-			
-			// aapt resource value: 52
-			public const int FlexChart_axisY_majorGridFill = 52;
-			
-			// aapt resource value: 14
-			public const int FlexChart_axisY_majorGridVisible = 14;
-			
-			// aapt resource value: 49
-			public const int FlexChart_axisY_majorGridWidth = 49;
-			
-			// aapt resource value: 50
-			public const int FlexChart_axisY_majorTickColor = 50;
-			
-			// aapt resource value: 15
-			public const int FlexChart_axisY_majorTickOverlap = 15;
-			
-			// aapt resource value: 51
-			public const int FlexChart_axisY_majorTickWidth = 51;
-			
-			// aapt resource value: 53
-			public const int FlexChart_axisY_minorGridColor = 53;
-			
-			// aapt resource value: 57
-			public const int FlexChart_axisY_minorGridFill = 57;
-			
-			// aapt resource value: 16
-			public const int FlexChart_axisY_minorGridVisible = 16;
-			
-			// aapt resource value: 54
-			public const int FlexChart_axisY_minorGridWidth = 54;
-			
-			// aapt resource value: 55
-			public const int FlexChart_axisY_minorTickColor = 55;
-			
-			// aapt resource value: 17
-			public const int FlexChart_axisY_minorTickOverlap = 17;
-			
-			// aapt resource value: 56
-			public const int FlexChart_axisY_minorTickWidth = 56;
-			
-			// aapt resource value: 43
-			public const int FlexChart_axisY_titleFontColor = 43;
-			
-			// aapt resource value: 44
-			public const int FlexChart_axisY_titleFontSize = 44;
-			
-			// aapt resource value: 45
-			public const int FlexChart_axisY_titleFontTypeface = 45;
-			
-			// aapt resource value: 11
-			public const int FlexChart_axisY_titleFontWeight = 11;
-			
-			// aapt resource value: 0
-			public const int FlexChart_chartType = 0;
-			
-			// aapt resource value: 1
-			public const int FlexChart_stackingType = 1;
-			
-			public static int[] FlexChartCore = new int[] {
+					2130772027,
+					2130772028,
+					2130772029,
+					2130772030,
+					2130772031,
+					2130772032,
+					2130772033,
+					2130772034,
+					2130772035,
+					2130772036,
 					2130772037,
 					2130772038,
 					2130772039,
@@ -1742,7 +1385,269 @@ namespace FlexChartDemo.Droid
 					2130772050,
 					2130772051,
 					2130772052,
-					2130772053,
+					2130772053};
+			
+			// aapt resource value: 10
+			public const int FlexChart_flexChart_axisX_axisLineVisible = 10;
+			
+			// aapt resource value: 63
+			public const int FlexChart_flexChart_axisX_format = 63;
+			
+			// aapt resource value: 47
+			public const int FlexChart_flexChart_axisX_labelAngle = 47;
+			
+			// aapt resource value: 44
+			public const int FlexChart_flexChart_axisX_labelFontColor = 44;
+			
+			// aapt resource value: 45
+			public const int FlexChart_flexChart_axisX_labelFontSize = 45;
+			
+			// aapt resource value: 46
+			public const int FlexChart_flexChart_axisX_labelFontTypeface = 46;
+			
+			// aapt resource value: 7
+			public const int FlexChart_flexChart_axisX_labelFontWeight = 7;
+			
+			// aapt resource value: 9
+			public const int FlexChart_flexChart_axisX_labelsVisible = 9;
+			
+			// aapt resource value: 51
+			public const int FlexChart_flexChart_axisX_lineColor = 51;
+			
+			// aapt resource value: 52
+			public const int FlexChart_flexChart_axisX_lineWidth = 52;
+			
+			// aapt resource value: 53
+			public const int FlexChart_flexChart_axisX_majorGridColor = 53;
+			
+			// aapt resource value: 57
+			public const int FlexChart_flexChart_axisX_majorGridFill = 57;
+			
+			// aapt resource value: 12
+			public const int FlexChart_flexChart_axisX_majorGridVisible = 12;
+			
+			// aapt resource value: 54
+			public const int FlexChart_flexChart_axisX_majorGridWidth = 54;
+			
+			// aapt resource value: 55
+			public const int FlexChart_flexChart_axisX_majorTickColor = 55;
+			
+			// aapt resource value: 11
+			public const int FlexChart_flexChart_axisX_majorTickOverlap = 11;
+			
+			// aapt resource value: 56
+			public const int FlexChart_flexChart_axisX_majorTickWidth = 56;
+			
+			// aapt resource value: 58
+			public const int FlexChart_flexChart_axisX_minorGridColor = 58;
+			
+			// aapt resource value: 62
+			public const int FlexChart_flexChart_axisX_minorGridFill = 62;
+			
+			// aapt resource value: 14
+			public const int FlexChart_flexChart_axisX_minorGridVisible = 14;
+			
+			// aapt resource value: 59
+			public const int FlexChart_flexChart_axisX_minorGridWidth = 59;
+			
+			// aapt resource value: 60
+			public const int FlexChart_flexChart_axisX_minorTickColor = 60;
+			
+			// aapt resource value: 13
+			public const int FlexChart_flexChart_axisX_minorTickOverlap = 13;
+			
+			// aapt resource value: 61
+			public const int FlexChart_flexChart_axisX_minorTickWidth = 61;
+			
+			// aapt resource value: 48
+			public const int FlexChart_flexChart_axisX_titleFontColor = 48;
+			
+			// aapt resource value: 49
+			public const int FlexChart_flexChart_axisX_titleFontSize = 49;
+			
+			// aapt resource value: 50
+			public const int FlexChart_flexChart_axisX_titleFontTypeface = 50;
+			
+			// aapt resource value: 8
+			public const int FlexChart_flexChart_axisX_titleFontWeight = 8;
+			
+			// aapt resource value: 18
+			public const int FlexChart_flexChart_axisY_axisLineVisible = 18;
+			
+			// aapt resource value: 64
+			public const int FlexChart_flexChart_axisY_format = 64;
+			
+			// aapt resource value: 68
+			public const int FlexChart_flexChart_axisY_labelAngle = 68;
+			
+			// aapt resource value: 65
+			public const int FlexChart_flexChart_axisY_labelFontColor = 65;
+			
+			// aapt resource value: 66
+			public const int FlexChart_flexChart_axisY_labelFontSize = 66;
+			
+			// aapt resource value: 67
+			public const int FlexChart_flexChart_axisY_labelFontTypeface = 67;
+			
+			// aapt resource value: 15
+			public const int FlexChart_flexChart_axisY_labelFontWeight = 15;
+			
+			// aapt resource value: 17
+			public const int FlexChart_flexChart_axisY_labelsVisible = 17;
+			
+			// aapt resource value: 72
+			public const int FlexChart_flexChart_axisY_lineColor = 72;
+			
+			// aapt resource value: 73
+			public const int FlexChart_flexChart_axisY_lineWidth = 73;
+			
+			// aapt resource value: 74
+			public const int FlexChart_flexChart_axisY_majorGridColor = 74;
+			
+			// aapt resource value: 78
+			public const int FlexChart_flexChart_axisY_majorGridFill = 78;
+			
+			// aapt resource value: 19
+			public const int FlexChart_flexChart_axisY_majorGridVisible = 19;
+			
+			// aapt resource value: 75
+			public const int FlexChart_flexChart_axisY_majorGridWidth = 75;
+			
+			// aapt resource value: 76
+			public const int FlexChart_flexChart_axisY_majorTickColor = 76;
+			
+			// aapt resource value: 20
+			public const int FlexChart_flexChart_axisY_majorTickOverlap = 20;
+			
+			// aapt resource value: 77
+			public const int FlexChart_flexChart_axisY_majorTickWidth = 77;
+			
+			// aapt resource value: 79
+			public const int FlexChart_flexChart_axisY_minorGridColor = 79;
+			
+			// aapt resource value: 83
+			public const int FlexChart_flexChart_axisY_minorGridFill = 83;
+			
+			// aapt resource value: 21
+			public const int FlexChart_flexChart_axisY_minorGridVisible = 21;
+			
+			// aapt resource value: 80
+			public const int FlexChart_flexChart_axisY_minorGridWidth = 80;
+			
+			// aapt resource value: 81
+			public const int FlexChart_flexChart_axisY_minorTickColor = 81;
+			
+			// aapt resource value: 22
+			public const int FlexChart_flexChart_axisY_minorTickOverlap = 22;
+			
+			// aapt resource value: 82
+			public const int FlexChart_flexChart_axisY_minorTickWidth = 82;
+			
+			// aapt resource value: 69
+			public const int FlexChart_flexChart_axisY_titleFontColor = 69;
+			
+			// aapt resource value: 70
+			public const int FlexChart_flexChart_axisY_titleFontSize = 70;
+			
+			// aapt resource value: 71
+			public const int FlexChart_flexChart_axisY_titleFontTypeface = 71;
+			
+			// aapt resource value: 16
+			public const int FlexChart_flexChart_axisY_titleFontWeight = 16;
+			
+			// aapt resource value: 32
+			public const int FlexChart_flexChart_backgroundColor = 32;
+			
+			// aapt resource value: 33
+			public const int FlexChart_flexChart_borderColor = 33;
+			
+			// aapt resource value: 34
+			public const int FlexChart_flexChart_borderWidth = 34;
+			
+			// aapt resource value: 5
+			public const int FlexChart_flexChart_chartType = 5;
+			
+			// aapt resource value: 28
+			public const int FlexChart_flexChart_footer = 28;
+			
+			// aapt resource value: 31
+			public const int FlexChart_flexChart_footerFontColor = 31;
+			
+			// aapt resource value: 3
+			public const int FlexChart_flexChart_footerFontGravity = 3;
+			
+			// aapt resource value: 29
+			public const int FlexChart_flexChart_footerFontSize = 29;
+			
+			// aapt resource value: 30
+			public const int FlexChart_flexChart_footerFontTypeface = 30;
+			
+			// aapt resource value: 2
+			public const int FlexChart_flexChart_footerFontWeight = 2;
+			
+			// aapt resource value: 24
+			public const int FlexChart_flexChart_header = 24;
+			
+			// aapt resource value: 27
+			public const int FlexChart_flexChart_headerFontColor = 27;
+			
+			// aapt resource value: 1
+			public const int FlexChart_flexChart_headerFontGravity = 1;
+			
+			// aapt resource value: 25
+			public const int FlexChart_flexChart_headerFontSize = 25;
+			
+			// aapt resource value: 26
+			public const int FlexChart_flexChart_headerFontTypeface = 26;
+			
+			// aapt resource value: 0
+			public const int FlexChart_flexChart_headerFontWeight = 0;
+			
+			// aapt resource value: 41
+			public const int FlexChart_flexChart_legend_FontColor = 41;
+			
+			// aapt resource value: 42
+			public const int FlexChart_flexChart_legend_FontSize = 42;
+			
+			// aapt resource value: 43
+			public const int FlexChart_flexChart_legend_FontTypeface = 43;
+			
+			// aapt resource value: 4
+			public const int FlexChart_flexChart_legend_FontWeight = 4;
+			
+			// aapt resource value: 38
+			public const int FlexChart_flexChart_legend_backgroundColor = 38;
+			
+			// aapt resource value: 39
+			public const int FlexChart_flexChart_legend_borderColor = 39;
+			
+			// aapt resource value: 40
+			public const int FlexChart_flexChart_legend_borderWidth = 40;
+			
+			// aapt resource value: 23
+			public const int FlexChart_flexChart_palette = 23;
+			
+			// aapt resource value: 35
+			public const int FlexChart_flexChart_plotAreabackgroundColor = 35;
+			
+			// aapt resource value: 36
+			public const int FlexChart_flexChart_selectedBorderColor = 36;
+			
+			// aapt resource value: 37
+			public const int FlexChart_flexChart_selectedBorderWidth = 37;
+			
+			// aapt resource value: 6
+			public const int FlexChart_flexChart_stackingType = 6;
+			
+			public static int[] RingoFlexChartTheme = new int[] {
+					2130772062};
+			
+			// aapt resource value: 0
+			public const int RingoFlexChartTheme_ringoFlexChart = 0;
+			
+			public static int[] Series = new int[] {
+					2130771991,
+					2130771992,
 					2130772054,
 					2130772055,
 					2130772056,
@@ -1750,140 +1655,37 @@ namespace FlexChartDemo.Droid
 					2130772058,
 					2130772059,
 					2130772060,
-					2130772061,
-					2130772062};
-			
-			// aapt resource value: 14
-			public const int FlexChartCore_backgroundColor = 14;
-			
-			// aapt resource value: 15
-			public const int FlexChartCore_borderColor = 15;
-			
-			// aapt resource value: 16
-			public const int FlexChartCore_borderWidth = 16;
-			
-			// aapt resource value: 10
-			public const int FlexChartCore_footer = 10;
-			
-			// aapt resource value: 13
-			public const int FlexChartCore_footerFontColor = 13;
+					2130772061};
 			
 			// aapt resource value: 3
-			public const int FlexChartCore_footerFontGravity = 3;
-			
-			// aapt resource value: 11
-			public const int FlexChartCore_footerFontSize = 11;
-			
-			// aapt resource value: 12
-			public const int FlexChartCore_footerFontTypeface = 12;
-			
-			// aapt resource value: 2
-			public const int FlexChartCore_footerFontWeight = 2;
-			
-			// aapt resource value: 6
-			public const int FlexChartCore_header = 6;
-			
-			// aapt resource value: 9
-			public const int FlexChartCore_headerFontColor = 9;
-			
-			// aapt resource value: 1
-			public const int FlexChartCore_headerFontGravity = 1;
-			
-			// aapt resource value: 7
-			public const int FlexChartCore_headerFontSize = 7;
-			
-			// aapt resource value: 8
-			public const int FlexChartCore_headerFontTypeface = 8;
-			
-			// aapt resource value: 0
-			public const int FlexChartCore_headerFontWeight = 0;
-			
-			// aapt resource value: 23
-			public const int FlexChartCore_legend_FontColor = 23;
-			
-			// aapt resource value: 24
-			public const int FlexChartCore_legend_FontSize = 24;
-			
-			// aapt resource value: 25
-			public const int FlexChartCore_legend_FontTypeface = 25;
-			
-			// aapt resource value: 4
-			public const int FlexChartCore_legend_FontWeight = 4;
-			
-			// aapt resource value: 20
-			public const int FlexChartCore_legend_backgroundColor = 20;
-			
-			// aapt resource value: 21
-			public const int FlexChartCore_legend_borderColor = 21;
-			
-			// aapt resource value: 22
-			public const int FlexChartCore_legend_borderWidth = 22;
+			public const int Series_flexChartSeries_binding = 3;
 			
 			// aapt resource value: 5
-			public const int FlexChartCore_palette = 5;
-			
-			// aapt resource value: 17
-			public const int FlexChartCore_plotAreabackgroundColor = 17;
-			
-			// aapt resource value: 18
-			public const int FlexChartCore_selectedBorderColor = 18;
-			
-			// aapt resource value: 19
-			public const int FlexChartCore_selectedBorderWidth = 19;
-			
-			public static int[] RingoFlexChartCoreTheme = new int[] {
-					2130772063};
-			
-			// aapt resource value: 0
-			public const int RingoFlexChartCoreTheme_ringoFlexChartCore = 0;
-			
-			public static int[] RingoFlexChartTheme = new int[] {
-					2130772036};
-			
-			// aapt resource value: 0
-			public const int RingoFlexChartTheme_ringoFlexChart = 0;
-			
-			public static int[] Series = new int[] {
-					2130771986,
-					2130771987,
-					2130772028,
-					2130772029,
-					2130772030,
-					2130772031,
-					2130772032,
-					2130772033,
-					2130772034,
-					2130772035};
-			
-			// aapt resource value: 3
-			public const int Series_binding = 3;
-			
-			// aapt resource value: 2
-			public const int Series_name = 2;
-			
-			// aapt resource value: 5
-			public const int Series_seriesBorderColor = 5;
+			public const int Series_flexChartSeries_borderColor = 5;
 			
 			// aapt resource value: 6
-			public const int Series_seriesBorderWidth = 6;
+			public const int Series_flexChartSeries_borderWidth = 6;
 			
 			// aapt resource value: 0
-			public const int Series_seriesChartType = 0;
+			public const int Series_flexChartSeries_chartType = 0;
 			
 			// aapt resource value: 4
-			public const int Series_seriesColor = 4;
+			public const int Series_flexChartSeries_color = 4;
+			
+			// aapt resource value: 2
+			public const int Series_flexChartSeries_name = 2;
 			
 			// aapt resource value: 8
-			public const int Series_seriesSymbolBorderColor = 8;
+			public const int Series_flexChartSeries_symbolBorderColor = 8;
 			
 			// aapt resource value: 9
-			public const int Series_seriesSymbolBorderWidth = 9;
+			public const int Series_flexChartSeries_symbolBorderWidth = 9;
 			
 			// aapt resource value: 7
-			public const int Series_seriesSymbolColor = 7;
+			public const int Series_flexChartSeries_symbolColor = 7;
 			
 			// aapt resource value: 1
-			public const int Series_seriesVisibility = 1;
+			public const int Series_flexChartSeries_visibility = 1;
 			
 			static Styleable()
 			{

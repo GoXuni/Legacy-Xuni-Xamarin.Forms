@@ -27,7 +27,7 @@ namespace GaugeDemo.iOS
             global::Xamarin.Forms.Forms.Init();
             Xuni.Xamarin.Gauge.Render.iOS.Forms.Init();
 
-            LoadApplication(new App());
+            LoadApplication(new Gauges101.App());
 
             return base.FinishedLaunching(app, options);
         }

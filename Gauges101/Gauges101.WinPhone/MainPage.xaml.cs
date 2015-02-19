@@ -7,23 +7,21 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using Xuni.Xamarin.Gauge.Render.WinPhone;
+using Xuni.Xamarin.Gauge.Platform.WinPhone;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.WinPhone;
 
-namespace GaugeDemo.WinPhone
+namespace Gauges101.WinPhone
 {
     public partial class MainPage : FormsApplicationPage
     {
         // Constructor
         public MainPage()
         {
-            Startup startup = new Startup();
-
+            GaugeRenderer.Init();
             InitializeComponent();
-
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new GaugeDemo.App()); 
+            LoadApplication(new Gauges101.App()); 
         }
     }
 }

@@ -16,6 +16,7 @@ namespace FlexChartDemo.Data.Views.Samples
 {
     public class DynamicChartsSample : BaseSample
     {
+       internal Random random = new Random();
         List<DummyObject> list = new List<DummyObject>();
 
         FlexChart chart;
@@ -23,10 +24,10 @@ namespace FlexChartDemo.Data.Views.Samples
         public DynamicChartsSample(ChartSample chartSample)
             : base()
         {
-            chart = new FlexChart();
+            chart = new AdaptiveFlexChart();
 
             chart.BindingX = "Name";
-
+			chart.IsAnimated = false;
 
 
 			chart.ChartType = Xuni.Xamarin.FlexChart.ChartType.Line;
@@ -41,15 +42,10 @@ namespace FlexChartDemo.Data.Views.Samples
             
             
 
-            list.Add(getItem());
-            list.Add(getItem());
-            list.Add(getItem());
-            list.Add(getItem());
-            list.Add(getItem());
-            list.Add(getItem());
-            list.Add(getItem());
-            list.Add(getItem());
-
+            for (int i = 0; i < 8; i++)
+            {
+                list.Add(getItem());
+            }
             chart.ItemsSource = list;
 
             Content = chart;
@@ -59,20 +55,19 @@ namespace FlexChartDemo.Data.Views.Samples
         {
             base.OnAppearing();
 
-            Device.StartTimer(TimeSpan.FromSeconds(Device.OnPlatform<Double>(1.0,2.0,1.0)), () =>
-            {
-				list.RemoveAt(0);
-				list.Add(getItem());
-                chart.ItemsSource = list.ToArray();
 
+            Device.StartTimer(TimeSpan.FromSeconds(Device.OnPlatform<Double>(0.5, 1.0, 0.5)), () =>
+            {
+                if (list.Count > 30)
+                    list.RemoveAt(0);
+                list.Add(getItem());
+                chart.ItemsSource = list.ToArray();
                 return true;
             });
         }
 
         public DummyObject getItem()
         {
-            Random random = new Random();
-
             double nextDouble = random.Next(0, 1000);
 
             while(nextDouble < 900)

@@ -18,5 +18,9 @@ namespace FlexChartDemo
             MainPage = new NavigationPage(new ChartSampleGrid());
         }
        
+		protected override void OnStart ()
+		{
+			Xuni.Xamarin.Core.LicenseManager.Key = Xuni.FlexChartDemo.App.License.Key;
+		}
     }
 }

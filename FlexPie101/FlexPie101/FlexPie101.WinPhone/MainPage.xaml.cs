@@ -9,7 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.WinPhone;
-using Xuni.Xamarin.FlexPie.Render.WinPhone;
+using Xuni.Xamarin.FlexPie.Platform.WinPhone;
 
 
 namespace FlexPieDemo.WinPhone
@@ -18,7 +18,7 @@ namespace FlexPieDemo.WinPhone
     {
         public MainPage()
         {
-            Startup Startup = new Xuni.Xamarin.FlexPie.Render.WinPhone.Startup();
+            FlexPieRenderer.Init();
             InitializeComponent();
 
             SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using Xamarin.Forms;
 
-namespace GaugeDemo
+namespace Gauges101
 {
     public class Sample
     {
@@ -29,7 +29,7 @@ namespace GaugeDemo
             set
             {
                 _thumbnailImage = value;
-                ThumbnailImageSource = ImageSource.FromResource("GaugeDemo.Images." + value); //ImageSource.FromUri(new Uri(value));
+                ThumbnailImageSource = ImageSource.FromResource("Gauges101.Images." + value); //ImageSource.FromUri(new Uri(value));
             }
         }
         [XmlIgnore]

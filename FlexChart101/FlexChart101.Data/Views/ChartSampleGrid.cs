@@ -39,6 +39,11 @@ namespace FlexChartDemo.Data.Views
                         { ImageCell.TextProperty, new Binding("Name") },
                         { ImageCell.DetailProperty, new Binding("Description") },
                         { ImageCell.ImageSourceProperty, new Binding("ThumbnailImageSource") }
+                    },
+                    Values = 
+                    {
+                        { ImageCell.TextColorProperty, Color.FromHex("#B00F50")},
+                        { ImageCell.DetailColorProperty, Color.Gray},
                     }
                 }
             };

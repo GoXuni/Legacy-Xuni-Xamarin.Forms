@@ -19,16 +19,16 @@
         <ColumnDefinition Width="*" />
       </Grid.ColumnDefinitions>
 
-      <Label Text="Selected Item offset"/>
-      <StackLayout  Grid.Column="1" >
-        <Label BindingContext="{x:Reference stepperOffset}" Text="{Binding Value}" />
+      <StackLayout Orientation="Horizontal" >
+        <Label BindingContext="{x:Reference stepperOffset}" VerticalOptions="Center" Text="{Binding Value ,StringFormat='Selected Item offset {0}'}" />
         <common:PreciseStepper x:Name="stepperOffset" Value="{Binding SelectedItemOffset,Mode=TwoWay}" Maximum="0.5" Minimum="0" Increment="0.1"/>
       </StackLayout>
-      <Label Grid.Row="1" Text="Position" />
-      <Picker Grid.Row="1" Grid.Column="1" x:Name="pickerPosition" />
-      <Label Grid.Row="2" Text="IsAnimated?"/>
-      <Switch IsToggled="{Binding IsAnimated,Mode=TwoWay}"
-              Grid.Row="2" Grid.Column="1" />
+      <StackLayout Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal">
+        <Label Text="Position"  VerticalOptions="Center"  />
+        <Picker x:Name="pickerPosition" WidthRequest="100"/>
+        <Label  Text="IsAnimated?"  VerticalOptions="Center"  />
+        <Switch IsToggled="{Binding IsAnimated,Mode=TwoWay}" />
+       </StackLayout>
     </Grid>
     <xuni:FlexPie SelectedItemOffset=".2"
                   SelectedBorderColor="#ff0000"

@@ -16,6 +16,7 @@ namespace FlexChartDemo.Data.Views.Samples
         public AnimationOptions()
         {
             InitializeComponent();
+            FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
             this.pickerChartType.Items.Add(ChartType.Column.ToString());
             this.pickerChartType.Items.Add(ChartType.Bar.ToString());

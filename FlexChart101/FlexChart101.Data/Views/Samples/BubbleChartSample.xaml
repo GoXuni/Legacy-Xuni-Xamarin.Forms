@@ -6,12 +6,12 @@
              x:Class="FlexChartDemo.Data.Views.Samples.BubbleChartSample"
              Title="Bubble Chart">
   <StackLayout >
-      <sample:ResponsiveFlexChart x:Name="flexChart" ChartType="Bubble" BindingX="Name">
-        <sample:ResponsiveFlexChart.Series>
+      <sample:AdaptiveFlexChart x:Name="flexChart" ChartType="Bubble" BindingX="Name">
+        <sample:AdaptiveFlexChart.Series>
           <xuni:ChartSeries Binding="Sales,Downloads" Name="Sales" />
           <xuni:ChartSeries Binding="Expenses,Downloads" Name="Expenses" />
-        </sample:ResponsiveFlexChart.Series>
-    </sample:ResponsiveFlexChart>
+        </sample:AdaptiveFlexChart.Series>
+    </sample:AdaptiveFlexChart>
    
   </StackLayout>
  

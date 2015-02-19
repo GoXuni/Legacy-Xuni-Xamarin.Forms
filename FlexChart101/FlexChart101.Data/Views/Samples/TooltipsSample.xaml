@@ -13,15 +13,15 @@
   </ContentPage.Resources>
   <StackLayout>
 
-    <sample:ResponsiveFlexChart x:Name="chart" ItemsSource="{Binding Data}" BindingX="Name" ChartType="Column">
-      <sample:ResponsiveFlexChart.Series>
+    <sample:AdaptiveFlexChart x:Name="chart" ItemsSource="{Binding Data}" BindingX="Name" ChartType="Column">
+      <sample:AdaptiveFlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
         <xuni:ChartSeries Binding="Expenses" Name="Expenses" />
         <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
-      </sample:ResponsiveFlexChart.Series>
+      </sample:AdaptiveFlexChart.Series>
 
-      <sample:ResponsiveFlexChart.ChartTooltip>
-        <xuni:FlexChartTooltip>
+      <sample:AdaptiveFlexChart.ChartTooltip>
+        <xuni:FlexChartTooltip IsVisible="False">
           <StackLayout BackgroundColor="#FFFFCA" Padding="5">
             <StackLayout Orientation = "Horizontal">
               <Image Source="{Binding XValue, Mode=OneWay, Converter={StaticResource converter}" />
@@ -30,8 +30,9 @@
             <Label Text="{Binding YValue}" TextColor="Black" FontSize="14"></Label>
           </StackLayout>
         </xuni:FlexChartTooltip>
-      </sample:ResponsiveFlexChart.ChartTooltip>
-    </sample:ResponsiveFlexChart>
+      </sample:AdaptiveFlexChart.ChartTooltip>
+    </sample:AdaptiveFlexChart>
+    
   </StackLayout>
 </ContentPage>
 

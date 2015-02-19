@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xuni.Xamarin.Gauge;
 
-namespace GaugeDemo
+namespace Gauges101
 {
     public partial class GettingStarted
     {

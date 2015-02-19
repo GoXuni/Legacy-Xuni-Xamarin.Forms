@@ -26,125 +26,8 @@ namespace FlexPieDemo.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.cocoaPalette = global::FlexPieDemo.Droid.Resource.Array.cocoaPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.coralPalette = global::FlexPieDemo.Droid.Resource.Array.coralPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.darkPalette = global::FlexPieDemo.Droid.Resource.Array.darkPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.defaultPalette = global::FlexPieDemo.Droid.Resource.Array.defaultPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.highConstrastPalette = global::FlexPieDemo.Droid.Resource.Array.highConstrastPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.lightPalette = global::FlexPieDemo.Droid.Resource.Array.lightPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.midnightPalette = global::FlexPieDemo.Droid.Resource.Array.midnightPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.minimalPalette = global::FlexPieDemo.Droid.Resource.Array.minimalPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.modernPalette = global::FlexPieDemo.Droid.Resource.Array.modernPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.organicPalette = global::FlexPieDemo.Droid.Resource.Array.organicPalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Array.slatePalette = global::FlexPieDemo.Droid.Resource.Array.slatePalette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.backgroundColor = global::FlexPieDemo.Droid.Resource.Attribute.backgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.borderColor = global::FlexPieDemo.Droid.Resource.Attribute.borderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.borderWidth = global::FlexPieDemo.Droid.Resource.Attribute.borderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.footer = global::FlexPieDemo.Droid.Resource.Attribute.footer;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.footerFontColor = global::FlexPieDemo.Droid.Resource.Attribute.footerFontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.footerFontGravity = global::FlexPieDemo.Droid.Resource.Attribute.footerFontGravity;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.footerFontSize = global::FlexPieDemo.Droid.Resource.Attribute.footerFontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.footerFontTypeface = global::FlexPieDemo.Droid.Resource.Attribute.footerFontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.footerFontWeight = global::FlexPieDemo.Droid.Resource.Attribute.footerFontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.header = global::FlexPieDemo.Droid.Resource.Attribute.header;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.headerFontColor = global::FlexPieDemo.Droid.Resource.Attribute.headerFontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.headerFontGravity = global::FlexPieDemo.Droid.Resource.Attribute.headerFontGravity;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.headerFontSize = global::FlexPieDemo.Droid.Resource.Attribute.headerFontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.headerFontTypeface = global::FlexPieDemo.Droid.Resource.Attribute.headerFontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.headerFontWeight = global::FlexPieDemo.Droid.Resource.Attribute.headerFontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_FontColor = global::FlexPieDemo.Droid.Resource.Attribute.legend_FontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_FontSize = global::FlexPieDemo.Droid.Resource.Attribute.legend_FontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_FontTypeface = global::FlexPieDemo.Droid.Resource.Attribute.legend_FontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_FontWeight = global::FlexPieDemo.Droid.Resource.Attribute.legend_FontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_backgroundColor = global::FlexPieDemo.Droid.Resource.Attribute.legend_backgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_borderColor = global::FlexPieDemo.Droid.Resource.Attribute.legend_borderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.legend_borderWidth = global::FlexPieDemo.Droid.Resource.Attribute.legend_borderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.palette = global::FlexPieDemo.Droid.Resource.Attribute.palette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.plotAreabackgroundColor = global::FlexPieDemo.Droid.Resource.Attribute.plotAreabackgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.ringoFlexChartCore = global::FlexPieDemo.Droid.Resource.Attribute.ringoFlexChartCore;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.selectedBorderColor = global::FlexPieDemo.Droid.Resource.Attribute.selectedBorderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Attribute.selectedBorderWidth = global::FlexPieDemo.Droid.Resource.Attribute.selectedBorderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultBackgroundColor = global::FlexPieDemo.Droid.Resource.Color.defaultBackgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultBorderColor = global::FlexPieDemo.Droid.Resource.Color.defaultBorderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultFooterFontColor = global::FlexPieDemo.Droid.Resource.Color.defaultFooterFontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultHeaderFontColor = global::FlexPieDemo.Droid.Resource.Color.defaultHeaderFontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultLegend_FontColor = global::FlexPieDemo.Droid.Resource.Color.defaultLegend_FontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultLegend_backgroundColor = global::FlexPieDemo.Droid.Resource.Color.defaultLegend_backgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultLegend_borderColor = global::FlexPieDemo.Droid.Resource.Color.defaultLegend_borderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultPlotAreabackgroundColor = global::FlexPieDemo.Droid.Resource.Color.defaultPlotAreabackgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Color.defaultSelectedBorderColor = global::FlexPieDemo.Droid.Resource.Color.defaultSelectedBorderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Dimension.defaultBorderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultBorderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Dimension.defaultFooterFontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultFooterFontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Dimension.defaultHeaderFontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultHeaderFontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Dimension.defaultLegend_FontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultLegend_FontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Dimension.defaultLegend_borderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultLegend_borderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Dimension.defaultSelectedBorderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultSelectedBorderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Drawable.ic_launcher = global::FlexPieDemo.Droid.Resource.Drawable.ic_launcher;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.BOLD = global::FlexPieDemo.Droid.Resource.Id.BOLD;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.BOLD_ITALIC = global::FlexPieDemo.Droid.Resource.Id.BOLD_ITALIC;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.CENTER_HORIZONTAL = global::FlexPieDemo.Droid.Resource.Id.CENTER_HORIZONTAL;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.ITALIC = global::FlexPieDemo.Droid.Resource.Id.ITALIC;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.LEFT = global::FlexPieDemo.Droid.Resource.Id.LEFT;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.NORMAL = global::FlexPieDemo.Droid.Resource.Id.NORMAL;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Id.RIGHT = global::FlexPieDemo.Droid.Resource.Id.RIGHT;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Integer.defaultFooterFontGravity = global::FlexPieDemo.Droid.Resource.Integer.defaultFooterFontGravity;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Integer.defaultFooterFontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultFooterFontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Integer.defaultHeaderFontGravity = global::FlexPieDemo.Droid.Resource.Integer.defaultHeaderFontGravity;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Integer.defaultHeaderFontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultHeaderFontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Integer.defaultLegend_FontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultLegend_FontWeight;
 			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.ApplicationName = global::FlexPieDemo.Droid.Resource.String.ApplicationName;
 			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.Hello = global::FlexPieDemo.Droid.Resource.String.Hello;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.app_name = global::FlexPieDemo.Droid.Resource.String.app_name;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.defaultFooterFontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultFooterFontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.defaultHeaderFontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultHeaderFontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.defaultLegend_FontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultLegend_FontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.String.hello_world = global::FlexPieDemo.Droid.Resource.String.hello_world;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.AppBaseTheme = global::FlexPieDemo.Droid.Resource.Style.AppBaseTheme;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.AppTheme = global::FlexPieDemo.Droid.Resource.Style.AppTheme;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Cocoa = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Cocoa;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Coral = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Coral;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Dark = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Dark;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Default = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Default;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_HighContrast = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_HighContrast;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Light = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Light;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Midnight = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Midnight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Minimal = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Minimal;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Modern = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Modern;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Organic = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Organic;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Slate = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Slate;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Theme_Ringo_FlexChartCore_Cocoa = global::FlexPieDemo.Droid.Resource.Style.Theme_Ringo_FlexChartCore_Cocoa;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Style.Theme_Ringo_FlexChartCore_Default = global::FlexPieDemo.Droid.Resource.Style.Theme_Ringo_FlexChartCore_Default;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_backgroundColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_backgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_borderColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_borderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_borderWidth = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_borderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_footer = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_footer;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_footerFontColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_footerFontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_footerFontGravity = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_footerFontGravity;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_footerFontSize = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_footerFontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_footerFontTypeface = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_footerFontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_footerFontWeight = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_footerFontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_header = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_header;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_headerFontColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_headerFontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_headerFontGravity = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_headerFontGravity;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_headerFontSize = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_headerFontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_headerFontTypeface = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_headerFontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_headerFontWeight = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_headerFontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_FontColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_FontSize = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontSize;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_FontTypeface = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontTypeface;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_FontWeight = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontWeight;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_backgroundColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_backgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_borderColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_borderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_legend_borderWidth = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_borderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_palette = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_palette;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_plotAreabackgroundColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_plotAreabackgroundColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_selectedBorderColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_selectedBorderColor;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.FlexChartCore_selectedBorderWidth = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_selectedBorderWidth;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.RingoFlexChartCoreTheme = global::FlexPieDemo.Droid.Resource.Styleable.RingoFlexChartCoreTheme;
-			global::Xuni.Xamarin.ChartCore.Render.Android.Resource.Styleable.RingoFlexChartCoreTheme_ringoFlexChartCore = global::FlexPieDemo.Droid.Resource.Styleable.RingoFlexChartCoreTheme_ringoFlexChartCore;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.Drawable.default_chart_tooltip = global::FlexPieDemo.Droid.Resource.Drawable.default_chart_tooltip;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.Drawable.ic_launcher = global::FlexPieDemo.Droid.Resource.Drawable.ic_launcher;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.Id.tooltipContent = global::FlexPieDemo.Droid.Resource.Id.tooltipContent;
@@ -160,63 +43,60 @@ namespace FlexPieDemo.Droid
 			global::Xuni.Xamarin.Core.Render.Android.Resource.Raw.globalize_zh = global::FlexPieDemo.Droid.Resource.Raw.globalize_zh;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.String.ApplicationName = global::FlexPieDemo.Droid.Resource.String.ApplicationName;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.String.Hello = global::FlexPieDemo.Droid.Resource.String.Hello;
-			global::Xuni.Xamarin.Core.Render.Android.Resource.String.app_name = global::FlexPieDemo.Droid.Resource.String.app_name;
 			global::Xuni.Xamarin.Core.Render.Android.Resource.Style.AppBaseTheme = global::FlexPieDemo.Droid.Resource.Style.AppBaseTheme;
-			global::Xuni.Xamarin.Core.Render.Android.Resource.Style.AppTheme = global::FlexPieDemo.Droid.Resource.Style.AppTheme;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.cocoaPalette = global::FlexPieDemo.Droid.Resource.Array.cocoaPalette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.coralPalette = global::FlexPieDemo.Droid.Resource.Array.coralPalette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.darkPalette = global::FlexPieDemo.Droid.Resource.Array.darkPalette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.defaultPalette = global::FlexPieDemo.Droid.Resource.Array.defaultPalette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.highConstrastPalette = global::FlexPieDemo.Droid.Resource.Array.highConstrastPalette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.lightPalette = global::FlexPieDemo.Droid.Resource.Array.lightPalette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.midnightPalette = global::FlexPieDemo.Droid.Resource.Array.midnightPalette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.minimalPalette = global::FlexPieDemo.Droid.Resource.Array.minimalPalette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.modernPalette = global::FlexPieDemo.Droid.Resource.Array.modernPalette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.organicPalette = global::FlexPieDemo.Droid.Resource.Array.organicPalette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.slatePalette = global::FlexPieDemo.Droid.Resource.Array.slatePalette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.backgroundColor = global::FlexPieDemo.Droid.Resource.Attribute.backgroundColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.borderColor = global::FlexPieDemo.Droid.Resource.Attribute.borderColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.borderWidth = global::FlexPieDemo.Droid.Resource.Attribute.borderWidth;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.footer = global::FlexPieDemo.Droid.Resource.Attribute.footer;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.footerFontColor = global::FlexPieDemo.Droid.Resource.Attribute.footerFontColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.footerFontGravity = global::FlexPieDemo.Droid.Resource.Attribute.footerFontGravity;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.footerFontSize = global::FlexPieDemo.Droid.Resource.Attribute.footerFontSize;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.footerFontTypeface = global::FlexPieDemo.Droid.Resource.Attribute.footerFontTypeface;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.footerFontWeight = global::FlexPieDemo.Droid.Resource.Attribute.footerFontWeight;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.header = global::FlexPieDemo.Droid.Resource.Attribute.header;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.headerFontColor = global::FlexPieDemo.Droid.Resource.Attribute.headerFontColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.headerFontGravity = global::FlexPieDemo.Droid.Resource.Attribute.headerFontGravity;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.headerFontSize = global::FlexPieDemo.Droid.Resource.Attribute.headerFontSize;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.headerFontTypeface = global::FlexPieDemo.Droid.Resource.Attribute.headerFontTypeface;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.headerFontWeight = global::FlexPieDemo.Droid.Resource.Attribute.headerFontWeight;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.legend_FontColor = global::FlexPieDemo.Droid.Resource.Attribute.legend_FontColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.legend_FontSize = global::FlexPieDemo.Droid.Resource.Attribute.legend_FontSize;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.legend_FontTypeface = global::FlexPieDemo.Droid.Resource.Attribute.legend_FontTypeface;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.legend_FontWeight = global::FlexPieDemo.Droid.Resource.Attribute.legend_FontWeight;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.legend_backgroundColor = global::FlexPieDemo.Droid.Resource.Attribute.legend_backgroundColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.legend_borderColor = global::FlexPieDemo.Droid.Resource.Attribute.legend_borderColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.legend_borderWidth = global::FlexPieDemo.Droid.Resource.Attribute.legend_borderWidth;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.palette = global::FlexPieDemo.Droid.Resource.Attribute.palette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.plotAreabackgroundColor = global::FlexPieDemo.Droid.Resource.Attribute.plotAreabackgroundColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.ringoFlexChartCore = global::FlexPieDemo.Droid.Resource.Attribute.ringoFlexChartCore;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.flexPieCocoaPalette = global::FlexPieDemo.Droid.Resource.Array.flexPieCocoaPalette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.flexPieCoralPalette = global::FlexPieDemo.Droid.Resource.Array.flexPieCoralPalette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.flexPieDarkPalette = global::FlexPieDemo.Droid.Resource.Array.flexPieDarkPalette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.flexPieDefaultFlexPiePalette = global::FlexPieDemo.Droid.Resource.Array.flexPieDefaultFlexPiePalette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.flexPieHighConstrastPalette = global::FlexPieDemo.Droid.Resource.Array.flexPieHighConstrastPalette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.flexPieLightPalette = global::FlexPieDemo.Droid.Resource.Array.flexPieLightPalette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.flexPieMidnightPalette = global::FlexPieDemo.Droid.Resource.Array.flexPieMidnightPalette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.flexPieMinimalPalette = global::FlexPieDemo.Droid.Resource.Array.flexPieMinimalPalette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.flexPieModernPalette = global::FlexPieDemo.Droid.Resource.Array.flexPieModernPalette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.flexPieOrganicPalette = global::FlexPieDemo.Droid.Resource.Array.flexPieOrganicPalette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Array.flexPieSlatePalette = global::FlexPieDemo.Droid.Resource.Array.flexPieSlatePalette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_backgroundColor = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_backgroundColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_borderColor = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_borderColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_borderWidth = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_borderWidth;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_footer = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_footer;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_footerFontColor = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_footerFontColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_footerFontGravity = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_footerFontGravity;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_footerFontSize = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_footerFontSize;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_footerFontTypeface = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_footerFontTypeface;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_footerFontWeight = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_footerFontWeight;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_header = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_header;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_headerFontColor = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_headerFontColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_headerFontGravity = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_headerFontGravity;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_headerFontSize = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_headerFontSize;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_headerFontTypeface = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_headerFontTypeface;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_headerFontWeight = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_headerFontWeight;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_legend_FontColor = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_legend_FontColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_legend_FontSize = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_legend_FontSize;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_legend_FontTypeface = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_legend_FontTypeface;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_legend_FontWeight = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_legend_FontWeight;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_legend_backgroundColor = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_legend_backgroundColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_legend_borderColor = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_legend_borderColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_legend_borderWidth = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_legend_borderWidth;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_palette = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_palette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_plotAreabackgroundColor = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_plotAreabackgroundColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_selectedBorderColor = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_selectedBorderColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.flexPie_selectedBorderWidth = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_selectedBorderWidth;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.ringoFlexPie = global::FlexPieDemo.Droid.Resource.Attribute.ringoFlexPie;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.selectedBorderColor = global::FlexPieDemo.Droid.Resource.Attribute.selectedBorderColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Attribute.selectedBorderWidth = global::FlexPieDemo.Droid.Resource.Attribute.selectedBorderWidth;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultBackgroundColor = global::FlexPieDemo.Droid.Resource.Color.defaultBackgroundColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultBorderColor = global::FlexPieDemo.Droid.Resource.Color.defaultBorderColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultFooterFontColor = global::FlexPieDemo.Droid.Resource.Color.defaultFooterFontColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultHeaderFontColor = global::FlexPieDemo.Droid.Resource.Color.defaultHeaderFontColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultLegend_FontColor = global::FlexPieDemo.Droid.Resource.Color.defaultLegend_FontColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultLegend_backgroundColor = global::FlexPieDemo.Droid.Resource.Color.defaultLegend_backgroundColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultLegend_borderColor = global::FlexPieDemo.Droid.Resource.Color.defaultLegend_borderColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultPlotAreabackgroundColor = global::FlexPieDemo.Droid.Resource.Color.defaultPlotAreabackgroundColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultSelectedBorderColor = global::FlexPieDemo.Droid.Resource.Color.defaultSelectedBorderColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Dimension.defaultBorderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultBorderWidth;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Dimension.defaultFooterFontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultFooterFontSize;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Dimension.defaultHeaderFontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultHeaderFontSize;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Dimension.defaultLegend_FontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultLegend_FontSize;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Dimension.defaultLegend_borderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultLegend_borderWidth;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Dimension.defaultSelectedBorderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultSelectedBorderWidth;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultFlexPieBackgroundColor = global::FlexPieDemo.Droid.Resource.Color.defaultFlexPieBackgroundColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultFlexPieBorderColor = global::FlexPieDemo.Droid.Resource.Color.defaultFlexPieBorderColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultFlexPieFooterFontColor = global::FlexPieDemo.Droid.Resource.Color.defaultFlexPieFooterFontColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultFlexPieHeaderFontColor = global::FlexPieDemo.Droid.Resource.Color.defaultFlexPieHeaderFontColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultFlexPieLegend_FontColor = global::FlexPieDemo.Droid.Resource.Color.defaultFlexPieLegend_FontColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultFlexPieLegend_backgroundColor = global::FlexPieDemo.Droid.Resource.Color.defaultFlexPieLegend_backgroundColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultFlexPieLegend_borderColor = global::FlexPieDemo.Droid.Resource.Color.defaultFlexPieLegend_borderColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultFlexPiePlotAreabackgroundColor = global::FlexPieDemo.Droid.Resource.Color.defaultFlexPiePlotAreabackgroundColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Color.defaultFlexPieSelectedBorderColor = global::FlexPieDemo.Droid.Resource.Color.defaultFlexPieSelectedBorderColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Dimension.defaultFlexPieBorderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieBorderWidth;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Dimension.defaultFlexPieFooterFontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieFooterFontSize;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Dimension.defaultFlexPieHeaderFontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieHeaderFontSize;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Dimension.defaultFlexPieLegend_FontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieLegend_FontSize;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Dimension.defaultFlexPieLegend_borderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieLegend_borderWidth;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Dimension.defaultFlexPieSelectedBorderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieSelectedBorderWidth;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Drawable.default_chart_tooltip = global::FlexPieDemo.Droid.Resource.Drawable.default_chart_tooltip;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Drawable.ic_launcher = global::FlexPieDemo.Droid.Resource.Drawable.ic_launcher;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Id.BOLD = global::FlexPieDemo.Droid.Resource.Id.BOLD;
@@ -228,11 +108,11 @@ namespace FlexPieDemo.Droid
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Id.RIGHT = global::FlexPieDemo.Droid.Resource.Id.RIGHT;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Id.tooltipContent = global::FlexPieDemo.Droid.Resource.Id.tooltipContent;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Id.tooltipTitle = global::FlexPieDemo.Droid.Resource.Id.tooltipTitle;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Integer.defaultFooterFontGravity = global::FlexPieDemo.Droid.Resource.Integer.defaultFooterFontGravity;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Integer.defaultFooterFontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultFooterFontWeight;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Integer.defaultHeaderFontGravity = global::FlexPieDemo.Droid.Resource.Integer.defaultHeaderFontGravity;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Integer.defaultHeaderFontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultHeaderFontWeight;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Integer.defaultLegend_FontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultLegend_FontWeight;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Integer.defaultFlexPieFooterFontGravity = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieFooterFontGravity;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Integer.defaultFlexPieFooterFontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieFooterFontWeight;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Integer.defaultFlexPieHeaderFontGravity = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieHeaderFontGravity;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Integer.defaultFlexPieHeaderFontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieHeaderFontWeight;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Integer.defaultFlexPieLegend_FontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieLegend_FontWeight;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Layout.tooltip = global::FlexPieDemo.Droid.Resource.Layout.tooltip;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Raw.globalize_de = global::FlexPieDemo.Droid.Resource.Raw.globalize_de;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Raw.globalize_fr = global::FlexPieDemo.Droid.Resource.Raw.globalize_fr;
@@ -244,61 +124,52 @@ namespace FlexPieDemo.Droid
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Raw.globalize_zh = global::FlexPieDemo.Droid.Resource.Raw.globalize_zh;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.String.ApplicationName = global::FlexPieDemo.Droid.Resource.String.ApplicationName;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.String.Hello = global::FlexPieDemo.Droid.Resource.String.Hello;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.String.app_name = global::FlexPieDemo.Droid.Resource.String.app_name;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.String.defaultFooterFontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultFooterFontTypeface;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.String.defaultHeaderFontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultHeaderFontTypeface;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.String.defaultLegend_FontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultLegend_FontTypeface;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.String.hello_world = global::FlexPieDemo.Droid.Resource.String.hello_world;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.String.defaultFlexPieFooterFontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultFlexPieFooterFontTypeface;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.String.defaultFlexPieHeaderFontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultFlexPieHeaderFontTypeface;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.String.defaultFlexPieLegend_FontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultFlexPieLegend_FontTypeface;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.AppBaseTheme = global::FlexPieDemo.Droid.Resource.Style.AppBaseTheme;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.AppTheme = global::FlexPieDemo.Droid.Resource.Style.AppTheme;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexChartCore = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Cocoa = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Cocoa;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Coral = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Coral;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Dark = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Dark;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Default = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Default;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_HighContrast = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_HighContrast;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Light = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Light;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Midnight = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Midnight;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Minimal = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Minimal;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Modern = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Modern;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Organic = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Organic;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexChartCore_Slate = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexChartCore_Slate;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexPie = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexPie;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexPie_Cocoa = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexPie_Cocoa;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexPie_Coral = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexPie_Coral;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexPie_Dark = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexPie_Dark;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexPie_Default = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexPie_Default;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Theme_Ringo_FlexChartCore_Cocoa = global::FlexPieDemo.Droid.Resource.Style.Theme_Ringo_FlexChartCore_Cocoa;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Theme_Ringo_FlexChartCore_Default = global::FlexPieDemo.Droid.Resource.Style.Theme_Ringo_FlexChartCore_Default;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexPie_HighContrast = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexPie_HighContrast;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexPie_Light = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexPie_Light;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexPie_Midnight = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexPie_Midnight;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexPie_Minimal = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexPie_Minimal;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexPie_Modern = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexPie_Modern;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexPie_Organic = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexPie_Organic;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Style_Ringo_FlexPie_Slate = global::FlexPieDemo.Droid.Resource.Style.Style_Ringo_FlexPie_Slate;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Style.Theme_Ringo_FlexPie_Default = global::FlexPieDemo.Droid.Resource.Style.Theme_Ringo_FlexPie_Default;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_backgroundColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_backgroundColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_borderColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_borderColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_borderWidth = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_borderWidth;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_footer = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_footer;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_footerFontColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_footerFontColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_footerFontGravity = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_footerFontGravity;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_footerFontSize = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_footerFontSize;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_footerFontTypeface = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_footerFontTypeface;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_footerFontWeight = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_footerFontWeight;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_header = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_header;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_headerFontColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_headerFontColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_headerFontGravity = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_headerFontGravity;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_headerFontSize = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_headerFontSize;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_headerFontTypeface = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_headerFontTypeface;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_headerFontWeight = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_headerFontWeight;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_legend_FontColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_legend_FontSize = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontSize;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_legend_FontTypeface = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontTypeface;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_legend_FontWeight = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_FontWeight;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_legend_backgroundColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_backgroundColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_legend_borderColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_borderColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_legend_borderWidth = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_legend_borderWidth;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_palette = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_palette;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_plotAreabackgroundColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_plotAreabackgroundColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_selectedBorderColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_selectedBorderColor;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexChartCore_selectedBorderWidth = global::FlexPieDemo.Droid.Resource.Styleable.FlexChartCore_selectedBorderWidth;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.RingoFlexChartCoreTheme = global::FlexPieDemo.Droid.Resource.Styleable.RingoFlexChartCoreTheme;
-			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.RingoFlexChartCoreTheme_ringoFlexChartCore = global::FlexPieDemo.Droid.Resource.Styleable.RingoFlexChartCoreTheme_ringoFlexChartCore;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_backgroundColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_backgroundColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_borderColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_borderColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_borderWidth = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_borderWidth;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_footer = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_footer;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_footerFontColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_footerFontColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_footerFontGravity = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_footerFontGravity;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_footerFontSize = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_footerFontSize;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_footerFontTypeface = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_footerFontTypeface;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_footerFontWeight = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_footerFontWeight;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_header = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_header;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_headerFontColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_headerFontColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_headerFontGravity = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_headerFontGravity;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_headerFontSize = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_headerFontSize;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_headerFontTypeface = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_headerFontTypeface;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_headerFontWeight = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_headerFontWeight;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_legend_FontColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_legend_FontColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_legend_FontSize = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_legend_FontSize;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_legend_FontTypeface = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_legend_FontTypeface;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_legend_FontWeight = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_legend_FontWeight;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_legend_backgroundColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_legend_backgroundColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_legend_borderColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_legend_borderColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_legend_borderWidth = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_legend_borderWidth;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_palette = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_palette;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_plotAreabackgroundColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_plotAreabackgroundColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_selectedBorderColor = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_selectedBorderColor;
+			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.FlexPie_flexPie_selectedBorderWidth = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie_flexPie_selectedBorderWidth;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.RingoFlexPieTheme = global::FlexPieDemo.Droid.Resource.Styleable.RingoFlexPieTheme;
 			global::Xuni.Xamarin.FlexPie.Render.Android.Resource.Styleable.RingoFlexPieTheme_ringoFlexPie = global::FlexPieDemo.Droid.Resource.Styleable.RingoFlexPieTheme_ringoFlexPie;
 		}
@@ -307,37 +178,37 @@ namespace FlexPieDemo.Droid
 		{
 			
 			// aapt resource value: 0x7f0a0001
-			public const int cocoaPalette = 2131361793;
+			public const int flexPieCocoaPalette = 2131361793;
 			
 			// aapt resource value: 0x7f0a0002
-			public const int coralPalette = 2131361794;
+			public const int flexPieCoralPalette = 2131361794;
 			
 			// aapt resource value: 0x7f0a0003
-			public const int darkPalette = 2131361795;
+			public const int flexPieDarkPalette = 2131361795;
 			
 			// aapt resource value: 0x7f0a0000
-			public const int defaultPalette = 2131361792;
+			public const int flexPieDefaultFlexPiePalette = 2131361792;
 			
 			// aapt resource value: 0x7f0a0004
-			public const int highConstrastPalette = 2131361796;
+			public const int flexPieHighConstrastPalette = 2131361796;
 			
 			// aapt resource value: 0x7f0a0005
-			public const int lightPalette = 2131361797;
+			public const int flexPieLightPalette = 2131361797;
 			
 			// aapt resource value: 0x7f0a0006
-			public const int midnightPalette = 2131361798;
+			public const int flexPieMidnightPalette = 2131361798;
 			
 			// aapt resource value: 0x7f0a0007
-			public const int minimalPalette = 2131361799;
+			public const int flexPieMinimalPalette = 2131361799;
 			
 			// aapt resource value: 0x7f0a0008
-			public const int modernPalette = 2131361800;
+			public const int flexPieModernPalette = 2131361800;
 			
 			// aapt resource value: 0x7f0a0009
-			public const int organicPalette = 2131361801;
+			public const int flexPieOrganicPalette = 2131361801;
 			
 			// aapt resource value: 0x7f0a000a
-			public const int slatePalette = 2131361802;
+			public const int flexPieSlatePalette = 2131361802;
 			
 			static Array()
 			{
@@ -352,89 +223,86 @@ namespace FlexPieDemo.Droid
 		public partial class Attribute
 		{
 			
+			// aapt resource value: 0x7f01000e
+			public const int flexPie_backgroundColor = 2130771982;
+			
 			// aapt resource value: 0x7f01000f
-			public const int backgroundColor = 2130771983;
+			public const int flexPie_borderColor = 2130771983;
 			
 			// aapt resource value: 0x7f010010
-			public const int borderColor = 2130771984;
-			
-			// aapt resource value: 0x7f010011
-			public const int borderWidth = 2130771985;
-			
-			// aapt resource value: 0x7f01000b
-			public const int footer = 2130771979;
-			
-			// aapt resource value: 0x7f01000e
-			public const int footerFontColor = 2130771982;
-			
-			// aapt resource value: 0x7f010004
-			public const int footerFontGravity = 2130771972;
-			
-			// aapt resource value: 0x7f01000c
-			public const int footerFontSize = 2130771980;
-			
-			// aapt resource value: 0x7f01000d
-			public const int footerFontTypeface = 2130771981;
-			
-			// aapt resource value: 0x7f010003
-			public const int footerFontWeight = 2130771971;
-			
-			// aapt resource value: 0x7f010007
-			public const int header = 2130771975;
+			public const int flexPie_borderWidth = 2130771984;
 			
 			// aapt resource value: 0x7f01000a
-			public const int headerFontColor = 2130771978;
+			public const int flexPie_footer = 2130771978;
+			
+			// aapt resource value: 0x7f01000d
+			public const int flexPie_footerFontColor = 2130771981;
+			
+			// aapt resource value: 0x7f010003
+			public const int flexPie_footerFontGravity = 2130771971;
+			
+			// aapt resource value: 0x7f01000b
+			public const int flexPie_footerFontSize = 2130771979;
+			
+			// aapt resource value: 0x7f01000c
+			public const int flexPie_footerFontTypeface = 2130771980;
 			
 			// aapt resource value: 0x7f010002
-			public const int headerFontGravity = 2130771970;
-			
-			// aapt resource value: 0x7f010008
-			public const int headerFontSize = 2130771976;
-			
-			// aapt resource value: 0x7f010009
-			public const int headerFontTypeface = 2130771977;
-			
-			// aapt resource value: 0x7f010001
-			public const int headerFontWeight = 2130771969;
-			
-			// aapt resource value: 0x7f010018
-			public const int legend_FontColor = 2130771992;
-			
-			// aapt resource value: 0x7f010019
-			public const int legend_FontSize = 2130771993;
-			
-			// aapt resource value: 0x7f01001a
-			public const int legend_FontTypeface = 2130771994;
-			
-			// aapt resource value: 0x7f010005
-			public const int legend_FontWeight = 2130771973;
-			
-			// aapt resource value: 0x7f010015
-			public const int legend_backgroundColor = 2130771989;
-			
-			// aapt resource value: 0x7f010016
-			public const int legend_borderColor = 2130771990;
-			
-			// aapt resource value: 0x7f010017
-			public const int legend_borderWidth = 2130771991;
+			public const int flexPie_footerFontWeight = 2130771970;
 			
 			// aapt resource value: 0x7f010006
-			public const int palette = 2130771974;
+			public const int flexPie_header = 2130771974;
 			
-			// aapt resource value: 0x7f010012
-			public const int plotAreabackgroundColor = 2130771986;
+			// aapt resource value: 0x7f010009
+			public const int flexPie_headerFontColor = 2130771977;
 			
-			// aapt resource value: 0x7f01001b
-			public const int ringoFlexChartCore = 2130771995;
+			// aapt resource value: 0x7f010001
+			public const int flexPie_headerFontGravity = 2130771969;
+			
+			// aapt resource value: 0x7f010007
+			public const int flexPie_headerFontSize = 2130771975;
+			
+			// aapt resource value: 0x7f010008
+			public const int flexPie_headerFontTypeface = 2130771976;
 			
 			// aapt resource value: 0x7f010000
-			public const int ringoFlexPie = 2130771968;
+			public const int flexPie_headerFontWeight = 2130771968;
 			
-			// aapt resource value: 0x7f010013
-			public const int selectedBorderColor = 2130771987;
+			// aapt resource value: 0x7f010017
+			public const int flexPie_legend_FontColor = 2130771991;
+			
+			// aapt resource value: 0x7f010018
+			public const int flexPie_legend_FontSize = 2130771992;
+			
+			// aapt resource value: 0x7f010019
+			public const int flexPie_legend_FontTypeface = 2130771993;
+			
+			// aapt resource value: 0x7f010004
+			public const int flexPie_legend_FontWeight = 2130771972;
 			
 			// aapt resource value: 0x7f010014
-			public const int selectedBorderWidth = 2130771988;
+			public const int flexPie_legend_backgroundColor = 2130771988;
+			
+			// aapt resource value: 0x7f010015
+			public const int flexPie_legend_borderColor = 2130771989;
+			
+			// aapt resource value: 0x7f010016
+			public const int flexPie_legend_borderWidth = 2130771990;
+			
+			// aapt resource value: 0x7f010005
+			public const int flexPie_palette = 2130771973;
+			
+			// aapt resource value: 0x7f010011
+			public const int flexPie_plotAreabackgroundColor = 2130771985;
+			
+			// aapt resource value: 0x7f010012
+			public const int flexPie_selectedBorderColor = 2130771986;
+			
+			// aapt resource value: 0x7f010013
+			public const int flexPie_selectedBorderWidth = 2130771987;
+			
+			// aapt resource value: 0x7f01001a
+			public const int ringoFlexPie = 2130771994;
 			
 			static Attribute()
 			{
@@ -450,31 +318,31 @@ namespace FlexPieDemo.Droid
 		{
 			
 			// aapt resource value: 0x7f090002
-			public const int defaultBackgroundColor = 2131296258;
+			public const int defaultFlexPieBackgroundColor = 2131296258;
 			
 			// aapt resource value: 0x7f090003
-			public const int defaultBorderColor = 2131296259;
+			public const int defaultFlexPieBorderColor = 2131296259;
 			
 			// aapt resource value: 0x7f090001
-			public const int defaultFooterFontColor = 2131296257;
+			public const int defaultFlexPieFooterFontColor = 2131296257;
 			
 			// aapt resource value: 0x7f090000
-			public const int defaultHeaderFontColor = 2131296256;
+			public const int defaultFlexPieHeaderFontColor = 2131296256;
 			
 			// aapt resource value: 0x7f090008
-			public const int defaultLegend_FontColor = 2131296264;
+			public const int defaultFlexPieLegend_FontColor = 2131296264;
 			
 			// aapt resource value: 0x7f090006
-			public const int defaultLegend_backgroundColor = 2131296262;
+			public const int defaultFlexPieLegend_backgroundColor = 2131296262;
 			
 			// aapt resource value: 0x7f090007
-			public const int defaultLegend_borderColor = 2131296263;
+			public const int defaultFlexPieLegend_borderColor = 2131296263;
 			
 			// aapt resource value: 0x7f090004
-			public const int defaultPlotAreabackgroundColor = 2131296260;
+			public const int defaultFlexPiePlotAreabackgroundColor = 2131296260;
 			
 			// aapt resource value: 0x7f090005
-			public const int defaultSelectedBorderColor = 2131296261;
+			public const int defaultFlexPieSelectedBorderColor = 2131296261;
 			
 			static Color()
 			{
@@ -490,22 +358,22 @@ namespace FlexPieDemo.Droid
 		{
 			
 			// aapt resource value: 0x7f070002
-			public const int defaultBorderWidth = 2131165186;
+			public const int defaultFlexPieBorderWidth = 2131165186;
 			
 			// aapt resource value: 0x7f070001
-			public const int defaultFooterFontSize = 2131165185;
+			public const int defaultFlexPieFooterFontSize = 2131165185;
 			
 			// aapt resource value: 0x7f070000
-			public const int defaultHeaderFontSize = 2131165184;
+			public const int defaultFlexPieHeaderFontSize = 2131165184;
 			
 			// aapt resource value: 0x7f070005
-			public const int defaultLegend_FontSize = 2131165189;
+			public const int defaultFlexPieLegend_FontSize = 2131165189;
 			
 			// aapt resource value: 0x7f070004
-			public const int defaultLegend_borderWidth = 2131165188;
+			public const int defaultFlexPieLegend_borderWidth = 2131165188;
 			
 			// aapt resource value: 0x7f070003
-			public const int defaultSelectedBorderWidth = 2131165187;
+			public const int defaultFlexPieSelectedBorderWidth = 2131165187;
 			
 			static Dimension()
 			{
@@ -583,19 +451,19 @@ namespace FlexPieDemo.Droid
 		{
 			
 			// aapt resource value: 0x7f080003
-			public const int defaultFooterFontGravity = 2131230723;
+			public const int defaultFlexPieFooterFontGravity = 2131230723;
 			
 			// aapt resource value: 0x7f080002
-			public const int defaultFooterFontWeight = 2131230722;
+			public const int defaultFlexPieFooterFontWeight = 2131230722;
 			
 			// aapt resource value: 0x7f080001
-			public const int defaultHeaderFontGravity = 2131230721;
+			public const int defaultFlexPieHeaderFontGravity = 2131230721;
 			
 			// aapt resource value: 0x7f080000
-			public const int defaultHeaderFontWeight = 2131230720;
+			public const int defaultFlexPieHeaderFontWeight = 2131230720;
 			
 			// aapt resource value: 0x7f080004
-			public const int defaultLegend_FontWeight = 2131230724;
+			public const int defaultFlexPieLegend_FontWeight = 2131230724;
 			
 			static Integer()
 			{
@@ -669,20 +537,14 @@ namespace FlexPieDemo.Droid
 			// aapt resource value: 0x7f050000
 			public const int Hello = 2131034112;
 			
-			// aapt resource value: 0x7f050002
-			public const int app_name = 2131034114;
+			// aapt resource value: 0x7f050003
+			public const int defaultFlexPieFooterFontTypeface = 2131034115;
 			
-			// aapt resource value: 0x7f050005
-			public const int defaultFooterFontTypeface = 2131034117;
+			// aapt resource value: 0x7f050002
+			public const int defaultFlexPieHeaderFontTypeface = 2131034114;
 			
 			// aapt resource value: 0x7f050004
-			public const int defaultHeaderFontTypeface = 2131034116;
-			
-			// aapt resource value: 0x7f050006
-			public const int defaultLegend_FontTypeface = 2131034118;
-			
-			// aapt resource value: 0x7f050003
-			public const int hello_world = 2131034115;
+			public const int defaultFlexPieLegend_FontTypeface = 2131034116;
 			
 			static String()
 			{
@@ -703,59 +565,47 @@ namespace FlexPieDemo.Droid
 			// aapt resource value: 0x7f060001
 			public const int AppTheme = 2131099649;
 			
-			// aapt resource value: 0x7f060005
-			public const int Style_Ringo = 2131099653;
-			
-			// aapt resource value: 0x7f060006
-			public const int Style_Ringo_FlexChartCore = 2131099654;
-			
-			// aapt resource value: 0x7f060008
-			public const int Style_Ringo_FlexChartCore_Cocoa = 2131099656;
-			
-			// aapt resource value: 0x7f060009
-			public const int Style_Ringo_FlexChartCore_Coral = 2131099657;
-			
-			// aapt resource value: 0x7f06000a
-			public const int Style_Ringo_FlexChartCore_Dark = 2131099658;
-			
-			// aapt resource value: 0x7f060007
-			public const int Style_Ringo_FlexChartCore_Default = 2131099655;
-			
-			// aapt resource value: 0x7f06000b
-			public const int Style_Ringo_FlexChartCore_HighContrast = 2131099659;
-			
-			// aapt resource value: 0x7f06000c
-			public const int Style_Ringo_FlexChartCore_Light = 2131099660;
-			
-			// aapt resource value: 0x7f06000d
-			public const int Style_Ringo_FlexChartCore_Midnight = 2131099661;
-			
-			// aapt resource value: 0x7f06000e
-			public const int Style_Ringo_FlexChartCore_Minimal = 2131099662;
-			
-			// aapt resource value: 0x7f06000f
-			public const int Style_Ringo_FlexChartCore_Modern = 2131099663;
-			
-			// aapt resource value: 0x7f060010
-			public const int Style_Ringo_FlexChartCore_Organic = 2131099664;
-			
-			// aapt resource value: 0x7f060011
-			public const int Style_Ringo_FlexChartCore_Slate = 2131099665;
-			
 			// aapt resource value: 0x7f060002
-			public const int Style_Ringo_FlexPie = 2131099650;
+			public const int Style_Ringo = 2131099650;
 			
 			// aapt resource value: 0x7f060003
-			public const int Style_Ringo_FlexPie_Default = 2131099651;
+			public const int Style_Ringo_FlexPie = 2131099651;
 			
-			// aapt resource value: 0x7f060013
-			public const int Theme_Ringo_FlexChartCore_Cocoa = 2131099667;
+			// aapt resource value: 0x7f060005
+			public const int Style_Ringo_FlexPie_Cocoa = 2131099653;
 			
-			// aapt resource value: 0x7f060012
-			public const int Theme_Ringo_FlexChartCore_Default = 2131099666;
+			// aapt resource value: 0x7f060006
+			public const int Style_Ringo_FlexPie_Coral = 2131099654;
+			
+			// aapt resource value: 0x7f060007
+			public const int Style_Ringo_FlexPie_Dark = 2131099655;
 			
 			// aapt resource value: 0x7f060004
-			public const int Theme_Ringo_FlexPie_Default = 2131099652;
+			public const int Style_Ringo_FlexPie_Default = 2131099652;
+			
+			// aapt resource value: 0x7f060008
+			public const int Style_Ringo_FlexPie_HighContrast = 2131099656;
+			
+			// aapt resource value: 0x7f060009
+			public const int Style_Ringo_FlexPie_Light = 2131099657;
+			
+			// aapt resource value: 0x7f06000a
+			public const int Style_Ringo_FlexPie_Midnight = 2131099658;
+			
+			// aapt resource value: 0x7f06000b
+			public const int Style_Ringo_FlexPie_Minimal = 2131099659;
+			
+			// aapt resource value: 0x7f06000c
+			public const int Style_Ringo_FlexPie_Modern = 2131099660;
+			
+			// aapt resource value: 0x7f06000d
+			public const int Style_Ringo_FlexPie_Organic = 2131099661;
+			
+			// aapt resource value: 0x7f06000e
+			public const int Style_Ringo_FlexPie_Slate = 2131099662;
+			
+			// aapt resource value: 0x7f06000f
+			public const int Theme_Ringo_FlexPie_Default = 2131099663;
 			
 			static Style()
 			{
@@ -770,7 +620,8 @@ namespace FlexPieDemo.Droid
 		public partial class Styleable
 		{
 			
-			public static int[] FlexChartCore = new int[] {
+			public static int[] FlexPie = new int[] {
+					2130771968,
 					2130771969,
 					2130771970,
 					2130771971,
@@ -795,97 +646,88 @@ namespace FlexPieDemo.Droid
 					2130771990,
 					2130771991,
 					2130771992,
-					2130771993,
-					2130771994};
+					2130771993};
 			
 			// aapt resource value: 14
-			public const int FlexChartCore_backgroundColor = 14;
+			public const int FlexPie_flexPie_backgroundColor = 14;
 			
 			// aapt resource value: 15
-			public const int FlexChartCore_borderColor = 15;
+			public const int FlexPie_flexPie_borderColor = 15;
 			
 			// aapt resource value: 16
-			public const int FlexChartCore_borderWidth = 16;
+			public const int FlexPie_flexPie_borderWidth = 16;
 			
 			// aapt resource value: 10
-			public const int FlexChartCore_footer = 10;
+			public const int FlexPie_flexPie_footer = 10;
 			
 			// aapt resource value: 13
-			public const int FlexChartCore_footerFontColor = 13;
+			public const int FlexPie_flexPie_footerFontColor = 13;
 			
 			// aapt resource value: 3
-			public const int FlexChartCore_footerFontGravity = 3;
+			public const int FlexPie_flexPie_footerFontGravity = 3;
 			
 			// aapt resource value: 11
-			public const int FlexChartCore_footerFontSize = 11;
+			public const int FlexPie_flexPie_footerFontSize = 11;
 			
 			// aapt resource value: 12
-			public const int FlexChartCore_footerFontTypeface = 12;
+			public const int FlexPie_flexPie_footerFontTypeface = 12;
 			
 			// aapt resource value: 2
-			public const int FlexChartCore_footerFontWeight = 2;
+			public const int FlexPie_flexPie_footerFontWeight = 2;
 			
 			// aapt resource value: 6
-			public const int FlexChartCore_header = 6;
+			public const int FlexPie_flexPie_header = 6;
 			
 			// aapt resource value: 9
-			public const int FlexChartCore_headerFontColor = 9;
+			public const int FlexPie_flexPie_headerFontColor = 9;
 			
 			// aapt resource value: 1
-			public const int FlexChartCore_headerFontGravity = 1;
+			public const int FlexPie_flexPie_headerFontGravity = 1;
 			
 			// aapt resource value: 7
-			public const int FlexChartCore_headerFontSize = 7;
+			public const int FlexPie_flexPie_headerFontSize = 7;
 			
 			// aapt resource value: 8
-			public const int FlexChartCore_headerFontTypeface = 8;
+			public const int FlexPie_flexPie_headerFontTypeface = 8;
 			
 			// aapt resource value: 0
-			public const int FlexChartCore_headerFontWeight = 0;
+			public const int FlexPie_flexPie_headerFontWeight = 0;
 			
 			// aapt resource value: 23
-			public const int FlexChartCore_legend_FontColor = 23;
+			public const int FlexPie_flexPie_legend_FontColor = 23;
 			
 			// aapt resource value: 24
-			public const int FlexChartCore_legend_FontSize = 24;
+			public const int FlexPie_flexPie_legend_FontSize = 24;
 			
 			// aapt resource value: 25
-			public const int FlexChartCore_legend_FontTypeface = 25;
+			public const int FlexPie_flexPie_legend_FontTypeface = 25;
 			
 			// aapt resource value: 4
-			public const int FlexChartCore_legend_FontWeight = 4;
+			public const int FlexPie_flexPie_legend_FontWeight = 4;
 			
 			// aapt resource value: 20
-			public const int FlexChartCore_legend_backgroundColor = 20;
+			public const int FlexPie_flexPie_legend_backgroundColor = 20;
 			
 			// aapt resource value: 21
-			public const int FlexChartCore_legend_borderColor = 21;
+			public const int FlexPie_flexPie_legend_borderColor = 21;
 			
 			// aapt resource value: 22
-			public const int FlexChartCore_legend_borderWidth = 22;
+			public const int FlexPie_flexPie_legend_borderWidth = 22;
 			
 			// aapt resource value: 5
-			public const int FlexChartCore_palette = 5;
+			public const int FlexPie_flexPie_palette = 5;
 			
 			// aapt resource value: 17
-			public const int FlexChartCore_plotAreabackgroundColor = 17;
+			public const int FlexPie_flexPie_plotAreabackgroundColor = 17;
 			
 			// aapt resource value: 18
-			public const int FlexChartCore_selectedBorderColor = 18;
+			public const int FlexPie_flexPie_selectedBorderColor = 18;
 			
 			// aapt resource value: 19
-			public const int FlexChartCore_selectedBorderWidth = 19;
-			
-			public static int[] FlexPie;
-			
-			public static int[] RingoFlexChartCoreTheme = new int[] {
-					2130771995};
-			
-			// aapt resource value: 0
-			public const int RingoFlexChartCoreTheme_ringoFlexChartCore = 0;
+			public const int FlexPie_flexPie_selectedBorderWidth = 19;
 			
 			public static int[] RingoFlexPieTheme = new int[] {
-					2130771968};
+					2130771994};
 			
 			// aapt resource value: 0
 			public const int RingoFlexPieTheme_ringoFlexPie = 0;

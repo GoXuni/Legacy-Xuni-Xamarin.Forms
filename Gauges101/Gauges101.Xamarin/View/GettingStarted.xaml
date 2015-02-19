@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Xamarin.Gauge;assembly=Xuni.Xamarin.Gauge"
-             x:Class="GaugeDemo.GettingStarted"
+             x:Class="Gauges101.GettingStarted"
              Padding="20">
     <StackLayout VerticalOptions="FillAndExpand">
         <Label Text="Getting Started" HorizontalOptions="Center" Font="Large"/>
@@ -13,10 +13,16 @@
         </StackLayout>
 
         <Label Text="LinearGauge"/>
-        <xuni:XuniLinearGauge Value="{Binding Value,Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" ShowText="{Binding ShowText}"/>
+        <StackLayout>
+        	<xuni:XuniLinearGauge Value="{Binding Value,Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" ShowText="{Binding ShowText}"/>
+        </StackLayout>
         <Label Text="BulletGraph"/>
-        <xuni:XuniBulletGraph Value="{Binding Value,Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" ShowText="{Binding ShowText}" Good="80" Bad="45" Target="90"/>
+        <StackLayout>
+        	<xuni:XuniBulletGraph Value="{Binding Value,Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" ShowText="{Binding ShowText}" Good="80" Bad="45" Target="90"/>
+        </StackLayout>
         <Label Text="RadialGauge"/>
-        <xuni:XuniRadialGauge Value="{Binding Value,Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" ShowText="{Binding ShowText}" VerticalOptions="FillAndExpand"/>
+        <StackLayout VerticalOptions="FillAndExpand">
+        	<xuni:XuniRadialGauge Value="{Binding Value,Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" ShowText="{Binding ShowText}" VerticalOptions="FillAndExpand"/>
+    	</StackLayout>
     </StackLayout>
 </ContentPage>

@@ -8,7 +8,7 @@
   <StackLayout>
     <Grid Padding="10">
       <Grid.BackgroundColor>
-        <OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" Android="#1F1F1F" WinPhone="#1F1F1F" />
+        <OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />
       </Grid.BackgroundColor>
       <Grid.RowDefinitions>
         <RowDefinition Height="Auto"/>
@@ -23,19 +23,19 @@
       <Picker x:Name="pickerChartType" Grid.Row="1" Grid.Column="0" Title="Chart Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerChartType_SelectedIndexChanged" />
       <Picker x:Name="pickerAnimationMode" Grid.Row="1" Grid.Column="1" Title="Animation Mode" HorizontalOptions="FillAndExpand" SelectedIndexChanged="pickerAnimationMode_SelectedIndexChanged" />
     </Grid>
-    <sample:ResponsiveFlexChart
+    <sample:AdaptiveFlexChart
       x:Name="flexChart"
       BindingX="Name"
       SelectedBorderColor="Red"
       SelectedBorderWidth="3"
       SelectedDashes="2,1">
 
-      <sample:ResponsiveFlexChart.Series>
+      <sample:AdaptiveFlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
         <xuni:ChartSeries Binding="Expenses"  Name="Expenses" />
         <xuni:ChartSeries Binding="Downloads"  Name="Downloads" />
-      </sample:ResponsiveFlexChart.Series>
-    </sample:ResponsiveFlexChart>
+      </sample:AdaptiveFlexChart.Series>
+    </sample:AdaptiveFlexChart>
 
   </StackLayout>
 </BaseSample>

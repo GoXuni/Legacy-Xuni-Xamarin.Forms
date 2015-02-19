@@ -7,14 +7,14 @@
              Title="Hit Test">
 
   <StackLayout VerticalOptions="FillAndExpand">
-    <sample:ResponsiveFlexChart x:Name="flexChart" Tapped="flexChart_Tapped"
+    <sample:AdaptiveFlexChart x:Name="flexChart" Tapped="flexChart_Tapped"
                     HeaderText="Trigonometric functions" FooterText="Cartesian coordinates"
-                    ChartType="LineSymbol" >
-      <sample:ResponsiveFlexChart.Series>
+                    BindingX="X" ChartType="LineSymbol" >
+      <sample:AdaptiveFlexChart.Series>
         <xuni:ChartSeries x:Name="seriesCosX"  Binding="Y" Name="cos(x)"  />
         <xuni:ChartSeries x:Name="seriesSinX"  Binding="Y" Name="sin(x)"  />
-      </sample:ResponsiveFlexChart.Series>
-    </sample:ResponsiveFlexChart>
+      </sample:AdaptiveFlexChart.Series>
+    </sample:AdaptiveFlexChart>
     <StackLayout x:Name="stackHitTest" >
       <Label  Text="{Binding ChartElement, StringFormat='Chart Element:{0}'}" />
       <StackLayout x:Name="stackSeries">

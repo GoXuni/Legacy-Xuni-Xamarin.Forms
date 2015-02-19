@@ -24,7 +24,6 @@ namespace FlexPieDemo.Data.Views
         public ChartSampleGrid()
         {
             this.Title = "Xuni FlexPie";
-            BackgroundColor = Color.FromHex("#333333");
 
             FlexPieDemo.Data.Views.Common.Utility.CheckNavBar(this);
 
@@ -40,6 +39,11 @@ namespace FlexPieDemo.Data.Views
                         { ImageCell.TextProperty, new Binding("Name") },
                         { ImageCell.DetailProperty, new Binding("Description") },
                         { ImageCell.ImageSourceProperty, new Binding("ThumbnailImageSource") }
+                    },
+                    Values = 
+                    {
+                        { ImageCell.TextColorProperty, Color.FromHex("#B00F50")},
+                        { ImageCell.DetailColorProperty, Color.Gray},
                     }
                 }
             };

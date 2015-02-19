@@ -50,7 +50,7 @@ namespace FlexChartDemo.Data.Chart
         }
         private static FlexChart SalesExpensesDownloads()
         {
-            FlexChart chart = new ResponsiveFlexChart();
+            FlexChart chart = new AdaptiveFlexChart();
 
             chart.BindingX = "Name";
 
@@ -65,7 +65,7 @@ namespace FlexChartDemo.Data.Chart
         }
         private static FlexChart Bubble()
         {
-            FlexChart chart = new ResponsiveFlexChart() { ChartType = ChartType.Bubble };
+            FlexChart chart = new AdaptiveFlexChart() { ChartType = ChartType.Bubble };
 
             chart.BindingX = "Name";
 

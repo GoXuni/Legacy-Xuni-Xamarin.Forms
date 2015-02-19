@@ -1,3 +1,4 @@
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FlexPie101", "FlexPie101", "{C11481B7-C042-4F7D-85AB-604E9F6AEF56}"
@@ -13,7 +14,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexPie101.WinPhone", "FlexPie101\FlexPie101.WinPhone\FlexPie101.WinPhone.csproj", "{FDF94C06-8925-4162-A70A-860A39426D40}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
 		Ad-Hoc|ARM = Ad-Hoc|ARM
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone

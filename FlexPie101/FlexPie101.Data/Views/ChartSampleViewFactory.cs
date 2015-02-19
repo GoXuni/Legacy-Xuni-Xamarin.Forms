@@ -32,7 +32,7 @@ namespace FlexPieDemo.Data.Views
                     page = new SelectionSample();
                     break;
                 case (int)PieChartSampleViewType.THEMING:
-                    page = new ThemingSample(chartSample);
+                    page = new ThemingSample();
                     break;
             }
 

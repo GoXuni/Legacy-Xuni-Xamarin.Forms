@@ -1,6 +1,6 @@
-﻿using Gauges101.Resources;
+﻿using Gauges101.WinPhone.Resources;
 
-namespace GaugeDemo.WinPhone
+namespace Gauges101.WinPhone
 {
     /// <summary>
     /// Provides access to string resources.

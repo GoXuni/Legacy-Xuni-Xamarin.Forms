@@ -7,13 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xuni.Xamarin.Gauge;
 
-namespace GaugeDemo
+namespace Gauges101
 {
     public class SampleViewModel : INotifyPropertyChanged
     {
         double _min = 0;
         double _max = 100;
         double _value;
+        double _origin = double.NaN;
         double _step = 1;
         string _format;
         bool _showRanges;
@@ -56,7 +57,7 @@ namespace GaugeDemo
                 RaisePropertyChanged("ValueSelectedIndex");
             }
         }
-
+        public double Origin { get { return double.IsNaN(_origin) ? 0 : _origin; } set { _origin = value; RaisePropertyChanged("Origin"); } }
         public double Step { get { return _step; } set { _step = value; RaisePropertyChanged("Step"); } }
         public string Format { get { return _format; } set { _format = value; RaisePropertyChanged("Format"); } }
         public bool ShowRanges { get { return _showRanges; } set { _showRanges = value; RaisePropertyChanged("ShowRanges"); } }
