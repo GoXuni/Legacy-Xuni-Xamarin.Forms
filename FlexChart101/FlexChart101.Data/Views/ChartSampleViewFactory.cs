@@ -20,7 +20,7 @@ namespace FlexChartDemo.Data.Views
             switch (chartSample.SampleViewType)
             {
                 case (int)ChartSampleViewType.GETTING_STARTED:
-                    page = new GettingStartedSample(chartSample);
+                    page = new GettingStartedSample();
                     break;
 
                 case (int)ChartSampleViewType.CHART_TYPES:
@@ -28,11 +28,11 @@ namespace FlexChartDemo.Data.Views
                     break;
 
                 case (int)ChartSampleViewType.MIXED_CHART_TYPES:
-                    page = new MixedChartTypesSample(chartSample);
+                    page = new MixedChartTypesSample();
                     break;
 
                 case (int)ChartSampleViewType.LEGEND_AND_TITLES:
-                    page = new TitleAndLegendSample(chartSample);
+                    page = new TitleAndLegendSample();
                     break;
 
                 case (int)ChartSampleViewType.TOOLTIPS:
@@ -40,11 +40,11 @@ namespace FlexChartDemo.Data.Views
                     break;
 
                 case (int)ChartSampleViewType.STYLING_SERIES:
-                    page = new StylingSeriesSample(chartSample);
+                    page = new StylingSeriesSample();
                     break;
 
                 case (int)ChartSampleViewType.CUSTOMIZING_AXES:
-                    page = new CustomizingAxesSample(chartSample);
+                    page = new CustomizingAxesSample();
                     break;
 
                 case (int)ChartSampleViewType.THEMING:
@@ -60,7 +60,7 @@ namespace FlexChartDemo.Data.Views
                     break;
 
                 case (int)ChartSampleViewType.DYNAMIC_CHARTS:
-                    page = new DynamicChartsSample(chartSample);
+                    page = new DynamicChartsSample();
                     break;
                 case (int)ChartSampleViewType.BUBBLE_CHART:
                     page = new BubbleChartSample();
@@ -77,6 +77,7 @@ namespace FlexChartDemo.Data.Views
                 case (int)ChartSampleViewType.ANIMATION:
                     page = new AnimationOptions();
                     break;
+               
             }
 
             page.Title = chartSample.Name;

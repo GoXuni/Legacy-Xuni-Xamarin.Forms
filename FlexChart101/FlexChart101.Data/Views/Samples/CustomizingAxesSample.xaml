@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
+             xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
+             x:Class="FlexChartDemo.Data.Views.Samples.CustomizingAxesSample"
+             Title="Customizing Axes">
+  <StackLayout >
+    <sample:AdaptiveFlexChart x:Name="flexChart" BindingX="Name">
+      <sample:AdaptiveFlexChart.Series>
+        <xuni:ChartSeries Binding="Sales" Name="Sales" />
+        <xuni:ChartSeries Binding="Expenses" Name="Expenses" />
+        <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
+      </sample:AdaptiveFlexChart.Series>
+      
+        <sample:AdaptiveFlexChart.AxisX>
+        <xuni:ChartAxis 
+           TitleText="AAAAAA"
+                        />
+          <!--MajorTickWidth = "1"
+                        LineColor="#C4C4C4"
+                        MajorGridColor="#683612"
+                        MajorTickColor = "#f5f5f5"-->
+      </sample:AdaptiveFlexChart.AxisX>
+      
+      <sample:AdaptiveFlexChart.AxisY >
+        <xuni:ChartAxis LineWidth="2"
+                        MajorTickWidth = "0"
+                        MajorGridColor = "#C4C4C4"
+                        AxisLineVisible = "true"
+                        MinorTickWidth="1"
+                        Format = "c0"
+                        Max="10000"
+                        MajorUnit="2000" />
+      </sample:AdaptiveFlexChart.AxisY>
+    
+    </sample:AdaptiveFlexChart>
+
+
+  </StackLayout>
+
+</BaseSample>

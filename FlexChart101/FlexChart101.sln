@@ -1,3 +1,4 @@
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FlexChart101", "FlexChart101", "{6ED690D3-390C-486C-8F0C-5D54C914663B}"
@@ -13,7 +14,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexChart101.WinPhone", "FlexChart101\FlexChart101.WinPhone\FlexChart101.WinPhone.csproj", "{74FFB105-49DF-4322-9BD1-711001C39509}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
 		Ad-Hoc|ARM = Ad-Hoc|ARM
 		Ad-Hoc|iPhone = Ad-Hoc|iPhone

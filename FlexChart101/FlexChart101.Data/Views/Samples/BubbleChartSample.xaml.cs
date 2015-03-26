@@ -14,7 +14,7 @@ namespace FlexChartDemo.Data.Views.Samples
         public BubbleChartSample()
         {
             InitializeComponent();
-            FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
+            
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
         }
     }

@@ -16,7 +16,7 @@ namespace FlexChartDemo.Data.Views.Samples
 		public ThemingSample()
 		{
 			InitializeComponent();
-            FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
+            
 			this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
 			IEnumerable<FieldInfo> fields = typeof(Palettes).GetRuntimeFields();
 			foreach (var item in fields)

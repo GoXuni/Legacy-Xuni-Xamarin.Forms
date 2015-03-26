@@ -24,5 +24,6 @@ namespace FlexChartDemo.Data.Chart
         ZOOMING_AND_SCROLLING=13,
         HITTEST=14,
         ANIMATION=15,
+        DATA_LABEL=16,
     }
 }

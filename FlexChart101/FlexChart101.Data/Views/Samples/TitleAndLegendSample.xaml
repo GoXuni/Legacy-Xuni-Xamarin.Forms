@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
+             xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
+             x:Class="FlexChartDemo.Data.Views.Samples.TitleAndLegendSample"
+             Title="Title And Legend">
+  <StackLayout >
+     <sample:AdaptiveFlexChart x:Name="flexChart" 
+                               BindingX="Name" 
+                               HeaderText="Sample Chart"
+                               HeaderTextColor="#80044d"
+                               HeaderFont="Bold,Large"
+                               HeaderXAlign = "Center"
+                               
+                               FooterText = "2014 GrapeCity, Inc."
+                               FooterTextColor = "#80044d"
+                               FooterFont = "Medium"
+                               FooterXAlign = "Center" >
+       <sample:AdaptiveFlexChart.AxisX>
+         <xuni:ChartAxis TitleText="Amount" TitleFont="Bold,Italic,Medium"/>
+       </sample:AdaptiveFlexChart.AxisX>
+
+         <sample:AdaptiveFlexChart.AxisY>
+           <xuni:ChartAxis TitleText="Country" TitleFont="Bold,Italic,Medium" />
+         </sample:AdaptiveFlexChart.AxisY>
+       <sample:AdaptiveFlexChart.Series>
+        <xuni:ChartSeries Binding="Sales" Name="Sales" />
+        <xuni:ChartSeries Binding="Expenses" Name="Expenses" />
+        <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
+      </sample:AdaptiveFlexChart.Series>
+    </sample:AdaptiveFlexChart>
+  </StackLayout>
+ 
+</BaseSample>

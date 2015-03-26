@@ -25,7 +25,7 @@ namespace FlexChartDemo.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            Xuni.Xamarin.FlexChart.Render.iOS.Forms.Init();
+            Xuni.Xamarin.FlexChart.Platform.iOS.Forms.Init();
 
             LoadApplication(new App()); 
 

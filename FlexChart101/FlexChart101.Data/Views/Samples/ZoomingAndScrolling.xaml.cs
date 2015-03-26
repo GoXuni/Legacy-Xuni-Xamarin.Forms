@@ -15,11 +15,11 @@ namespace FlexChartDemo.Data.Views.Samples
         public ZoomingAndScrolling()
         {
             InitializeComponent();
-            FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
+            
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
 
             //disable tooltip on android
-            Device.OnPlatform(Android: () => this.flexChart.ChartTooltip = null);
+            Device.OnPlatform(Android: () => this.flexChart.Tooltip = null);
             
             
             foreach (var item in Enum.GetNames(typeof(ZoomMode)))

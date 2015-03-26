@@ -9,12 +9,12 @@ using Xuni.Xamarin.FlexChart;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
-    public partial class FinancialChart
+    public partial class StylingSeriesSample
     {
-        public FinancialChart()
+        public StylingSeriesSample()
         {
             InitializeComponent();
-            this.flexChart.ItemsSource = ChartSampleFactory.FinancialData();           
+            this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
         }
     }
 }

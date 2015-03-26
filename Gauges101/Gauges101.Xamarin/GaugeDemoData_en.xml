@@ -2,49 +2,49 @@
 <ArrayOfSample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sample>
     <Name>Getting Started</Name>
-    <Description>shows simple gauge controls with interaction</Description>
+    <Description>Shows simple gauge controls with interaction.</Description>
     <SampleDataType>0</SampleDataType>
     <SampleViewType>0</SampleViewType>
     <ThumbnailImage>gauge_basic.png</ThumbnailImage>
   </Sample>
   <Sample>
     <Name>Displaying Values</Name>
-    <Description>shows value labels on the gauges</Description>
+    <Description>Shows value labels on the gauges.</Description>
     <SampleDataType>0</SampleDataType>
     <SampleViewType>1</SampleViewType>
     <ThumbnailImage>gauge_radial.png</ThumbnailImage>
   </Sample>
   <Sample>
     <Name>Using Ranges</Name>
-    <Description>shows customized ranges</Description>
+    <Description>Shows customized ranges.</Description>
     <SampleDataType>0</SampleDataType>
     <SampleViewType>2</SampleViewType>
     <ThumbnailImage>gauge_ranges.png</ThumbnailImage>
   </Sample>
   <Sample>
     <Name>Automatic Scaling</Name>
-    <Description>shows a radial gauge with different sweep angles</Description>
+    <Description>Shows a radial gauge with different sweep angles.</Description>
     <SampleDataType>0</SampleDataType>
     <SampleViewType>3</SampleViewType>
     <ThumbnailImage>gauge_scaling.png</ThumbnailImage>
   </Sample>
   <Sample>
     <Name>Direction</Name>
-    <Description>shows linear gauges at different directions</Description>
+    <Description>Shows linear gauges at different directions.</Description>
     <SampleDataType>0</SampleDataType>
     <SampleViewType>4</SampleViewType>
     <ThumbnailImage>gauge_linear.png</ThumbnailImage>
   </Sample>
   <Sample>
     <Name>BulletGraph</Name>
-    <Description>shows a bulletgraph with good, bad and target ranges</Description>
+    <Description>Shows a bulletgraph with good, bad and target ranges.</Description>
     <SampleDataType>0</SampleDataType>
     <SampleViewType>5</SampleViewType>
     <ThumbnailImage>gauge_bullet.png</ThumbnailImage>
   </Sample>
   <Sample>
     <Name>Animation</Name>
-    <Description>shows custom animation techniques</Description>
+    <Description>Shows custom animation techniques.</Description>
     <SampleDataType>0</SampleDataType>
     <SampleViewType>6</SampleViewType>
     <ThumbnailImage>gauge_basic.png</ThumbnailImage>

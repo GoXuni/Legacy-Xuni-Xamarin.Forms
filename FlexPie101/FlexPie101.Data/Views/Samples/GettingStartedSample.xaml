@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexPie;assembly=Xuni.Xamarin.FlexPie"
+             xmlns:common="clr-namespace:FlexPieDemo.Data.Views.Common;assembly=FlexPie101.Data"
+             x:Class="FlexPieDemo.Data.Views.Samples.GettingStartedSample"
+             Title="Getting Started"
+            Padding="20">
+    <Grid x:Name="root">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="50*" />
+        <RowDefinition Height="50*" />
+      </Grid.RowDefinitions>
+
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="50*" />
+        <ColumnDefinition Width="50*" />
+      </Grid.ColumnDefinitions>
+
+
+      <xuni:FlexPie x:Name="pieChart" BindingName = "Name" Binding = "Value" />
+      <xuni:FlexPie x:Name="dountChart" InnerRadius ="0.6" BindingName = "Name" Binding = "Value" />
+    </Grid>
+</BaseSample>

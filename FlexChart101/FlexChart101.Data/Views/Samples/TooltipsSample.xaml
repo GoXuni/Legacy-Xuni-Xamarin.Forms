@@ -20,7 +20,7 @@
         <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
       </sample:AdaptiveFlexChart.Series>
 
-      <sample:AdaptiveFlexChart.ChartTooltip>
+      <sample:AdaptiveFlexChart.Tooltip>
         <xuni:FlexChartTooltip IsVisible="False">
           <StackLayout BackgroundColor="#FFFFCA" Padding="5">
             <StackLayout Orientation = "Horizontal">
@@ -30,7 +30,7 @@
             <Label Text="{Binding YValue}" TextColor="Black" FontSize="14"></Label>
           </StackLayout>
         </xuni:FlexChartTooltip>
-      </sample:AdaptiveFlexChart.ChartTooltip>
+      </sample:AdaptiveFlexChart.Tooltip>
     </sample:AdaptiveFlexChart>
     
   </StackLayout>

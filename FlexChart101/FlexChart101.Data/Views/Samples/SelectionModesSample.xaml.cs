@@ -15,7 +15,7 @@ namespace FlexChartDemo.Data.Views.Samples
         public SelectionModesSample()
         {
             InitializeComponent();
-            FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
+            
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
             this.pickerChartType.Items.Add(ChartType.Column.ToString());
             this.pickerChartType.Items.Add(ChartType.Bar.ToString());
@@ -23,7 +23,6 @@ namespace FlexChartDemo.Data.Views.Samples
             this.pickerChartType.Items.Add(ChartType.Line.ToString());
             this.pickerChartType.Items.Add(ChartType.LineSymbol.ToString());
             this.pickerChartType.Items.Add(ChartType.Area.ToString());
-            this.pickerChartType.Items.Add(ChartType.Column.ToString());
             foreach (var item in Enum.GetNames(typeof(ChartSelectionModeType)))
             {
                 this.pickerSelectionMode.Items.Add(item);

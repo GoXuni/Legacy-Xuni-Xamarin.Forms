@@ -20,7 +20,7 @@ namespace FlexPieDemo.Data.Views
             switch (chartSample.PieChartSampleViewType)
             {
                 case (int)PieChartSampleViewType.GETTING_STARTED:
-                    page = new GettingStartedSample(chartSample);
+                    page = new GettingStartedSample();
                     break;
                 case (int)PieChartSampleViewType.BASIC_FEATURES:
                     page = new BasicFeaturesSample();

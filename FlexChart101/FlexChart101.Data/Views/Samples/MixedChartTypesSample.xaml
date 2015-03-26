@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
+             xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
+             x:Class="FlexChartDemo.Data.Views.Samples.MixedChartTypesSample"
+             Title="Mixed Chart Types">
+  <StackLayout >
+     <sample:AdaptiveFlexChart x:Name="flexChart" BindingX="Name">
+      <sample:AdaptiveFlexChart.Series>
+        <xuni:ChartSeries Binding="Sales" Name="Sales" />
+        <xuni:ChartSeries Binding="Expenses" Name="Expenses" />
+        <xuni:ChartSeries Binding="Downloads" Name="Downloads" ChartType="Line" />
+      </sample:AdaptiveFlexChart.Series>
+    </sample:AdaptiveFlexChart>
+   
+  </StackLayout>
+ 
+</BaseSample>

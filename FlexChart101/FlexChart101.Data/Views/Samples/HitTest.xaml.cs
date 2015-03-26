@@ -14,7 +14,7 @@ namespace FlexChartDemo.Data.Views.Samples
         public HitTest()
         {
             InitializeComponent();
-            FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
+            
             int len = 40;
             List<Point> listCosTuple = new List<Point>();
             List<Point> listSinTuple = new List<Point>();

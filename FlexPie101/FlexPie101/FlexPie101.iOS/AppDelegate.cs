@@ -25,7 +25,7 @@ namespace FlexPieDemo.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            Xuni.Xamarin.FlexPie.Render.iOS.Forms.Init();
+            Xuni.Xamarin.FlexPie.Platform.iOS.Forms.Init();
 
             LoadApplication(new App());
 
