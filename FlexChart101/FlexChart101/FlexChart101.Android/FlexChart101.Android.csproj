@@ -66,31 +66,31 @@
       <HintPath>..\..\packages\Xamarin.Forms.1.4.0.6341\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.ChartCore">
-      <HintPath>..\..\packages\Xuni.FlexChart.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.ChartCore.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.FlexChart.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.ChartCore.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.ChartCore.Binding.Android">
-      <HintPath>..\..\packages\Xuni.ChartCore.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.ChartCore.Binding.Android.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.ChartCore.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.ChartCore.Binding.Android.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.ChartCore.Render.Android">
-      <HintPath>..\..\packages\Xuni.ChartCore.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.ChartCore.Render.Android.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.ChartCore.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.ChartCore.Render.Android.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core">
-      <HintPath>..\..\packages\Xuni.FlexChart.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.Core.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.FlexChart.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core.Binding.Android">
-      <HintPath>..\..\packages\Xuni.Core.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.Core.Binding.Android.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.Core.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.Core.Binding.Android.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core.Render.Android">
-      <HintPath>..\..\packages\Xuni.Core.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.Core.Render.Android.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.Core.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.Core.Render.Android.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.FlexChart">
-      <HintPath>..\..\packages\Xuni.FlexChart.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.FlexChart.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.FlexChart.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.FlexChart.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.FlexChart.Binding.Android">
-      <HintPath>..\..\packages\Xuni.FlexChart.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.FlexChart.Binding.Android.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.FlexChart.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.FlexChart.Binding.Android.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.FlexChart.Render.Android">
-      <HintPath>..\..\packages\Xuni.FlexChart.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.FlexChart.Render.Android.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.FlexChart.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.FlexChart.Render.Android.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

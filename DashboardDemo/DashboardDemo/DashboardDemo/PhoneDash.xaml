@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DashboardDemo.PhoneDash"
+             xmlns:xunig="clr-namespace:Xuni.Xamarin.Gauge;assembly=Xuni.Xamarin.Gauge"
+             xmlns:xunic="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
+             xmlns:xunip="clr-namespace:Xuni.Xamarin.FlexPie;assembly=Xuni.Xamarin.FlexPie"
+             xmlns:chartcore="clr-namespace:Xuni.Xamarin.ChartCore;assembly=Xuni.Xamarin.ChartCore">
+
+  <StackLayout>
+    <xunic:FlexChart x:Name="chart" HeaderText ="Financial Information"  ItemsSource="{Binding Data}" BindingX="Name" ChartType="Column">
+      <xunic:FlexChart.Series>
+        <xunic:ChartSeries x:Name="Sales2014" Name="2014 Sales" Binding="Sales" Color="#88BDE6" BorderColor ="#88BDE6" ></xunic:ChartSeries>
+        <xunic:ChartSeries x:Name="Downloads2014" Name="2014 Downloads" Binding="Downloads" Color="#FBB258" BorderColor ="#FBB258" ></xunic:ChartSeries>
+        <xunic:ChartSeries x:Name="Expenses2014" Name="2014 Expenses" Binding="Expenses" Color="#90CD97" BorderColor="#90CD97" ></xunic:ChartSeries>
+      </xunic:FlexChart.Series>
+      <xunic:FlexChart.Legend >
+        <chartcore:ChartLegend LabelFont="12" Position="Bottom">
+        </chartcore:ChartLegend>
+      </xunic:FlexChart.Legend>
+    </xunic:FlexChart>
+
+    <xunip:FlexPie x:Name="pie" HeaderText ="Sales"  ItemsSource="{Binding Data}" HeightRequest="50" WidthRequest="50" BindingName="Name" Binding ="Sales" InnerRadius="0.5">
+      <xunip:FlexPie.Legend >
+        <chartcore:ChartLegend LabelFont="12" Position="Bottom">
+        </chartcore:ChartLegend>
+      </xunip:FlexPie.Legend>
+    </xunip:FlexPie>
+    <Label x:Name="label1" Text="Sales Goal 2015" HorizontalOptions="Center" FontSize="16"  />
+    <xunig:XuniBulletGraph x:Name="graph3" ShowText="All" Value="23" PointerColor="#FBB258" ValueFontColor="White" Min="0" Max="100" HeightRequest="10" WidthRequest="50" Thickness="0.25" Good="100" GoodRangeColor="#90CD97" Bad="50" BadRangeColor="#88BDE6" Target="70" TargetColor="White">
+    </xunig:XuniBulletGraph>
+  </StackLayout>
+</ContentPage>

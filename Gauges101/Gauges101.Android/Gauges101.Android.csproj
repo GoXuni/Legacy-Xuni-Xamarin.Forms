@@ -65,22 +65,22 @@
       <HintPath>..\packages\Xamarin.Forms.1.4.0.6341\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.Core.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core.Binding.Android">
-      <HintPath>..\packages\Xuni.Core.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.Core.Binding.Android.dll</HintPath>
+      <HintPath>..\packages\Xuni.Core.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.Core.Binding.Android.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core.Render.Android">
-      <HintPath>..\packages\Xuni.Core.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.Core.Render.Android.dll</HintPath>
+      <HintPath>..\packages\Xuni.Core.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.Core.Render.Android.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Gauge">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.Gauge.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.Gauge.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Gauge.Binding.Android">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.Gauge.Binding.Android.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.Gauge.Binding.Android.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Gauge.Render.Android">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.17\lib\MonoAndroid10\Xuni.Xamarin.Gauge.Render.Android.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.Gauge.Render.Android.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

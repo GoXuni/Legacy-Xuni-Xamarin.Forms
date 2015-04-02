@@ -175,25 +175,25 @@
       <HintPath>..\..\packages\Xamarin.Forms.1.4.0.6341\lib\WP80\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.WinPhone.CollectionView">
-      <HintPath>..\..\packages\Xuni.FlexPie.1.3.20151.17\lib\WP80\Xuni.WinPhone.CollectionView.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.FlexPie.1.4.20151.25\lib\WP80\Xuni.WinPhone.CollectionView.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.WinPhone.FlexPie">
-      <HintPath>..\..\packages\Xuni.FlexPie.1.3.20151.17\lib\WP80\Xuni.WinPhone.FlexPie.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.FlexPie.1.4.20151.25\lib\WP80\Xuni.WinPhone.FlexPie.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.ChartCore">
-      <HintPath>..\..\packages\Xuni.FlexPie.1.3.20151.17\lib\WP80\Xuni.Xamarin.ChartCore.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.FlexPie.1.4.20151.25\lib\WP80\Xuni.Xamarin.ChartCore.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core">
-      <HintPath>..\..\packages\Xuni.FlexPie.1.3.20151.17\lib\WP80\Xuni.Xamarin.Core.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.FlexPie.1.4.20151.25\lib\WP80\Xuni.Xamarin.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core.Render.WinPhone">
-      <HintPath>..\..\packages\Xuni.Core.1.3.20151.17\lib\WP80\Xuni.Xamarin.Core.Render.WinPhone.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.Core.1.4.20151.25\lib\WP80\Xuni.Xamarin.Core.Render.WinPhone.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.FlexPie">
-      <HintPath>..\..\packages\Xuni.FlexPie.1.3.20151.17\lib\WP80\Xuni.Xamarin.FlexPie.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.FlexPie.1.4.20151.25\lib\WP80\Xuni.Xamarin.FlexPie.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.FlexPie.Render.WinPhone">
-      <HintPath>..\..\packages\Xuni.FlexPie.1.3.20151.17\lib\WP80\Xuni.Xamarin.FlexPie.Render.WinPhone.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.FlexPie.1.4.20151.25\lib\WP80\Xuni.Xamarin.FlexPie.Render.WinPhone.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />

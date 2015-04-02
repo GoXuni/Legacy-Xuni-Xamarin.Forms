@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DashboardDemo.TabletDash"
+             xmlns:xunig="clr-namespace:Xuni.Xamarin.Gauge;assembly=Xuni.Xamarin.Gauge"
+             xmlns:xunic="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
+             xmlns:xunip="clr-namespace:Xuni.Xamarin.FlexPie;assembly=Xuni.Xamarin.FlexPie"
+             xmlns:chartcore="clr-namespace:Xuni.Xamarin.ChartCore;assembly=Xuni.Xamarin.ChartCore">
+
+  <StackLayout>
+    <Grid Padding="10" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <xunic:FlexChart x:Name="chart"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" HeaderText ="Financial Information" ItemsSource="{Binding Data}" BindingX="Name" ChartType="Column" Grid.Row="2" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="2">
+        <xunic:FlexChart.Series>
+          <xunic:ChartSeries x:Name="Sales2014" Name="2014 Sales" Binding="Sales" Color="#88BDE6" BorderColor ="#88BDE6" ></xunic:ChartSeries>
+          <xunic:ChartSeries x:Name="Downloads2014" Name="2014 Downloads" Binding="Downloads" Color="#FBB258" BorderColor ="#FBB258" ></xunic:ChartSeries>
+          <xunic:ChartSeries x:Name="Expenses2014" Name="2014 Expenses" Binding="Expenses" Color="#90CD97" BorderColor="#90CD97" ></xunic:ChartSeries>
+        </xunic:FlexChart.Series>
+        <xunic:FlexChart.Legend >
+          <chartcore:ChartLegend BackgroundColor="#00000000" LabelFont="12" Position="Bottom">
+          </chartcore:ChartLegend>
+        </xunic:FlexChart.Legend>
+      </xunic:FlexChart>
+
+      <xunip:FlexPie x:Name="pie"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" HeaderText ="Sales" ItemsSource="{Binding Data}" HeightRequest="50" WidthRequest="50" BindingName="Name" Binding ="Sales" Grid.Row="2" Grid.RowSpan="2"  Grid.Column="2" InnerRadius="0.5">
+        <xunip:FlexPie.Legend >
+          <chartcore:ChartLegend LabelFont="12" Position="Bottom">
+          </chartcore:ChartLegend>
+        </xunip:FlexPie.Legend>
+      </xunip:FlexPie>
+      <Grid Padding="10" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  Grid.Row="4" Grid.Column="2" >
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="label" Text="Sales Goal 2013" HorizontalOptions="Center" FontSize="16" Grid.Row="0" />
+        <xunig:XuniBulletGraph x:Name="graph" HorizontalOptions="FillAndExpand" VerticalOptions="Center" ShowText="All" Value="65" PointerColor="#FBB258" ValueFontColor="White" Min="0" Max="100" HeightRequest="25" WidthRequest="50" Thickness="0.25" Good="100" GoodRangeColor="#90CD97" Bad="50" BadRangeColor="#88BDE6" Target="70" Grid.Row="1" TargetColor="White">
+        </xunig:XuniBulletGraph>
+        <Label x:Name="label2" Text="Sales Goal 2014" HorizontalOptions="Center" FontSize="16" Grid.Row="2" />
+        <xunig:XuniBulletGraph x:Name="graph2" HorizontalOptions="FillAndExpand" VerticalOptions="Center" ShowText="All" Value="86" PointerColor="#FBB258" ValueFontColor="White" Min="0" Max="100" HeightRequest="25" WidthRequest="50" Thickness="0.25" Good="100" GoodRangeColor="#90CD97" Bad="50" BadRangeColor="#88BDE6" Target="70" Grid.Row="3" TargetColor="White">
+        </xunig:XuniBulletGraph>
+        <Label x:Name="label3" Text="Sales Goal 2015" HorizontalOptions="Center" FontSize="16" Grid.Row="4" />
+        <xunig:XuniBulletGraph x:Name="graph3" HorizontalOptions="FillAndExpand" VerticalOptions="Center" ShowText="All" Value="23" PointerColor="#FBB258" ValueFontColor="White" Min="0" Max="100" HeightRequest="25" WidthRequest="50" Thickness="0.25" Good="100" GoodRangeColor="#90CD97" Bad="50" BadRangeColor="#88BDE6" Target="70" Grid.Row="5" TargetColor="White">
+        </xunig:XuniBulletGraph>
+      </Grid>
+    </Grid>
+  </StackLayout>
+</ContentPage>

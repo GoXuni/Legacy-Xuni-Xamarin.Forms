@@ -116,22 +116,22 @@
     </Reference>
     <Reference Include="Xamarin.iOS" />
     <Reference Include="Xuni.Xamarin.Core">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.17\lib\Xamarin.iOS10\Xuni.Xamarin.Core.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.4.20151.25\lib\Xamarin.iOS10\Xuni.Xamarin.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core.Binding.iOS">
-      <HintPath>..\packages\Xuni.Core.1.3.20151.17\lib\Xamarin.iOS10\Xuni.Xamarin.Core.Binding.iOS.dll</HintPath>
+      <HintPath>..\packages\Xuni.Core.1.4.20151.25\lib\Xamarin.iOS10\Xuni.Xamarin.Core.Binding.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core.Render.iOS">
-      <HintPath>..\packages\Xuni.Core.1.3.20151.17\lib\Xamarin.iOS10\Xuni.Xamarin.Core.Render.iOS.dll</HintPath>
+      <HintPath>..\packages\Xuni.Core.1.4.20151.25\lib\Xamarin.iOS10\Xuni.Xamarin.Core.Render.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Gauge">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.17\lib\Xamarin.iOS10\Xuni.Xamarin.Gauge.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.4.20151.25\lib\Xamarin.iOS10\Xuni.Xamarin.Gauge.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Gauge.Binding.iOS">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.17\lib\Xamarin.iOS10\Xuni.Xamarin.Gauge.Binding.iOS.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.4.20151.25\lib\Xamarin.iOS10\Xuni.Xamarin.Gauge.Binding.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Gauge.Render.iOS">
-      <HintPath>..\packages\Xuni.Gauge.1.3.20151.17\lib\Xamarin.iOS10\Xuni.Xamarin.Gauge.Render.iOS.dll</HintPath>
+      <HintPath>..\packages\Xuni.Gauge.1.4.20151.25\lib\Xamarin.iOS10\Xuni.Xamarin.Gauge.Render.iOS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

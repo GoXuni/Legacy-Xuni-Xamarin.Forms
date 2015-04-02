@@ -152,13 +152,13 @@
       <HintPath>..\packages\Xamarin.Forms.1.4.0.6341\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.ChartCore">
-      <HintPath>..\packages\Xuni.FlexChart.1.3.20151.17\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.ChartCore.dll</HintPath>
+      <HintPath>..\packages\Xuni.FlexChart.1.4.20151.25\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.ChartCore.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.Core">
-      <HintPath>..\packages\Xuni.FlexChart.1.3.20151.17\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.Core.dll</HintPath>
+      <HintPath>..\packages\Xuni.FlexChart.1.4.20151.25\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Xamarin.FlexChart">
-      <HintPath>..\packages\Xuni.FlexChart.1.3.20151.17\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.FlexChart.dll</HintPath>
+      <HintPath>..\packages\Xuni.FlexChart.1.4.20151.25\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.Xamarin.FlexChart.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
