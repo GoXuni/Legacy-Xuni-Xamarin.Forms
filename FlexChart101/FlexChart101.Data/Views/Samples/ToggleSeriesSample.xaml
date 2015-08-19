@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <sample:BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views.Samples;assembly=FlexChart101.Data"
              xmlns:view="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
              x:Class="FlexChartDemo.Data.Views.Samples.ToggleSeriesSample"
-             Title="Toggle Series">
+             Title="Toggle Series" Padding="10">
   <ContentPage.Resources>
     <ResourceDictionary>
       <sample:SeriesVisibilityBoolConverter x:Key="converter" />
@@ -22,26 +22,22 @@
         <ColumnDefinition Width="*"/>
         <ColumnDefinition Width="*"/>
       </Grid.ColumnDefinitions>
-      <Label Grid.Row="0" Grid.Column="0" Text="Sales" FontSize="12" HorizontalOptions="Center" />
+      <Label Grid.Row="0" Grid.Column="0" Text="Sales" HorizontalOptions="Center" />
       <Switch Grid.Row="1" Grid.Column="0" BindingContext="{x:Reference sales}" HorizontalOptions="Center" IsToggled="{Binding Visibility, Converter={StaticResource converter},Mode=TwoWay}" />
-      <Label Grid.Row="0" Grid.Column="1" Text="Expenses" FontSize="12" HorizontalOptions="Center" />
+      <Label Grid.Row="0" Grid.Column="1" Text="Expenses" HorizontalOptions="Center" />
       <Switch Grid.Row="1" Grid.Column="1" BindingContext="{x:Reference expenses}" HorizontalOptions="Center" IsToggled="{Binding Visibility, Converter={StaticResource converter},Mode=TwoWay}" />
-      <Label Grid.Row="0" Grid.Column="2" Text="Downloads" FontSize="12" HorizontalOptions="Center" />
+      <Label Grid.Row="0" Grid.Column="2" Text="Downloads" HorizontalOptions="Center" />
       <Switch Grid.Row="1" Grid.Column="2" BindingContext="{x:Reference downloads}" HorizontalOptions="Center" IsToggled="{Binding Visibility, Converter={StaticResource converter},Mode=TwoWay}" />
     </Grid>
-    <view:AdaptiveFlexChart
-      LegendToggle="true"
-      x:Name="flexChart"
-      BindingX="Name"
-      SelectedBorderColor="Red"
-      SelectedBorderWidth="3"
-      SelectedDashes="2,1">
-
-      <view:AdaptiveFlexChart.Series>
+    <xuni:FlexChart x:Name="flexChart"
+                    BindingX="Date"
+                    ChartType="LineSymbols"
+                    VerticalOptions="FillAndExpand">
+      <xuni:FlexChart.Series>
         <xuni:ChartSeries x:Name="sales" Binding="Sales" Name="Sales" />
         <xuni:ChartSeries x:Name="expenses" Binding="Expenses"  Name="Expenses" />
         <xuni:ChartSeries x:Name="downloads" Binding="Downloads"  Name="Downloads" />
-      </view:AdaptiveFlexChart.Series>
-    </view:AdaptiveFlexChart>
+      </xuni:FlexChart.Series>
+    </xuni:FlexChart>
   </StackLayout>
 </sample:BaseSample>

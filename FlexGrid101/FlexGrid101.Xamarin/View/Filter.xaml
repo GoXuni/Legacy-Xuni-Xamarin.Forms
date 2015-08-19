@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.Filter"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem x:Name="toolbarItemFilter" Clicked="OnFilterClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/appbar.filter.png" Android="ic_filter.png" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+    <ToolbarItem x:Name="toolbarItemRemove" Clicked="OnRemoveFilterClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/appbar.filter.remove.png" Android="ic_filter_remove.png" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+  </ContentPage.ToolbarItems>
+  <StackLayout>
+    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+    <Grid VerticalOptions="FillAndExpand">
+      <xuni:FlexGrid x:Name="grid" IsReadOnly="True"/>
+    </Grid>
+  </StackLayout>
+</ContentPage>

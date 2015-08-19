@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.EditCustomerForm" Padding="20, 20, 20, 0">
+  <!--<ContentPage.ToolbarItems>
+    <ToolbarItem Name="Apply" Text="Apply" Clicked="OnApplyButtonClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/appbar.check.png" Android="ic_filter.png" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+    <ToolbarItem Name="Cancel" Text="Cancel" Clicked="OnCancelButtonClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/appbar.close.png" Android="ic_filter.png" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+  </ContentPage.ToolbarItems>-->
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition />
+      <ColumnDefinition Width="2*"/>
+    </Grid.ColumnDefinitions>
+    <!-- title -->
+    <Label x:Name="lblFormTitle" VerticalOptions="Center" HorizontalOptions="Center" Grid.ColumnSpan="2" />
+    
+    <!-- first name field -->
+    <Label Text="First Name:" VerticalOptions="Center" Grid.Row="1" />
+    <Entry x:Name="entryFirstName" Grid.Row="1" Grid.Column="1" />
+    
+    <!-- last name field -->
+    <Label Text="Last Name:" VerticalOptions="Center" Grid.Row="2" />
+    <Entry x:Name="entryLastName" Grid.Row="2" Grid.Column="1" />
+    
+    <!-- hired field-->
+    <Label Text="Hired:" VerticalOptions="Center" Grid.Row="3" />
+    <DatePicker x:Name="datePickerHired" Grid.Row="3" Grid.Column="1" />
+    
+    <!-- weight field -->
+    <Label Text="Weight:" VerticalOptions="Center" Grid.Row="4" />
+    <Entry x:Name="entryWeight" Grid.Row="4" Grid.Column="1" />
+
+    <!-- Apply/cancel buttons-->
+    <Grid Grid.Row="6" Grid.ColumnSpan="2">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition />
+        <ColumnDefinition />
+      </Grid.ColumnDefinitions>
+      <Button x:Name="btnApply" HorizontalOptions="FillAndExpand"/>
+      <Button x:Name="btnCancel" HorizontalOptions="FillAndExpand" Grid.Column="1"/>
+    </Grid>
+  </Grid>
+</ContentPage>

@@ -1,42 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexPie;assembly=Xuni.Xamarin.FlexPie"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexPie;assembly=Xuni.Forms.FlexPie"
              xmlns:common="clr-namespace:FlexPieDemo.Data.Views.Common;assembly=FlexPie101.Data"
              x:Class="FlexPieDemo.Data.Views.Samples.SelectionSample"
-             Title="Selection"
-            Padding="20">
-  <StackLayout >
-    <Grid BindingContext="{x:Reference flexPie}">
-      <Grid.RowDefinitions>
-        <RowDefinition Height="Auto" />
-        <RowDefinition Height="Auto" />
-        <RowDefinition Height="Auto" />
-      </Grid.RowDefinitions>
+             Title="Selection">
+  <Grid x:Name="root" BindingContext="{x:Reference flexPie}" Padding="5">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
 
-      <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="Auto" />
-        <ColumnDefinition Width="*" />
-      </Grid.ColumnDefinitions>
+    <StackLayout Orientation="Horizontal" Grid.ColumnSpan="2">
+      <Label BindingContext="{x:Reference stepperOffset}" VerticalOptions="Center" Text="{Binding Value, StringFormat='Selected Item Offset {0}'}" />
+      <common:PreciseStepper x:Name="stepperOffset" Value="{Binding SelectedItemOffset,Mode=TwoWay}" Maximum="0.5" Minimum="0" Increment="0.1" HorizontalOptions="EndAndExpand"/>
+    </StackLayout>
 
-      <StackLayout Orientation="Horizontal" >
-        <Label BindingContext="{x:Reference stepperOffset}" VerticalOptions="Center" Text="{Binding Value ,StringFormat='Selected Item offset {0}'}" />
-        <common:PreciseStepper x:Name="stepperOffset" Value="{Binding SelectedItemOffset,Mode=TwoWay}" Maximum="0.5" Minimum="0" Increment="0.1"/>
+    <StackLayout x:Name="stackOptions" Orientation="Vertical" Grid.Row="1" Grid.ColumnSpan="2">
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Selected Item Position" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+        <Picker x:Name="pickerPosition" WidthRequest="150" HorizontalOptions="FillAndExpand"/>
       </StackLayout>
-      <StackLayout Grid.Row="1" Grid.ColumnSpan="2" Orientation="Horizontal">
-        <Label Text="Position"  VerticalOptions="Center"  />
-        <Picker x:Name="pickerPosition" WidthRequest="100"/>
-        <Label  Text="IsAnimated?"  VerticalOptions="Center"  />
-        <Switch IsToggled="{Binding IsAnimated,Mode=TwoWay}" />
-       </StackLayout>
-    </Grid>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="IsAnimated?" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+        <Switch IsToggled="{Binding IsAnimated, Mode=TwoWay}" />
+      </StackLayout>
+    </StackLayout>
+
     <xuni:FlexPie SelectedItemOffset=".2"
                   SelectedBorderColor="#ff0000"
                   SelectedBorderWidth="3"
-                  SelectedDashes="1,1"
+                  SelectedDashes="7,2"
                   SelectionMode="Point"
+                  ShowTooltips="false"
                   BindingName = "Name" Binding = "Value"
-                  x:Name="flexPie" />
-  </StackLayout>
+                  x:Name="flexPie"
+                  VerticalOptions="FillAndExpand"
+                  Grid.Row="2" Grid.ColumnSpan="2">
 
+    </xuni:FlexPie>
+
+  </Grid>
 </BaseSample>

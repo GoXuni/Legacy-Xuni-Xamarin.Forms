@@ -5,9 +5,8 @@ using System.Text;
 
 using Xamarin.Forms;
 
-using FlexPieDemo.Data.Repo;
-
 using FlexPieDemo.Data.Views;
+using FlexPieDemo.Data;
 
 namespace FlexPieDemo
 {
@@ -15,14 +14,12 @@ namespace FlexPieDemo
     {
         public App()
         {
-            //MainPage = ChartSampleViewFactory.GetChartContentPage(new XmlRepository().GetPieChartSamples()[2]);
-
-            MainPage = new NavigationPage(new ChartSampleGrid());
+            MainPage = new NavigationPage(new FlexPieSamples());
         }
 
 		protected override void OnStart ()
 		{
-			Xuni.Xamarin.Core.LicenseManager.Key = Xuni.FlexPieDemo.App.License.Key;
+			Xuni.Forms.Core.LicenseManager.Key = Xuni.FlexPieDemo.App.License.Key;
 		}
     }
 }

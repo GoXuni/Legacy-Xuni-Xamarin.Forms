@@ -1,35 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
              x:Class="FlexChartDemo.Data.Views.Samples.TitleAndLegendSample"
              Title="Title And Legend">
-  <StackLayout >
-     <sample:AdaptiveFlexChart x:Name="flexChart" 
-                               BindingX="Name" 
-                               HeaderText="Sample Chart"
-                               HeaderTextColor="#80044d"
-                               HeaderFont="Bold,Large"
-                               HeaderXAlign = "Center"
-                               
-                               FooterText = "2014 GrapeCity, Inc."
-                               FooterTextColor = "#80044d"
-                               FooterFont = "Medium"
-                               FooterXAlign = "Center" >
-       <sample:AdaptiveFlexChart.AxisX>
-         <xuni:ChartAxis TitleText="Amount" TitleFont="Bold,Italic,Medium"/>
-       </sample:AdaptiveFlexChart.AxisX>
+  <Grid Padding="10">
+    <xuni:FlexChart x:Name="flexChart"
+                    BindingX="Name"
+                    ChartType="Scatter"
+                    HeaderText="Sample Chart"
+                    HeaderTextColor="#80044d"
+                    HeaderFontAttributes="Bold"
+                    HeaderFontSize="36"
+                    HeaderHorizontalAlignment = "Center"
+                    FooterText = "2015 GrapeCity, Inc."
+                    FooterTextColor = "#80044d"
+                    FooterFontSize="20"
+                    FooterHorizontalAlignment = "Center"
+                    VerticalOptions="FillAndExpand" >
+      <xuni:FlexChart.AxisX>
+        <xuni:ChartAxis TitleText="Country" TitleFont="Bold,Italic,Medium"/>
+      </xuni:FlexChart.AxisX>
 
-         <sample:AdaptiveFlexChart.AxisY>
-           <xuni:ChartAxis TitleText="Country" TitleFont="Bold,Italic,Medium" />
-         </sample:AdaptiveFlexChart.AxisY>
-       <sample:AdaptiveFlexChart.Series>
+      <xuni:FlexChart.AxisY>
+        <xuni:ChartAxis TitleText="Amount" TitleFont="Bold,Italic,Medium" Format="c0" />
+      </xuni:FlexChart.AxisY>
+      <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
         <xuni:ChartSeries Binding="Expenses" Name="Expenses" />
         <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
-      </sample:AdaptiveFlexChart.Series>
-    </sample:AdaptiveFlexChart>
-  </StackLayout>
- 
+      </xuni:FlexChart.Series>
+    </xuni:FlexChart>
+  </Grid>
+
 </BaseSample>

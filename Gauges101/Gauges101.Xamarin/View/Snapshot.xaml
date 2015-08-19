@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gauges101.Snapshot"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Gauge;assembly=Xuni.Forms.Gauge">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Name="Take snapshot" Clicked="OnSnapshotClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource"
+          WinPhone="Assets/AppBar/feature.camera.png"
+          Android="ic_action_camera.png" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+    <ToolbarItem Name="Save snapshot" Clicked="OnSaveSnapshotClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource"
+          WinPhone="Assets/AppBar/save.png"
+          Android="ic_action_save.png" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+  </ContentPage.ToolbarItems>
+  <Grid>
+    <StackLayout>
+      <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+      <xuni:XuniRadialGauge x:Name="gauge"  Value="{Binding Value}" IsReadOnly="True" ShowText="All" VerticalOptions="FillAndExpand"/>
+    </StackLayout>
+    <StackLayout x:Name="snapshotFrameBorder" Padding="20" BackgroundColor="#FFFFFFFF" HorizontalOptions="Center" VerticalOptions="Center">
+      <Grid x:Name="snapshotFrame" BackgroundColor="#FF000000">
+        <Image x:Name="snapshot" />
+      </Grid>
+    </StackLayout>
+  </Grid>
+</ContentPage>

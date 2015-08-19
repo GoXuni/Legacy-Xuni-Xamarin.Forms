@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.FilterForm" Padding="20">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness">
+      <OnPlatform.iOS>
+        0, 20, 0, 0
+      </OnPlatform.iOS>
+    </OnPlatform>
+  </ContentPage.Padding>
+  <StackLayout>
+    <ScrollView VerticalOptions="FillAndExpand">
+      <StackLayout x:Name="filters"/>
+    </ScrollView>
+    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+      <Button x:Name="btnFilter" Clicked="FilterClicked"/>
+      <Button x:Name="btnCancel" Clicked="CancelClicked"/>
+    </StackLayout>
+
+  </StackLayout>
+</ContentPage>

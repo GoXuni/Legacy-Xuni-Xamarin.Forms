@@ -1,46 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
-             xmlns:chartcore="clr-namespace:Xuni.Xamarin.ChartCore;assembly=Xuni.Xamarin.ChartCore"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
+             xmlns:chartcore="clr-namespace:Xuni.Forms.ChartCore;assembly=Xuni.Forms.ChartCore"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
              x:Class="FlexChartDemo.Data.Views.Samples.ZoomingAndScrolling"
              Title="Zooming And Scrolling">
   <StackLayout>
-	<Grid Padding="10">
-		<Grid.BackgroundColor>
-			<OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />
-		</Grid.BackgroundColor>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="Auto"/>
-			<RowDefinition Height="Auto"/>
-		</Grid.RowDefinitions>
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="*"/>
-		</Grid.ColumnDefinitions>
-		<Label Text="Zoom Mode" Grid.Row="0" Grid.Column="0" FontSize="12" />
-        <Picker x:Name="pickerZoomMode" Grid.Row="1" Grid.Column="0" Title="Zoom Mode" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerZoomMode_SelectedIndexChanged"/>
-	</Grid>
-    <sample:AdaptiveFlexChart
-      x:Name="flexChart"
-      BindingX="Name"
-      ChartType = "Area"
-      Stacking="Stacked">
-      <sample:AdaptiveFlexChart.AxisX>
+    <Grid Padding="10">
+      <Grid.BackgroundColor>
+        <OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />
+      </Grid.BackgroundColor>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <Label Text="Zoom Mode" Grid.Row="0" Grid.Column="0" />
+      <Picker x:Name="pickerZoomMode" Grid.Row="1" Grid.Column="0" Title="Zoom Mode" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerZoomMode_SelectedIndexChanged"/>
+    </Grid>
+    <xuni:FlexChart x:Name="flexChart"
+                    BindingX="X"
+                    ChartType = "Scatter"
+                    IsAnimated="False"
+                    VerticalOptions="FillAndExpand">
+      <!--<xuni:FlexChart.AxisX>
         <xuni:ChartAxis Scale="0.5" />
-      </sample:AdaptiveFlexChart.AxisX>
+      </xuni:FlexChart.AxisX>
 
-      <sample:AdaptiveFlexChart.AxisY>
+      <xuni:FlexChart.AxisY>
         <xuni:ChartAxis DisplayedRange="16000"/>
-      </sample:AdaptiveFlexChart.AxisY>
+      </xuni:FlexChart.AxisY>-->
 
-      <sample:AdaptiveFlexChart.Series>
-        <xuni:ChartSeries Binding="Sales" Name="Sales" />
-        <xuni:ChartSeries Binding="Expenses"  Name="Expenses" />
-        <xuni:ChartSeries Binding="Downloads"  Name="Downloads" />
-      </sample:AdaptiveFlexChart.Series>
-    </sample:AdaptiveFlexChart>
-   
+      <xuni:FlexChart.Series>
+        <xuni:ChartSeries Binding="Y" Name="Normal Distribution" />
+      </xuni:FlexChart.Series>
+    </xuni:FlexChart>
   </StackLayout>
- 
 </BaseSample>

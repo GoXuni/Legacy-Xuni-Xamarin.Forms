@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexPie;assembly=Xuni.Forms.FlexPie"
+             xmlns:common="clr-namespace:FlexPieDemo.Data.Views.Common;assembly=FlexPie101.Data"
+             x:Class="FlexPieDemo.Data.Views.Samples.Snapshot"
+             Title="Getting Started"
+            Padding="20">
+
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Name="Take snapshot" Clicked="OnSnapshotClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource"
+          WinPhone="Assets/AppBar/feature.camera.png"
+          Android="ic_action_camera.png" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+  </ContentPage.ToolbarItems>
+  <Grid>
+    <StackLayout>
+      <Label Text="Take a snapshot" HorizontalOptions="Center" Font="Large"/>
+      <xuni:FlexPie x:Name="pieChart" BindingName = "Name" Binding = "Value" VerticalOptions="FillAndExpand" />
+    </StackLayout>
+    <StackLayout x:Name="snapshotFrame" Padding="20" HorizontalOptions="Center" VerticalOptions="Center">
+       <StackLayout.BackgroundColor>
+        <OnPlatform x:TypeArguments="Color"
+          WinPhone="#FF444444"
+          Android="#FFFFFFFF"
+          iOS="#FFFFFFFF"/>
+      </StackLayout.BackgroundColor>
+      <Image x:Name="snapshot" />
+    </StackLayout>
+  </Grid>
+</BaseSample>

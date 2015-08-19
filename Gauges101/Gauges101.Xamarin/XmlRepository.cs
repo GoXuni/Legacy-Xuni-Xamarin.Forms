@@ -16,7 +16,24 @@ namespace Gauges101
             var assembly = typeof(XmlRepository).GetTypeInfo().Assembly;
 
             //TODO: add culture
-            Stream stream = assembly.GetManifestResourceStream("Gauges101.GaugeDemoData_en.xml");
+            Stream stream;
+            var cultureInfo = System.Globalization.CultureInfo.CurrentCulture;
+            if (cultureInfo.Name.ToLower().StartsWith("jp"))
+            {
+                stream = assembly.GetManifestResourceStream("Gauges101.GaugeDemoData_jp.xml");
+            }
+            else if (cultureInfo.Name.ToLower().StartsWith("zh"))
+            {
+                stream = assembly.GetManifestResourceStream("Gauges101.GaugeDemoData_zh.xml");
+            }
+            else if (cultureInfo.Name.ToLower().StartsWith("ko"))
+            {
+                stream = assembly.GetManifestResourceStream("Gauges101.GaugeDemoData_ko.xml");
+            }
+            else
+            {
+                stream = assembly.GetManifestResourceStream("Gauges101.GaugeDemoData_en.xml");
+            }
 
             using (var reader = new System.IO.StreamReader(stream))
             {

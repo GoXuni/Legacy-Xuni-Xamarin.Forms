@@ -12,27 +12,18 @@ namespace Gauges101
     {
         public string Name { get; set; }
 
-        public string Description { get; set; }
-
-        public int SampleDataType { get; set; }
-
         public int SampleViewType { get; set; }
 
-        private string _thumbnailImage { get; set; }
+        public string Description { get; set; }
 
-        public string ThumbnailImage
+        public string Thumbnail { get; set; }
+
+        public ImageSource ThumbnailImageSource
         {
             get
             {
-                return _thumbnailImage;
-            }
-            set
-            {
-                _thumbnailImage = value;
-                ThumbnailImageSource = ImageSource.FromResource("Gauges101.Images." + value); //ImageSource.FromUri(new Uri(value));
+                return ImageSource.FromResource("Gauges101.Images." + Thumbnail);
             }
         }
-        [XmlIgnore]
-        public ImageSource ThumbnailImageSource { get; private set; }
     }
 }

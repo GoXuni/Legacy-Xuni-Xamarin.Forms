@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
+             xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
+             x:Class="FlexChartDemo.Data.Views.Samples.MultipleAxesSamples"
+             Title="Multiple Axes">
+  <Grid Padding="10">
+    <xuni:FlexChart x:Name="flexChart" BindingX="MonthName" VerticalOptions="FillAndExpand">
+      <!-- data series -->
+      <xuni:FlexChart.Series>
+        <xuni:ChartSeries Binding="Precipitation"
+                          Name="Precip"/>
+        <xuni:ChartSeries Binding="Temp"
+                          ChartType="SplineSymbols"
+                          Name="Avg. Temp"
+                          AxisY="axisT"/>
+      </xuni:FlexChart.Series>
+      <!-- default X axis -->
+      <xuni:FlexChart.AxisX>
+        <xuni:ChartAxis LabelAngle="90"
+                        MajorGridVisible="False"/>
+      </xuni:FlexChart.AxisX>
+      <!-- default Y axis -->
+      <xuni:FlexChart.AxisY>
+        <xuni:ChartAxis Min="4"
+                        Max="20"
+                        MajorUnit="2"
+                        TitleText="Precipitation (in)"
+                        TitleTextColor="#88bde6"
+                        AxisLineVisible="False"
+                        MajorTickWidth="0"/>
+      </xuni:FlexChart.AxisY>
+      <!-- auxiliary Y axes -->
+      <xuni:FlexChart.Axes>
+        <xuni:ChartAxis Name="axisT"
+                        Position="Right"
+                        Min="0"
+                        Max="80"
+                        MajorUnit="10"
+                        TitleText="Avg. Temperature (F)"
+                        TitleTextColor="#fbb258"
+                        AxisLineVisible="False"
+                        MajorGridVisible="False"
+                        MajorTickWidth="0"/>
+      </xuni:FlexChart.Axes>
+    </xuni:FlexChart>
+  </Grid>
+</BaseSample>

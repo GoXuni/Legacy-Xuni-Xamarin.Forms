@@ -5,7 +5,7 @@ using System.Net;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Navigation;
-using Xuni.Xamarin.FlexChart.Platform.WinPhone;
+using Xuni.Forms.FlexChart.Platform.WinPhone;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Xamarin.Forms;

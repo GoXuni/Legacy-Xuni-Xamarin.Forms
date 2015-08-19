@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FlexPieDemo.Data.Chart;
+using FlexPieDemo.Data.Model;
 using Xamarin.Forms;
-using Xuni.Xamarin.ChartCore;
-using Xuni.Xamarin.FlexPie;
+using Xuni.Forms.ChartCore;
+using Xuni.Forms.FlexPie;
 using System.Reflection;
 namespace FlexPieDemo.Data.Views.Samples
 {

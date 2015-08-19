@@ -9,7 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.WinPhone;
-using Xuni.Xamarin.FlexPie.Platform.WinPhone;
+using Xuni.Forms.FlexPie.Platform.WinPhone;
 
 
 namespace FlexPieDemo.WinPhone

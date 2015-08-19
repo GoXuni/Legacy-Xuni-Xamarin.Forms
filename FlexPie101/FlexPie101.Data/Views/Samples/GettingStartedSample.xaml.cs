@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FlexPieDemo.Data.Chart;
+using FlexPieDemo.Data.Model;
 using Xamarin.Forms;
-using Xuni.Xamarin.FlexPie;
+using Xuni.Forms.FlexPie;
 
 namespace FlexPieDemo.Data.Views.Samples
 {
@@ -15,7 +15,7 @@ namespace FlexPieDemo.Data.Views.Samples
         {
             InitializeComponent();
             this.pieChart.ItemsSource = PieChartSampleFactory.CreateEntiyList();
-            this.dountChart.ItemsSource = PieChartSampleFactory.CreateEntiyList();
+            this.donutChart.ItemsSource = PieChartSampleFactory.CreateEntiyList();
             this.root.SizeChanged += root_SizeChanged;
         }
 
@@ -28,10 +28,10 @@ namespace FlexPieDemo.Data.Views.Samples
                 Grid.SetRowSpan(pieChart, 2);
                 Grid.SetColumnSpan(pieChart, 1);
 
-                Grid.SetRow(dountChart, 0);
-                Grid.SetColumn(dountChart, 1);
-                Grid.SetRowSpan(dountChart, 2);
-                Grid.SetColumnSpan(dountChart, 1);
+                Grid.SetRow(donutChart, 0);
+                Grid.SetColumn(donutChart, 1);
+                Grid.SetRowSpan(donutChart, 2);
+                Grid.SetColumnSpan(donutChart, 1);
             }
             else
             {
@@ -40,10 +40,10 @@ namespace FlexPieDemo.Data.Views.Samples
                 Grid.SetColumnSpan(pieChart, 2);
                 Grid.SetRowSpan(pieChart, 1);
 
-                Grid.SetRow(dountChart, 1);
-                Grid.SetColumn(dountChart, 0);
-                Grid.SetColumnSpan(dountChart, 2);
-                Grid.SetRowSpan(dountChart, 1);
+                Grid.SetRow(donutChart, 1);
+                Grid.SetColumn(donutChart, 0);
+                Grid.SetColumnSpan(donutChart, 2);
+                Grid.SetRowSpan(donutChart, 1);
             }
         }
     }

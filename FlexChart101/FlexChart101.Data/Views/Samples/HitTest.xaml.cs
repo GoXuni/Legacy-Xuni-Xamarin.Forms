@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FlexChartDemo.Data.Chart;
+using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
-using Xuni.Xamarin.FlexChart;
+using Xuni.Forms.FlexChart;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -24,18 +24,22 @@ namespace FlexChartDemo.Data.Views.Samples
                 listCosTuple.Add(new Point(i, Math.Cos(0.12 * i)));
                 listSinTuple.Add(new Point(i, Math.Sin(0.12 * i)));
             }
+
+            this.flexChart.AxisY.Format = "n2";
+
             this.seriesCosX.ItemsSource = listCosTuple;
             this.seriesSinX.ItemsSource = listSinTuple;
         }
 
-        void flexChart_Tapped(object sender, Xuni.Xamarin.Core.Events.XuniTappedEventArgs e)
+        void flexChart_Tapped(object sender, Xuni.Forms.Core.Events.XuniTappedEventArgs e)
         {
             FlexChartHitTestInfo hitTest = this.flexChart.HitTest(e.HitPoint);
 
             this.stackHitTest.BindingContext = hitTest;
-            this.stackSeries.IsVisible = hitTest != null && hitTest.Series != null;
-            this.stackData.IsVisible = hitTest != null ? hitTest.PointIndex != -1 : false;
+            this.stackData.BindingContext = hitTest.DataPoint;
 
+			this.stackSeries.IsVisible = hitTest.DataPoint != null && hitTest.DataPoint.SeriesIndex != -1;
+			this.stackData.IsVisible = hitTest.DataPoint != null && hitTest.DataPoint.PointIndex != -1;
         }
     }
 }

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexChartDemo.Data.Views.Samples.CustomPlotElements"
+             xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
+             Title="Custom Points"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart">
+    <Grid Padding="10">
+      <xuni:FlexChart x:Name="flexChart1" BindingX="Name" VerticalOptions="FillAndExpand" PlotElementLoading="OnPlotElementLoading">
+        <xuni:FlexChart.Series>
+          <xuni:ChartSeries Binding="DevicesSold" Name="Devices sold" />
+        </xuni:FlexChart.Series>
+      </xuni:FlexChart>
+    </Grid>
+</ContentPage>

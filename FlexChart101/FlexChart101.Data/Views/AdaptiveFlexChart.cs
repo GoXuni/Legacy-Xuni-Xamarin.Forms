@@ -14,19 +14,22 @@ namespace FlexChartDemo.Data.Views
         {
             base.OnSizeAllocated(width, height);
 
-            // In Portrait
-            if (width < height)
+            if (base.Legend != null)
             {
-                base.Legend.Position = Xuni.Xamarin.ChartCore.ChartPositionType.Bottom;
+                // In Portrait
+                if (width < height)
+                {
+                    base.Legend.Position = Xuni.Xamarin.ChartCore.ChartPositionType.Bottom;
 
-                base.AxisX.LabelAngle = -45;
-            }
-            // In Landscape
-            else
-            {
-                base.Legend.Position = Xuni.Xamarin.ChartCore.ChartPositionType.Right;
+                    base.AxisX.LabelAngle = -45;
+                }
+                // In Landscape
+                else
+                {
+                    base.Legend.Position = Xuni.Xamarin.ChartCore.ChartPositionType.Right;
 
-                base.AxisX.LabelAngle = 0;
+                    base.AxisX.LabelAngle = 0;
+                }
             }
         }
     }

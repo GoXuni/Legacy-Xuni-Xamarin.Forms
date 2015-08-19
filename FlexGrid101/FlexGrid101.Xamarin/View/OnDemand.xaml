@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.OnDemand"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid"
+             xmlns:local="clr-namespace:FlexGrid101;assembly=FlexGrid101.Xamarin">
+  <StackLayout VerticalOptions="FillAndExpand">
+    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+    <Entry x:Name="search" Completed="OnCompleted"/>
+    <Picker x:Name="orderBy" Title="OrderBy" SelectedIndexChanged="OrderByChanged"/>
+    <Grid VerticalOptions="FillAndExpand">
+      <ActivityIndicator x:Name="activityIndicator" VerticalOptions="Center"/>
+      <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False" IsReadOnly="True">
+        <xuni:FlexGrid.Columns>
+          <local:GridImageColumn Binding="Snippet.Thumbnails.Default.Url" Header=" " Width="50"/>
+          <xuni:GridColumn Binding="Snippet.Title" Header="Title" Width="300"/>
+          <xuni:GridColumn Binding="Snippet.ChannelTitle" Header="Channel"/>
+        </xuni:FlexGrid.Columns>
+        <xuni:FlexGrid.Behaviors>
+          <xuni:EmptyGridBehavior EmptyView="{x:Reference Name=emptyListLabel}" />
+        </xuni:FlexGrid.Behaviors>
+      </xuni:FlexGrid>
+      <Label x:Name="emptyListLabel"
+             FontSize="Large"
+             HorizontalOptions="Center"/>
+    </Grid>
+  </StackLayout>
+</ContentPage>

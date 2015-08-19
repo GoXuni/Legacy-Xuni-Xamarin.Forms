@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FlexChartDemo.Data.Views.Samples.TooltipsSample"
-             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
              xmlns:common="clr-namespace:FlexChartDemo.Data.Views.Common;assembly=FlexChart101.Data"
-             xmlns:chartcore="clr-namespace:Xuni.Xamarin.ChartCore;assembly=Xuni.Xamarin.ChartCore">
+             xmlns:chartcore="clr-namespace:Xuni.Forms.ChartCore;assembly=Xuni.Forms.ChartCore" Padding="10">
   <ContentPage.Resources>
     <ResourceDictionary>
       <common:FlagConverter x:Key="converter" />
@@ -13,25 +13,25 @@
   </ContentPage.Resources>
   <StackLayout>
 
-    <sample:AdaptiveFlexChart x:Name="chart" ItemsSource="{Binding Data}" BindingX="Name" ChartType="Column">
-      <sample:AdaptiveFlexChart.Series>
+    <xuni:FlexChart x:Name="chart" ItemsSource="{Binding Data}" BindingX="Name" ChartType="Column" Stacking="Stacked" VerticalOptions="FillAndExpand">
+      <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
         <xuni:ChartSeries Binding="Expenses" Name="Expenses" />
         <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
-      </sample:AdaptiveFlexChart.Series>
+      </xuni:FlexChart.Series>
 
-      <sample:AdaptiveFlexChart.Tooltip>
-        <xuni:FlexChartTooltip IsVisible="False">
+      <xuni:FlexChart.Tooltip>
+        <xuni:FlexChartTooltip IsVisible="False" >
           <StackLayout BackgroundColor="#FFFFCA" Padding="5">
             <StackLayout Orientation = "Horizontal">
-              <Image Source="{Binding XValue, Mode=OneWay, Converter={StaticResource converter}" />
+              <Image Source="{Binding ValueX, Mode=OneWay, Converter={StaticResource converter}" />
               <Label Text="{Binding SeriesName}" TextColor="Black" FontAttributes="Bold" FontSize="14"></Label>
             </StackLayout>
-            <Label Text="{Binding YValue}" TextColor="Black" FontSize="14"></Label>
+            <Label Text="{Binding Value, StringFormat='{0:c2}'}" TextColor="Black" FontSize="14" HorizontalOptions="Center"></Label>
           </StackLayout>
         </xuni:FlexChartTooltip>
-      </sample:AdaptiveFlexChart.Tooltip>
-    </sample:AdaptiveFlexChart>
+      </xuni:FlexChart.Tooltip>
+    </xuni:FlexChart>
     
   </StackLayout>
 </ContentPage>

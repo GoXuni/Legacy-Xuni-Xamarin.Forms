@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Gauges101.Resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xuni.Xamarin.Gauge;
+using Xuni.Forms.Gauge;
 
 namespace Gauges101
 {
@@ -12,6 +13,7 @@ namespace Gauges101
         public DisplayingValues()
         {
             InitializeComponent();
+            lblTitle.Text = AppResources.DisplayingValuesTitle;
 
             BindingContext = new SampleViewModel() { Max = 1, Value = .25, Step = .01, Format = "P0", ShowRanges = false };
         }

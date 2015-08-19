@@ -23,9 +23,9 @@ namespace FlexChartDemo.Data.Views
 
         public ChartSampleGrid()
         {
-            this.Title = "Xuni FlexChart";
+            this.Title = "FlexChart101";
 
-            FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
+            //FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
 
             List<ChartSample> chartSampleList = new XmlRepository().GetChartSamples();
 

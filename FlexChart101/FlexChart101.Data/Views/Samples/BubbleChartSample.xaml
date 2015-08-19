@@ -1,18 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
              x:Class="FlexChartDemo.Data.Views.Samples.BubbleChartSample"
              Title="Bubble Chart">
-  <StackLayout >
-      <sample:AdaptiveFlexChart x:Name="flexChart" ChartType="Bubble" BindingX="Name">
-        <sample:AdaptiveFlexChart.Series>
+  <Grid Padding="10">
+      <xuni:FlexChart x:Name="flexChart" ChartType="Bubble" BindingX="Name" VerticalOptions="FillAndExpand">
+        <xuni:FlexChart.Series>
           <xuni:ChartSeries Binding="Sales,Downloads" Name="Sales" />
           <xuni:ChartSeries Binding="Expenses,Downloads" Name="Expenses" />
-        </sample:AdaptiveFlexChart.Series>
-    </sample:AdaptiveFlexChart>
-   
-  </StackLayout>
- 
+        </xuni:FlexChart.Series>
+    </xuni:FlexChart>
+  </Grid>
 </BaseSample>

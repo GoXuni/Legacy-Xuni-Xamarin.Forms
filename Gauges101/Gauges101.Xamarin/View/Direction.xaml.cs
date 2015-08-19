@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xuni.Xamarin.Gauge;
+using Xuni.Forms.Gauge;
 using Xamarin.Forms;
+using Gauges101.Resources;
 
 namespace Gauges101
 {
@@ -13,6 +14,7 @@ namespace Gauges101
         public Direction()
         {
             InitializeComponent();
+            lblTitle.Text = AppResources.DirectionTitle;
 
             BindingContext = new SampleViewModel() { Value = 80 };
 
@@ -22,11 +24,7 @@ namespace Gauges101
         void directionPicker_SelectedIndexChanged(object sender, EventArgs e)
         {
             string item = directionPicker.Items [directionPicker.SelectedIndex];
-            if (item == LinearGaugeDirection.Down.ToString() || item == LinearGaugeDirection.Up.ToString()) {
-                bulletGraph.VerticalOptions = LayoutOptions.FillAndExpand;
-            } else {
-                bulletGraph.VerticalOptions = LayoutOptions.Start;
-            }
+            
         }
 
         protected override void OnBindingContextChanged()

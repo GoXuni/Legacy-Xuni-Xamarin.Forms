@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.Grouping"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid"
+             xmlns:local="clr-namespace:FlexGrid101;assembly=FlexGrid101.Xamarin">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem x:Name="toolbarItemSort" Clicked="OnSortClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/appbar.sort.alphabetical.ascending.png" Android="ic_sort_ascending.png" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+    <ToolbarItem x:Name="toolbarItemCollapse" Clicked="OnCollapseClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/appbar.arrow.collapsed.png" Android="ic_arrow_collapse_white_48dp" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+  </ContentPage.ToolbarItems>
+  <StackLayout VerticalOptions="FillAndExpand">
+    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+    <!--<Entry x:Name="filter" Placeholder="Enter text to filter videos" Completed="OnCompleted"/>-->
+    <Grid VerticalOptions="FillAndExpand">
+      <ActivityIndicator x:Name="activityIndicator" VerticalOptions="Center"/>
+      <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False" DefaultRowHeight="70" DefaultGroupRowHeight="44" IsGroupingEnabled="True" GroupDisplayBinding="{Binding Key}" IsReadOnly="True">
+        <xuni:FlexGrid.Columns>
+          <local:GridImageColumn Binding="Snippet.Thumbnails.Default.Url" Header=" " Width="90"/>
+          <xuni:GridColumn Binding="Snippet.Title" Header="Title" Width="300"/>
+          <xuni:GridColumn Binding="Statistics.ViewCount" Header="Views" Format="N0" Aggregate="Sum"/>
+        </xuni:FlexGrid.Columns>
+        <xuni:FlexGrid.Behaviors>
+          <xuni:EmptyGridBehavior EmptyView="{x:Reference Name=emptyListLabel}" />
+        </xuni:FlexGrid.Behaviors>
+      </xuni:FlexGrid>
+      <Label x:Name="emptyListLabel"
+             Text="There are no videos to show."
+             FontSize="Large"
+             HorizontalOptions="Center"/>
+      <Label x:Name="message"
+       Text=""
+       IsVisible="False"
+       FontSize="Large"
+       XAlign="Center"
+       YAlign="Center"/>
+    </Grid>
+  </StackLayout>
+</ContentPage>

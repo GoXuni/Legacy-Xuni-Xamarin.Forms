@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Gauges101.Resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xuni.Xamarin.Gauge;
+using Xuni.Forms.Gauge;
 
 namespace Gauges101
 {
@@ -13,6 +14,7 @@ namespace Gauges101
         public BulletGraph()
         {
             InitializeComponent();
+            lblTitle.Text = AppResources.BulletGraphTitle;
 
             BindingContext = new SampleViewModel() { Value = 72, ShowText = GaugeShowText.All };
             BadLabel.Text = BadStepper.Value.ToString("N0");

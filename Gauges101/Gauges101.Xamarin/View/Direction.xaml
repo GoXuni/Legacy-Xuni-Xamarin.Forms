@@ -1,21 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:xuni="clr-namespace:Xuni.Xamarin.Gauge;assembly=Xuni.Xamarin.Gauge"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Gauge;assembly=Xuni.Forms.Gauge"
              x:Class="Gauges101.Direction"
              Padding="20">
-    <StackLayout VerticalOptions="FillAndExpand">
-        <Label Text="Direction" HorizontalOptions="Center" Font="Large"/>
-        <StackLayout Orientation="Horizontal">
-            <Label Text="Direction" VerticalOptions="Center"/>
-            <Picker x:Name="directionPicker" Title="Direction" SelectedIndex="{Binding DirectionSelectedIndex,Mode=TwoWay}" HorizontalOptions="FillAndExpand"/>
-        </StackLayout>
-
-        <StackLayout Orientation="{Binding DirectionOrientation}" VerticalOptions="FillAndExpand">
-            <xuni:XuniLinearGauge Value="{Binding Value,Mode=TwoWay}" Direction="{Binding Direction}" ShowText="All" IsReadOnly="False"/>
-            <StackLayout VerticalOptions="FillAndExpand">
-            	<xuni:XuniBulletGraph x:Name="bulletGraph" Value="{Binding Value,Mode=TwoWay}" Direction="{Binding Direction}" ShowText="All" IsReadOnly="False" Good="80" Bad="45" Target="90"/>
-        	</StackLayout>
-        </StackLayout>
+  <StackLayout>
+    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Direction" VerticalOptions="Center"/>
+      <Picker x:Name="directionPicker" Title="Direction" SelectedIndex="{Binding DirectionSelectedIndex,Mode=TwoWay}" HorizontalOptions="FillAndExpand"/>
     </StackLayout>
+    <StackLayout Orientation="{Binding DirectionOrientation}" VerticalOptions="FillAndExpand">
+      <xuni:XuniLinearGauge Value="{Binding Value,Mode=TwoWay}" Direction="{Binding Direction}" ShowText="All" IsReadOnly="False" HorizontalOptions="{Binding DirectionHorizontalOptions}" VerticalOptions="{Binding DirectionVerticalOptions}"/>
+      <xuni:XuniBulletGraph Value="{Binding Value,Mode=TwoWay}" Direction="{Binding Direction}" ShowText="All" IsReadOnly="False" Good="80" Bad="45" Target="90" HorizontalOptions="{Binding DirectionHorizontalOptions}" VerticalOptions="{Binding DirectionVerticalOptions}"/>
+    </StackLayout>
+  </StackLayout>
 </ContentPage>

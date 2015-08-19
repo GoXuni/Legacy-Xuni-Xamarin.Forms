@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfSample xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sample>
+    <Name>Sorting</Name>
+    <Description>Sort a list of items from the action bar.</Description>
+    <CollectionViewSampleViewType>0</CollectionViewSampleViewType>
+    <ThumbnailImage>sort.png</ThumbnailImage>
+  </Sample>
+  <Sample>
+    <Name>Filtering</Name>
+    <Description>Filters a list of items by typing in an Entry.</Description>
+    <CollectionViewSampleViewType>1</CollectionViewSampleViewType>
+    <ThumbnailImage>filter.png</ThumbnailImage>
+  </Sample>
+  <Sample>
+    <Name>Grouping</Name>
+    <Description>Displays a grouped list of YouTube videos.</Description>
+    <CollectionViewSampleViewType>2</CollectionViewSampleViewType>
+    <ThumbnailImage>flexgrid_grouping.png</ThumbnailImage>
+  </Sample>
+  <Sample>
+    <Name>Selection</Name>
+    <Description>Shows a ListView whose items are loaded on demand as the user scrolls down.</Description>
+    <CollectionViewSampleViewType>3</CollectionViewSampleViewType>
+    <ThumbnailImage>flexgrid_loading.png</ThumbnailImage>
+  </Sample>
+</ArrayOfSample>

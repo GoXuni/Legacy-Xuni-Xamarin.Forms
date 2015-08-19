@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
-using FlexChartDemo.Data.Chart;
+using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
-using Xuni.Xamarin.ChartCore;
-using Xuni.Xamarin.FlexChart;
+using Xuni.Forms.ChartCore;
+using Xuni.Forms.FlexChart;
 
 namespace FlexChartDemo.Data.Views.Samples
 {

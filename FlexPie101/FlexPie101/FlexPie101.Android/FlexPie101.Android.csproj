@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{9FD8F2E8-9F71-4817-88AA-BEA59504D65E}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
@@ -16,15 +14,12 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
-    <AndroidUseLatestPlatformSdk />
-    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
     <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
-    <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
-    <JavaMaximumHeapSize />
-    <JavaOptions />
-    <AndroidUseLatestPlatformSdk />
-    <NuGetPackageImportStamp>0934a044</NuGetPackageImportStamp>
+    <JavaMaximumHeapSize>
+    </JavaMaximumHeapSize>
+    <NuGetPackageImportStamp>49655761</NuGetPackageImportStamp>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\..\Controls\</SolutionDir>
     <RestorePackages>true</RestorePackages>
   </PropertyGroup>
@@ -36,18 +31,11 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <AndroidLinkSkip />
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
-    <BundleAssemblies>False</BundleAssemblies>
-    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
-    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
-    <AndroidStoreUncompressedFileExtensions />
-    <MandroidI18n />
-    <JavaMaximumHeapSize />
-    <JavaOptions />
-    <MonoDroidExtraArgs />
+    <MonoDroidExtraArgs>
+    </MonoDroidExtraArgs>
+    <AndroidSupportedAbis>armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -57,56 +45,62 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
-    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidStoreUncompressedFileExtensions>
+    </AndroidStoreUncompressedFileExtensions>
+    <JavaOptions>
+    </JavaOptions>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FormsViewGroup">
-      <HintPath>..\..\packages\Xamarin.Forms.1.4.0.6341\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-    <Reference Include="Xamarin.Android.Support.v4">
-      <HintPath>..\..\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll</HintPath>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="FormsViewGroup">
+      <HintPath>..\..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Core">
-      <HintPath>..\..\packages\Xamarin.Forms.1.4.0.6341\lib\MonoAndroid10\Xamarin.Forms.Core.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\Xamarin.Forms.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Platform.Android">
-      <HintPath>..\..\packages\Xamarin.Forms.1.4.0.6341\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Xaml">
-      <HintPath>..\..\packages\Xamarin.Forms.1.4.0.6341\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.Forms.1.4.4.6392\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
-    <Reference Include="Xuni.Xamarin.ChartCore">
-      <HintPath>..\..\packages\Xuni.FlexPie.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.ChartCore.dll</HintPath>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\..\packages\Xamarin.Android.Support.v4.22.2.0.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
     </Reference>
-    <Reference Include="Xuni.Xamarin.ChartCore.Binding.Android">
-      <HintPath>..\..\packages\Xuni.ChartCore.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.ChartCore.Binding.Android.dll</HintPath>
+    <Reference Include="Xuni.Android.ChartCore">
+      <HintPath>..\..\packages\Xuni.Android.ChartCore.1.4.20152.38\lib\MonoAndroid10\Xuni.Android.ChartCore.dll</HintPath>
     </Reference>
-    <Reference Include="Xuni.Xamarin.ChartCore.Render.Android">
-      <HintPath>..\..\packages\Xuni.ChartCore.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.ChartCore.Render.Android.dll</HintPath>
+    <Reference Include="Xuni.Android.Core">
+      <HintPath>..\..\packages\Xuni.Android.Core.1.4.20152.38\lib\MonoAndroid10\Xuni.Android.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Xuni.Xamarin.Core">
-      <HintPath>..\..\packages\Xuni.FlexPie.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.Core.dll</HintPath>
+    <Reference Include="Xuni.Android.FlexPie">
+      <HintPath>..\..\packages\Xuni.Android.FlexPie.1.4.20152.38\lib\MonoAndroid10\Xuni.Android.FlexPie.dll</HintPath>
     </Reference>
-    <Reference Include="Xuni.Xamarin.Core.Binding.Android">
-      <HintPath>..\..\packages\Xuni.Core.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.Core.Binding.Android.dll</HintPath>
+    <Reference Include="Xuni.Forms.ChartCore">
+      <HintPath>..\..\packages\Xuni.Forms.ChartCore.1.4.20152.38\lib\MonoAndroid10\Xuni.Forms.ChartCore.dll</HintPath>
     </Reference>
-    <Reference Include="Xuni.Xamarin.Core.Render.Android">
-      <HintPath>..\..\packages\Xuni.Core.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.Core.Render.Android.dll</HintPath>
+    <Reference Include="Xuni.Forms.ChartCore.Platform.Android">
+      <HintPath>..\..\packages\Xuni.Forms.ChartCore.1.4.20152.38\lib\MonoAndroid10\Xuni.Forms.ChartCore.Platform.Android.dll</HintPath>
     </Reference>
-    <Reference Include="Xuni.Xamarin.FlexPie">
-      <HintPath>..\..\packages\Xuni.FlexPie.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.FlexPie.dll</HintPath>
+    <Reference Include="Xuni.Forms.Core">
+      <HintPath>..\..\packages\Xuni.Forms.Core.1.4.20152.38\lib\MonoAndroid10\Xuni.Forms.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Xuni.Xamarin.FlexPie.Binding.Android">
-      <HintPath>..\..\packages\Xuni.FlexPie.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.FlexPie.Binding.Android.dll</HintPath>
+    <Reference Include="Xuni.Forms.Core.Platform.Android">
+      <HintPath>..\..\packages\Xuni.Forms.Core.1.4.20152.38\lib\MonoAndroid10\Xuni.Forms.Core.Platform.Android.dll</HintPath>
     </Reference>
-    <Reference Include="Xuni.Xamarin.FlexPie.Render.Android">
-      <HintPath>..\..\packages\Xuni.FlexPie.1.4.20151.25\lib\MonoAndroid10\Xuni.Xamarin.FlexPie.Render.Android.dll</HintPath>
+    <Reference Include="Xuni.Forms.FlexPie">
+      <HintPath>..\..\packages\Xuni.Forms.FlexPie.1.4.20152.38\lib\MonoAndroid10\Xuni.Forms.FlexPie.dll</HintPath>
+    </Reference>
+    <Reference Include="Xuni.Forms.FlexPie.Platform.Android">
+      <HintPath>..\..\packages\Xuni.Forms.FlexPie.1.4.20152.38\lib\MonoAndroid10\Xuni.Forms.FlexPie.Platform.Android.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -115,7 +109,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
@@ -132,12 +128,12 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
-  <Import Project="..\..\packages\Xamarin.Forms.1.4.0.6341\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.4.0.6341\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <Import Project="..\..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.1.4.0.6341\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.1.4.0.6341\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.

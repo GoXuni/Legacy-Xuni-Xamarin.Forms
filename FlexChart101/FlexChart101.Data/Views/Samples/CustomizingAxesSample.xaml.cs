@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FlexChartDemo.Data.Chart;
+using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
-using Xuni.Xamarin.FlexChart;
+using Xuni.Forms.FlexChart;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -15,6 +15,24 @@ namespace FlexChartDemo.Data.Views.Samples
         {
             InitializeComponent();
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
+            this.flexChart.Legend.Position = Xuni.Forms.ChartCore.ChartPositionType.Top;
+            this.flexChart.Legend.Orientation = Xuni.Forms.ChartCore.LegendOrientation.Horizontal;
+            this.flexChart.SizeChanged += flexChart_SizeChanged;
+        }
+
+        void flexChart_SizeChanged(object sender, EventArgs e)
+        {
+            if(this.flexChart.Width > this.flexChart.Height)
+            {
+                this.flexChart.AxisX.LabelAngle = 0;
+                this.flexChart.AxisY.LabelAngle = 0;
+            }
+            else
+            {
+                this.flexChart.AxisX.LabelAngle = 90;
+                this.flexChart.AxisY.LabelAngle = 90;
+            }
+            //this.flexChart.Refresh();
         }
     }
 }

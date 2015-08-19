@@ -5,9 +5,9 @@ using System.Text;
 
 using Xamarin.Forms;
 
-using FlexChartDemo.Data.Chart;
-using FlexChartDemo.Data.Repo;
+using FlexChartDemo.Data.Model;
 using FlexChartDemo.Data.Views;
+using FlexChartDemo.Data;
 
 namespace FlexChartDemo
 {
@@ -15,12 +15,12 @@ namespace FlexChartDemo
     {
         public App()
         {
-            MainPage = new NavigationPage(new ChartSampleGrid());
+            MainPage = new NavigationPage(new FlexChartSamples());
         }
        
 		protected override void OnStart ()
 		{
-			Xuni.Xamarin.Core.LicenseManager.Key = Xuni.FlexChartDemo.App.License.Key;
+			Xuni.Forms.Core.LicenseManager.Key = Xuni.FlexChartDemo.App.License.Key;
 		}
     }
 }

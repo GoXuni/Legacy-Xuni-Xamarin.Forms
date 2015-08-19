@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.Editing"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem x:Name="toolbarItemEdit" Clicked="OnEditButtonClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/appbar.edit.png" Android="ic_edit.png" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+  </ContentPage.ToolbarItems>
+  <StackLayout>
+    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+    <Grid VerticalOptions="FillAndExpand">
+      <xuni:FlexGrid x:Name="grid"
+                   AutoGenerateColumns="False"
+                   SelectionMode="Row">
+        <xuni:FlexGrid.Columns>
+          <xuni:GridColumn Binding="First" />
+          <xuni:GridColumn Binding="Last" />
+          <xuni:GridColumn Binding="Hired" Format="d" />
+          <xuni:GridColumn Binding="Weight" Format="n4" />
+        </xuni:FlexGrid.Columns>
+      </xuni:FlexGrid>
+    </Grid>
+  </StackLayout>
+</ContentPage>

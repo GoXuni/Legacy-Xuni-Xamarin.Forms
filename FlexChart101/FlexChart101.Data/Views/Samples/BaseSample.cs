@@ -13,7 +13,7 @@ namespace FlexChartDemo.Data.Views.Samples
     {
         public BaseSample()
         {
-            FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
+            //FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
         }
     }
 }

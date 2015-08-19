@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FlexChartDemo.Data.Chart;
+using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
-using Xuni.Xamarin.FlexChart;
+using Xuni.Forms.FlexChart;
 
 namespace FlexChartDemo.Data.Views.Samples
 {

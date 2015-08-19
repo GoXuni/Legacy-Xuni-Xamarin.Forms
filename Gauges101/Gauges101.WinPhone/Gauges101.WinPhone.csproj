@@ -26,6 +26,7 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\Controls\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <NuGetPackageImportStamp>d388b6ef</NuGetPackageImportStamp>
+    <ExpressionBlendVersion>12.0.51020.0</ExpressionBlendVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -98,6 +99,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Picture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\AppResources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -165,29 +167,32 @@
     <Reference Include="Microsoft.Phone.Controls.Toolkit">
       <HintPath>..\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Forms.Core">
-      <HintPath>..\packages\Xamarin.Forms.1.4.0.6341\lib\WP80\Xamarin.Forms.Core.dll</HintPath>
+    <Reference Include="Xamarin.Forms.Core, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Xamarin.Forms.1.4.4.6392\lib\WP80\Xamarin.Forms.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Forms.Platform.WP8">
-      <HintPath>..\packages\Xamarin.Forms.1.4.0.6341\lib\WP80\Xamarin.Forms.Platform.WP8.dll</HintPath>
+    <Reference Include="Xamarin.Forms.Platform.WP8, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Xamarin.Forms.1.4.4.6392\lib\WP80\Xamarin.Forms.Platform.WP8.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Forms.Xaml">
-      <HintPath>..\packages\Xamarin.Forms.1.4.0.6341\lib\WP80\Xamarin.Forms.Xaml.dll</HintPath>
+    <Reference Include="Xamarin.Forms.Xaml, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Xamarin.Forms.1.4.4.6392\lib\WP80\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Xuni.Forms.Core">
+      <HintPath>..\packages\Xuni.Forms.Core.1.4.20152.38\lib\WP80\Xuni.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xuni.Forms.Core.Platform.WinPhone">
+      <HintPath>..\packages\Xuni.Forms.Core.1.4.20152.38\lib\WP80\Xuni.Forms.Core.Platform.WinPhone.dll</HintPath>
+    </Reference>
+    <Reference Include="Xuni.Forms.Gauge">
+      <HintPath>..\packages\Xuni.Forms.Gauge.1.4.20152.38\lib\WP80\Xuni.Forms.Gauge.dll</HintPath>
+    </Reference>
+    <Reference Include="Xuni.Forms.Gauge.Platform.WinPhone">
+      <HintPath>..\packages\Xuni.Forms.Gauge.1.4.20152.38\lib\WP80\Xuni.Forms.Gauge.Platform.WinPhone.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.WinPhone.Gauge">
-      <HintPath>..\packages\Xuni.Gauge.1.4.20151.25\lib\WP80\Xuni.WinPhone.Gauge.dll</HintPath>
-    </Reference>
-    <Reference Include="Xuni.Xamarin.Core">
-      <HintPath>..\packages\Xuni.Gauge.1.4.20151.25\lib\WP80\Xuni.Xamarin.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Xuni.Xamarin.Core.Render.WinPhone">
-      <HintPath>..\packages\Xuni.Core.1.4.20151.25\lib\WP80\Xuni.Xamarin.Core.Render.WinPhone.dll</HintPath>
-    </Reference>
-    <Reference Include="Xuni.Xamarin.Gauge">
-      <HintPath>..\packages\Xuni.Gauge.1.4.20151.25\lib\WP80\Xuni.Xamarin.Gauge.dll</HintPath>
-    </Reference>
-    <Reference Include="Xuni.Xamarin.Gauge.Render.WinPhone">
-      <HintPath>..\packages\Xuni.Gauge.1.4.20151.25\lib\WP80\Xuni.Xamarin.Gauge.Render.WinPhone.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.Gauge.1.4.20152.38\lib\WP80\Xuni.WinPhone.Gauge.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
@@ -200,12 +205,5 @@
   </Target>
   -->
   <ProjectExtensions />
-  <Import Project="..\packages\Xamarin.Forms.1.4.0.6341\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.4.0.6341\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets')" />
-  <Import Project="..\packages\Xamarin.Forms.1.4.0.6341\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.4.0.6341\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Xamarin.Forms.1.4.0.6341\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.1.4.0.6341\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
-  </Target>
+  <Import Project="..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10\Xamarin.Forms.targets')" />
 </Project>

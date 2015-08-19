@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexPie;assembly=Xuni.Xamarin.FlexPie"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexPie;assembly=Xuni.Forms.FlexPie"
              x:Class="FlexPieDemo.Data.Views.Samples.LegendAndTitlesSample"
              Title="Legend And Titles"
             Padding="20">
@@ -31,14 +31,16 @@
       </StackLayout>
     </Grid>
     <xuni:FlexPie SelectedItemOffset=".2"
-                  SelectedBorderColor="#ff0000"
                   SelectedBorderWidth="3"
-                  SelectedDashes="1,1"
+                  SelectedDashes="1,0"
                   SelectionMode="Point"
                   BindingName = "Name" Binding = "Value"
-                  HeaderText="Fruit By Value" HeaderTextColor="#666666" HeaderFont="Bold,Large"
-                  FooterText="2014 GrapeCity, inc." FooterTextColor="#666666" FooterFont="Small"
-                  x:Name="flexPie" />
+                  HeaderText="Fruit By Value" HeaderTextColor="#666666" HeaderFontSize="20"
+                  FooterText="2015 GrapeCity, inc." FooterTextColor="#666666" FooterFontSize="Small"
+                  x:Name="flexPie" 
+                  VerticalOptions="FillAndExpand"
+                    
+  />
   </StackLayout>
 
 </BaseSample>

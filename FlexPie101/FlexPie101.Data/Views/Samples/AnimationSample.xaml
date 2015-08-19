@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexPie;assembly=Xuni.Forms.FlexPie"
+             x:Class="FlexPieDemo.Data.Views.Samples.AnimationSample">
+  <Grid Padding="5">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Load Animation Mode" VerticalOptions="Center"/>
+      <Picker x:Name="pickerMode" HorizontalOptions="FillAndExpand"/>
+    </StackLayout>
+    <xuni:FlexPie x:Name="flexPie"
+                  BindingName = "Label" 
+                  Binding = "Value"
+
+                  SelectionMode="Point"
+                  SelectedItemOffset=".1"
+                  VerticalOptions="FillAndExpand"
+                  Grid.Row="1"/>
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Grid.Row="2">
+      <Button x:Name="btnUpdate2015" Text="2015" Clicked="btnUpdate2015_Clicked"/>
+      <Button x:Name="btnUpdate2014" Text="2014" Clicked="btnUpdate2014_Clicked"/>
+      <Button x:Name="btnUpdate2013" Text="2013" Clicked="btnUpdate2013_Clicked"/>
+      <Button x:Name="btnUpdate2012" Text="2012" Clicked="btnUpdate2012_Clicked"/>
+    </StackLayout>
+  </Grid>
+</ContentPage>

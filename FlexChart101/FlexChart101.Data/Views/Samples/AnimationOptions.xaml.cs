@@ -1,13 +1,13 @@
-﻿using FlexChartDemo.Data.Chart;
+﻿using FlexChartDemo.Data.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xuni.Xamarin.ChartCore;
-using Xuni.Xamarin.ChartCore.Enums;
-using Xuni.Xamarin.FlexChart;
+using Xuni.Forms.ChartCore;
+using Xuni.Forms.ChartCore.Enums;
+using Xuni.Forms.FlexChart;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -16,15 +16,17 @@ namespace FlexChartDemo.Data.Views.Samples
         public AnimationOptions()
         {
             InitializeComponent();
-            FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
+            //FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
             this.pickerChartType.Items.Add(ChartType.Column.ToString());
-            this.pickerChartType.Items.Add(ChartType.Bar.ToString());
-            this.pickerChartType.Items.Add(ChartType.Scatter.ToString());
-            this.pickerChartType.Items.Add(ChartType.Line.ToString());
-            this.pickerChartType.Items.Add(ChartType.LineSymbol.ToString());
             this.pickerChartType.Items.Add(ChartType.Area.ToString());
-
+            this.pickerChartType.Items.Add(ChartType.Line.ToString());
+            this.pickerChartType.Items.Add(ChartType.LineSymbols.ToString());
+            this.pickerChartType.Items.Add(ChartType.Spline.ToString());
+            this.pickerChartType.Items.Add(ChartType.SplineSymbols.ToString());
+            this.pickerChartType.Items.Add(ChartType.SplineArea.ToString());
+            this.pickerChartType.Items.Add(ChartType.Scatter.ToString());
+            
 			foreach (var item in Enum.GetNames(typeof(AnimationMode)))
             {
                 this.pickerAnimationMode.Items.Add(item);
@@ -33,8 +35,12 @@ namespace FlexChartDemo.Data.Views.Samples
             this.pickerAnimationMode.SelectedIndex = 1;
 
             // customize animation
-            this.flexChart.LoadAnimation.Duration = 900;
-            this.flexChart.LoadAnimation.Easing = Easing.SpringIn;
+            this.flexChart.LoadAnimation.Duration = 1200;
+            this.flexChart.LoadAnimation.StartDelay = 300;
+            //this.flexChart.LoadAnimation.Easing = Easing.SpringIn;
+
+            this.flexChart.Palette = Xuni.Forms.ChartCore.Palettes.Modern;
+            this.flexChart.AxisX.Format = "M/dd";
         }
 
         void pickerChartType_SelectedIndexChanged(object sender, EventArgs e)

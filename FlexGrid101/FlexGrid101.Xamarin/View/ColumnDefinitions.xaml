@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.ColumnDefinitions"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid"
+             xmlns:local="clr-namespace:FlexGrid101;assembly=FlexGrid101.Xamarin">
+  <StackLayout>
+    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+    <Grid VerticalOptions="FillAndExpand">
+      <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False">
+        <xuni:FlexGrid.Columns>
+          <xuni:GridColumn Binding="ID" Width="100"/>
+          <xuni:GridColumn Binding="First"/>
+          <xuni:GridColumn Binding="Last"/>
+          <xuni:GridColumn Binding="Weight" Format="N1"/>
+          <xuni:GridColumn Binding="CountryID" Header="Country"/>
+          <local:GridDateTimeColumn Binding="Hired" Format="d" Mode="Date"/>
+          <local:GridDateTimeColumn Binding="Hired" Format="t" Mode="Time"/>
+        </xuni:FlexGrid.Columns>
+      </xuni:FlexGrid>
+    </Grid>
+  </StackLayout>
+</ContentPage>

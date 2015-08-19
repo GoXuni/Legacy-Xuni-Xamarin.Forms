@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.GettingStarted"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid">
+  <StackLayout>
+    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+    <Grid VerticalOptions="FillAndExpand">
+      <xuni:FlexGrid x:Name="grid"/>
+    </Grid>
+  </StackLayout>
+</ContentPage>

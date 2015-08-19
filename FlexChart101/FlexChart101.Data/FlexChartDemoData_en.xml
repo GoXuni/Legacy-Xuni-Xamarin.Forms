@@ -43,6 +43,104 @@
     <ThumbnailImage>chart_tooltip.png</ThumbnailImage>
   </ChartSample>
   <ChartSample>
+    <Name>Data Labels</Name>
+    <Description>Shows a simple chart with static data labels.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>16</SampleViewType>
+    <ThumbnailImage>chart_tooltip.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Customizing Axes</Name>
+    <Description>Shows customized axis style and label format.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>6</SampleViewType>
+    <ThumbnailImage>chart_column.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Multiple Axes</Name>
+    <Description>Shows a chart with mutiple Y axes.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>17</SampleViewType>
+    <ThumbnailImage>chart_axes.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Legend and Titles</Name>
+    <Description>Shows basic chart headers and axis titles.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>3</SampleViewType>
+    <ThumbnailImage>chart_aggregate.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Conditional Formatting</Name>
+    <Description>Shows conditional formatting by customizing plot elements.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>19</SampleViewType>
+    <ThumbnailImage>chart_line.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Custom Plot Elements</Name>
+    <Description>Shows how to fully customize plot elements.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>18</SampleViewType>
+    <ThumbnailImage>custom.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Selection Modes</Name>
+    <Description>Shows the different selection modes.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>8</SampleViewType>
+    <ThumbnailImage>chart_selection.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Toggle Series</Name>
+    <Description>Shows the ability to toggle a series visibility.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>9</SampleViewType>
+    <ThumbnailImage>chart_column.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Load Animation Mode</Name>
+    <Description>Showss animation modes when data is loaded.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>15</SampleViewType>
+    <ThumbnailImage>chart_animation.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Update Animation</Name>
+    <Description>Shows animation when data is updated.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>21</SampleViewType>
+    <ThumbnailImage>chart_animation.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Dynamic Charts</Name>
+    <Description>Shows a dynamic, “live” chart.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>10</SampleViewType>
+    <ThumbnailImage>chart_dynamic.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Hit Test</Name>
+    <Description>Demonstrates use of the FlexChart's hitTest method.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>14</SampleViewType>
+    <ThumbnailImage>chart_selection.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Scrolling</Name>
+    <Description>Shows a chart with panning (or scrolling) along the axes.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>22</SampleViewType>
+    <ThumbnailImage>chart_area.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
+    <Name>Zooming and Scrolling</Name>
+    <Description>Shows stretch zoom-out and pinch zoom-in gestures.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>13</SampleViewType>
+    <ThumbnailImage>chart_scatter.png</ThumbnailImage>
+  </ChartSample>
+  <ChartSample>
     <Name>Theming</Name>
     <Description>Shows the built-in palettes.</Description>
     <SampleDataType>0</SampleDataType>
@@ -57,61 +155,11 @@
     <ThumbnailImage>chart_composite.png</ThumbnailImage>
   </ChartSample>
   <ChartSample>
-    <Name>Customizing Axes</Name>
-    <Description>Shows customized axes style and label format.</Description>
+    <Name>Export Image</Name>
+    <Description>Shows how to export an image of FlexChart.</Description>
     <SampleDataType>0</SampleDataType>
-    <SampleViewType>6</SampleViewType>
+    <SampleViewType>20</SampleViewType>
     <ThumbnailImage>chart_column.png</ThumbnailImage>
   </ChartSample>
-  <ChartSample>
-    <Name>Legend and Titles</Name>
-    <Description>Shows custom chart headers and axis titles.</Description>
-    <SampleDataType>0</SampleDataType>
-    <SampleViewType>3</SampleViewType>
-    <ThumbnailImage>chart_aggregate.png</ThumbnailImage>
-  </ChartSample>
-  <ChartSample>
-    <Name>Selection Modes</Name>
-    <Description>Shows the different selection modes.</Description>
-    <SampleDataType>0</SampleDataType>
-    <SampleViewType>8</SampleViewType>
-    <ThumbnailImage>chart_selection.png</ThumbnailImage>
-  </ChartSample>
-  <ChartSample>
-    <Name>Toggle Series</Name>
-    <Description>Shows the ability to turn a series on and off.</Description>
-    <SampleDataType>0</SampleDataType>
-    <SampleViewType>9</SampleViewType>
-    <ThumbnailImage>chart_column.png</ThumbnailImage>
-  </ChartSample>
-  <ChartSample>
-    <Name>Animation Options</Name>
-    <Description>Shows the animation options.</Description>
-    <SampleDataType>0</SampleDataType>
-    <SampleViewType>15</SampleViewType>
-    <ThumbnailImage>chart_animation.png</ThumbnailImage>
-  </ChartSample>
-  <ChartSample>
-    <Name>Dynamic Charts</Name>
-    <Description>Shows a dynamic, “live” chart.</Description>
-    <SampleDataType>0</SampleDataType>
-    <SampleViewType>10</SampleViewType>
-    <ThumbnailImage>chart_dynamic.png</ThumbnailImage>
-  </ChartSample>
-  <ChartSample>
-    <Name>Zooming and Scrolling</Name>
-    <Description>Shows touch-based zooming and scrolling in FlexChart.</Description>
-    <SampleDataType>0</SampleDataType>
-    <SampleViewType>13</SampleViewType>
-    <ThumbnailImage>chart_area.png</ThumbnailImage>
-  </ChartSample>
-  <ChartSample>
-    <Name>Hit Test</Name>
-    <Description>This view demonstrates the use of the FlexChart's hitTest method.</Description>
-    <SampleDataType>0</SampleDataType>
-    <SampleViewType>14</SampleViewType>
-    <ThumbnailImage>chart_line.png</ThumbnailImage>
-  </ChartSample>
-
 
 </ArrayOfChartSample>

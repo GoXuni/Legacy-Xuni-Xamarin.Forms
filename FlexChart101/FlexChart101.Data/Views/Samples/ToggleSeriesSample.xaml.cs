@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FlexChartDemo.Data.Chart;
+using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
-using Xuni.Xamarin.ChartCore;
-using Xuni.Xamarin.FlexChart;
+using Xuni.Forms.ChartCore;
+using Xuni.Forms.FlexChart;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -16,6 +16,9 @@ namespace FlexChartDemo.Data.Views.Samples
         {
             InitializeComponent();
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
+            this.flexChart.Palette = Xuni.Forms.ChartCore.Palettes.Darkly;
+            this.flexChart.AxisX.Format = "M/dd";
+            this.flexChart.LegendToggle = true;
         }
     }
     public class SeriesVisibilityBoolConverter : IValueConverter

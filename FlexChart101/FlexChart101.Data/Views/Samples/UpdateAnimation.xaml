@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
+             x:Class="FlexChartDemo.Data.Views.Samples.UpdateAnimation">
+  <Grid Padding="10">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*"/>
+      <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+    <Label Text="Chart Type" VerticalOptions="Center"/>
+    <Label Text="Update Position" Grid.Column="1" VerticalOptions="Center"/>
+    <Picker x:Name="pickerChartType" Grid.Row="1" Title="Chart Type" HorizontalOptions="FillAndExpand"  />
+    <Picker x:Name="pickerUpdatePosition" Grid.Row="1" Grid.Column="1" Title="Update Position" HorizontalOptions="FillAndExpand"  />
+
+    <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.ColumnSpan="2">
+      <Button x:Name="btnAdd" Clicked="btnAdd_Clicked"/>
+      <Button x:Name="btnRemove" Clicked="btnRemove_Clicked"/>
+    </StackLayout>
+
+    <xuni:FlexChart
+      x:Name="flexChart"
+      BindingX="XValue"
+      SelectedBorderColor="Red"
+      SelectedBorderWidth="3"
+      SelectedDashes="2,1"
+      VerticalOptions="FillAndExpand"
+      Grid.Row="3" Grid.ColumnSpan="2">
+
+      <xuni:FlexChart.Series>
+        <xuni:ChartSeries Binding="Value" Name="Value" />
+      </xuni:FlexChart.Series>
+    </xuni:FlexChart>
+  </Grid>
+</ContentPage>

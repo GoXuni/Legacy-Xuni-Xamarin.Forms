@@ -13,9 +13,9 @@ namespace FlexChartDemo.Data.Views
 {
     public static class ChartSampleViewFactory
     {
-        public static ContentPage GetChartContentPage(ChartSample chartSample)
+        public static Page GetChartContentPage(ChartSample chartSample)
         {
-            ContentPage page = null;
+            Page page = null;
 
             switch (chartSample.SampleViewType)
             {
@@ -77,7 +77,28 @@ namespace FlexChartDemo.Data.Views
                 case (int)ChartSampleViewType.ANIMATION:
                     page = new AnimationOptions();
                     break;
-               
+                case (int)ChartSampleViewType.MUTIPLE_AXES:
+                    page = new MultipleAxesSamples();
+                    break;
+                case (int)ChartSampleViewType.CUSTOM_PLOT_ELEMENTS:
+                    page = new CustomPlotElements();
+                    break;
+                case (int)ChartSampleViewType.CONDITIONAL_FORMAT:
+                    page = new ConditionalFormatting();
+                    break;
+
+                case (int)ChartSampleViewType.DATA_LABEL:
+                    page = new DataLabelSample();
+                    break;
+                case (int)ChartSampleViewType.SNAPSHOT:
+                    page = new Snapshot();
+                    break;
+                case (int)ChartSampleViewType.UPDATE_ANIMATION:
+                    page = new UpdateAnimation();
+                    break;
+                case (int)ChartSampleViewType.SCROLLING:
+                    page = new ScrollingSample();
+                    break;
             }
 
             page.Title = chartSample.Name;

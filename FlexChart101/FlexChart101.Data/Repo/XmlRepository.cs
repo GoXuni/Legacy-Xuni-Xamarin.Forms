@@ -17,9 +17,26 @@ namespace FlexChartDemo.Data.Repo
         {
             var assembly = typeof(XmlRepository).GetTypeInfo().Assembly;
 
-            //TODO: add culture
-            Stream stream = assembly.GetManifestResourceStream("FlexChartDemo.Data.FlexChartDemoData_en.xml");
-
+            // get culture
+            Stream stream;
+            var cultureInfo = System.Globalization.CultureInfo.CurrentCulture;     
+            if(cultureInfo.Name.ToLower().StartsWith("jp"))
+            {
+                stream = assembly.GetManifestResourceStream("FlexChartDemo.Data.FlexChartDemoData_jp.xml");
+            }
+            else if (cultureInfo.Name.ToLower().StartsWith("zh"))
+            {
+                stream = assembly.GetManifestResourceStream("FlexChartDemo.Data.FlexChartDemoData_zh.xml");
+            }
+            else if (cultureInfo.Name.ToLower().StartsWith("ko"))
+            {
+                stream = assembly.GetManifestResourceStream("FlexChartDemo.Data.FlexChartDemoData_ko.xml");
+            }
+            else
+            {
+               stream = assembly.GetManifestResourceStream("FlexChartDemo.Data.FlexChartDemoData_en.xml");
+            }
+            
             using (var reader = new System.IO.StreamReader(stream))
             {
                 var serializer = new XmlSerializer(typeof(List<ChartSample>));

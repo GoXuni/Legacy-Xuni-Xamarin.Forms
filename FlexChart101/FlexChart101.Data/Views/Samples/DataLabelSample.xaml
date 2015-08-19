@@ -1,31 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
              x:Class="FlexChartDemo.Data.Views.Samples.DataLabelSample"
              Title="Point Data Labels">
   <StackLayout>
-	<Grid Padding="10">
-		<Grid.BackgroundColor>
-			<OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />
-		</Grid.BackgroundColor>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="Auto"/>
-			<RowDefinition Height="Auto"/>
-		</Grid.RowDefinitions>
-    <StackLayout Orientation = "Horizontal">
-      <Label Text="Label Position"   VerticalOptions="Center"  />
-      <Picker x:Name="pickPostion" Title="Label Position" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickPostion_SelectedIndexChanged" />
-    </StackLayout>
-	</Grid>
-    <sample:AdaptiveFlexChart x:Name="flexChart" BindingX="Name" >
-      <sample:AdaptiveFlexChart.Series>
-        <xuni:ChartSeries Binding="Sales" Name="Sales" />
-        <xuni:ChartSeries Binding="Expenses" Name="Expenses" />
-      </sample:AdaptiveFlexChart.Series>
-    </sample:AdaptiveFlexChart>
-   
+    <Grid Padding="10">
+      <Grid.BackgroundColor>
+        <OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />
+      </Grid.BackgroundColor>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+      <StackLayout Orientation = "Horizontal">
+        <Picker x:Name="pickerChartType"  Title="Chart Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerChartType_SelectedIndexChanged" />
+        <Label Text="Label Position"  VerticalOptions="Center"  />
+        <Picker x:Name="pickPostion" Title="Label Position" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickPostion_SelectedIndexChanged" />
+      </StackLayout>
+    </Grid>
+    <xuni:FlexChart x:Name="flexChart" IsAnimated="False" ShowTooltips="False" VerticalOptions = "LayoutOptions.FillAndExpand" BindingX="Name" >
+      <xuni:FlexChart.Series>
+        <xuni:ChartSeries Binding="Expenses" Name="Total Expenses" />
+      </xuni:FlexChart.Series>
+      <xuni:FlexChart.DataLabel>
+        <xuni:ChartDataLabel>
+          <xuni:ChartDataLabel.ContentTemplate>
+            <DataTemplate>
+              <Frame OutlineColor="Blue" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                  <Label Text="{Binding ValueX}" TextColor="Green" FontSize="25" ></Label>
+                  <Label Text="{Binding Value, StringFormat='{0:F2}'}" TextColor="Red" FontSize="25" ></Label>
+                </StackLayout>
+              </Frame>
+            </DataTemplate>
+          </xuni:ChartDataLabel.ContentTemplate>  
+        </xuni:ChartDataLabel>
+      </xuni:FlexChart.DataLabel>
+      <xuni:FlexChart.AxisX>
+        <xuni:ChartAxis Position="Bottom" LabelFontSize="12" MajorGridVisible="True" />
+      </xuni:FlexChart.AxisX>
+      <xuni:FlexChart.AxisY>
+        <xuni:ChartAxis Position="Left" MajorGridVisible="False" MinorGridVisible="False" MajorTickWidth="0" LabelFontSize="12" LabelsVisible="False"/>
+      </xuni:FlexChart.AxisY>
+    </xuni:FlexChart>
   </StackLayout>
- 
 </BaseSample>

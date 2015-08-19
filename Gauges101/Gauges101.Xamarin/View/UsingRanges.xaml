@@ -1,33 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:xuni="clr-namespace:Xuni.Xamarin.Gauge;assembly=Xuni.Xamarin.Gauge"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Gauge;assembly=Xuni.Forms.Gauge"
              x:Class="Gauges101.UsingRanges"
              Padding="20">
-    <StackLayout VerticalOptions="FillAndExpand">
-        <Label Text="Using Ranges" HorizontalOptions="Center" Font="Large"/>
-        <StackLayout Orientation="Horizontal">
-            <Label Text="Show ranges" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
-            <Switch IsToggled="{Binding ShowRanges,Mode=TwoWay}" VerticalOptions="End"/>
-        </StackLayout>
-        <Stepper Value="{Binding Value}" Increment="25" HorizontalOptions="Center"/>
-        <StackLayout>
-            <xuni:XuniLinearGauge Value="{Binding Value,Mode=TwoWay}" ShowRanges="{Binding ShowRanges}" IsReadOnly="False">
-                <xuni:XuniLinearGauge.Ranges>
-                    <xuni:GaugeRange Min="0" Max="40" Color="#22B14C"/>
-                    <xuni:GaugeRange Min="40" Max="80" Color="#FF8080"/>
-                    <xuni:GaugeRange Min="80" Max="100" Color="#00A2E8"/>
-                </xuni:XuniLinearGauge.Ranges>
-            </xuni:XuniLinearGauge>
-        </StackLayout>
-        <StackLayout VerticalOptions="FillAndExpand">
-            <xuni:XuniRadialGauge Value="{Binding Value,Mode=TwoWay}" ShowRanges="{Binding ShowRanges}" IsReadOnly="False" VerticalOptions="FillAndExpand">
-                <xuni:XuniRadialGauge.Ranges>
-                    <xuni:GaugeRange Min="0" Max="40" Color="#22B14C"/>
-                    <xuni:GaugeRange Min="40" Max="80" Color="#FF8080"/>
-                    <xuni:GaugeRange Min="80" Max="100" Color="#00A2E8"/>
-                </xuni:XuniRadialGauge.Ranges>
-            </xuni:XuniRadialGauge>
-        </StackLayout>
+  <StackLayout>
+    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+    <StackLayout Orientation="Horizontal">
+      <Label Text="Show ranges" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
+      <Switch IsToggled="{Binding ShowRanges,Mode=TwoWay}" VerticalOptions="End"/>
     </StackLayout>
+    <Stepper Value="{Binding Value}" Increment="25" HorizontalOptions="Center"/>
+    <xuni:XuniLinearGauge x:Name="linearGauge" Value="{Binding Value,Mode=TwoWay}" ShowRanges="{Binding ShowRanges}" IsReadOnly="False">
+      <xuni:XuniLinearGauge.Ranges>
+        <xuni:GaugeRange Min="0" Max="40" Color="#22B14C"/>
+        <xuni:GaugeRange Min="40" Max="80" Color="#FF8080"/>
+        <xuni:GaugeRange Min="80" Max="100" Color="#EEE04A"/>
+      </xuni:XuniLinearGauge.Ranges>
+    </xuni:XuniLinearGauge>
+    <xuni:XuniRadialGauge x:Name="radialGauge" Value="{Binding Value,Mode=TwoWay}" ShowRanges="{Binding ShowRanges}" IsReadOnly="False" VerticalOptions="FillAndExpand">
+      <xuni:XuniRadialGauge.Ranges>
+        <xuni:GaugeRange Min="0" Max="40" Color="#22B14C"/>
+        <xuni:GaugeRange Min="40" Max="80" Color="#FF8080"/>
+        <xuni:GaugeRange Min="80" Max="100" Color="#EEE04A"/>
+      </xuni:XuniRadialGauge.Ranges>
+    </xuni:XuniRadialGauge>
+  </StackLayout>
 </ContentPage>

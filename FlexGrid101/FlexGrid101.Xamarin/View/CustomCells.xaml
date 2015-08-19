@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.CustomCells"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid"
+             xmlns:gauge="clr-namespace:Xuni.Forms.Gauge;assembly=Xuni.Forms.Gauge">
+  <StackLayout>
+    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+    <Grid VerticalOptions="FillAndExpand">
+      <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False" IsReadOnly="True">
+        <xuni:FlexGrid.Columns>
+          <xuni:GridColumn Binding="First"/>
+          <xuni:GridColumn Binding="Last"/>
+          <xuni:GridColumn Binding="Weight" Header="Performance">
+            <xuni:GridColumn.CellTemplate>
+              <DataTemplate>
+                <gauge:XuniRadialGauge IsAnimated="False" Value="{Binding Weight}" Min="50" Max="100" ShowText="None" ShowRanges="False" WidthRequest="50" HeightRequest="50">
+                  <gauge:XuniRadialGauge.Ranges>
+                    <gauge:GaugeRange Min="50" Max="80" Color="Green"/>
+                    <gauge:GaugeRange Min="80" Max="90" Color="Yellow"/>
+                    <gauge:GaugeRange Min="90" Max="100" Color="Red"/>
+                  </gauge:XuniRadialGauge.Ranges>
+                </gauge:XuniRadialGauge>
+              </DataTemplate>
+            </xuni:GridColumn.CellTemplate>
+          </xuni:GridColumn>
+        </xuni:FlexGrid.Columns>
+      </xuni:FlexGrid>
+    </Grid>
+  </StackLayout>
+</ContentPage>

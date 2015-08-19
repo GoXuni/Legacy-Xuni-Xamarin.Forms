@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FlexPieDemo.Data.Chart;
+using FlexPieDemo.Data.Model;
 using Xamarin.Forms;
-using Xuni.Xamarin.FlexPie;
+using Xuni.Forms.FlexPie;
 
 namespace FlexPieDemo.Data.Views.Samples
 {
@@ -15,12 +15,13 @@ namespace FlexPieDemo.Data.Views.Samples
         {
             InitializeComponent();
             this.flexPie.ItemsSource = PieChartSampleFactory.CreateEntiyList();
-            root.SizeChanged += gr_SizeChanged;
+            this.flexPie.Palette = Xuni.Forms.ChartCore.Palettes.Midnight;
+            this.SizeChanged += gr_SizeChanged;
         }
 
         void gr_SizeChanged(object sender, EventArgs e)
         {
-            if(root.Width>root.Height)
+            if (root.Width > root.Height)
             {
                 Grid.SetColumn(gridOption, 0);
                 Grid.SetRow(gridOption, 0);

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.FullTextFilter"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid">
+  <StackLayout>
+    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+    <Entry x:Name="filter" />
+    <Grid VerticalOptions="FillAndExpand">
+      <xuni:FlexGrid x:Name="grid">
+        <xuni:FlexGrid.Behaviors>
+          <xuni:FullTextFilterBehavior FilterEntry="{x:Reference Name=filter}" HighlightColor="#B00F50" Mode="WhileTyping" MatchNumbers="True" TreatSpacesAsAndOperator="True" />
+        </xuni:FlexGrid.Behaviors>
+      </xuni:FlexGrid>
+    </Grid>
+  </StackLayout>
+</ContentPage>

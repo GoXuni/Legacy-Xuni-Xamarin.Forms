@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FlexChartDemo.Data.Chart;
+using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
-using Xuni.Xamarin.FlexChart;
+using Xuni.Forms.FlexChart;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -22,7 +22,8 @@ namespace FlexChartDemo.Data.Views.Samples
             {
                 list.Add(getItem());
             }
-            flexChart.ItemsSource = list;
+            this.flexChart.ItemsSource = list;
+            this.flexChart.Palette = Xuni.Forms.ChartCore.Palettes.Coral;
         }
 
         protected override void OnAppearing()
@@ -54,12 +55,14 @@ namespace FlexChartDemo.Data.Views.Samples
 
             DateTime now = DateTime.Now;
 
-            return new DummyObject(now.ToString("mm:ss"), trucks, ships, planes);
+			return new DummyObject(now, now.ToString("mm:ss"), trucks, ships, planes);
         }
 
         public class DummyObject
         {
             public String Name { get; set; }
+
+            public DateTime Time { get; set; }
 
             public double Trucks { get; set; }
 
@@ -67,9 +70,10 @@ namespace FlexChartDemo.Data.Views.Samples
 
             public double Planes { get; set; }
 
-            public DummyObject(String name, double trucks, double ships, double planes)
+			public DummyObject(DateTime time, String name, double trucks, double ships, double planes)
             {
-                this.Name = name;
+                this.Time = time;
+				this.Name = name;
                 this.Trucks = trucks;
                 this.Ships = ships;
                 this.Planes = planes;

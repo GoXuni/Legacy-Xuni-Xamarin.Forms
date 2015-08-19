@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:xuni="clr-namespace:Xuni.Xamarin.FlexChart;assembly=Xuni.Xamarin.FlexChart"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
              x:Class="FlexChartDemo.Data.Views.Samples.SelectionModesSample"
              Title="Chart Types Sample">
@@ -18,24 +18,23 @@
 			<ColumnDefinition Width="*"/>
 			<ColumnDefinition Width="*"/>
 		</Grid.ColumnDefinitions>
-		<Label Text="Chart Type" Grid.Row="0" Grid.Column="0" FontSize="12" />
-		<Label Text="Selection Mode" Grid.Row="0" Grid.Column="1" FontSize="12" />
+		<Label Text="Chart Type" Grid.Row="0" Grid.Column="0" />
+		<Label Text="Selection Mode" Grid.Row="0" Grid.Column="1" />
     	<Picker x:Name="pickerChartType" Grid.Row="1" Grid.Column="0" Title="Chart Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerChartType_SelectedIndexChanged" />
         <Picker x:Name="pickerSelectionMode" Grid.Row="1" Grid.Column="1" Title="Selection Mode" HorizontalOptions="FillAndExpand" SelectedIndexChanged="pickerSelectionMode_SelectedIndexChanged" />
 	</Grid>
-    <sample:AdaptiveFlexChart
+    <xuni:FlexChart
       x:Name="flexChart"
       BindingX="Name"
       SelectedBorderColor="Red"
       SelectedBorderWidth="3"
-      SelectedDashes="2,1">
-
-      <sample:AdaptiveFlexChart.Series>
+      VerticalOptions="FillAndExpand">
+      <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
         <xuni:ChartSeries Binding="Expenses"  Name="Expenses" />
         <xuni:ChartSeries Binding="Downloads"  Name="Downloads" />
-      </sample:AdaptiveFlexChart.Series>
-    </sample:AdaptiveFlexChart>
+      </xuni:FlexChart.Series>
+    </xuni:FlexChart>
    
   </StackLayout>
  

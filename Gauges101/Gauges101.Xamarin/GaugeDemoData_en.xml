@@ -16,7 +16,7 @@
   </Sample>
   <Sample>
     <Name>Using Ranges</Name>
-    <Description>Shows customized ranges.</Description>
+    <Description>Shows customized ranges behind the pointer.</Description>
     <SampleDataType>0</SampleDataType>
     <SampleViewType>2</SampleViewType>
     <ThumbnailImage>gauge_ranges.png</ThumbnailImage>
@@ -47,6 +47,13 @@
     <Description>Shows custom animation techniques.</Description>
     <SampleDataType>0</SampleDataType>
     <SampleViewType>6</SampleViewType>
+    <ThumbnailImage>gauge_basic.png</ThumbnailImage>
+  </Sample>
+  <Sample>
+    <Name>Export Image</Name>
+    <Description>Shows how to export an image of a gauge.</Description>
+    <SampleDataType>0</SampleDataType>
+    <SampleViewType>7</SampleViewType>
     <ThumbnailImage>gauge_basic.png</ThumbnailImage>
   </Sample>
 </ArrayOfSample>

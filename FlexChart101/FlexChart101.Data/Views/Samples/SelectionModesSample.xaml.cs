@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FlexChartDemo.Data.Chart;
+using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
-using Xuni.Xamarin.ChartCore;
-using Xuni.Xamarin.FlexChart;
+using Xuni.Forms.ChartCore;
+using Xuni.Forms.FlexChart;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -15,13 +15,24 @@ namespace FlexChartDemo.Data.Views.Samples
         public SelectionModesSample()
         {
             InitializeComponent();
-            
+
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
+            Device.OnPlatform(Android: () =>
+                this.flexChart.SelectedDashes = new double[] { 15, 5 }
+                );
+
+            Device.OnPlatform(WinPhone: () =>
+               this.flexChart.SelectedDashes = new double[] { 3, 1 }
+                );
+
+            Device.OnPlatform(iOS: () =>
+                this.flexChart.SelectedDashes = new double[] { 7.5, 2.5 }
+                );
             this.pickerChartType.Items.Add(ChartType.Column.ToString());
             this.pickerChartType.Items.Add(ChartType.Bar.ToString());
             this.pickerChartType.Items.Add(ChartType.Scatter.ToString());
             this.pickerChartType.Items.Add(ChartType.Line.ToString());
-            this.pickerChartType.Items.Add(ChartType.LineSymbol.ToString());
+            this.pickerChartType.Items.Add(ChartType.LineSymbols.ToString());
             this.pickerChartType.Items.Add(ChartType.Area.ToString());
             foreach (var item in Enum.GetNames(typeof(ChartSelectionModeType)))
             {

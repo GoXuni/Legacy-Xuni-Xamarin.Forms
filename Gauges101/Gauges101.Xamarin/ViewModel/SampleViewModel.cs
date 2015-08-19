@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xuni.Xamarin.Gauge;
+using Xuni.Forms.Gauge;
 
 namespace Gauges101
 {
@@ -111,7 +111,23 @@ namespace Gauges101
             }
         }
 
-        public int DirectionSelectedIndex { get { return _directionSelectedIndex; } set { _directionSelectedIndex = value; RaisePropertyChanged("DirectionSelectedIndex"); RaisePropertyChanged("Direction"); RaisePropertyChanged("DirectionOrientation"); } }
+        public LayoutOptions DirectionVerticalOptions
+        {
+            get
+            {
+                return DirectionOrientation == StackOrientation.Horizontal ? LayoutOptions.FillAndExpand : LayoutOptions.Center;
+            }
+        }
+
+        public LayoutOptions DirectionHorizontalOptions
+        {
+            get
+            {
+                return DirectionOrientation == StackOrientation.Horizontal ? LayoutOptions.Center : LayoutOptions.FillAndExpand;
+            }
+        }
+
+        public int DirectionSelectedIndex { get { return _directionSelectedIndex; } set { _directionSelectedIndex = value; RaisePropertyChanged("DirectionSelectedIndex"); RaisePropertyChanged("Direction"); RaisePropertyChanged("DirectionOrientation"); RaisePropertyChanged("DirectionVerticalOptions"); RaisePropertyChanged("DirectionHorizontalOptions"); } }
 
         public int ShowTextSelectedIndex { get { return _showTextSelectedIndex; } set { _showTextSelectedIndex = value; RaisePropertyChanged("ShowTextSelectedIndex"); RaisePropertyChanged("ShowTextViaSelectedIndex"); } }
 

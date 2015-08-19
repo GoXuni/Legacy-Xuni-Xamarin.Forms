@@ -10,7 +10,7 @@ using System.Reflection;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
-[assembly: ExportRenderer(typeof(FlexChartDemo.Data.Views.TransparentImageCell), typeof(FlexChartDemo.TransparentImageCellRenderer))]
+//[assembly: ExportRenderer(typeof(FlexChartDemo.Data.Views.TransparentImageCell), typeof(FlexChartDemo.TransparentImageCellRenderer))]
 
 namespace FlexChartDemo
 {

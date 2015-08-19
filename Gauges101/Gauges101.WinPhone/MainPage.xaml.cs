@@ -7,7 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using Xuni.Xamarin.Gauge.Platform.WinPhone;
+using Xuni.Forms.Gauge.Platform.WinPhone;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.WinPhone;
 
