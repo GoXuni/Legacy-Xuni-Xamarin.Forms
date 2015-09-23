@@ -16,7 +16,7 @@ namespace FlexGrid101
         {
             InitializeComponent();
 
-            lblTitle.Text = AppResources.FilterTitle;
+            this.Title = AppResources.FilterTitle;
             toolbarItemFilter.Text = AppResources.Filter;
             toolbarItemRemove.Text = AppResources.Remove;
 

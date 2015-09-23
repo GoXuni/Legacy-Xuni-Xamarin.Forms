@@ -99,21 +99,6 @@ namespace FlexPieDemo.Droid
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_startAngle = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_startAngle;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_updateAnimation_duration = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_updateAnimation_duration;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_updateAnimation_startDelay = global::FlexPieDemo.Droid.Resource.Attribute.flexPie_updateAnimation_startDelay;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Boolean.defaultFlexPieAnimated = global::FlexPieDemo.Droid.Resource.Boolean.defaultFlexPieAnimated;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Boolean.defaultFlexPieReversed = global::FlexPieDemo.Droid.Resource.Boolean.defaultFlexPieReversed;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieBorderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieBorderWidth;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieDatalabel_FontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieDatalabel_FontSize;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieDatalabel_borderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieDatalabel_borderWidth;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieFooterFontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieFooterFontSize;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieHeaderFontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieHeaderFontSize;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieInnerRadius = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieInnerRadius;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieLegend_FontSize = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieLegend_FontSize;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieLegend_borderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieLegend_borderWidth;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieOffset = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieOffset;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieSelectedBorderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieSelectedBorderWidth;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieSelectedItemOffset = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieSelectedItemOffset;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieSliceBorderWidth = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieSliceBorderWidth;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.defaultFlexPieStartAngle = global::FlexPieDemo.Droid.Resource.Dimension.defaultFlexPieStartAngle;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.dct = global::FlexPieDemo.Droid.Resource.Drawable.dct;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_launcher = global::FlexPieDemo.Droid.Resource.Drawable.ic_launcher;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.ALL = global::FlexPieDemo.Droid.Resource.Id.ALL;
@@ -137,31 +122,9 @@ namespace FlexPieDemo.Droid
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.VERTICAL = global::FlexPieDemo.Droid.Resource.Id.VERTICAL;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.tooltipContent = global::FlexPieDemo.Droid.Resource.Id.tooltipContent;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.tooltipTitle = global::FlexPieDemo.Droid.Resource.Id.tooltipTitle;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieDatalabelPosition = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieDatalabelPosition;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieDatalabel_FontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieDatalabel_FontWeight;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieFooterFontGravity = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieFooterFontGravity;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieFooterFontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieFooterFontWeight;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieHeaderFontGravity = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieHeaderFontGravity;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieHeaderFontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieHeaderFontWeight;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieLegendOrientation = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieLegendOrientation;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieLegendPosition = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieLegendPosition;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieLegend_FontWeight = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieLegend_FontWeight;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieLoadAnimationDuration = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieLoadAnimationDuration;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieLoadAnimationMode = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieLoadAnimationMode;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieLoadAnimationStartDelay = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieLoadAnimationStartDelay;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieSelectAnimationDuration = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieSelectAnimationDuration;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieSelectAnimationStartDelay = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieSelectAnimationStartDelay;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieSelectedItemPosition = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieSelectedItemPosition;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieSelectionMode = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieSelectionMode;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieUpdateAnimationDuration = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieUpdateAnimationDuration;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.defaultFlexPieUpdateAnimationStartDelay = global::FlexPieDemo.Droid.Resource.Integer.defaultFlexPieUpdateAnimationStartDelay;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.tooltip = global::FlexPieDemo.Droid.Resource.Layout.tooltip;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.ApplicationName = global::FlexPieDemo.Droid.Resource.String.ApplicationName;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.Hello = global::FlexPieDemo.Droid.Resource.String.Hello;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.defaultFlexPieDatalabel_FontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultFlexPieDatalabel_FontTypeface;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.defaultFlexPieFooterFontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultFlexPieFooterFontTypeface;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.defaultFlexPieHeaderFontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultFlexPieHeaderFontTypeface;
-			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.defaultFlexPieLegend_FontTypeface = global::FlexPieDemo.Droid.Resource.String.defaultFlexPieLegend_FontTypeface;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.AppBaseTheme = global::FlexPieDemo.Droid.Resource.Style.AppBaseTheme;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.AppTheme = global::FlexPieDemo.Droid.Resource.Style.AppTheme;
 			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie = global::FlexPieDemo.Droid.Resource.Styleable.FlexPie;
@@ -224,56 +187,56 @@ namespace FlexPieDemo.Droid
 		public partial class Array
 		{
 			
-			// aapt resource value: 0x7f09000f
-			public const int flexPieCerulanPalette = 2131296271;
+			// aapt resource value: 0x7f06000f
+			public const int flexPieCerulanPalette = 2131099663;
 			
-			// aapt resource value: 0x7f090001
-			public const int flexPieCocoaPalette = 2131296257;
+			// aapt resource value: 0x7f060001
+			public const int flexPieCocoaPalette = 2131099649;
 			
-			// aapt resource value: 0x7f090002
-			public const int flexPieCoralPalette = 2131296258;
+			// aapt resource value: 0x7f060002
+			public const int flexPieCoralPalette = 2131099650;
 			
-			// aapt resource value: 0x7f09000b
-			public const int flexPieCyborgPalette = 2131296267;
+			// aapt resource value: 0x7f06000b
+			public const int flexPieCyborgPalette = 2131099659;
 			
-			// aapt resource value: 0x7f090003
-			public const int flexPieDarkPalette = 2131296259;
+			// aapt resource value: 0x7f060003
+			public const int flexPieDarkPalette = 2131099651;
 			
-			// aapt resource value: 0x7f09000e
-			public const int flexPieDarklyPalette = 2131296270;
+			// aapt resource value: 0x7f06000e
+			public const int flexPieDarklyPalette = 2131099662;
 			
-			// aapt resource value: 0x7f090000
-			public const int flexPieDefaultflexPiePalette = 2131296256;
+			// aapt resource value: 0x7f060000
+			public const int flexPieDefaultflexPiePalette = 2131099648;
 			
-			// aapt resource value: 0x7f09000d
-			public const int flexPieFlatlyPalette = 2131296269;
+			// aapt resource value: 0x7f06000d
+			public const int flexPieFlatlyPalette = 2131099661;
 			
-			// aapt resource value: 0x7f090004
-			public const int flexPieHighConstrastPalette = 2131296260;
+			// aapt resource value: 0x7f060004
+			public const int flexPieHighConstrastPalette = 2131099652;
 			
-			// aapt resource value: 0x7f090005
-			public const int flexPieLightPalette = 2131296261;
+			// aapt resource value: 0x7f060005
+			public const int flexPieLightPalette = 2131099653;
 			
-			// aapt resource value: 0x7f090010
-			public const int flexPieMaterialPalette = 2131296272;
+			// aapt resource value: 0x7f060010
+			public const int flexPieMaterialPalette = 2131099664;
 			
-			// aapt resource value: 0x7f090006
-			public const int flexPieMidnightPalette = 2131296262;
+			// aapt resource value: 0x7f060006
+			public const int flexPieMidnightPalette = 2131099654;
 			
-			// aapt resource value: 0x7f090007
-			public const int flexPieMinimalPalette = 2131296263;
+			// aapt resource value: 0x7f060007
+			public const int flexPieMinimalPalette = 2131099655;
 			
-			// aapt resource value: 0x7f090008
-			public const int flexPieModernPalette = 2131296264;
+			// aapt resource value: 0x7f060008
+			public const int flexPieModernPalette = 2131099656;
 			
-			// aapt resource value: 0x7f090009
-			public const int flexPieOrganicPalette = 2131296265;
+			// aapt resource value: 0x7f060009
+			public const int flexPieOrganicPalette = 2131099657;
 			
-			// aapt resource value: 0x7f09000a
-			public const int flexPieSlatePalette = 2131296266;
+			// aapt resource value: 0x7f06000a
+			public const int flexPieSlatePalette = 2131099658;
 			
-			// aapt resource value: 0x7f09000c
-			public const int flexPieSuperheroPalette = 2131296268;
+			// aapt resource value: 0x7f06000c
+			public const int flexPieSuperheroPalette = 2131099660;
 			
 			static Array()
 			{
@@ -460,77 +423,6 @@ namespace FlexPieDemo.Droid
 			}
 		}
 		
-		public partial class Boolean
-		{
-			
-			// aapt resource value: 0x7f080000
-			public const int defaultFlexPieAnimated = 2131230720;
-			
-			// aapt resource value: 0x7f080001
-			public const int defaultFlexPieReversed = 2131230721;
-			
-			static Boolean()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Boolean()
-			{
-			}
-		}
-		
-		public partial class Dimension
-		{
-			
-			// aapt resource value: 0x7f060002
-			public const int defaultFlexPieBorderWidth = 2131099650;
-			
-			// aapt resource value: 0x7f060007
-			public const int defaultFlexPieDatalabel_FontSize = 2131099655;
-			
-			// aapt resource value: 0x7f060006
-			public const int defaultFlexPieDatalabel_borderWidth = 2131099654;
-			
-			// aapt resource value: 0x7f060001
-			public const int defaultFlexPieFooterFontSize = 2131099649;
-			
-			// aapt resource value: 0x7f060000
-			public const int defaultFlexPieHeaderFontSize = 2131099648;
-			
-			// aapt resource value: 0x7f060008
-			public const int defaultFlexPieInnerRadius = 2131099656;
-			
-			// aapt resource value: 0x7f060005
-			public const int defaultFlexPieLegend_FontSize = 2131099653;
-			
-			// aapt resource value: 0x7f060004
-			public const int defaultFlexPieLegend_borderWidth = 2131099652;
-			
-			// aapt resource value: 0x7f06000b
-			public const int defaultFlexPieOffset = 2131099659;
-			
-			// aapt resource value: 0x7f060003
-			public const int defaultFlexPieSelectedBorderWidth = 2131099651;
-			
-			// aapt resource value: 0x7f06000c
-			public const int defaultFlexPieSelectedItemOffset = 2131099660;
-			
-			// aapt resource value: 0x7f060009
-			public const int defaultFlexPieSliceBorderWidth = 2131099657;
-			
-			// aapt resource value: 0x7f06000a
-			public const int defaultFlexPieStartAngle = 2131099658;
-			
-			static Dimension()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Dimension()
-			{
-			}
-		}
-		
 		public partial class Drawable
 		{
 			
@@ -556,68 +448,68 @@ namespace FlexPieDemo.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a000f
-			public const int ALL = 2131361807;
+			// aapt resource value: 0x7f07000f
+			public const int ALL = 2131165199;
 			
-			// aapt resource value: 0x7f0a0007
-			public const int AUTO = 2131361799;
+			// aapt resource value: 0x7f070007
+			public const int AUTO = 2131165191;
 			
-			// aapt resource value: 0x7f0a0000
-			public const int BOLD = 2131361792;
+			// aapt resource value: 0x7f070000
+			public const int BOLD = 2131165184;
 			
-			// aapt resource value: 0x7f0a0001
-			public const int BOLD_ITALIC = 2131361793;
+			// aapt resource value: 0x7f070001
+			public const int BOLD_ITALIC = 2131165185;
 			
-			// aapt resource value: 0x7f0a0008
-			public const int BOTTOM = 2131361800;
+			// aapt resource value: 0x7f070008
+			public const int BOTTOM = 2131165192;
 			
-			// aapt resource value: 0x7f0a0010
-			public const int CENTER = 2131361808;
+			// aapt resource value: 0x7f070010
+			public const int CENTER = 2131165200;
 			
-			// aapt resource value: 0x7f0a0004
-			public const int CENTER_HORIZONTAL = 2131361796;
+			// aapt resource value: 0x7f070004
+			public const int CENTER_HORIZONTAL = 2131165188;
 			
-			// aapt resource value: 0x7f0a000d
-			public const int HORIZONTAL = 2131361805;
+			// aapt resource value: 0x7f07000d
+			public const int HORIZONTAL = 2131165197;
 			
-			// aapt resource value: 0x7f0a0011
-			public const int INSIDE = 2131361809;
+			// aapt resource value: 0x7f070011
+			public const int INSIDE = 2131165201;
 			
-			// aapt resource value: 0x7f0a0002
-			public const int ITALIC = 2131361794;
+			// aapt resource value: 0x7f070002
+			public const int ITALIC = 2131165186;
 			
-			// aapt resource value: 0x7f0a0005
-			public const int LEFT = 2131361797;
+			// aapt resource value: 0x7f070005
+			public const int LEFT = 2131165189;
 			
-			// aapt resource value: 0x7f0a0009
-			public const int NONE = 2131361801;
+			// aapt resource value: 0x7f070009
+			public const int NONE = 2131165193;
 			
-			// aapt resource value: 0x7f0a0003
-			public const int NORMAL = 2131361795;
+			// aapt resource value: 0x7f070003
+			public const int NORMAL = 2131165187;
 			
-			// aapt resource value: 0x7f0a0012
-			public const int OUTSIDE = 2131361810;
+			// aapt resource value: 0x7f070012
+			public const int OUTSIDE = 2131165202;
 			
-			// aapt resource value: 0x7f0a000b
-			public const int POINT = 2131361803;
+			// aapt resource value: 0x7f07000b
+			public const int POINT = 2131165195;
 			
-			// aapt resource value: 0x7f0a0006
-			public const int RIGHT = 2131361798;
+			// aapt resource value: 0x7f070006
+			public const int RIGHT = 2131165190;
 			
-			// aapt resource value: 0x7f0a000c
-			public const int SERIES = 2131361804;
+			// aapt resource value: 0x7f07000c
+			public const int SERIES = 2131165196;
 			
-			// aapt resource value: 0x7f0a000a
-			public const int TOP = 2131361802;
+			// aapt resource value: 0x7f07000a
+			public const int TOP = 2131165194;
 			
-			// aapt resource value: 0x7f0a000e
-			public const int VERTICAL = 2131361806;
+			// aapt resource value: 0x7f07000e
+			public const int VERTICAL = 2131165198;
 			
-			// aapt resource value: 0x7f0a0014
-			public const int tooltipContent = 2131361812;
+			// aapt resource value: 0x7f070014
+			public const int tooltipContent = 2131165204;
 			
-			// aapt resource value: 0x7f0a0013
-			public const int tooltipTitle = 2131361811;
+			// aapt resource value: 0x7f070013
+			public const int tooltipTitle = 2131165203;
 			
 			static Id()
 			{
@@ -625,73 +517,6 @@ namespace FlexPieDemo.Droid
 			}
 			
 			private Id()
-			{
-			}
-		}
-		
-		public partial class Integer
-		{
-			
-			// aapt resource value: 0x7f070011
-			public const int defaultFlexPieDatalabelPosition = 2131165201;
-			
-			// aapt resource value: 0x7f070005
-			public const int defaultFlexPieDatalabel_FontWeight = 2131165189;
-			
-			// aapt resource value: 0x7f070003
-			public const int defaultFlexPieFooterFontGravity = 2131165187;
-			
-			// aapt resource value: 0x7f070002
-			public const int defaultFlexPieFooterFontWeight = 2131165186;
-			
-			// aapt resource value: 0x7f070001
-			public const int defaultFlexPieHeaderFontGravity = 2131165185;
-			
-			// aapt resource value: 0x7f070000
-			public const int defaultFlexPieHeaderFontWeight = 2131165184;
-			
-			// aapt resource value: 0x7f070008
-			public const int defaultFlexPieLegendOrientation = 2131165192;
-			
-			// aapt resource value: 0x7f070009
-			public const int defaultFlexPieLegendPosition = 2131165193;
-			
-			// aapt resource value: 0x7f070004
-			public const int defaultFlexPieLegend_FontWeight = 2131165188;
-			
-			// aapt resource value: 0x7f07000b
-			public const int defaultFlexPieLoadAnimationDuration = 2131165195;
-			
-			// aapt resource value: 0x7f07000a
-			public const int defaultFlexPieLoadAnimationMode = 2131165194;
-			
-			// aapt resource value: 0x7f07000c
-			public const int defaultFlexPieLoadAnimationStartDelay = 2131165196;
-			
-			// aapt resource value: 0x7f07000f
-			public const int defaultFlexPieSelectAnimationDuration = 2131165199;
-			
-			// aapt resource value: 0x7f070010
-			public const int defaultFlexPieSelectAnimationStartDelay = 2131165200;
-			
-			// aapt resource value: 0x7f070006
-			public const int defaultFlexPieSelectedItemPosition = 2131165190;
-			
-			// aapt resource value: 0x7f070007
-			public const int defaultFlexPieSelectionMode = 2131165191;
-			
-			// aapt resource value: 0x7f07000d
-			public const int defaultFlexPieUpdateAnimationDuration = 2131165197;
-			
-			// aapt resource value: 0x7f07000e
-			public const int defaultFlexPieUpdateAnimationStartDelay = 2131165198;
-			
-			static Integer()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Integer()
 			{
 			}
 		}
@@ -720,18 +545,6 @@ namespace FlexPieDemo.Droid
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
-			
-			// aapt resource value: 0x7f040005
-			public const int defaultFlexPieDatalabel_FontTypeface = 2130968581;
-			
-			// aapt resource value: 0x7f040003
-			public const int defaultFlexPieFooterFontTypeface = 2130968579;
-			
-			// aapt resource value: 0x7f040002
-			public const int defaultFlexPieHeaderFontTypeface = 2130968578;
-			
-			// aapt resource value: 0x7f040004
-			public const int defaultFlexPieLegend_FontTypeface = 2130968580;
 			
 			static String()
 			{

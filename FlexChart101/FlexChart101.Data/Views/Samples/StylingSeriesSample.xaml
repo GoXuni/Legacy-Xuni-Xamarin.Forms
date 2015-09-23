@@ -3,17 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
-             x:Class="FlexChartDemo.Data.Views.Samples.StylingSeriesSample"
-             Title="Styling Series">
-  <Grid Padding="10">
-     <xuni:FlexChart x:Name="flexChart" BindingX="Name" VerticalOptions="FillAndExpand">
+             x:Class="FlexChartDemo.Data.Views.Samples.StylingSeriesSample" x:Name="page">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <xuni:FlexChart x:Name="flexChart" BindingX="Name" VerticalOptions="FillAndExpand">
       <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" Color="Green" BorderColor="Lime" BorderWidth="2" />
         <xuni:ChartSeries Binding="Expenses" Name="Expenses"  Color="Red" BorderColor="Maroon" BorderWidth="2" />
         <xuni:ChartSeries Binding="Downloads" Name="Downloads" ChartType="LineSymbols" Color="#FF6A00" BorderWidth="10" SymbolColor="Yellow" SymbolBorderColor="Yellow" SymbolBorderWidth="5"/>
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
-   
-  </Grid>
- 
+  </StackLayout>
 </BaseSample>

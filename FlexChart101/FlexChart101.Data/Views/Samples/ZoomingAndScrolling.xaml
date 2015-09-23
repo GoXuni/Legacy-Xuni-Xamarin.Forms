@@ -4,9 +4,9 @@
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:chartcore="clr-namespace:Xuni.Forms.ChartCore;assembly=Xuni.Forms.ChartCore"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
-             x:Class="FlexChartDemo.Data.Views.Samples.ZoomingAndScrolling"
-             Title="Zooming And Scrolling">
+             x:Class="FlexChartDemo.Data.Views.Samples.ZoomingAndScrolling" x:Name="page">
   <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <Grid Padding="10">
       <Grid.BackgroundColor>
         <OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />

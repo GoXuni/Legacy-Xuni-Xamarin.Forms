@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xuni.Forms.FlexPie;
-using Xuni.Forms.ChartCore.Enums;
 using FlexPieDemo.Data.Model;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using Xuni.Forms.ChartCore;
+using FlexPieDemo.Data.Resources;
 
 namespace FlexPieDemo.Data.Views.Samples
 {
@@ -28,6 +28,7 @@ namespace FlexPieDemo.Data.Views.Samples
         public AnimationSample()
         {
             InitializeComponent();
+            Title = AppResources.AnimationTitle;
 
             // populate data source
             data = new ObservableCollection<MyData>();
@@ -44,14 +45,14 @@ namespace FlexPieDemo.Data.Views.Samples
             this.flexPie.LoadAnimation.Duration = 1500;
             //this.flexPie.LoadAnimation.Easing = Easing.SpringIn;
             this.flexPie.HeaderText = TITLE + " 2015";
-            this.flexPie.Palette = Palettes.Cyborg;
+            this.flexPie.Palette = ChartPalettes.Cyborg;
             this.flexPie.SliceBorderWidth = 1;
 
 			this.flexPie.UpdateAnimation.Duration = 1000;
 
             // configure pickers
-            this.pickerMode.Items.Add(AnimationMode.All.ToString());
-            this.pickerMode.Items.Add(AnimationMode.Point.ToString());
+            this.pickerMode.Items.Add(ChartAnimationMode.All.ToString());
+            this.pickerMode.Items.Add(ChartAnimationMode.Point.ToString());
             this.pickerMode.SelectedIndex = 1;
             this.pickerMode.SelectedIndexChanged += pickerMode_SelectedIndexChanged;
         }
@@ -115,7 +116,7 @@ namespace FlexPieDemo.Data.Views.Samples
         void pickerMode_SelectedIndexChanged(object sender, EventArgs e)
         {
             string mode = this.pickerMode.Items[this.pickerMode.SelectedIndex];
-            this.flexPie.LoadAnimation.AnimationMode = (AnimationMode)(Enum.Parse(typeof(AnimationMode), mode));
+            this.flexPie.LoadAnimation.AnimationMode = (ChartAnimationMode)(Enum.Parse(typeof(ChartAnimationMode), mode));
         }
     }
 

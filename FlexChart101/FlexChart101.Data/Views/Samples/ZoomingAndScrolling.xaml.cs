@@ -17,16 +17,17 @@ namespace FlexChartDemo.Data.Views.Samples
         public ZoomingAndScrolling()
         {
             InitializeComponent();
-            
+            Title = AppResources.ZoomingScrollingTitle;
+
             this.flexChart.ItemsSource = GenerateRandNormal(500);
-            this.flexChart.Palette = Xuni.Forms.ChartCore.Palettes.Superhero;
+            this.flexChart.Palette = Xuni.Forms.ChartCore.ChartPalettes.Superhero;
             this.flexChart.HeaderText = AppResources.ScrollZoomInstructions;
             this.flexChart.AxisY.Format = "n2";
             
             //disable tooltip on android
             Device.OnPlatform(Android: () => this.flexChart.Tooltip = null);
             
-            foreach (var item in Enum.GetNames(typeof(ZoomMode)))
+            foreach (var item in Enum.GetNames(typeof(ChartZoomMode)))
             {
                 this.pickerZoomMode.Items.Add(item);
             }
@@ -66,7 +67,7 @@ namespace FlexChartDemo.Data.Views.Samples
 
         void pickerZoomMode_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.flexChart.ZoomMode = (ZoomMode)Enum.Parse(typeof(ZoomMode), this.pickerZoomMode.Items[this.pickerZoomMode.SelectedIndex]);
+            this.flexChart.ZoomMode = (ChartZoomMode)Enum.Parse(typeof(ChartZoomMode), this.pickerZoomMode.Items[this.pickerZoomMode.SelectedIndex]);
         }
     }
 }

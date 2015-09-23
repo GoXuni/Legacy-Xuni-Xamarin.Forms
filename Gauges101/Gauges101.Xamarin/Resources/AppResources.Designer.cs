@@ -23,7 +23,7 @@ namespace Gauges101.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class AppResources {
+    public class AppResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -37,7 +37,7 @@ namespace Gauges101.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Gauges101.Resources.AppResources", typeof(AppResources).GetTypeInfo().Assembly);
@@ -52,7 +52,7 @@ namespace Gauges101.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -64,7 +64,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows custom animation techniques..
         /// </summary>
-        internal static string AnimationDescription {
+        public static string AnimationDescription {
             get {
                 return ResourceManager.GetString("AnimationDescription", resourceCulture);
             }
@@ -73,7 +73,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Animation.
         /// </summary>
-        internal static string AnimationTitle {
+        public static string AnimationTitle {
             get {
                 return ResourceManager.GetString("AnimationTitle", resourceCulture);
             }
@@ -82,7 +82,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a radial gauge with different sweep angles..
         /// </summary>
-        internal static string AutomaticScalingDescription {
+        public static string AutomaticScalingDescription {
             get {
                 return ResourceManager.GetString("AutomaticScalingDescription", resourceCulture);
             }
@@ -91,7 +91,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Automatic Scaling.
         /// </summary>
-        internal static string AutomaticScalingTitle {
+        public static string AutomaticScalingTitle {
             get {
                 return ResourceManager.GetString("AutomaticScalingTitle", resourceCulture);
             }
@@ -100,7 +100,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a bulletgraph with good, bad and target ranges..
         /// </summary>
-        internal static string BulletGraphDescription {
+        public static string BulletGraphDescription {
             get {
                 return ResourceManager.GetString("BulletGraphDescription", resourceCulture);
             }
@@ -109,7 +109,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to BulletGraph.
         /// </summary>
-        internal static string BulletGraphTitle {
+        public static string BulletGraphTitle {
             get {
                 return ResourceManager.GetString("BulletGraphTitle", resourceCulture);
             }
@@ -118,7 +118,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows linear gauges at different directions..
         /// </summary>
-        internal static string DirectionDescription {
+        public static string DirectionDescription {
             get {
                 return ResourceManager.GetString("DirectionDescription", resourceCulture);
             }
@@ -127,7 +127,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Direction.
         /// </summary>
-        internal static string DirectionTitle {
+        public static string DirectionTitle {
             get {
                 return ResourceManager.GetString("DirectionTitle", resourceCulture);
             }
@@ -136,7 +136,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows value labels on the gauges..
         /// </summary>
-        internal static string DisplayingValuesDescription {
+        public static string DisplayingValuesDescription {
             get {
                 return ResourceManager.GetString("DisplayingValuesDescription", resourceCulture);
             }
@@ -145,7 +145,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Displaying Values.
         /// </summary>
-        internal static string DisplayingValuesTitle {
+        public static string DisplayingValuesTitle {
             get {
                 return ResourceManager.GetString("DisplayingValuesTitle", resourceCulture);
             }
@@ -154,7 +154,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows how to export an image of a gauge..
         /// </summary>
-        internal static string ExportImageDescription {
+        public static string ExportImageDescription {
             get {
                 return ResourceManager.GetString("ExportImageDescription", resourceCulture);
             }
@@ -163,7 +163,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Export Image.
         /// </summary>
-        internal static string ExportImageTitle {
+        public static string ExportImageTitle {
             get {
                 return ResourceManager.GetString("ExportImageTitle", resourceCulture);
             }
@@ -172,7 +172,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows simple gauge controls with interaction..
         /// </summary>
-        internal static string GettingStartedDescription {
+        public static string GettingStartedDescription {
             get {
                 return ResourceManager.GetString("GettingStartedDescription", resourceCulture);
             }
@@ -181,7 +181,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Getting Started.
         /// </summary>
-        internal static string GettingStartedTitle {
+        public static string GettingStartedTitle {
             get {
                 return ResourceManager.GetString("GettingStartedTitle", resourceCulture);
             }
@@ -190,7 +190,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows customized ranges behind the pointer..
         /// </summary>
-        internal static string UsingRangesDescription {
+        public static string UsingRangesDescription {
             get {
                 return ResourceManager.GetString("UsingRangesDescription", resourceCulture);
             }
@@ -199,7 +199,7 @@ namespace Gauges101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Using Ranges.
         /// </summary>
-        internal static string UsingRangesTitle {
+        public static string UsingRangesTitle {
             get {
                 return ResourceManager.GetString("UsingRangesTitle", resourceCulture);
             }

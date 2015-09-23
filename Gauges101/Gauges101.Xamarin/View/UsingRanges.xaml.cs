@@ -12,7 +12,7 @@ namespace Gauges101
         public UsingRanges()
         {
             InitializeComponent();
-            lblTitle.Text = AppResources.UsingRangesTitle;
+            Title = AppResources.UsingRangesTitle;
 
             BindingContext = new SampleViewModel() { Value = 25 };
 

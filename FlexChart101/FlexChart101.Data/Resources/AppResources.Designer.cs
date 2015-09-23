@@ -23,7 +23,7 @@ namespace FlexChartDemo.Data.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class AppResources {
+    public class AppResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -37,7 +37,7 @@ namespace FlexChartDemo.Data.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FlexChartDemo.Data.Resources.AppResources", typeof(AppResources).GetTypeInfo().Assembly);
@@ -52,7 +52,7 @@ namespace FlexChartDemo.Data.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -64,7 +64,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Add Point.
         /// </summary>
-        internal static string AddPoint {
+        public static string AddPoint {
             get {
                 return ResourceManager.GetString("AddPoint", resourceCulture);
             }
@@ -73,7 +73,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows the basic chart types and stacking options..
         /// </summary>
-        internal static string BasicChartTypesDescription {
+        public static string BasicChartTypesDescription {
             get {
                 return ResourceManager.GetString("BasicChartTypesDescription", resourceCulture);
             }
@@ -82,7 +82,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Basic Chart Types.
         /// </summary>
-        internal static string BasicChartTypesTitle {
+        public static string BasicChartTypesTitle {
             get {
                 return ResourceManager.GetString("BasicChartTypesTitle", resourceCulture);
             }
@@ -91,7 +91,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a bubble chart..
         /// </summary>
-        internal static string BubbleChartDescription {
+        public static string BubbleChartDescription {
             get {
                 return ResourceManager.GetString("BubbleChartDescription", resourceCulture);
             }
@@ -100,7 +100,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Bubble Chart.
         /// </summary>
-        internal static string BubbleChartTitle {
+        public static string BubbleChartTitle {
             get {
                 return ResourceManager.GetString("BubbleChartTitle", resourceCulture);
             }
@@ -109,7 +109,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows conditional formatting by customizing plot elements..
         /// </summary>
-        internal static string ConditionalFormattingDescription {
+        public static string ConditionalFormattingDescription {
             get {
                 return ResourceManager.GetString("ConditionalFormattingDescription", resourceCulture);
             }
@@ -118,7 +118,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Conditional Formatting.
         /// </summary>
-        internal static string ConditionalFormattingTitle {
+        public static string ConditionalFormattingTitle {
             get {
                 return ResourceManager.GetString("ConditionalFormattingTitle", resourceCulture);
             }
@@ -127,7 +127,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows customized axis style and label format..
         /// </summary>
-        internal static string CustomizingAxesDescription {
+        public static string CustomizingAxesDescription {
             get {
                 return ResourceManager.GetString("CustomizingAxesDescription", resourceCulture);
             }
@@ -136,7 +136,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Customizing Axes.
         /// </summary>
-        internal static string CustomizingAxesTitle {
+        public static string CustomizingAxesTitle {
             get {
                 return ResourceManager.GetString("CustomizingAxesTitle", resourceCulture);
             }
@@ -145,7 +145,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows how to fully customize plot elements..
         /// </summary>
-        internal static string CustomPlotElementsDescription {
+        public static string CustomPlotElementsDescription {
             get {
                 return ResourceManager.GetString("CustomPlotElementsDescription", resourceCulture);
             }
@@ -154,7 +154,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Custom Plot Elements.
         /// </summary>
-        internal static string CustomPlotElementsTitle {
+        public static string CustomPlotElementsTitle {
             get {
                 return ResourceManager.GetString("CustomPlotElementsTitle", resourceCulture);
             }
@@ -163,7 +163,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a customized tooltip..
         /// </summary>
-        internal static string CustomTooltipsDescription {
+        public static string CustomTooltipsDescription {
             get {
                 return ResourceManager.GetString("CustomTooltipsDescription", resourceCulture);
             }
@@ -172,7 +172,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Custom Tooltips.
         /// </summary>
-        internal static string CustomTooltipsTitle {
+        public static string CustomTooltipsTitle {
             get {
                 return ResourceManager.GetString("CustomTooltipsTitle", resourceCulture);
             }
@@ -181,7 +181,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a simple chart with static data labels..
         /// </summary>
-        internal static string DataLabelsDescription {
+        public static string DataLabelsDescription {
             get {
                 return ResourceManager.GetString("DataLabelsDescription", resourceCulture);
             }
@@ -190,7 +190,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Data Labels.
         /// </summary>
-        internal static string DataLabelsTitle {
+        public static string DataLabelsTitle {
             get {
                 return ResourceManager.GetString("DataLabelsTitle", resourceCulture);
             }
@@ -199,7 +199,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a dynamic, “live” chart..
         /// </summary>
-        internal static string DynamicChartDescription {
+        public static string DynamicChartDescription {
             get {
                 return ResourceManager.GetString("DynamicChartDescription", resourceCulture);
             }
@@ -208,7 +208,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Dynamic Charts.
         /// </summary>
-        internal static string DynamicChartTitle {
+        public static string DynamicChartTitle {
             get {
                 return ResourceManager.GetString("DynamicChartTitle", resourceCulture);
             }
@@ -217,7 +217,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows how to export an image of FlexChart..
         /// </summary>
-        internal static string ExportImageDescription {
+        public static string ExportImageDescription {
             get {
                 return ResourceManager.GetString("ExportImageDescription", resourceCulture);
             }
@@ -226,7 +226,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Export Image.
         /// </summary>
-        internal static string ExportImageTitle {
+        public static string ExportImageTitle {
             get {
                 return ResourceManager.GetString("ExportImageTitle", resourceCulture);
             }
@@ -235,7 +235,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows stock data in a candle chart..
         /// </summary>
-        internal static string FinancialChartDescription {
+        public static string FinancialChartDescription {
             get {
                 return ResourceManager.GetString("FinancialChartDescription", resourceCulture);
             }
@@ -244,7 +244,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Financial Chart.
         /// </summary>
-        internal static string FinancialChartTitle {
+        public static string FinancialChartTitle {
             get {
                 return ResourceManager.GetString("FinancialChartTitle", resourceCulture);
             }
@@ -253,7 +253,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a simple chart with tooltips..
         /// </summary>
-        internal static string GettingStartedDescription {
+        public static string GettingStartedDescription {
             get {
                 return ResourceManager.GetString("GettingStartedDescription", resourceCulture);
             }
@@ -262,7 +262,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Getting Started.
         /// </summary>
-        internal static string GettingStartedTitle {
+        public static string GettingStartedTitle {
             get {
                 return ResourceManager.GetString("GettingStartedTitle", resourceCulture);
             }
@@ -271,7 +271,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Demonstrates use of the FlexChart&apos;s hitTest method..
         /// </summary>
-        internal static string HitTestDescription {
+        public static string HitTestDescription {
             get {
                 return ResourceManager.GetString("HitTestDescription", resourceCulture);
             }
@@ -280,7 +280,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Hit Test.
         /// </summary>
-        internal static string HitTestTitle {
+        public static string HitTestTitle {
             get {
                 return ResourceManager.GetString("HitTestTitle", resourceCulture);
             }
@@ -289,7 +289,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows basic chart headers and axis titles..
         /// </summary>
-        internal static string LegendSampleDescription {
+        public static string LegendSampleDescription {
             get {
                 return ResourceManager.GetString("LegendSampleDescription", resourceCulture);
             }
@@ -298,7 +298,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Legend and Titles.
         /// </summary>
-        internal static string LegendSampleTitle {
+        public static string LegendSampleTitle {
             get {
                 return ResourceManager.GetString("LegendSampleTitle", resourceCulture);
             }
@@ -307,7 +307,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Showss animation modes when data is loaded..
         /// </summary>
-        internal static string LoadAnimationDescription {
+        public static string LoadAnimationDescription {
             get {
                 return ResourceManager.GetString("LoadAnimationDescription", resourceCulture);
             }
@@ -316,7 +316,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Load Animation Mode.
         /// </summary>
-        internal static string LoadAnimationTitle {
+        public static string LoadAnimationTitle {
             get {
                 return ResourceManager.GetString("LoadAnimationTitle", resourceCulture);
             }
@@ -325,7 +325,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a composite chart..
         /// </summary>
-        internal static string MixedChartTypesDescription {
+        public static string MixedChartTypesDescription {
             get {
                 return ResourceManager.GetString("MixedChartTypesDescription", resourceCulture);
             }
@@ -334,7 +334,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Mixed Chart Types.
         /// </summary>
-        internal static string MixedChartTypesTitle {
+        public static string MixedChartTypesTitle {
             get {
                 return ResourceManager.GetString("MixedChartTypesTitle", resourceCulture);
             }
@@ -343,7 +343,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a chart with mutiple Y axes..
         /// </summary>
-        internal static string MultipleAxesDescription {
+        public static string MultipleAxesDescription {
             get {
                 return ResourceManager.GetString("MultipleAxesDescription", resourceCulture);
             }
@@ -352,7 +352,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Multiple Axes.
         /// </summary>
-        internal static string MultipleAxesTitle {
+        public static string MultipleAxesTitle {
             get {
                 return ResourceManager.GetString("MultipleAxesTitle", resourceCulture);
             }
@@ -361,7 +361,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Remove Point.
         /// </summary>
-        internal static string RemovePoint {
+        public static string RemovePoint {
             get {
                 return ResourceManager.GetString("RemovePoint", resourceCulture);
             }
@@ -370,7 +370,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a chart with panning (or scrolling) along the axes..
         /// </summary>
-        internal static string ScrollingDescription {
+        public static string ScrollingDescription {
             get {
                 return ResourceManager.GetString("ScrollingDescription", resourceCulture);
             }
@@ -379,7 +379,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Scrolling.
         /// </summary>
-        internal static string ScrollingTitle {
+        public static string ScrollingTitle {
             get {
                 return ResourceManager.GetString("ScrollingTitle", resourceCulture);
             }
@@ -388,7 +388,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Drag to scroll/Pinch to zoom.
         /// </summary>
-        internal static string ScrollZoomInstructions {
+        public static string ScrollZoomInstructions {
             get {
                 return ResourceManager.GetString("ScrollZoomInstructions", resourceCulture);
             }
@@ -397,7 +397,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows the different selection modes..
         /// </summary>
-        internal static string SelectionModesDescription {
+        public static string SelectionModesDescription {
             get {
                 return ResourceManager.GetString("SelectionModesDescription", resourceCulture);
             }
@@ -406,7 +406,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Selection Modes.
         /// </summary>
-        internal static string SelectionModesTitle {
+        public static string SelectionModesTitle {
             get {
                 return ResourceManager.GetString("SelectionModesTitle", resourceCulture);
             }
@@ -415,7 +415,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows customized series styling..
         /// </summary>
-        internal static string StylingSeriesDescription {
+        public static string StylingSeriesDescription {
             get {
                 return ResourceManager.GetString("StylingSeriesDescription", resourceCulture);
             }
@@ -424,7 +424,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Styling Series.
         /// </summary>
-        internal static string StylingSeriesTitle {
+        public static string StylingSeriesTitle {
             get {
                 return ResourceManager.GetString("StylingSeriesTitle", resourceCulture);
             }
@@ -433,7 +433,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows the built-in palettes..
         /// </summary>
-        internal static string ThemingDescription {
+        public static string ThemingDescription {
             get {
                 return ResourceManager.GetString("ThemingDescription", resourceCulture);
             }
@@ -442,7 +442,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Theming.
         /// </summary>
-        internal static string ThemingTitle {
+        public static string ThemingTitle {
             get {
                 return ResourceManager.GetString("ThemingTitle", resourceCulture);
             }
@@ -451,7 +451,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows the ability to toggle a series visibility..
         /// </summary>
-        internal static string ToggleSeriesDescription {
+        public static string ToggleSeriesDescription {
             get {
                 return ResourceManager.GetString("ToggleSeriesDescription", resourceCulture);
             }
@@ -460,7 +460,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Toggle Series.
         /// </summary>
-        internal static string ToggleSeriesTitle {
+        public static string ToggleSeriesTitle {
             get {
                 return ResourceManager.GetString("ToggleSeriesTitle", resourceCulture);
             }
@@ -469,7 +469,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows animation when data is updated..
         /// </summary>
-        internal static string UpdateAnimationDescription {
+        public static string UpdateAnimationDescription {
             get {
                 return ResourceManager.GetString("UpdateAnimationDescription", resourceCulture);
             }
@@ -478,7 +478,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Update Animation.
         /// </summary>
-        internal static string UpdateAnimationTitle {
+        public static string UpdateAnimationTitle {
             get {
                 return ResourceManager.GetString("UpdateAnimationTitle", resourceCulture);
             }
@@ -487,7 +487,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows stretch zoom-out and pinch zoom-in gestures..
         /// </summary>
-        internal static string ZoomingScrollingDescription {
+        public static string ZoomingScrollingDescription {
             get {
                 return ResourceManager.GetString("ZoomingScrollingDescription", resourceCulture);
             }
@@ -496,7 +496,7 @@ namespace FlexChartDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Zooming and Scrolling.
         /// </summary>
-        internal static string ZoomingScrollingTitle {
+        public static string ZoomingScrollingTitle {
             get {
                 return ResourceManager.GetString("ZoomingScrollingTitle", resourceCulture);
             }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FlexPieDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.FlexPie;
+using FlexPieDemo.Data.Resources;
 
 namespace FlexPieDemo.Data.Views.Samples
 {
@@ -14,6 +15,7 @@ namespace FlexPieDemo.Data.Views.Samples
         public GettingStartedSample()
         {
             InitializeComponent();
+            Title = AppResources.GettingStartedTitle;
             this.pieChart.ItemsSource = PieChartSampleFactory.CreateEntiyList();
             this.donutChart.ItemsSource = PieChartSampleFactory.CreateEntiyList();
             this.root.SizeChanged += root_SizeChanged;

@@ -8,6 +8,7 @@ using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.ChartCore;
 using Xuni.Forms.FlexChart;
+using FlexChartDemo.Data.Resources;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -16,9 +17,10 @@ namespace FlexChartDemo.Data.Views.Samples
 		public ThemingSample()
 		{
 			InitializeComponent();
-            
+            Title = AppResources.ThemingTitle;
+
 			this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
-			IEnumerable<FieldInfo> fields = typeof(Palettes).GetRuntimeFields();
+			IEnumerable<FieldInfo> fields = typeof(ChartPalettes).GetRuntimeFields();
 			foreach (var item in fields)
 			{
 				picker.Items.Add(item.Name);
@@ -30,7 +32,7 @@ namespace FlexChartDemo.Data.Views.Samples
 		{
 			Picker picker= sender as Picker;
 			string fieldName = picker.Items[picker.SelectedIndex];
-			foreach (var field in typeof(Palettes).GetRuntimeFields())
+            foreach (var field in typeof(ChartPalettes).GetRuntimeFields())
 			{
 				if (field.Name == fieldName)
 				{

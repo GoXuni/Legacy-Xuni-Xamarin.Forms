@@ -18,6 +18,7 @@ namespace CollectionView101
         public Sorting()
         {
             InitializeComponent();
+            Title = AppResources.SortingTitle;
             var task = UpdateVideos();
         }
 

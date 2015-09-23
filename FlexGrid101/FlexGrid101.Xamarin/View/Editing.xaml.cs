@@ -23,7 +23,8 @@ namespace FlexGrid101
             grid.IsReadOnly = true;
 
             toolbarItemEdit.Text = AppResources.EditRow;
-            lblTitle.Text = AppResources.EditingTitle;
+
+            this.Title = AppResources.EditingTitle;
         }
 
         void grid_SelectionChanged(object sender, GridCellRangeEventArgs e)

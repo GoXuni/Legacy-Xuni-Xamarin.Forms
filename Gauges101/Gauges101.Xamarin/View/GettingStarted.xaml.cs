@@ -15,7 +15,7 @@ namespace Gauges101
 		public GettingStarted()
         {
             InitializeComponent();
-            lblTitle.Text = AppResources.GettingStartedTitle;
+            Title = AppResources.GettingStartedTitle;
 
             BindingContext = new SampleViewModel() { Value = 25, ShowText = GaugeShowText.None };
 

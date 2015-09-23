@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.FlexChart;
+using FlexChartDemo.Data.Resources;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -13,9 +14,12 @@ namespace FlexChartDemo.Data.Views.Samples
     {
         internal Random random = new Random();
         List<DummyObject> list = new List<DummyObject>();
+
         public DynamicChartsSample()
         {
             InitializeComponent();
+            Title = AppResources.DynamicChartTitle;
+
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
 
             for (int i = 0; i < 8; i++)
@@ -23,7 +27,7 @@ namespace FlexChartDemo.Data.Views.Samples
                 list.Add(getItem());
             }
             this.flexChart.ItemsSource = list;
-            this.flexChart.Palette = Xuni.Forms.ChartCore.Palettes.Coral;
+            this.flexChart.Palette = Xuni.Forms.ChartCore.ChartPalettes.Coral;
         }
 
         protected override void OnAppearing()
@@ -55,7 +59,7 @@ namespace FlexChartDemo.Data.Views.Samples
 
             DateTime now = DateTime.Now;
 
-			return new DummyObject(now, now.ToString("mm:ss"), trucks, ships, planes);
+            return new DummyObject(now, now.ToString("mm:ss"), trucks, ships, planes);
         }
 
         public class DummyObject
@@ -70,10 +74,10 @@ namespace FlexChartDemo.Data.Views.Samples
 
             public double Planes { get; set; }
 
-			public DummyObject(DateTime time, String name, double trucks, double ships, double planes)
+            public DummyObject(DateTime time, String name, double trucks, double ships, double planes)
             {
                 this.Time = time;
-				this.Name = name;
+                this.Name = name;
                 this.Trucks = trucks;
                 this.Ships = ships;
                 this.Planes = planes;

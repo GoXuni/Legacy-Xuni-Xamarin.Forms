@@ -15,8 +15,7 @@ namespace FlexGrid101
         {
             InitializeComponent();
 
-            lblTitle.Text = AppResources.SelectionModesTitle;
-
+            this.Title = AppResources.SelectionModesTitle;
             foreach (var value in Enum.GetValues(typeof(GridSelectionMode)))
             {
                 selectionMode.Items.Add(value.ToString());

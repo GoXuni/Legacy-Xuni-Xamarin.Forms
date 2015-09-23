@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
-             x:Class="FlexChartDemo.Data.Views.Samples.MultipleAxesSamples"
-             Title="Multiple Axes">
-  <Grid Padding="10">
+             x:Class="FlexChartDemo.Data.Views.Samples.MultipleAxesSamples" x:Name="page">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <xuni:FlexChart x:Name="flexChart" BindingX="MonthName" VerticalOptions="FillAndExpand">
       <!-- data series -->
       <xuni:FlexChart.Series>
@@ -45,5 +45,5 @@
                         MajorTickWidth="0"/>
       </xuni:FlexChart.Axes>
     </xuni:FlexChart>
-  </Grid>
+  </StackLayout>
 </BaseSample>

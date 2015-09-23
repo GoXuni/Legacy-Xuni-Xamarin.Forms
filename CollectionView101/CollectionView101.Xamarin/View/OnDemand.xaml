@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CollectionView101.OnDemand">
+             x:Class="CollectionView101.OnDemand" x:Name="page">
   <StackLayout VerticalOptions="FillAndExpand">
-    <Label Text="On Demand" HorizontalOptions="Center" Font="Large"/>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <Entry x:Name="search" Placeholder="Enter text to search videos on YouTube" Completed="OnCompleted"/>
     <Picker x:Name="orderBy"  Title="OrderBy" SelectedIndexChanged="OrderByChanged"/>
     <Grid VerticalOptions="FillAndExpand">

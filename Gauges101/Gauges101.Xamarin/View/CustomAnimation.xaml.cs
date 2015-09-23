@@ -16,7 +16,7 @@ namespace Gauges101
         public CustomAnimation()
         {
             InitializeComponent();
-            lblTitle.Text = AppResources.AnimationTitle;
+            Title = AppResources.AnimationTitle;
             model = new SampleViewModel() { Value = 60, ShowText = GaugeShowText.None, ShowRanges = false };
             BindingContext = model;
 

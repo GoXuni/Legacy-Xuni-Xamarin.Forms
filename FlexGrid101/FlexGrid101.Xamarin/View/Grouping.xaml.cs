@@ -21,8 +21,8 @@ namespace FlexGrid101
 
             toolbarItemCollapse.Text = AppResources.Collapse;
             toolbarItemSort.Text = AppResources.Sort;
-            lblTitle.Text = AppResources.GroupingTitle;
 
+            this.Title = AppResources.GroupingTitle;
             //grid.IsGroupingEnabled = true;
             grid.GroupDisplayBinding = new Binding("Key");
             var task = UpdateVideos();
@@ -39,12 +39,13 @@ namespace FlexGrid101
 
                 _videos = new ObservableCollection<YouTubeVideo>((await YouTubeCollectionView.LoadVideosAsync("Xamarin Forms", "relevance", null, 50)).Item2);
                 _collectionView = new XuniGroupedCollectionView<string, YouTubeVideo>(v => v.Snippet.ChannelTitle);
-				grid.ItemsSource = _collectionView;
+				//grid.ItemsSource = _collectionView;
                 await _collectionView.SetSourceAsync(_videos);
+				grid.ItemsSource = _collectionView; // iOS needs this to be called after SetSourceAsync
                 _collectionView.SortChanged += OnSortChanged;
                 UpdateSortButton();
             }
-            catch
+			catch
             {
                 message.Text = "There was a problem when trying to get the data from internet. \nPlease check your internet connection";
                 message.IsVisible = true;

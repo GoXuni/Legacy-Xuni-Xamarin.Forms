@@ -1,4 +1,5 @@
 ﻿using FlexChartDemo.Data.Model;
+using FlexChartDemo.Data.Resources;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +7,6 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xuni.Forms.ChartCore;
-using Xuni.Forms.ChartCore.Enums;
 using Xuni.Forms.FlexChart;
 
 namespace FlexChartDemo.Data.Views.Samples
@@ -16,6 +16,8 @@ namespace FlexChartDemo.Data.Views.Samples
         public AnimationOptions()
         {
             InitializeComponent();
+            Title = AppResources.LoadAnimationTitle;
+
             //FlexChartDemo.Data.Views.Common.Utility.CheckNavBar(this);
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
             this.pickerChartType.Items.Add(ChartType.Column.ToString());
@@ -27,7 +29,7 @@ namespace FlexChartDemo.Data.Views.Samples
             this.pickerChartType.Items.Add(ChartType.SplineArea.ToString());
             this.pickerChartType.Items.Add(ChartType.Scatter.ToString());
             
-			foreach (var item in Enum.GetNames(typeof(AnimationMode)))
+			foreach (var item in Enum.GetNames(typeof(ChartAnimationMode)))
             {
                 this.pickerAnimationMode.Items.Add(item);
             }
@@ -39,7 +41,7 @@ namespace FlexChartDemo.Data.Views.Samples
             this.flexChart.LoadAnimation.StartDelay = 300;
             //this.flexChart.LoadAnimation.Easing = Easing.SpringIn;
 
-            this.flexChart.Palette = Xuni.Forms.ChartCore.Palettes.Modern;
+            this.flexChart.Palette = Xuni.Forms.ChartCore.ChartPalettes.Modern;
             this.flexChart.AxisX.Format = "M/dd";
         }
 
@@ -55,7 +57,7 @@ namespace FlexChartDemo.Data.Views.Samples
         {
             if (this.pickerAnimationMode.SelectedIndex != -1 && this.flexChart != null)
             {
-                this.flexChart.LoadAnimation.AnimationMode = (AnimationMode)Enum.Parse(typeof(AnimationMode), this.pickerAnimationMode.Items[this.pickerAnimationMode.SelectedIndex]);
+                this.flexChart.LoadAnimation.AnimationMode = (ChartAnimationMode)Enum.Parse(typeof(ChartAnimationMode), this.pickerAnimationMode.Items[this.pickerAnimationMode.SelectedIndex]);
             }
         }  
     }

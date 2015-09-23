@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Gauges101.Snapshot"
+             x:Class="Gauges101.Snapshot" x:Name="page"
              xmlns:xuni="clr-namespace:Xuni.Forms.Gauge;assembly=Xuni.Forms.Gauge">
   <ContentPage.ToolbarItems>
     <ToolbarItem Name="Take snapshot" Clicked="OnSnapshotClicked" Order="Primary" Priority="0">
@@ -21,7 +21,7 @@
   </ContentPage.ToolbarItems>
   <Grid>
     <StackLayout>
-      <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+      <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
       <xuni:XuniRadialGauge x:Name="gauge"  Value="{Binding Value}" IsReadOnly="True" ShowText="All" VerticalOptions="FillAndExpand"/>
     </StackLayout>
     <StackLayout x:Name="snapshotFrameBorder" Padding="20" BackgroundColor="#FFFFFFFF" HorizontalOptions="Center" VerticalOptions="Center">

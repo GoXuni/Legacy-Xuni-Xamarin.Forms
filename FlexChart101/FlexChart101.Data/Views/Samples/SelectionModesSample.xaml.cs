@@ -7,6 +7,7 @@ using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.ChartCore;
 using Xuni.Forms.FlexChart;
+using FlexChartDemo.Data.Resources;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -15,6 +16,7 @@ namespace FlexChartDemo.Data.Views.Samples
         public SelectionModesSample()
         {
             InitializeComponent();
+            Title = AppResources.SelectionModesTitle;
 
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
             Device.OnPlatform(Android: () =>

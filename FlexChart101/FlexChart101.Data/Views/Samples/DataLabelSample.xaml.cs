@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.FlexChart;
+using FlexChartDemo.Data.Resources;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -14,6 +15,8 @@ namespace FlexChartDemo.Data.Views.Samples
         public DataLabelSample()
         {
             InitializeComponent();
+            Title = AppResources.DataLabelsTitle;
+
             this.pickerChartType.Items.Add(ChartType.Column.ToString());
             this.pickerChartType.Items.Add(ChartType.Bar.ToString());
             this.pickerChartType.Items.Add(ChartType.Scatter.ToString());
@@ -27,7 +30,7 @@ namespace FlexChartDemo.Data.Views.Samples
             this.pickerChartType.SelectedIndex = 0;
             this.pickerChartType.IsVisible = false;
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
-            this.flexChart.Palette = Xuni.Forms.ChartCore.Palettes.Organic;
+            this.flexChart.Palette = Xuni.Forms.ChartCore.ChartPalettes.Organic;
 
             foreach (var item in Enum.GetNames(typeof(ChartLabelPosition)))
 			{

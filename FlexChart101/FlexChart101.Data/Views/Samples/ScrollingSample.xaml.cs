@@ -14,8 +14,10 @@ namespace FlexChartDemo.Data.Views.Samples
         public ScrollingSample()
         {
             InitializeComponent();
+            Title = AppResources.ScrollingTitle;
+
             this.flexChart.ItemsSource = ChartSampleFactory.FinancialData();
-            this.flexChart.Palette = Xuni.Forms.ChartCore.Palettes.Midnight;
+            this.flexChart.Palette = Xuni.Forms.ChartCore.ChartPalettes.Midnight;
             this.flexChart.HeaderText = AppResources.ScrollZoomInstructions;
         }
     }

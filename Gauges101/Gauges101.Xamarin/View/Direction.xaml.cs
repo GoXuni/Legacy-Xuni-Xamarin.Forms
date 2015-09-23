@@ -14,7 +14,7 @@ namespace Gauges101
         public Direction()
         {
             InitializeComponent();
-            lblTitle.Text = AppResources.DirectionTitle;
+            Title = AppResources.DirectionTitle;
 
             BindingContext = new SampleViewModel() { Value = 80 };
 

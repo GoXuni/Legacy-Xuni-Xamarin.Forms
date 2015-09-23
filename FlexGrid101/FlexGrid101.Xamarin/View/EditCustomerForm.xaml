@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Name="page"
              x:Class="FlexGrid101.EditCustomerForm" Padding="20, 20, 20, 0">
   <!--<ContentPage.ToolbarItems>
     <ToolbarItem Name="Apply" Text="Apply" Clicked="OnApplyButtonClicked" Order="Primary" Priority="0">
@@ -29,8 +29,8 @@
       <ColumnDefinition Width="2*"/>
     </Grid.ColumnDefinitions>
     <!-- title -->
-    <Label x:Name="lblFormTitle" VerticalOptions="Center" HorizontalOptions="Center" Grid.ColumnSpan="2" />
-    
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" HorizontalOptions="Center" Font="Large" Grid.ColumnSpan="2"/>
+
     <!-- first name field -->
     <Label Text="First Name:" VerticalOptions="Center" Grid.Row="1" />
     <Entry x:Name="entryFirstName" Grid.Row="1" Grid.Column="1" />

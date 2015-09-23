@@ -19,7 +19,7 @@ namespace Gauges101
         public Snapshot()
         {
             InitializeComponent();
-            lblTitle.Text = AppResources.ExportImageTitle;
+            Title = AppResources.ExportImageTitle;
 
             BindingContext = new SampleViewModel() { Value = 25, ShowText = GaugeShowText.All };
             snapshotFrameBorder.IsVisible = false;

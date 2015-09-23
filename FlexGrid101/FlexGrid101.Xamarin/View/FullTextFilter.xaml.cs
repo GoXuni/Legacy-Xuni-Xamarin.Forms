@@ -14,7 +14,7 @@ namespace FlexGrid101
         {
             InitializeComponent();
 
-            lblTitle.Text = AppResources.FullTextFilterTitle;
+            this.Title = AppResources.FullTextFilterTitle;
             filter.Placeholder = AppResources.FilterPlaceholderText;
 
             var data = Customer.GetCustomerList(100);

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FlexChartDemo.Data.Resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,8 @@ namespace FlexChartDemo.Data.Views.Samples
         public CustomPlotElements()
         {
             InitializeComponent();
+            Title = AppResources.CustomPlotElementsTitle;
+
             this.flexChart1.ItemsSource = new List<Company> 
             { 
                 new Company { Name = "Apple", DevicesSold = 15.58},

@@ -16,6 +16,7 @@ namespace CollectionView101
         public OnDemand()
         {
             InitializeComponent();
+            Title = AppResources.OnDemandTitle;
 
             _collectionView = new YouTubeCollectionView();
             list.ItemsSource = _collectionView;

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.FlexChart;
+using FlexChartDemo.Data.Resources;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -14,6 +15,8 @@ namespace FlexChartDemo.Data.Views.Samples
         public FinancialChart()
         {
             InitializeComponent();
+            Title = AppResources.FinancialChartTitle;
+
             this.flexChart.ItemsSource = ChartSampleFactory.FinancialData();
             this.flexChart.ChartType = ChartType.Candle;
             this.flexChart.Legend.Position = Xuni.Forms.ChartCore.ChartPositionType.None;

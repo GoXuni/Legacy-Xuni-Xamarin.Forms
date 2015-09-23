@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddPoint" xml:space="preserve">
+    <value>データ点の追加</value>
+    <comment>Add Point</comment>
+  </data>
+  <data name="BasicChartTypesDescription" xml:space="preserve">
+    <value>基本的なチャート種と積層オプション</value>
+    <comment>Shows the basic chart types and stacking options.</comment>
+  </data>
+  <data name="BasicChartTypesTitle" xml:space="preserve">
+    <value>基本チャートタイプ</value>
+    <comment>Basic Chart Types</comment>
+  </data>
+  <data name="BubbleChartDescription" xml:space="preserve">
+    <value>バブルチャートを表示</value>
+    <comment>Shows a bubble chart.</comment>
+  </data>
+  <data name="BubbleChartTitle" xml:space="preserve">
+    <value>バブルチャート</value>
+    <comment>Bubble Chart</comment>
+  </data>
+  <data name="ConditionalFormattingDescription" xml:space="preserve">
+    <value>プロット要素に条件付きの書式を設定</value>
+    <comment>Shows conditional formatting by customizing plot elements.</comment>
+  </data>
+  <data name="ConditionalFormattingTitle" xml:space="preserve">
+    <value>条件付き書式</value>
+    <comment>Conditional Formatting</comment>
+  </data>
+  <data name="CustomizingAxesDescription" xml:space="preserve">
+    <value>カスタマイズされた軸スタイルとラベル書式</value>
+    <comment>Shows customized axis style and label format.</comment>
+  </data>
+  <data name="CustomizingAxesTitle" xml:space="preserve">
+    <value>軸のカスタマイズ</value>
+    <comment>Customizing Axes</comment>
+  </data>
+  <data name="CustomPlotElementsDescription" xml:space="preserve">
+    <value>プロット要素をカスタマイズする方法</value>
+    <comment>Shows how to fully customize plot elements.</comment>
+  </data>
+  <data name="CustomPlotElementsTitle" xml:space="preserve">
+    <value>カスタムプロット要素</value>
+    <comment>Custom Plot Elements</comment>
+  </data>
+  <data name="CustomTooltipsDescription" xml:space="preserve">
+    <value>ツールチップをカスタマイズして表示</value>
+    <comment>Shows a customized tooltip.</comment>
+  </data>
+  <data name="CustomTooltipsTitle" xml:space="preserve">
+    <value>カスタムツールチップ</value>
+    <comment>Custom Tooltips</comment>
+  </data>
+  <data name="DataLabelsDescription" xml:space="preserve">
+    <value>静的なデータラベルを持つチャートを表示</value>
+    <comment>Shows a simple chart with static data labels.</comment>
+  </data>
+  <data name="DataLabelsTitle" xml:space="preserve">
+    <value>データラベル</value>
+    <comment>Data Labels</comment>
+  </data>
+  <data name="DynamicChartDescription" xml:space="preserve">
+    <value>動的に変わる「ライブ」チャートを表示</value>
+    <comment>Shows a dynamic, “live” chart.</comment>
+  </data>
+  <data name="DynamicChartTitle" xml:space="preserve">
+    <value>動的チャート</value>
+    <comment>Dynamic Charts</comment>
+  </data>
+  <data name="ExportImageDescription" xml:space="preserve">
+    <value>FlexChart を画像として保存する方法</value>
+    <comment>Shows how to export an image of FlexChart.</comment>
+  </data>
+  <data name="ExportImageTitle" xml:space="preserve">
+    <value>画像のエクスポート</value>
+    <comment>Export Image</comment>
+  </data>
+  <data name="FinancialChartDescription" xml:space="preserve">
+    <value>ローソク足チャートで株式データを表示</value>
+    <comment>Shows stock data in a candle chart.</comment>
+  </data>
+  <data name="FinancialChartTitle" xml:space="preserve">
+    <value>ファイナンシャルチャート</value>
+    <comment>Financial Chart</comment>
+  </data>
+  <data name="GettingStartedDescription" xml:space="preserve">
+    <value>ツールチップを備えたチャート</value>
+    <comment>Shows a simple chart with tooltips.</comment>
+  </data>
+  <data name="GettingStartedTitle" xml:space="preserve">
+    <value>FlexChart の基本機能</value>
+    <comment>Getting Started</comment>
+  </data>
+  <data name="HitTestDescription" xml:space="preserve">
+    <value>任意の点を取得する方法</value>
+    <comment>Demonstrates use of the FlexChart's hitTest method.</comment>
+  </data>
+  <data name="HitTestTitle" xml:space="preserve">
+    <value>ヒットテスト</value>
+    <comment>Hit Test</comment>
+  </data>
+  <data name="LegendSampleDescription" xml:space="preserve">
+    <value>FlexChart のヘッダと軸タイトル</value>
+    <comment>Shows basic chart headers and axis titles.</comment>
+  </data>
+  <data name="LegendSampleTitle" xml:space="preserve">
+    <value>凡例とタイトル</value>
+    <comment>Legend and Titles</comment>
+  </data>
+  <data name="LoadAnimationDescription" xml:space="preserve">
+    <value>データロード時のアニメーションモードを設定</value>
+    <comment>Showss animation modes when data is loaded.</comment>
+  </data>
+  <data name="LoadAnimationTitle" xml:space="preserve">
+    <value>ロードアニメーションモード</value>
+    <comment>Load Animation Mode</comment>
+  </data>
+  <data name="MixedChartTypesDescription" xml:space="preserve">
+    <value>複合チャートを表示</value>
+    <comment>Shows a composite chart.</comment>
+  </data>
+  <data name="MixedChartTypesTitle" xml:space="preserve">
+    <value>混在したチャートタイプ</value>
+    <comment>Mixed Chart Types</comment>
+  </data>
+  <data name="MultipleAxesDescription" xml:space="preserve">
+    <value>複数の Y 軸を持つチャートを表示</value>
+    <comment>Shows a chart with mutiple Y axes.</comment>
+  </data>
+  <data name="MultipleAxesTitle" xml:space="preserve">
+    <value>複数の軸</value>
+    <comment>Multiple Axes</comment>
+  </data>
+  <data name="RemovePoint" xml:space="preserve">
+    <value>ポイントの削除</value>
+    <comment>Remove Point</comment>
+  </data>
+  <data name="ScrollingDescription" xml:space="preserve">
+    <value>軸に沿ってパン（スクロール）するチャート</value>
+    <comment>Shows a chart with panning (or scrolling) along the axes.</comment>
+  </data>
+  <data name="ScrollingTitle" xml:space="preserve">
+    <value>スクロール</value>
+    <comment>Scrolling</comment>
+  </data>
+  <data name="ScrollZoomInstructions" xml:space="preserve">
+    <value>ドラッグしてスクロール／ピンチしてズーム</value>
+    <comment>Drag to scroll/Pinch to zoom</comment>
+  </data>
+  <data name="SelectionModesDescription" xml:space="preserve">
+    <value>データを選択する各種モードの説明</value>
+    <comment>Shows the different selection modes.</comment>
+  </data>
+  <data name="SelectionModesTitle" xml:space="preserve">
+    <value>選択モード</value>
+    <comment>Selection Modes</comment>
+  </data>
+  <data name="StylingSeriesDescription" xml:space="preserve">
+    <value>カスタマイズされた系列のスタイルを設定</value>
+    <comment>Shows customized series styling.</comment>
+  </data>
+  <data name="StylingSeriesTitle" xml:space="preserve">
+    <value>系列のスタイル設定</value>
+    <comment>Styling Series</comment>
+  </data>
+  <data name="ThemingDescription" xml:space="preserve">
+    <value>組み込みパレットの利用</value>
+    <comment>Shows the built-in palettes.</comment>
+  </data>
+  <data name="ThemingTitle" xml:space="preserve">
+    <value>テーマ</value>
+    <comment>Theming</comment>
+  </data>
+  <data name="ToggleSeriesDescription" xml:space="preserve">
+    <value>系列の表示/非表示を切り替える機能</value>
+    <comment>Shows the ability to toggle a series visibility.</comment>
+  </data>
+  <data name="ToggleSeriesTitle" xml:space="preserve">
+    <value>系列の表示/非表示</value>
+    <comment>Toggle Series</comment>
+  </data>
+  <data name="UpdateAnimationDescription" xml:space="preserve">
+    <value>データ更新時のアニメーション</value>
+    <comment>Shows animation when data is updated.</comment>
+  </data>
+  <data name="UpdateAnimationTitle" xml:space="preserve">
+    <value>更新アニメーション</value>
+    <comment>Update Animation</comment>
+  </data>
+  <data name="ZoomingScrollingDescription" xml:space="preserve">
+    <value>ストレッチ、ピンチによるジェスチャ操作</value>
+    <comment>Shows stretch zoom-out and pinch zoom-in gestures.</comment>
+  </data>
+  <data name="ZoomingScrollingTitle" xml:space="preserve">
+    <value>ズームとスクロール</value>
+    <comment>Zooming and Scrolling</comment>
+  </data>
+</root>

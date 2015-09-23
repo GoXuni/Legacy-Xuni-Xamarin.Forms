@@ -3,26 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
-             x:Class="FlexChartDemo.Data.Views.Samples.SelectionModesSample"
-             Title="Chart Types Sample">
+             x:Class="FlexChartDemo.Data.Views.Samples.SelectionModesSample" x:Name="page">
   <StackLayout>
-	<Grid Padding="10">
-		<Grid.BackgroundColor>
-			<OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />
-		</Grid.BackgroundColor>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="Auto"/>
-			<RowDefinition Height="Auto"/>
-		</Grid.RowDefinitions>
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="*"/>
-			<ColumnDefinition Width="*"/>
-		</Grid.ColumnDefinitions>
-		<Label Text="Chart Type" Grid.Row="0" Grid.Column="0" />
-		<Label Text="Selection Mode" Grid.Row="0" Grid.Column="1" />
-    	<Picker x:Name="pickerChartType" Grid.Row="1" Grid.Column="0" Title="Chart Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerChartType_SelectedIndexChanged" />
-        <Picker x:Name="pickerSelectionMode" Grid.Row="1" Grid.Column="1" Title="Selection Mode" HorizontalOptions="FillAndExpand" SelectedIndexChanged="pickerSelectionMode_SelectedIndexChanged" />
-	</Grid>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid Padding="10">
+      <Grid.BackgroundColor>
+        <OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />
+      </Grid.BackgroundColor>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <Label Text="Chart Type" Grid.Row="0" Grid.Column="0" />
+      <Label Text="Selection Mode" Grid.Row="0" Grid.Column="1" />
+      <Picker x:Name="pickerChartType" Grid.Row="1" Grid.Column="0" Title="Chart Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerChartType_SelectedIndexChanged" />
+      <Picker x:Name="pickerSelectionMode" Grid.Row="1" Grid.Column="1" Title="Selection Mode" HorizontalOptions="FillAndExpand" SelectedIndexChanged="pickerSelectionMode_SelectedIndexChanged" />
+    </Grid>
     <xuni:FlexChart
       x:Name="flexChart"
       BindingX="Name"
@@ -35,7 +35,5 @@
         <xuni:ChartSeries Binding="Downloads"  Name="Downloads" />
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
-   
   </StackLayout>
- 
 </BaseSample>

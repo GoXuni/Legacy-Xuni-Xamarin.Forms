@@ -14,7 +14,7 @@ namespace Gauges101
         public BulletGraph()
         {
             InitializeComponent();
-            lblTitle.Text = AppResources.BulletGraphTitle;
+            Title = AppResources.BulletGraphTitle;
 
             BindingContext = new SampleViewModel() { Value = 72, ShowText = GaugeShowText.All };
             BadLabel.Text = BadStepper.Value.ToString("N0");

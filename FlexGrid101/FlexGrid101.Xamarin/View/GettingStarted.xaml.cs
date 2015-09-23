@@ -13,9 +13,7 @@ namespace FlexGrid101
         public GettingStarted()
         {
             InitializeComponent();
-
-            lblTitle.Text = AppResources.GettingStartedTitle;
-
+            this.Title = AppResources.GettingStartedTitle;
             var data = Customer.GetCustomerList(100);
             grid.ItemsSource = data;
 

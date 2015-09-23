@@ -14,6 +14,7 @@ namespace FlexChartDemo.Data
         public FlexChartSamples()
         {
             InitializeComponent();
+            Title = "FlexChart 101";
             BindingContext = GetSamples();
         }
 

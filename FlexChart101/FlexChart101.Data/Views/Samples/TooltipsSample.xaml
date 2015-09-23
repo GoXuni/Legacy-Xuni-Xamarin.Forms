@@ -5,14 +5,16 @@
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
              xmlns:common="clr-namespace:FlexChartDemo.Data.Views.Common;assembly=FlexChart101.Data"
-             xmlns:chartcore="clr-namespace:Xuni.Forms.ChartCore;assembly=Xuni.Forms.ChartCore" Padding="10">
+             xmlns:chartcore="clr-namespace:Xuni.Forms.ChartCore;assembly=Xuni.Forms.ChartCore" 
+             x:Name="page"
+             Padding="10">
   <ContentPage.Resources>
     <ResourceDictionary>
       <common:FlagConverter x:Key="converter" />
     </ResourceDictionary>
   </ContentPage.Resources>
   <StackLayout>
-
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <xuni:FlexChart x:Name="chart" ItemsSource="{Binding Data}" BindingX="Name" ChartType="Column" Stacking="Stacked" VerticalOptions="FillAndExpand">
       <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
@@ -32,7 +34,6 @@
         </xuni:FlexChartTooltip>
       </xuni:FlexChart.Tooltip>
     </xuni:FlexChart>
-    
   </StackLayout>
 </ContentPage>
 

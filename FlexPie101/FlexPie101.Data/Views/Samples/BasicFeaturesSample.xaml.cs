@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FlexPieDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.FlexPie;
+using FlexPieDemo.Data.Resources;
 
 namespace FlexPieDemo.Data.Views.Samples
 {
@@ -14,8 +15,9 @@ namespace FlexPieDemo.Data.Views.Samples
         public BasicFeaturesSample()
         {
             InitializeComponent();
+            Title = AppResources.BasicFeaturesTitle;
             this.flexPie.ItemsSource = PieChartSampleFactory.CreateEntiyList();
-            this.flexPie.Palette = Xuni.Forms.ChartCore.Palettes.Midnight;
+            this.flexPie.Palette = Xuni.Forms.ChartCore.ChartPalettes.Midnight;
             this.SizeChanged += gr_SizeChanged;
         }
 

@@ -47,7 +47,7 @@ namespace DashboardDemo
             
         }
 
-        void pie_SelectionChanged(object sender, Xuni.Forms.FlexPie.SelectionChangedEventArgs e)
+        void pie_SelectionChanged(object sender, Xuni.Forms.FlexPie.PieSelectionChangedEventArgs e)
         {
 			if (e.HitTestInfo.DataPoint != null && e.HitTestInfo.DataPoint.DataObject != null) 
 			{
@@ -119,7 +119,7 @@ namespace DashboardDemo
         }
 
 
-        void chart_SelectionChanged(object sender, Xuni.Forms.FlexChart.SelectionChangeEventArgs e)
+        void chart_SelectionChanged(object sender, Xuni.Forms.FlexChart.ChartSelectionChangedEventArgs e)
         {
             if (e.HitTestInfo.DataPoint != null && e.HitTestInfo.DataPoint.SeriesName != null)
             {

@@ -13,7 +13,7 @@ namespace Gauges101
         public DisplayingValues()
         {
             InitializeComponent();
-            lblTitle.Text = AppResources.DisplayingValuesTitle;
+            Title = AppResources.DisplayingValuesTitle;
 
             BindingContext = new SampleViewModel() { Max = 1, Value = .25, Step = .01, Format = "P0", ShowRanges = false };
         }

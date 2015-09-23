@@ -66,30 +66,6 @@ namespace GaugeDemo.Android
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.Attribute.gauge_valueFontColor = global::GaugeDemo.Android.Resource.Attribute.gauge_valueFontColor;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.Attribute.gauge_valueFontSize = global::GaugeDemo.Android.Resource.Attribute.gauge_valueFontSize;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.Attribute.gauge_valueFontTypeFace = global::GaugeDemo.Android.Resource.Attribute.gauge_valueFontTypeFace;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Boolean.defaultAnimated = global::GaugeDemo.Android.Resource.Boolean.defaultAnimated;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Boolean.defaultShowRanges = global::GaugeDemo.Android.Resource.Boolean.defaultShowRanges;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Color.defaultBulletBadRangeColor = global::GaugeDemo.Android.Resource.Color.defaultBulletBadRangeColor;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Color.defaultBulletGoodRangeColor = global::GaugeDemo.Android.Resource.Color.defaultBulletGoodRangeColor;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Color.defaultBulletGraphPointerColor = global::GaugeDemo.Android.Resource.Color.defaultBulletGraphPointerColor;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Color.defaultBulletTargetRangeColor = global::GaugeDemo.Android.Resource.Color.defaultBulletTargetRangeColor;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Color.defaultFaceColor = global::GaugeDemo.Android.Resource.Color.defaultFaceColor;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Color.defaultPointerColor = global::GaugeDemo.Android.Resource.Color.defaultPointerColor;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultBadValue = global::GaugeDemo.Android.Resource.Dimension.defaultBadValue;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultBulletGraphPointerWidth = global::GaugeDemo.Android.Resource.Dimension.defaultBulletGraphPointerWidth;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultGaugeWidth = global::GaugeDemo.Android.Resource.Dimension.defaultGaugeWidth;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultGoodValue = global::GaugeDemo.Android.Resource.Dimension.defaultGoodValue;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultMaxFontSize = global::GaugeDemo.Android.Resource.Dimension.defaultMaxFontSize;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultMaxValue = global::GaugeDemo.Android.Resource.Dimension.defaultMaxValue;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultMinFontSize = global::GaugeDemo.Android.Resource.Dimension.defaultMinFontSize;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultMinValue = global::GaugeDemo.Android.Resource.Dimension.defaultMinValue;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultOrigin = global::GaugeDemo.Android.Resource.Dimension.defaultOrigin;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultPointerWidth = global::GaugeDemo.Android.Resource.Dimension.defaultPointerWidth;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultRadialStartAngle = global::GaugeDemo.Android.Resource.Dimension.defaultRadialStartAngle;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultRadialSweepAngle = global::GaugeDemo.Android.Resource.Dimension.defaultRadialSweepAngle;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultStepValue = global::GaugeDemo.Android.Resource.Dimension.defaultStepValue;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultTargetValue = global::GaugeDemo.Android.Resource.Dimension.defaultTargetValue;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultValue = global::GaugeDemo.Android.Resource.Dimension.defaultValue;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Dimension.defaultValueFontSize = global::GaugeDemo.Android.Resource.Dimension.defaultValueFontSize;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.Drawable.ic_launcher = global::GaugeDemo.Android.Resource.Drawable.ic_launcher;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.Id.ALL = global::GaugeDemo.Android.Resource.Id.ALL;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.Id.DOWN = global::GaugeDemo.Android.Resource.Id.DOWN;
@@ -99,16 +75,9 @@ namespace GaugeDemo.Android
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.Id.RIGHT = global::GaugeDemo.Android.Resource.Id.RIGHT;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.Id.UP = global::GaugeDemo.Android.Resource.Id.UP;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.Id.VALUE = global::GaugeDemo.Android.Resource.Id.VALUE;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Integer.defaultFaceBorderColor = global::GaugeDemo.Android.Resource.Integer.defaultFaceBorderColor;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.Integer.defaultFaceBorderWidth = global::GaugeDemo.Android.Resource.Integer.defaultFaceBorderWidth;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.String.ApplicationName = global::GaugeDemo.Android.Resource.String.ApplicationName;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.String.Hello = global::GaugeDemo.Android.Resource.String.Hello;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.String.app_name = global::GaugeDemo.Android.Resource.String.app_name;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.String.defaultFormat = global::GaugeDemo.Android.Resource.String.defaultFormat;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.String.defaultLinearGaugeDirection = global::GaugeDemo.Android.Resource.String.defaultLinearGaugeDirection;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.String.defaultMaxFontTypeface = global::GaugeDemo.Android.Resource.String.defaultMaxFontTypeface;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.String.defaultMinFontTypeface = global::GaugeDemo.Android.Resource.String.defaultMinFontTypeface;
-			global::Xuni.Forms.Gauge.Platform.Android.Resource.String.defaultValueFontTypeface = global::GaugeDemo.Android.Resource.String.defaultValueFontTypeface;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.Style.AppBaseTheme = global::GaugeDemo.Android.Resource.Style.AppBaseTheme;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.Style.AppTheme = global::GaugeDemo.Android.Resource.Style.AppTheme;
 			global::Xuni.Forms.Gauge.Platform.Android.Resource.Styleable.XuniBulletGraph = global::GaugeDemo.Android.Resource.Styleable.XuniBulletGraph;
@@ -266,117 +235,6 @@ namespace GaugeDemo.Android
 			}
 		}
 		
-		public partial class Boolean
-		{
-			
-			// aapt resource value: 0x7f090000
-			public const int defaultAnimated = 2131296256;
-			
-			// aapt resource value: 0x7f090001
-			public const int defaultShowRanges = 2131296257;
-			
-			static Boolean()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Boolean()
-			{
-			}
-		}
-		
-		public partial class Color
-		{
-			
-			// aapt resource value: 0x7f070004
-			public const int defaultBulletBadRangeColor = 2131165188;
-			
-			// aapt resource value: 0x7f070003
-			public const int defaultBulletGoodRangeColor = 2131165187;
-			
-			// aapt resource value: 0x7f070002
-			public const int defaultBulletGraphPointerColor = 2131165186;
-			
-			// aapt resource value: 0x7f070005
-			public const int defaultBulletTargetRangeColor = 2131165189;
-			
-			// aapt resource value: 0x7f070000
-			public const int defaultFaceColor = 2131165184;
-			
-			// aapt resource value: 0x7f070001
-			public const int defaultPointerColor = 2131165185;
-			
-			static Color()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Color()
-			{
-			}
-		}
-		
-		public partial class Dimension
-		{
-			
-			// aapt resource value: 0x7f06000d
-			public const int defaultBadValue = 2131099661;
-			
-			// aapt resource value: 0x7f060005
-			public const int defaultBulletGraphPointerWidth = 2131099653;
-			
-			// aapt resource value: 0x7f060003
-			public const int defaultGaugeWidth = 2131099651;
-			
-			// aapt resource value: 0x7f06000e
-			public const int defaultGoodValue = 2131099662;
-			
-			// aapt resource value: 0x7f060002
-			public const int defaultMaxFontSize = 2131099650;
-			
-			// aapt resource value: 0x7f06000a
-			public const int defaultMaxValue = 2131099658;
-			
-			// aapt resource value: 0x7f060001
-			public const int defaultMinFontSize = 2131099649;
-			
-			// aapt resource value: 0x7f06000b
-			public const int defaultMinValue = 2131099659;
-			
-			// aapt resource value: 0x7f060008
-			public const int defaultOrigin = 2131099656;
-			
-			// aapt resource value: 0x7f060004
-			public const int defaultPointerWidth = 2131099652;
-			
-			// aapt resource value: 0x7f060006
-			public const int defaultRadialStartAngle = 2131099654;
-			
-			// aapt resource value: 0x7f060007
-			public const int defaultRadialSweepAngle = 2131099655;
-			
-			// aapt resource value: 0x7f06000c
-			public const int defaultStepValue = 2131099660;
-			
-			// aapt resource value: 0x7f06000f
-			public const int defaultTargetValue = 2131099663;
-			
-			// aapt resource value: 0x7f060009
-			public const int defaultValue = 2131099657;
-			
-			// aapt resource value: 0x7f060000
-			public const int defaultValueFontSize = 2131099648;
-			
-			static Dimension()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Dimension()
-			{
-			}
-		}
-		
 		public partial class Drawable
 		{
 			
@@ -405,32 +263,32 @@ namespace GaugeDemo.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a0004
-			public const int ALL = 2131361796;
+			// aapt resource value: 0x7f060004
+			public const int ALL = 2131099652;
 			
-			// aapt resource value: 0x7f0a0000
-			public const int DOWN = 2131361792;
+			// aapt resource value: 0x7f060000
+			public const int DOWN = 2131099648;
 			
-			// aapt resource value: 0x7f0a0001
-			public const int LEFT = 2131361793;
+			// aapt resource value: 0x7f060001
+			public const int LEFT = 2131099649;
 			
-			// aapt resource value: 0x7f0a0005
-			public const int MINMAX = 2131361797;
+			// aapt resource value: 0x7f060005
+			public const int MINMAX = 2131099653;
 			
-			// aapt resource value: 0x7f0a0008
-			public const int MyButton = 2131361800;
+			// aapt resource value: 0x7f060008
+			public const int MyButton = 2131099656;
 			
-			// aapt resource value: 0x7f0a0006
-			public const int NONE = 2131361798;
+			// aapt resource value: 0x7f060006
+			public const int NONE = 2131099654;
 			
-			// aapt resource value: 0x7f0a0002
-			public const int RIGHT = 2131361794;
+			// aapt resource value: 0x7f060002
+			public const int RIGHT = 2131099650;
 			
-			// aapt resource value: 0x7f0a0003
-			public const int UP = 2131361795;
+			// aapt resource value: 0x7f060003
+			public const int UP = 2131099651;
 			
-			// aapt resource value: 0x7f0a0007
-			public const int VALUE = 2131361799;
+			// aapt resource value: 0x7f060007
+			public const int VALUE = 2131099655;
 			
 			static Id()
 			{
@@ -438,25 +296,6 @@ namespace GaugeDemo.Android
 			}
 			
 			private Id()
-			{
-			}
-		}
-		
-		public partial class Integer
-		{
-			
-			// aapt resource value: 0x7f080000
-			public const int defaultFaceBorderColor = 2131230720;
-			
-			// aapt resource value: 0x7f080001
-			public const int defaultFaceBorderWidth = 2131230721;
-			
-			static Integer()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Integer()
 			{
 			}
 		}
@@ -488,21 +327,6 @@ namespace GaugeDemo.Android
 			
 			// aapt resource value: 0x7f040002
 			public const int app_name = 2130968578;
-			
-			// aapt resource value: 0x7f040007
-			public const int defaultFormat = 2130968583;
-			
-			// aapt resource value: 0x7f040006
-			public const int defaultLinearGaugeDirection = 2130968582;
-			
-			// aapt resource value: 0x7f040005
-			public const int defaultMaxFontTypeface = 2130968581;
-			
-			// aapt resource value: 0x7f040004
-			public const int defaultMinFontTypeface = 2130968580;
-			
-			// aapt resource value: 0x7f040003
-			public const int defaultValueFontTypeface = 2130968579;
 			
 			static String()
 			{

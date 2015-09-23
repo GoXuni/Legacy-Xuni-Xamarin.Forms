@@ -14,8 +14,7 @@ namespace FlexGrid101
         {
             InitializeComponent();
 
-            lblTitle.Text = AppResources.CustomCellsTitle;
-
+            this.Title = AppResources.CustomCellsTitle;
             var data = Customer.GetCustomerList(100);
             grid.ItemsSource = data;
         }

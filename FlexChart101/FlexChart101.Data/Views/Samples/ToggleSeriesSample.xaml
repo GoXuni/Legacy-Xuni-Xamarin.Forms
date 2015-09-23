@@ -5,13 +5,14 @@
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views.Samples;assembly=FlexChart101.Data"
              xmlns:view="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
              x:Class="FlexChartDemo.Data.Views.Samples.ToggleSeriesSample"
-             Title="Toggle Series" Padding="10">
+             x:Name="page" Padding="10">
   <ContentPage.Resources>
     <ResourceDictionary>
       <sample:SeriesVisibilityBoolConverter x:Key="converter" />
     </ResourceDictionary>
   </ContentPage.Resources>
   <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <Grid>
       <Grid.RowDefinitions>
         <RowDefinition Height="Auto"/>

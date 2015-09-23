@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xuni.Forms.ChartCore;
 using Xuni.Forms.FlexPie;
 using System.Reflection;
+using FlexPieDemo.Data.Resources;
 namespace FlexPieDemo.Data.Views.Samples
 {
     public partial class ThemingSample
@@ -16,9 +17,10 @@ namespace FlexPieDemo.Data.Views.Samples
         public ThemingSample()
         {
             InitializeComponent();
+            Title = AppResources.ThemingTitle;
             this.listPalettes = new List<Color[]>();
             this.flexPie.ItemsSource = PieChartSampleFactory.CreateEntiyList();
-            foreach (var field in typeof(Palettes).GetRuntimeFields())
+            foreach (var field in typeof(ChartPalettes).GetRuntimeFields())
             {
                 if (field.IsStatic && field.FieldType == typeof(Color[]))
                 {

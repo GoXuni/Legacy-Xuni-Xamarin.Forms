@@ -1,10 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.20506</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2DACF8FD-3DE0-476E-8FEE-82FF75480D9F}</ProjectGuid>
     <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
@@ -168,52 +166,52 @@
       <HintPath>..\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Core">
-      <HintPath>..\packages\Xamarin.Forms.1.4.4.6392\lib\WP80\Xamarin.Forms.Core.dll</HintPath>
+      <HintPath>..\packages\Xamarin.Forms.1.5.0.6446\lib\WP80\Xamarin.Forms.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Platform.WP8">
-      <HintPath>..\packages\Xamarin.Forms.1.4.4.6392\lib\WP80\Xamarin.Forms.Platform.WP8.dll</HintPath>
+      <HintPath>..\packages\Xamarin.Forms.1.5.0.6446\lib\WP80\Xamarin.Forms.Platform.WP8.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Xaml">
-      <HintPath>..\packages\Xamarin.Forms.1.4.4.6392\lib\WP80\Xamarin.Forms.Xaml.dll</HintPath>
+      <HintPath>..\packages\Xamarin.Forms.1.5.0.6446\lib\WP80\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.ChartCore">
-      <HintPath>..\packages\Xuni.Forms.ChartCore.1.4.20152.38\lib\WP80\Xuni.Forms.ChartCore.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.ChartCore.1.5.20152.50\lib\WP80\Xuni.Forms.ChartCore.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.Core">
-      <HintPath>..\packages\Xuni.Forms.Core.1.4.20152.38\lib\WP80\Xuni.Forms.Core.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.Core.1.5.20152.50\lib\WP80\Xuni.Forms.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.Core.Platform.WinPhone">
-      <HintPath>..\packages\Xuni.Forms.Core.1.4.20152.38\lib\WP80\Xuni.Forms.Core.Platform.WinPhone.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.Core.1.5.20152.50\lib\WP80\Xuni.Forms.Core.Platform.WinPhone.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.FlexChart">
-      <HintPath>..\packages\Xuni.Forms.FlexChart.1.4.20152.38\lib\WP80\Xuni.Forms.FlexChart.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.FlexChart.1.5.20152.50\lib\WP80\Xuni.Forms.FlexChart.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.FlexChart.Platform.WinPhone">
-      <HintPath>..\packages\Xuni.Forms.FlexChart.1.4.20152.38\lib\WP80\Xuni.Forms.FlexChart.Platform.WinPhone.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.FlexChart.1.5.20152.50\lib\WP80\Xuni.Forms.FlexChart.Platform.WinPhone.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.FlexPie">
-      <HintPath>..\packages\Xuni.Forms.FlexPie.1.4.20152.38\lib\WP80\Xuni.Forms.FlexPie.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.FlexPie.1.5.20152.50\lib\WP80\Xuni.Forms.FlexPie.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.FlexPie.Platform.WinPhone">
-      <HintPath>..\packages\Xuni.Forms.FlexPie.1.4.20152.38\lib\WP80\Xuni.Forms.FlexPie.Platform.WinPhone.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.FlexPie.1.5.20152.50\lib\WP80\Xuni.Forms.FlexPie.Platform.WinPhone.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.Gauge">
-      <HintPath>..\packages\Xuni.Forms.Gauge.1.4.20152.38\lib\WP80\Xuni.Forms.Gauge.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.Gauge.1.5.20152.50\lib\WP80\Xuni.Forms.Gauge.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.Gauge.Platform.WinPhone">
-      <HintPath>..\packages\Xuni.Forms.Gauge.1.4.20152.38\lib\WP80\Xuni.Forms.Gauge.Platform.WinPhone.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.Gauge.1.5.20152.50\lib\WP80\Xuni.Forms.Gauge.Platform.WinPhone.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.WinPhone.CollectionView">
-      <HintPath>..\packages\Xuni.Forms.FlexPie.1.4.20152.38\lib\WP80\Xuni.WinPhone.CollectionView.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.FlexPie.1.5.20152.50\lib\WP80\Xuni.WinPhone.CollectionView.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.WinPhone.FlexChart">
-      <HintPath>..\packages\Xuni.Forms.FlexChart.1.4.20152.38\lib\WP80\Xuni.WinPhone.FlexChart.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.FlexChart.1.5.20152.50\lib\WP80\Xuni.WinPhone.FlexChart.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.WinPhone.FlexPie">
-      <HintPath>..\packages\Xuni.Forms.FlexPie.1.4.20152.38\lib\WP80\Xuni.WinPhone.FlexPie.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.FlexPie.1.5.20152.50\lib\WP80\Xuni.WinPhone.FlexPie.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.WinPhone.Gauge">
-      <HintPath>..\packages\Xuni.Forms.Gauge.1.4.20152.38\lib\WP80\Xuni.WinPhone.Gauge.dll</HintPath>
+      <HintPath>..\packages\Xuni.Forms.Gauge.1.5.20152.50\lib\WP80\Xuni.WinPhone.Gauge.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
@@ -226,11 +224,11 @@
   </Target>
   -->
   <ProjectExtensions />
-  <Import Project="..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <Import Project="..\packages\Xamarin.Forms.1.5.0.6446\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.5.0.6446\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.1.4.4.6392\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Forms.1.5.0.6446\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.1.5.0.6446\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
   </Target>
 </Project>

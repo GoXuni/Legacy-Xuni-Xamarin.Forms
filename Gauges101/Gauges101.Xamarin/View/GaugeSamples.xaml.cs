@@ -14,7 +14,7 @@ namespace Gauges101
         {
             InitializeComponent();
 
-            this.Title = "Gauges101";
+            Title = "Gauges 101";
 
             BindingContext = GetSamples();
         }

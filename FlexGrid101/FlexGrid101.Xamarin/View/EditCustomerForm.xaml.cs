@@ -25,7 +25,7 @@ namespace FlexGrid101
                 entryWeight.Text = cust.Weight.ToString("n4");
             }
 
-            lblFormTitle.Text = AppResources.EditCustomer;
+            Title = AppResources.EditCustomer;
             btnApply.Text = AppResources.Apply;
             btnApply.Clicked += btnApply_Clicked;
             btnCancel.Text = AppResources.Cancel;

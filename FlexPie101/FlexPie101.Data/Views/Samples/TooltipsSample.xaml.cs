@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xuni.Forms.ChartCore;
 using Xuni.Forms.FlexPie;
 using System.Reflection;
+using FlexPieDemo.Data.Resources;
 namespace FlexPieDemo.Data.Views.Samples
 {
     public partial class TooltipsSample
@@ -15,6 +16,7 @@ namespace FlexPieDemo.Data.Views.Samples
         public TooltipsSample()
         {
             InitializeComponent();
+            Title = AppResources.CustomTooltipsTitle;
             this.flexPie.ItemsSource = PieChartSampleFactory.CreateEntiyList();
 
             //pieChart.Tooltip.Content = GetChartTooltip();

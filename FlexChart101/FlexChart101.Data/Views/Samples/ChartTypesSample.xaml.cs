@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.FlexChart;
+using FlexChartDemo.Data.Resources;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -14,7 +15,7 @@ namespace FlexChartDemo.Data.Views.Samples
         public ChartTypesSample()
         {
             InitializeComponent();
-
+            Title = AppResources.BasicChartTypesTitle;
             
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
 
@@ -33,7 +34,7 @@ namespace FlexChartDemo.Data.Views.Samples
             }
             this.pickerChartType.SelectedIndex = 5;
             this.pickerStackType.SelectedIndex = 1;
-            this.flexChart.ZoomMode = ZoomMode.XY;
+            this.flexChart.ZoomMode = ChartZoomMode.XY;
         }
 
         void pickerChartType_SelectedIndexChanged(object sender, EventArgs e)

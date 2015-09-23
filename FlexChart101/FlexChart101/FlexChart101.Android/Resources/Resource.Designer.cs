@@ -29,17 +29,13 @@ namespace FlexChartDemo.Droid
 			global::Xamarin.Forms.Platform.Resource.String.ApplicationName = global::FlexChartDemo.Droid.Resource.String.ApplicationName;
 			global::Xamarin.Forms.Platform.Resource.String.Hello = global::FlexChartDemo.Droid.Resource.String.Hello;
 			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.dct = global::FlexChartDemo.Droid.Resource.Drawable.dct;
-			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_launcher = global::FlexChartDemo.Droid.Resource.Drawable.ic_launcher;
 			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.tooltipContent = global::FlexChartDemo.Droid.Resource.Id.tooltipContent;
 			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.tooltipTitle = global::FlexChartDemo.Droid.Resource.Id.tooltipTitle;
 			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.tooltip = global::FlexChartDemo.Droid.Resource.Layout.tooltip;
 			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.ApplicationName = global::FlexChartDemo.Droid.Resource.String.ApplicationName;
 			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.Hello = global::FlexChartDemo.Droid.Resource.String.Hello;
-			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.AppBaseTheme = global::FlexChartDemo.Droid.Resource.Style.AppBaseTheme;
-			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_launcher = global::FlexChartDemo.Droid.Resource.Drawable.ic_launcher;
 			global::Xuni.Forms.Core.Platform.Android.Resource.String.ApplicationName = global::FlexChartDemo.Droid.Resource.String.ApplicationName;
 			global::Xuni.Forms.Core.Platform.Android.Resource.String.Hello = global::FlexChartDemo.Droid.Resource.String.Hello;
-			global::Xuni.Forms.Core.Platform.Android.Resource.Style.AppBaseTheme = global::FlexChartDemo.Droid.Resource.Style.AppBaseTheme;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Array.flexChartCerulanPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartCerulanPalette;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Array.flexChartCocoaPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartCocoaPalette;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Array.flexChartCoralPalette = global::FlexChartDemo.Droid.Resource.Array.flexChartCoralPalette;
@@ -179,39 +175,7 @@ namespace FlexChartDemo.Droid
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Attribute.flexChart_updateAnimation_duration = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_updateAnimation_duration;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Attribute.flexChart_updateAnimation_startDelay = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_updateAnimation_startDelay;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Attribute.flexChart_zoomMode = global::FlexChartDemo.Droid.Resource.Attribute.flexChart_zoomMode;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Boolean.defaultFlexChartAnimated = global::FlexChartDemo.Droid.Resource.Boolean.defaultFlexChartAnimated;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Boolean.defaultFlexChartToggleLegend = global::FlexChartDemo.Droid.Resource.Boolean.defaultFlexChartToggleLegend;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaulFlexChartChartOptionsGroupWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaulFlexChartChartOptionsGroupWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisX_labelAngle = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_labelAngle;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisX_labelFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_labelFontSize;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisX_lineWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_lineWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisX_majorGridWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_majorGridWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisX_majorTickWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_majorTickWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisX_minorGridWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_minorGridWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisX_minorTickWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_minorTickWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisX_titleFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisX_titleFontSize;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisY_labelAngle = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_labelAngle;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisY_labelFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_labelFontSize;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisY_lineWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_lineWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisY_majorGridWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_majorGridWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisY_majorTickWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_majorTickWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisY_minorGridWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_minorGridWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisY_minorTickWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_minorTickWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartAxisY_titleFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartAxisY_titleFontSize;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartBorderWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartChartOptionsBubbleMaxSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartChartOptionsBubbleMaxSize;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartChartOptionsBubbleMinSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartChartOptionsBubbleMinSize;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartDatalabelBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartDatalabelBorderWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartDatalabelFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartDatalabelFontSize;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartFooterFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartFooterFontSize;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartHeaderFontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartHeaderFontSize;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartLegend_FontSize = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartLegend_FontSize;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartLegend_borderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartLegend_borderWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartSelectedBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartSelectedBorderWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartSeriesBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartSeriesBorderWidth;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Dimension.defaultFlexChartSeriesSymbolBorderWidth = global::FlexChartDemo.Droid.Resource.Dimension.defaultFlexChartSeriesSymbolBorderWidth;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Drawable.dct = global::FlexChartDemo.Droid.Resource.Drawable.dct;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Drawable.ic_launcher = global::FlexChartDemo.Droid.Resource.Drawable.ic_launcher;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Id.ALL = global::FlexChartDemo.Droid.Resource.Id.ALL;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Id.AREA = global::FlexChartDemo.Droid.Resource.Id.AREA;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Id.AUTO = global::FlexChartDemo.Droid.Resource.Id.AUTO;
@@ -259,54 +223,9 @@ namespace FlexChartDemo.Droid
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Id.Y = global::FlexChartDemo.Droid.Resource.Id.Y;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Id.tooltipContent = global::FlexChartDemo.Droid.Resource.Id.tooltipContent;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Id.tooltipTitle = global::FlexChartDemo.Droid.Resource.Id.tooltipTitle;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisXOverlappingLabels = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisXOverlappingLabels;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisX_axisLineVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_axisLineVisible;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisX_labelFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_labelFontWeight;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisX_labelsVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_labelsVisible;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisX_majorGridVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_majorGridVisible;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisX_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_majorTickOverlap;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisX_minorGridVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_minorGridVisible;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisX_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_minorTickOverlap;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisX_titleFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisX_titleFontWeight;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisYOverlappingLabels = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisYOverlappingLabels;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisY_axisLineVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_axisLineVisible;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisY_labelFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_labelFontWeight;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisY_labelsVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_labelsVisible;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisY_majorGridVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_majorGridVisible;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisY_majorTickOverlap = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_majorTickOverlap;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisY_minorGridVisible = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_minorGridVisible;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisY_minorTickOverlap = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_minorTickOverlap;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartAxisY_titleFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartAxisY_titleFontWeight;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartChartType = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartChartType;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartDatalabelFontWight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartDatalabelFontWight;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartDatalabelPosition = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartDatalabelPosition;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartFooterFontGravity = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartFooterFontGravity;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartFooterFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartFooterFontWeight;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartHeaderFontGravity = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartHeaderFontGravity;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartHeaderFontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartHeaderFontWeight;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartLegendOrientation = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartLegendOrientation;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartLegendPosition = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartLegendPosition;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartLegend_FontWeight = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartLegend_FontWeight;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartLoadAnimationDuration = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartLoadAnimationDuration;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartLoadAnimationMode = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartLoadAnimationMode;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartLoadAnimationStartDelay = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartLoadAnimationStartDelay;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartSeriesChartType = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartSeriesChartType;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartSeriesVisibility = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartSeriesVisibility;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartStackingType = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartStackingType;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartUpdateAnimationDuration = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartUpdateAnimationDuration;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartUpdateAnimationStartDelay = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartUpdateAnimationStartDelay;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Integer.defaultFlexChartZoomMode = global::FlexChartDemo.Droid.Resource.Integer.defaultFlexChartZoomMode;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Layout.tooltip = global::FlexChartDemo.Droid.Resource.Layout.tooltip;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.String.ApplicationName = global::FlexChartDemo.Droid.Resource.String.ApplicationName;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.String.Hello = global::FlexChartDemo.Droid.Resource.String.Hello;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.String.defaultFlexChartAxisX_labelFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartAxisX_labelFontTypeface;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.String.defaultFlexChartAxisX_titleFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartAxisX_titleFontTypeface;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.String.defaultFlexChartAxisY_labelFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartAxisY_labelFontTypeface;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.String.defaultFlexChartAxisY_titleFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartAxisY_titleFontTypeface;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.String.defaultFlexChartDatalabelFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartDatalabelFontTypeface;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.String.defaultFlexChartFooterFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartFooterFontTypeface;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.String.defaultFlexChartHeaderFontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartHeaderFontTypeface;
-			global::Xuni.Forms.FlexChart.Platform.Android.Resource.String.defaultFlexChartLegend_FontTypeface = global::FlexChartDemo.Droid.Resource.String.defaultFlexChartLegend_FontTypeface;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Style.AppBaseTheme = global::FlexChartDemo.Droid.Resource.Style.AppBaseTheme;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Style.AppTheme = global::FlexChartDemo.Droid.Resource.Style.AppTheme;
 			global::Xuni.Forms.FlexChart.Platform.Android.Resource.Styleable.FlexChart = global::FlexChartDemo.Droid.Resource.Styleable.FlexChart;
@@ -435,56 +354,56 @@ namespace FlexChartDemo.Droid
 		public partial class Array
 		{
 			
-			// aapt resource value: 0x7f09000f
-			public const int flexChartCerulanPalette = 2131296271;
+			// aapt resource value: 0x7f06000f
+			public const int flexChartCerulanPalette = 2131099663;
 			
-			// aapt resource value: 0x7f090001
-			public const int flexChartCocoaPalette = 2131296257;
+			// aapt resource value: 0x7f060001
+			public const int flexChartCocoaPalette = 2131099649;
 			
-			// aapt resource value: 0x7f090002
-			public const int flexChartCoralPalette = 2131296258;
+			// aapt resource value: 0x7f060002
+			public const int flexChartCoralPalette = 2131099650;
 			
-			// aapt resource value: 0x7f09000b
-			public const int flexChartCyborgPalette = 2131296267;
+			// aapt resource value: 0x7f06000b
+			public const int flexChartCyborgPalette = 2131099659;
 			
-			// aapt resource value: 0x7f090003
-			public const int flexChartDarkPalette = 2131296259;
+			// aapt resource value: 0x7f060003
+			public const int flexChartDarkPalette = 2131099651;
 			
-			// aapt resource value: 0x7f09000e
-			public const int flexChartDarklyPalette = 2131296270;
+			// aapt resource value: 0x7f06000e
+			public const int flexChartDarklyPalette = 2131099662;
 			
-			// aapt resource value: 0x7f090000
-			public const int flexChartDefaultFlexChartPalette = 2131296256;
+			// aapt resource value: 0x7f060000
+			public const int flexChartDefaultFlexChartPalette = 2131099648;
 			
-			// aapt resource value: 0x7f09000d
-			public const int flexChartFlatlyPalette = 2131296269;
+			// aapt resource value: 0x7f06000d
+			public const int flexChartFlatlyPalette = 2131099661;
 			
-			// aapt resource value: 0x7f090004
-			public const int flexChartHighConstrastPalette = 2131296260;
+			// aapt resource value: 0x7f060004
+			public const int flexChartHighConstrastPalette = 2131099652;
 			
-			// aapt resource value: 0x7f090005
-			public const int flexChartLightPalette = 2131296261;
+			// aapt resource value: 0x7f060005
+			public const int flexChartLightPalette = 2131099653;
 			
-			// aapt resource value: 0x7f090010
-			public const int flexChartMaterialPalette = 2131296272;
+			// aapt resource value: 0x7f060010
+			public const int flexChartMaterialPalette = 2131099664;
 			
-			// aapt resource value: 0x7f090006
-			public const int flexChartMidnightPalette = 2131296262;
+			// aapt resource value: 0x7f060006
+			public const int flexChartMidnightPalette = 2131099654;
 			
-			// aapt resource value: 0x7f090007
-			public const int flexChartMinimalPalette = 2131296263;
+			// aapt resource value: 0x7f060007
+			public const int flexChartMinimalPalette = 2131099655;
 			
-			// aapt resource value: 0x7f090008
-			public const int flexChartModernPalette = 2131296264;
+			// aapt resource value: 0x7f060008
+			public const int flexChartModernPalette = 2131099656;
 			
-			// aapt resource value: 0x7f090009
-			public const int flexChartOrganicPalette = 2131296265;
+			// aapt resource value: 0x7f060009
+			public const int flexChartOrganicPalette = 2131099657;
 			
-			// aapt resource value: 0x7f09000a
-			public const int flexChartSlatePalette = 2131296266;
+			// aapt resource value: 0x7f06000a
+			public const int flexChartSlatePalette = 2131099658;
 			
-			// aapt resource value: 0x7f09000c
-			public const int flexChartSuperheroPalette = 2131296268;
+			// aapt resource value: 0x7f06000c
+			public const int flexChartSuperheroPalette = 2131099660;
 			
 			static Array()
 			{
@@ -875,125 +794,6 @@ namespace FlexChartDemo.Droid
 			}
 		}
 		
-		public partial class Boolean
-		{
-			
-			// aapt resource value: 0x7f080001
-			public const int defaultFlexChartAnimated = 2131230721;
-			
-			// aapt resource value: 0x7f080000
-			public const int defaultFlexChartToggleLegend = 2131230720;
-			
-			static Boolean()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Boolean()
-			{
-			}
-		}
-		
-		public partial class Dimension
-		{
-			
-			// aapt resource value: 0x7f070002
-			public const int defaulFlexChartChartOptionsGroupWidth = 2131165186;
-			
-			// aapt resource value: 0x7f070004
-			public const int defaultFlexChartAxisX_labelAngle = 2131165188;
-			
-			// aapt resource value: 0x7f070003
-			public const int defaultFlexChartAxisX_labelFontSize = 2131165187;
-			
-			// aapt resource value: 0x7f070006
-			public const int defaultFlexChartAxisX_lineWidth = 2131165190;
-			
-			// aapt resource value: 0x7f070007
-			public const int defaultFlexChartAxisX_majorGridWidth = 2131165191;
-			
-			// aapt resource value: 0x7f070008
-			public const int defaultFlexChartAxisX_majorTickWidth = 2131165192;
-			
-			// aapt resource value: 0x7f070009
-			public const int defaultFlexChartAxisX_minorGridWidth = 2131165193;
-			
-			// aapt resource value: 0x7f07000a
-			public const int defaultFlexChartAxisX_minorTickWidth = 2131165194;
-			
-			// aapt resource value: 0x7f070005
-			public const int defaultFlexChartAxisX_titleFontSize = 2131165189;
-			
-			// aapt resource value: 0x7f07000c
-			public const int defaultFlexChartAxisY_labelAngle = 2131165196;
-			
-			// aapt resource value: 0x7f07000b
-			public const int defaultFlexChartAxisY_labelFontSize = 2131165195;
-			
-			// aapt resource value: 0x7f07000e
-			public const int defaultFlexChartAxisY_lineWidth = 2131165198;
-			
-			// aapt resource value: 0x7f07000f
-			public const int defaultFlexChartAxisY_majorGridWidth = 2131165199;
-			
-			// aapt resource value: 0x7f070010
-			public const int defaultFlexChartAxisY_majorTickWidth = 2131165200;
-			
-			// aapt resource value: 0x7f070011
-			public const int defaultFlexChartAxisY_minorGridWidth = 2131165201;
-			
-			// aapt resource value: 0x7f070012
-			public const int defaultFlexChartAxisY_minorTickWidth = 2131165202;
-			
-			// aapt resource value: 0x7f07000d
-			public const int defaultFlexChartAxisY_titleFontSize = 2131165197;
-			
-			// aapt resource value: 0x7f070017
-			public const int defaultFlexChartBorderWidth = 2131165207;
-			
-			// aapt resource value: 0x7f070001
-			public const int defaultFlexChartChartOptionsBubbleMaxSize = 2131165185;
-			
-			// aapt resource value: 0x7f070000
-			public const int defaultFlexChartChartOptionsBubbleMinSize = 2131165184;
-			
-			// aapt resource value: 0x7f07001b
-			public const int defaultFlexChartDatalabelBorderWidth = 2131165211;
-			
-			// aapt resource value: 0x7f07001c
-			public const int defaultFlexChartDatalabelFontSize = 2131165212;
-			
-			// aapt resource value: 0x7f070016
-			public const int defaultFlexChartFooterFontSize = 2131165206;
-			
-			// aapt resource value: 0x7f070015
-			public const int defaultFlexChartHeaderFontSize = 2131165205;
-			
-			// aapt resource value: 0x7f07001a
-			public const int defaultFlexChartLegend_FontSize = 2131165210;
-			
-			// aapt resource value: 0x7f070019
-			public const int defaultFlexChartLegend_borderWidth = 2131165209;
-			
-			// aapt resource value: 0x7f070018
-			public const int defaultFlexChartSelectedBorderWidth = 2131165208;
-			
-			// aapt resource value: 0x7f070013
-			public const int defaultFlexChartSeriesBorderWidth = 2131165203;
-			
-			// aapt resource value: 0x7f070014
-			public const int defaultFlexChartSeriesSymbolBorderWidth = 2131165204;
-			
-			static Dimension()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Dimension()
-			{
-			}
-		}
-		
 		public partial class Drawable
 		{
 			
@@ -1001,10 +801,7 @@ namespace FlexChartDemo.Droid
 			public const int dct = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int ic_launcher = 2130837505;
-			
-			// aapt resource value: 0x7f020002
-			public const int Icon = 2130837506;
+			public const int Icon = 2130837505;
 			
 			static Drawable()
 			{
@@ -1019,146 +816,146 @@ namespace FlexChartDemo.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a001e
-			public const int ALL = 2131361822;
+			// aapt resource value: 0x7f07001e
+			public const int ALL = 2131165214;
 			
-			// aapt resource value: 0x7f0a0007
-			public const int AREA = 2131361799;
+			// aapt resource value: 0x7f070007
+			public const int AREA = 2131165191;
 			
-			// aapt resource value: 0x7f0a0021
-			public const int AUTO = 2131361825;
+			// aapt resource value: 0x7f070021
+			public const int AUTO = 2131165217;
 			
-			// aapt resource value: 0x7f0a002a
-			public const int Auto = 2131361834;
+			// aapt resource value: 0x7f07002a
+			public const int Auto = 2131165226;
 			
-			// aapt resource value: 0x7f0a0008
-			public const int BAR = 2131361800;
+			// aapt resource value: 0x7f070008
+			public const int BAR = 2131165192;
 			
-			// aapt resource value: 0x7f0a0000
-			public const int BOLD = 2131361792;
+			// aapt resource value: 0x7f070000
+			public const int BOLD = 2131165184;
 			
-			// aapt resource value: 0x7f0a0001
-			public const int BOLD_ITALIC = 2131361793;
+			// aapt resource value: 0x7f070001
+			public const int BOLD_ITALIC = 2131165185;
 			
-			// aapt resource value: 0x7f0a0022
-			public const int BOTTOM = 2131361826;
+			// aapt resource value: 0x7f070022
+			public const int BOTTOM = 2131165218;
 			
-			// aapt resource value: 0x7f0a0009
-			public const int BUBBLE = 2131361801;
+			// aapt resource value: 0x7f070009
+			public const int BUBBLE = 2131165193;
 			
-			// aapt resource value: 0x7f0a000a
-			public const int CANDLE = 2131361802;
+			// aapt resource value: 0x7f07000a
+			public const int CANDLE = 2131165194;
 			
-			// aapt resource value: 0x7f0a002c
-			public const int CENTER = 2131361836;
+			// aapt resource value: 0x7f07002c
+			public const int CENTER = 2131165228;
 			
-			// aapt resource value: 0x7f0a0004
-			public const int CENTER_HORIZONTAL = 2131361796;
+			// aapt resource value: 0x7f070004
+			public const int CENTER_HORIZONTAL = 2131165188;
 			
-			// aapt resource value: 0x7f0a000b
-			public const int COLUMN = 2131361803;
+			// aapt resource value: 0x7f07000b
+			public const int COLUMN = 2131165195;
 			
-			// aapt resource value: 0x7f0a0024
-			public const int DISABLED = 2131361828;
+			// aapt resource value: 0x7f070024
+			public const int DISABLED = 2131165220;
 			
-			// aapt resource value: 0x7f0a0016
-			public const int FALSE = 2131361814;
+			// aapt resource value: 0x7f070016
+			public const int FALSE = 2131165206;
 			
-			// aapt resource value: 0x7f0a001a
-			public const int HIDDEN = 2131361818;
+			// aapt resource value: 0x7f07001a
+			public const int HIDDEN = 2131165210;
 			
-			// aapt resource value: 0x7f0a000c
-			public const int HLOC = 2131361804;
+			// aapt resource value: 0x7f07000c
+			public const int HLOC = 2131165196;
 			
-			// aapt resource value: 0x7f0a001f
-			public const int HORIZONTAL = 2131361823;
+			// aapt resource value: 0x7f07001f
+			public const int HORIZONTAL = 2131165215;
 			
-			// aapt resource value: 0x7f0a0018
-			public const int INSIDE = 2131361816;
+			// aapt resource value: 0x7f070018
+			public const int INSIDE = 2131165208;
 			
-			// aapt resource value: 0x7f0a0002
-			public const int ITALIC = 2131361794;
+			// aapt resource value: 0x7f070002
+			public const int ITALIC = 2131165186;
 			
-			// aapt resource value: 0x7f0a0005
-			public const int LEFT = 2131361797;
+			// aapt resource value: 0x7f070005
+			public const int LEFT = 2131165189;
 			
-			// aapt resource value: 0x7f0a001b
-			public const int LEGEND = 2131361819;
+			// aapt resource value: 0x7f07001b
+			public const int LEGEND = 2131165211;
 			
-			// aapt resource value: 0x7f0a000d
-			public const int LINE = 2131361805;
+			// aapt resource value: 0x7f07000d
+			public const int LINE = 2131165197;
 			
-			// aapt resource value: 0x7f0a000e
-			public const int LINESYMBOLS = 2131361806;
+			// aapt resource value: 0x7f07000e
+			public const int LINESYMBOLS = 2131165198;
 			
-			// aapt resource value: 0x7f0a0013
-			public const int NONE = 2131361811;
+			// aapt resource value: 0x7f070013
+			public const int NONE = 2131165203;
 			
-			// aapt resource value: 0x7f0a0003
-			public const int NORMAL = 2131361795;
+			// aapt resource value: 0x7f070003
+			public const int NORMAL = 2131165187;
 			
-			// aapt resource value: 0x7f0a0019
-			public const int OUTSIDE = 2131361817;
+			// aapt resource value: 0x7f070019
+			public const int OUTSIDE = 2131165209;
 			
-			// aapt resource value: 0x7f0a001c
-			public const int PLOT = 2131361820;
+			// aapt resource value: 0x7f07001c
+			public const int PLOT = 2131165212;
 			
-			// aapt resource value: 0x7f0a0028
-			public const int POINT = 2131361832;
+			// aapt resource value: 0x7f070028
+			public const int POINT = 2131165224;
 			
-			// aapt resource value: 0x7f0a0006
-			public const int RIGHT = 2131361798;
+			// aapt resource value: 0x7f070006
+			public const int RIGHT = 2131165190;
 			
-			// aapt resource value: 0x7f0a000f
-			public const int SCATTER = 2131361807;
+			// aapt resource value: 0x7f07000f
+			public const int SCATTER = 2131165199;
 			
-			// aapt resource value: 0x7f0a0029
-			public const int SERIES = 2131361833;
+			// aapt resource value: 0x7f070029
+			public const int SERIES = 2131165225;
 			
-			// aapt resource value: 0x7f0a0010
-			public const int SPLINE = 2131361808;
+			// aapt resource value: 0x7f070010
+			public const int SPLINE = 2131165200;
 			
-			// aapt resource value: 0x7f0a0011
-			public const int SPLINEAREA = 2131361809;
+			// aapt resource value: 0x7f070011
+			public const int SPLINEAREA = 2131165201;
 			
-			// aapt resource value: 0x7f0a0012
-			public const int SPLINESYMBOLS = 2131361810;
+			// aapt resource value: 0x7f070012
+			public const int SPLINESYMBOLS = 2131165202;
 			
-			// aapt resource value: 0x7f0a0014
-			public const int STACKED = 2131361812;
+			// aapt resource value: 0x7f070014
+			public const int STACKED = 2131165204;
 			
-			// aapt resource value: 0x7f0a0015
-			public const int STACKED100pc = 2131361813;
+			// aapt resource value: 0x7f070015
+			public const int STACKED100pc = 2131165205;
 			
-			// aapt resource value: 0x7f0a002b
-			public const int Show = 2131361835;
+			// aapt resource value: 0x7f07002b
+			public const int Show = 2131165227;
 			
-			// aapt resource value: 0x7f0a0023
-			public const int TOP = 2131361827;
+			// aapt resource value: 0x7f070023
+			public const int TOP = 2131165219;
 			
-			// aapt resource value: 0x7f0a0017
-			public const int TRUE = 2131361815;
+			// aapt resource value: 0x7f070017
+			public const int TRUE = 2131165207;
 			
-			// aapt resource value: 0x7f0a0020
-			public const int VERTICAL = 2131361824;
+			// aapt resource value: 0x7f070020
+			public const int VERTICAL = 2131165216;
 			
-			// aapt resource value: 0x7f0a001d
-			public const int VISIBLE = 2131361821;
+			// aapt resource value: 0x7f07001d
+			public const int VISIBLE = 2131165213;
 			
-			// aapt resource value: 0x7f0a0025
-			public const int X = 2131361829;
+			// aapt resource value: 0x7f070025
+			public const int X = 2131165221;
 			
-			// aapt resource value: 0x7f0a0026
-			public const int XY = 2131361830;
+			// aapt resource value: 0x7f070026
+			public const int XY = 2131165222;
 			
-			// aapt resource value: 0x7f0a0027
-			public const int Y = 2131361831;
+			// aapt resource value: 0x7f070027
+			public const int Y = 2131165223;
 			
-			// aapt resource value: 0x7f0a002e
-			public const int tooltipContent = 2131361838;
+			// aapt resource value: 0x7f07002e
+			public const int tooltipContent = 2131165230;
 			
-			// aapt resource value: 0x7f0a002d
-			public const int tooltipTitle = 2131361837;
+			// aapt resource value: 0x7f07002d
+			public const int tooltipTitle = 2131165229;
 			
 			static Id()
 			{
@@ -1166,130 +963,6 @@ namespace FlexChartDemo.Droid
 			}
 			
 			private Id()
-			{
-			}
-		}
-		
-		public partial class Integer
-		{
-			
-			// aapt resource value: 0x7f060010
-			public const int defaultFlexChartAxisXOverlappingLabels = 2131099664;
-			
-			// aapt resource value: 0x7f06000a
-			public const int defaultFlexChartAxisX_axisLineVisible = 2131099658;
-			
-			// aapt resource value: 0x7f060008
-			public const int defaultFlexChartAxisX_labelFontWeight = 2131099656;
-			
-			// aapt resource value: 0x7f060009
-			public const int defaultFlexChartAxisX_labelsVisible = 2131099657;
-			
-			// aapt resource value: 0x7f06000c
-			public const int defaultFlexChartAxisX_majorGridVisible = 2131099660;
-			
-			// aapt resource value: 0x7f06000d
-			public const int defaultFlexChartAxisX_majorTickOverlap = 2131099661;
-			
-			// aapt resource value: 0x7f06000e
-			public const int defaultFlexChartAxisX_minorGridVisible = 2131099662;
-			
-			// aapt resource value: 0x7f06000f
-			public const int defaultFlexChartAxisX_minorTickOverlap = 2131099663;
-			
-			// aapt resource value: 0x7f06000b
-			public const int defaultFlexChartAxisX_titleFontWeight = 2131099659;
-			
-			// aapt resource value: 0x7f060019
-			public const int defaultFlexChartAxisYOverlappingLabels = 2131099673;
-			
-			// aapt resource value: 0x7f060013
-			public const int defaultFlexChartAxisY_axisLineVisible = 2131099667;
-			
-			// aapt resource value: 0x7f060011
-			public const int defaultFlexChartAxisY_labelFontWeight = 2131099665;
-			
-			// aapt resource value: 0x7f060012
-			public const int defaultFlexChartAxisY_labelsVisible = 2131099666;
-			
-			// aapt resource value: 0x7f060015
-			public const int defaultFlexChartAxisY_majorGridVisible = 2131099669;
-			
-			// aapt resource value: 0x7f060016
-			public const int defaultFlexChartAxisY_majorTickOverlap = 2131099670;
-			
-			// aapt resource value: 0x7f060017
-			public const int defaultFlexChartAxisY_minorGridVisible = 2131099671;
-			
-			// aapt resource value: 0x7f060018
-			public const int defaultFlexChartAxisY_minorTickOverlap = 2131099672;
-			
-			// aapt resource value: 0x7f060014
-			public const int defaultFlexChartAxisY_titleFontWeight = 2131099668;
-			
-			// aapt resource value: 0x7f060000
-			public const int defaultFlexChartChartType = 2131099648;
-			
-			// aapt resource value: 0x7f060024
-			public const int defaultFlexChartDatalabelFontWight = 2131099684;
-			
-			// aapt resource value: 0x7f060023
-			public const int defaultFlexChartDatalabelPosition = 2131099683;
-			
-			// aapt resource value: 0x7f06001f
-			public const int defaultFlexChartFooterFontGravity = 2131099679;
-			
-			// aapt resource value: 0x7f06001e
-			public const int defaultFlexChartFooterFontWeight = 2131099678;
-			
-			// aapt resource value: 0x7f06001d
-			public const int defaultFlexChartHeaderFontGravity = 2131099677;
-			
-			// aapt resource value: 0x7f06001c
-			public const int defaultFlexChartHeaderFontWeight = 2131099676;
-			
-			// aapt resource value: 0x7f060021
-			public const int defaultFlexChartLegendOrientation = 2131099681;
-			
-			// aapt resource value: 0x7f060022
-			public const int defaultFlexChartLegendPosition = 2131099682;
-			
-			// aapt resource value: 0x7f060020
-			public const int defaultFlexChartLegend_FontWeight = 2131099680;
-			
-			// aapt resource value: 0x7f060004
-			public const int defaultFlexChartLoadAnimationDuration = 2131099652;
-			
-			// aapt resource value: 0x7f060003
-			public const int defaultFlexChartLoadAnimationMode = 2131099651;
-			
-			// aapt resource value: 0x7f060005
-			public const int defaultFlexChartLoadAnimationStartDelay = 2131099653;
-			
-			// aapt resource value: 0x7f06001a
-			public const int defaultFlexChartSeriesChartType = 2131099674;
-			
-			// aapt resource value: 0x7f06001b
-			public const int defaultFlexChartSeriesVisibility = 2131099675;
-			
-			// aapt resource value: 0x7f060001
-			public const int defaultFlexChartStackingType = 2131099649;
-			
-			// aapt resource value: 0x7f060006
-			public const int defaultFlexChartUpdateAnimationDuration = 2131099654;
-			
-			// aapt resource value: 0x7f060007
-			public const int defaultFlexChartUpdateAnimationStartDelay = 2131099655;
-			
-			// aapt resource value: 0x7f060002
-			public const int defaultFlexChartZoomMode = 2131099650;
-			
-			static Integer()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Integer()
 			{
 			}
 		}
@@ -1318,30 +991,6 @@ namespace FlexChartDemo.Droid
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
-			
-			// aapt resource value: 0x7f040002
-			public const int defaultFlexChartAxisX_labelFontTypeface = 2130968578;
-			
-			// aapt resource value: 0x7f040003
-			public const int defaultFlexChartAxisX_titleFontTypeface = 2130968579;
-			
-			// aapt resource value: 0x7f040004
-			public const int defaultFlexChartAxisY_labelFontTypeface = 2130968580;
-			
-			// aapt resource value: 0x7f040005
-			public const int defaultFlexChartAxisY_titleFontTypeface = 2130968581;
-			
-			// aapt resource value: 0x7f040009
-			public const int defaultFlexChartDatalabelFontTypeface = 2130968585;
-			
-			// aapt resource value: 0x7f040007
-			public const int defaultFlexChartFooterFontTypeface = 2130968583;
-			
-			// aapt resource value: 0x7f040006
-			public const int defaultFlexChartHeaderFontTypeface = 2130968582;
-			
-			// aapt resource value: 0x7f040008
-			public const int defaultFlexChartLegend_FontTypeface = 2130968584;
 			
 			static String()
 			{

@@ -18,6 +18,8 @@ namespace FlexChartDemo.Data.Views.Samples
         public UpdateAnimation()
         {
             InitializeComponent();
+            Title = AppResources.UpdateAnimationTitle;
+
             // initialize pickers
             this.pickerChartType.Items.Add(ChartType.Column.ToString());
             this.pickerChartType.Items.Add(ChartType.Area.ToString());
@@ -46,7 +48,7 @@ namespace FlexChartDemo.Data.Views.Samples
             this.flexChart.ItemsSource = objects;
 
             // misc chart properties
-            this.flexChart.Palette = Xuni.Forms.ChartCore.Palettes.Cocoa;
+            this.flexChart.Palette = Xuni.Forms.ChartCore.ChartPalettes.Cocoa;
             this.flexChart.AxisY.AxisLineVisible = false;
             this.flexChart.AxisY.MajorTickWidth = 0;
             this.flexChart.Legend.Position = Xuni.Forms.ChartCore.ChartPositionType.None;

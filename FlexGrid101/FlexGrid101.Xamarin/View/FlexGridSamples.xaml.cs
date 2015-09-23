@@ -14,6 +14,7 @@ namespace FlexGrid101
         {
             InitializeComponent();
             BindingContext = GetSamples();
+            this.Title = "FlexGrid 101";
         }
 
         private List<Sample> GetSamples()

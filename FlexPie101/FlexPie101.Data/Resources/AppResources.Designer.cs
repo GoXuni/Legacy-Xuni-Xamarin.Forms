@@ -23,7 +23,7 @@ namespace FlexPieDemo.Data.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class AppResources {
+    public class AppResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -37,7 +37,7 @@ namespace FlexPieDemo.Data.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FlexPieDemo.Data.Resources.AppResources", typeof(AppResources).GetTypeInfo().Assembly);
@@ -52,7 +52,7 @@ namespace FlexPieDemo.Data.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -64,7 +64,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows load and update animation modes..
         /// </summary>
-        internal static string AnimationDescription {
+        public static string AnimationDescription {
             get {
                 return ResourceManager.GetString("AnimationDescription", resourceCulture);
             }
@@ -73,7 +73,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Animation.
         /// </summary>
-        internal static string AnimationTitle {
+        public static string AnimationTitle {
             get {
                 return ResourceManager.GetString("AnimationTitle", resourceCulture);
             }
@@ -82,7 +82,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows inner radius, offset, and start angle..
         /// </summary>
-        internal static string BasicFeaturesDescription {
+        public static string BasicFeaturesDescription {
             get {
                 return ResourceManager.GetString("BasicFeaturesDescription", resourceCulture);
             }
@@ -91,7 +91,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Basic Features.
         /// </summary>
-        internal static string BasicFeaturesTitle {
+        public static string BasicFeaturesTitle {
             get {
                 return ResourceManager.GetString("BasicFeaturesTitle", resourceCulture);
             }
@@ -100,7 +100,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a customized tooltip..
         /// </summary>
-        internal static string CustomTooltipsDescription {
+        public static string CustomTooltipsDescription {
             get {
                 return ResourceManager.GetString("CustomTooltipsDescription", resourceCulture);
             }
@@ -109,7 +109,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Custom Tooltips.
         /// </summary>
-        internal static string CustomTooltipsTitle {
+        public static string CustomTooltipsTitle {
             get {
                 return ResourceManager.GetString("CustomTooltipsTitle", resourceCulture);
             }
@@ -118,7 +118,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows static data labels..
         /// </summary>
-        internal static string DataLabelsDescription {
+        public static string DataLabelsDescription {
             get {
                 return ResourceManager.GetString("DataLabelsDescription", resourceCulture);
             }
@@ -127,7 +127,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Data Labels.
         /// </summary>
-        internal static string DataLabelsTitle {
+        public static string DataLabelsTitle {
             get {
                 return ResourceManager.GetString("DataLabelsTitle", resourceCulture);
             }
@@ -136,7 +136,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows how to export an image of FlexPie..
         /// </summary>
-        internal static string ExportImageDescription {
+        public static string ExportImageDescription {
             get {
                 return ResourceManager.GetString("ExportImageDescription", resourceCulture);
             }
@@ -145,7 +145,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Export Image.
         /// </summary>
-        internal static string ExportImageTitle {
+        public static string ExportImageTitle {
             get {
                 return ResourceManager.GetString("ExportImageTitle", resourceCulture);
             }
@@ -154,7 +154,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a simple pie chart with tooltips..
         /// </summary>
-        internal static string GettingStartedDescription {
+        public static string GettingStartedDescription {
             get {
                 return ResourceManager.GetString("GettingStartedDescription", resourceCulture);
             }
@@ -163,7 +163,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Getting Started.
         /// </summary>
-        internal static string GettingStartedTitle {
+        public static string GettingStartedTitle {
             get {
                 return ResourceManager.GetString("GettingStartedTitle", resourceCulture);
             }
@@ -172,7 +172,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows basic header, footer, and legend positioning..
         /// </summary>
-        internal static string LegendSampleDescription {
+        public static string LegendSampleDescription {
             get {
                 return ResourceManager.GetString("LegendSampleDescription", resourceCulture);
             }
@@ -181,7 +181,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Legend and Titles.
         /// </summary>
-        internal static string LegendSampleTitle {
+        public static string LegendSampleTitle {
             get {
                 return ResourceManager.GetString("LegendSampleTitle", resourceCulture);
             }
@@ -190,7 +190,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Save.
         /// </summary>
-        internal static string Save {
+        public static string Save {
             get {
                 return ResourceManager.GetString("Save", resourceCulture);
             }
@@ -199,7 +199,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows selection animation, offset, and position..
         /// </summary>
-        internal static string SelectionDescription {
+        public static string SelectionDescription {
             get {
                 return ResourceManager.GetString("SelectionDescription", resourceCulture);
             }
@@ -208,7 +208,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Selection.
         /// </summary>
-        internal static string SelectionTitle {
+        public static string SelectionTitle {
             get {
                 return ResourceManager.GetString("SelectionTitle", resourceCulture);
             }
@@ -217,7 +217,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows available palettes..
         /// </summary>
-        internal static string ThemingDescription {
+        public static string ThemingDescription {
             get {
                 return ResourceManager.GetString("ThemingDescription", resourceCulture);
             }
@@ -226,7 +226,7 @@ namespace FlexPieDemo.Data.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Theming.
         /// </summary>
-        internal static string ThemingTitle {
+        public static string ThemingTitle {
             get {
                 return ResourceManager.GetString("ThemingTitle", resourceCulture);
             }

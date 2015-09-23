@@ -3,29 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
-             x:Class="FlexChartDemo.Data.Views.Samples.ChartTypesSample"
-             Title="Chart Types Sample" Padding="10">
+             x:Class="FlexChartDemo.Data.Views.Samples.ChartTypesSample" x:Name="page"
+            Padding="10">
   <StackLayout>
-	<Grid>
-		<Grid.BackgroundColor>
-			<OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />
-		</Grid.BackgroundColor>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="Auto"/>
-			<RowDefinition Height="Auto"/>
-		</Grid.RowDefinitions>
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="3*"/>
-			<ColumnDefinition Width="3*"/>
-			<ColumnDefinition Width="2*"/>
-		</Grid.ColumnDefinitions>
-		<Label Text="Chart Type" Grid.Row="0" Grid.Column="0"/>
-		<Label Text="Stacking" Grid.Row="0" Grid.Column="1" />
-		<Label Text="Rotated" Grid.Row="0" Grid.Column="2" />
-    	<Picker x:Name="pickerChartType" Grid.Row="1" Grid.Column="0" Title="Chart Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerChartType_SelectedIndexChanged" />
-    	<Picker x:Name="pickerStackType" Grid.Row="1" Grid.Column="1" Title="Stacking Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged="pickerStackType_SelectedIndexChanged" />
-    	<Switch x:Name="toggleRotated" Grid.Row="1" Grid.Column="2" BindingContext="{x:Reference flexChart}" IsToggled="{Binding Rotated,Mode=OneWayToSource}" />
-	</Grid>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid>
+      <Grid.BackgroundColor>
+        <OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />
+      </Grid.BackgroundColor>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="3*"/>
+        <ColumnDefinition Width="3*"/>
+        <ColumnDefinition Width="2*"/>
+      </Grid.ColumnDefinitions>
+      <Label Text="Chart Type" Grid.Row="0" Grid.Column="0"/>
+      <Label Text="Stacking" Grid.Row="0" Grid.Column="1" />
+      <Label Text="Rotated" Grid.Row="0" Grid.Column="2" />
+      <Picker x:Name="pickerChartType" Grid.Row="1" Grid.Column="0" Title="Chart Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerChartType_SelectedIndexChanged" />
+      <Picker x:Name="pickerStackType" Grid.Row="1" Grid.Column="1" Title="Stacking Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged="pickerStackType_SelectedIndexChanged" />
+      <Switch x:Name="toggleRotated" Grid.Row="1" Grid.Column="2" BindingContext="{x:Reference flexChart}" IsToggled="{Binding Rotated,Mode=OneWayToSource}" />
+    </Grid>
     <xuni:FlexChart x:Name="flexChart" BindingX="Name" VerticalOptions="FillAndExpand">
       <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
@@ -33,7 +34,5 @@
         <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
-   
   </StackLayout>
- 
 </BaseSample>

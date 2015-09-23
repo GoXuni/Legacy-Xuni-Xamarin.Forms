@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CollectionView101.Filtering"
+             x:Class="CollectionView101.Filtering" x:Name="page"
              xmlns:local="clr-namespace:CollectionView101;assembly=CollectionView101.Xamarin">
   <StackLayout VerticalOptions="FillAndExpand">
-    <Label Text="Filtering" HorizontalOptions="Center" Font="Large"/>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <Entry x:Name="filter" />
     <Grid VerticalOptions="FillAndExpand">
       <ActivityIndicator x:Name="activityIndicator" VerticalOptions="Center"/>

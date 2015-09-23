@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FlexGrid101.ConditionalFormatting"
+             x:Class="FlexGrid101.ConditionalFormatting" x:Name="page"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid"
              xmlns:local="clr-namespace:FlexGrid101;assembly=FlexGrid101.Xamarin">
-  <Grid>
-    <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False">
+  <Grid RowSpacing="0">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition />
+    </Grid.RowDefinitions>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False" Grid.Row="1">
       <xuni:FlexGrid.Columns>
         <xuni:GridColumn Binding="ID" Width="100"/>
         <xuni:GridColumn Binding="First"/>

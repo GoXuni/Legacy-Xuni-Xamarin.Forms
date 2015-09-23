@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.FlexChart;
+using FlexChartDemo.Data.Resources;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -14,9 +15,11 @@ namespace FlexChartDemo.Data.Views.Samples
         public CustomizingAxesSample()
         {
             InitializeComponent();
+            Title = AppResources.CustomizingAxesTitle;
+
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
             this.flexChart.Legend.Position = Xuni.Forms.ChartCore.ChartPositionType.Top;
-            this.flexChart.Legend.Orientation = Xuni.Forms.ChartCore.LegendOrientation.Horizontal;
+            this.flexChart.Legend.Orientation = Xuni.Forms.ChartCore.ChartLegendOrientation.Horizontal;
             this.flexChart.SizeChanged += flexChart_SizeChanged;
         }
 

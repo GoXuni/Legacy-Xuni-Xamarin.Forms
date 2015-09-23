@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.Gauge;assembly=Xuni.Forms.Gauge"
-             x:Class="Gauges101.UsingRanges"
+             x:Class="Gauges101.UsingRanges" x:Name="page"
              Padding="20">
   <StackLayout>
-    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <StackLayout Orientation="Horizontal">
       <Label Text="Show ranges" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
       <Switch IsToggled="{Binding ShowRanges,Mode=TwoWay}" VerticalOptions="End"/>

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.FlexChart;
+using FlexChartDemo.Data.Resources;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -14,14 +15,14 @@ namespace FlexChartDemo.Data.Views.Samples
         public GettingStartedSample()
         {
             InitializeComponent();
-            this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
 
-            this.flexChart.AxisX.MinorTickWidth = 1;
-            this.flexChart.AxisX.MajorTickWidth = 0;
+            Title = AppResources.GettingStartedTitle;
+            flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
 
-			this.flexChart.Tooltip.Threshold = 50;
+            flexChart.AxisX.MinorTickWidth = 1;
+            flexChart.AxisX.MajorTickWidth = 0;
+
+            flexChart.Tooltip.Threshold = 50;
         }
-
-
     }
 }

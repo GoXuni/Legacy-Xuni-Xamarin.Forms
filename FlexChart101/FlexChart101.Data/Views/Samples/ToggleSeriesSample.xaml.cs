@@ -7,6 +7,7 @@ using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.ChartCore;
 using Xuni.Forms.FlexChart;
+using FlexChartDemo.Data.Resources;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -15,8 +16,10 @@ namespace FlexChartDemo.Data.Views.Samples
         public ToggleSeriesSample()
         {
             InitializeComponent();
+            Title = AppResources.ToggleSeriesTitle;
+
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
-            this.flexChart.Palette = Xuni.Forms.ChartCore.Palettes.Darkly;
+            this.flexChart.Palette = Xuni.Forms.ChartCore.ChartPalettes.Darkly;
             this.flexChart.AxisX.Format = "M/dd";
             this.flexChart.LegendToggle = true;
         }

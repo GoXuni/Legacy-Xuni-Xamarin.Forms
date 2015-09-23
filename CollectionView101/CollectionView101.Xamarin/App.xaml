@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollectionView101.App">
+  <Application.Resources>
+    <ResourceDictionary>
+      <OnPlatform x:Key="TitleVisible" x:TypeArguments="x:Boolean" iOS="false" Android="false" WinPhone="true" />
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

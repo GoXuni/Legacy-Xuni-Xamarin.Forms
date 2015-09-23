@@ -3,14 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
-             x:Class="FlexChartDemo.Data.Views.Samples.BubbleChartSample"
-             Title="Bubble Chart">
-  <Grid Padding="10">
+             x:Class="FlexChartDemo.Data.Views.Samples.BubbleChartSample" x:Name="page">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid Padding="10" VerticalOptions="FillAndExpand">
       <xuni:FlexChart x:Name="flexChart" ChartType="Bubble" BindingX="Name" VerticalOptions="FillAndExpand">
         <xuni:FlexChart.Series>
           <xuni:ChartSeries Binding="Sales,Downloads" Name="Sales" />
           <xuni:ChartSeries Binding="Expenses,Downloads" Name="Expenses" />
         </xuni:FlexChart.Series>
-    </xuni:FlexChart>
-  </Grid>
+      </xuni:FlexChart>
+    </Grid>
+  </StackLayout>
 </BaseSample>

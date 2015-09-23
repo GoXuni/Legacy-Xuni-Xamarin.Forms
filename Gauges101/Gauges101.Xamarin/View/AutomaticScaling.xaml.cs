@@ -17,7 +17,7 @@ namespace Gauges101
         public AutomaticScaling()
         {
             InitializeComponent();
-            lblTitle.Text = AppResources.AutomaticScalingTitle;
+            Title = AppResources.AutomaticScalingTitle;
 
             BindingContext = new SampleViewModel() { Max = 200, Value = 60, ShowText = GaugeShowText.All };
 

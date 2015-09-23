@@ -17,6 +17,7 @@ namespace CollectionView101
         public Filtering()
         {
             InitializeComponent();
+            Title = AppResources.FilteringTitle;
             filter.Placeholder = AppResources.FilterPlaceholderText;
             var task = UpdateVideos();
         }

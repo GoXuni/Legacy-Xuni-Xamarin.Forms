@@ -2,38 +2,41 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
-             x:Class="FlexChartDemo.Data.Views.Samples.ScrollingSample" Padding="10" Title="Scrolling">
-  <xuni:FlexChart x:Name="flexChart" 
-                  BindingX="Date" 
-                  ChartType="Column" 
-                  ZoomMode="X" 
+             x:Class="FlexChartDemo.Data.Views.Samples.ScrollingSample" x:Name="page" Padding="10">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <xuni:FlexChart x:Name="flexChart"
+                  BindingX="Date"
+                  ChartType="Column"
+                  ZoomMode="X"
                   VerticalOptions="FillAndExpand">
-    <xuni:FlexChart.Series>
-      <xuni:ChartSeries Binding="Volume" Name="Volume" AxisY="axisVolume"/>
-      <xuni:ChartSeries Binding="Low" Name="Low" ChartType="Spline"/>
-      <xuni:ChartSeries Binding="High" Name="High" ChartType="Spline"/>
-    </xuni:FlexChart.Series>
-    <!-- default X axis -->
-    <xuni:FlexChart.AxisX>
-      <xuni:ChartAxis MajorGridVisible="False"
-                      Format="dd"
-                      DisplayedRange="10"/>
-    </xuni:FlexChart.AxisX>
-    <!-- default Y axis -->
-    <xuni:FlexChart.AxisY>
-      <xuni:ChartAxis AxisLineVisible="False"
-                      MajorTickWidth="0"/>
-    </xuni:FlexChart.AxisY>
-    <!-- auxiliary Y axes -->
-    <xuni:FlexChart.Axes>
-      <xuni:ChartAxis Name="axisVolume"
-                      Position="Right"
-                      Min="20"
-                      Max="100"
-                      TitleText="Volume"
-                      AxisLineVisible="False"
-                      MajorGridVisible="False"
-                      MajorTickWidth="0"/>
-    </xuni:FlexChart.Axes>
-  </xuni:FlexChart>
+      <xuni:FlexChart.Series>
+        <xuni:ChartSeries Binding="Volume" Name="Volume" AxisY="axisVolume"/>
+        <xuni:ChartSeries Binding="Low" Name="Low" ChartType="Spline"/>
+        <xuni:ChartSeries Binding="High" Name="High" ChartType="Spline"/>
+      </xuni:FlexChart.Series>
+      <!-- default X axis -->
+      <xuni:FlexChart.AxisX>
+        <xuni:ChartAxis MajorGridVisible="False"
+                        Format="dd"
+                        DisplayedRange="10"/>
+      </xuni:FlexChart.AxisX>
+      <!-- default Y axis -->
+      <xuni:FlexChart.AxisY>
+        <xuni:ChartAxis AxisLineVisible="False"
+                        MajorTickWidth="0"/>
+      </xuni:FlexChart.AxisY>
+      <!-- auxiliary Y axes -->
+      <xuni:FlexChart.Axes>
+        <xuni:ChartAxis Name="axisVolume"
+                        Position="Right"
+                        Min="20"
+                        Max="100"
+                        TitleText="Volume"
+                        AxisLineVisible="False"
+                        MajorGridVisible="False"
+                        MajorTickWidth="0"/>
+      </xuni:FlexChart.Axes>
+    </xuni:FlexChart>
+  </StackLayout>
 </ContentPage>

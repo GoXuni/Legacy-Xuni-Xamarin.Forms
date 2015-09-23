@@ -1,9 +1,9 @@
-﻿using System;
+﻿using FlexChartDemo.Data.Resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xuni.Forms.FlexChart;
 
@@ -14,6 +14,7 @@ namespace FlexChartDemo.Data.Views.Samples
         public ConditionalFormatting()
         {
             InitializeComponent();
+            Title = AppResources.ConditionalFormattingTitle;
 
             List<Point> listPoints = new List<Point>();
             for (int i = 0; i < 30; i++)

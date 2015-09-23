@@ -14,6 +14,7 @@ namespace FlexPieDemo.Data
         public FlexPieSamples()
         {
             InitializeComponent();
+            Title = "FlexPie 101";
             BindingContext = GetSamples();
         }
 

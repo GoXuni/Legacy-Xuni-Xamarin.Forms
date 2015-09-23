@@ -4,42 +4,41 @@
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
              x:Class="FlexChartDemo.Data.Views.Samples.HitTest"
-             Title="Hit Test" Padding="10">
+             x:Name="page" Padding="10">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid VerticalOptions="FillAndExpand">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="2*" />
+        <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
 
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
 
-  <Grid>
-    <Grid.RowDefinitions>
-      <RowDefinition Height="2*" />
-      <RowDefinition Height="*" />
-    </Grid.RowDefinitions>
+      <xuni:FlexChart  Grid.Row="0" Grid.Column="0" x:Name="flexChart" Tapped="flexChart_Tapped"
+                      HeaderText="Trigonometric functions" FooterText="Cartesian coordinates"
+                      BindingX="X" ChartType="LineSymbols" >
+        <xuni:FlexChart.Series>
+          <xuni:ChartSeries x:Name="seriesCosX"  Binding="Y" Name="cos(x)"  />
+          <xuni:ChartSeries x:Name="seriesSinX"  Binding="Y" Name="sin(x)"  />
+        </xuni:FlexChart.Series>
+      </xuni:FlexChart>
 
-    <Grid.ColumnDefinitions>
-      <ColumnDefinition Width="*" />
-    </Grid.ColumnDefinitions>
-
-    <xuni:FlexChart  Grid.Row="0" Grid.Column="0" x:Name="flexChart" Tapped="flexChart_Tapped"
-                    HeaderText="Trigonometric functions" FooterText="Cartesian coordinates"
-                    BindingX="X" ChartType="LineSymbols" >
-      <xuni:FlexChart.Series>
-        <xuni:ChartSeries x:Name="seriesCosX"  Binding="Y" Name="cos(x)"  />
-        <xuni:ChartSeries x:Name="seriesSinX"  Binding="Y" Name="sin(x)"  />
-      </xuni:FlexChart.Series>
-    </xuni:FlexChart>
-
-    <StackLayout  Grid.Row="1" Grid.Column="0" x:Name="stackHitTest" VerticalOptions="Fill">
-      <Label  Text="{Binding ChartElement, StringFormat='Chart Element:{0}'}" />
-      <StackLayout x:Name="stackSeries">
-        <Label  Text="{Binding DataPoint.SeriesName, StringFormat='Series Name:{0}'}" />
-        <StackLayout x:Name="stackData">
-          <Label  Text="{Binding PointIndex, StringFormat='Point Index:{0}'}" />
-          <StackLayout Orientation="Horizontal" >
-            <Label  Text="{Binding ValueX, StringFormat='X:{0:F2}'}" />
-            <Label  Text="{Binding Value, StringFormat='Y:{0:F2}'}" />
+      <StackLayout  Grid.Row="1" Grid.Column="0" x:Name="stackHitTest" VerticalOptions="Fill">
+        <Label  Text="{Binding ChartElement, StringFormat='Chart Element:{0}'}" />
+        <StackLayout x:Name="stackSeries">
+          <Label  Text="{Binding DataPoint.SeriesName, StringFormat='Series Name:{0}'}" />
+          <StackLayout x:Name="stackData">
+            <Label  Text="{Binding PointIndex, StringFormat='Point Index:{0}'}" />
+            <StackLayout Orientation="Horizontal" >
+              <Label  Text="{Binding ValueX, StringFormat='X:{0:F2}'}" />
+              <Label  Text="{Binding Value, StringFormat='Y:{0:F2}'}" />
+            </StackLayout>
           </StackLayout>
         </StackLayout>
       </StackLayout>
-    </StackLayout>
-
-  </Grid>
-
+    </Grid>
+  </StackLayout>
 </BaseSample>

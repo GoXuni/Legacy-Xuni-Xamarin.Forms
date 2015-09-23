@@ -3,24 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
-             x:Class="FlexChartDemo.Data.Views.Samples.FinancialChart"
-             Title="Financial Chart">
-  <Grid Padding="10">
-    <Grid.RowDefinitions>
-      <RowDefinition Height="Auto"/>
-      <RowDefinition />
-    </Grid.RowDefinitions>
+             x:Class="FlexChartDemo.Data.Views.Samples.FinancialChart" x:Name="page">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid Padding="10" VerticalOptions="FillAndExpand">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition />
+      </Grid.RowDefinitions>
 
-    <StackLayout Orientation="Horizontal" >
-      <Picker x:Name="pickerChartType" Title="Chart Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerChartType_SelectedIndexChanged" />
-    </StackLayout>
-    <xuni:FlexChart x:Name="flexChart" BindingX="Date" Grid.Row="1">
+      <StackLayout Orientation="Horizontal" >
+        <Picker x:Name="pickerChartType" Title="Chart Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerChartType_SelectedIndexChanged" />
+      </StackLayout>
+      <xuni:FlexChart x:Name="flexChart" BindingX="Date" Grid.Row="1">
         <xuni:FlexChart.Series>
-        <!--<xuni:ChartSeries Binding="Volume" Name="Volume" ChartType="Column" SymbolBorderWidth="2" />-->
-        <xuni:ChartSeries Binding="High,Low,Open,Close" SymbolBorderWidth="3" />
+          <!--<xuni:ChartSeries Binding="Volume" Name="Volume" ChartType="Column" SymbolBorderWidth="2" />-->
+          <xuni:ChartSeries Binding="High,Low,Open,Close" SymbolBorderWidth="3" />
         </xuni:FlexChart.Series>
-    </xuni:FlexChart>
-   
-  </Grid>
- 
+      </xuni:FlexChart>
+    </Grid>
+  </StackLayout>
 </BaseSample>

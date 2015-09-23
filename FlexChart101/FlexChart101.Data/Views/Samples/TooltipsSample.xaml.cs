@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
+using FlexChartDemo.Data.Resources;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -13,10 +14,11 @@ namespace FlexChartDemo.Data.Views.Samples
         public TooltipsSample()
         {
             InitializeComponent();
-            
+            Title = AppResources.CustomTooltipsTitle;
+
             this.chart.ItemsSource = ChartSampleFactory.CreateEntityList();
-            this.chart.Palette = Xuni.Forms.ChartCore.Palettes.Zen;
-            this.chart.LoadAnimation.AnimationMode = Xuni.Forms.ChartCore.Enums.AnimationMode.Series;
+            this.chart.Palette = Xuni.Forms.ChartCore.ChartPalettes.Zen;
+            this.chart.LoadAnimation.AnimationMode = Xuni.Forms.ChartCore.ChartAnimationMode.Series;
             this.chart.AxisX.MinorTickWidth = 1;
             this.chart.AxisX.MajorTickWidth = 0;
             this.chart.AxisX.LabelFontSize = 16;

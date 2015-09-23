@@ -2,16 +2,15 @@
 <BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexPie;assembly=Xuni.Forms.FlexPie"
-             x:Class="FlexPieDemo.Data.Views.Samples.LegendAndTitlesSample"
-             Title="Legend And Titles"
+             x:Class="FlexPieDemo.Data.Views.Samples.LegendAndTitlesSample" x:Name="page"
             Padding="20">
-  <StackLayout >
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <Grid>
       <Grid.RowDefinitions>
         <RowDefinition Height="Auto" />
         <RowDefinition Height="Auto" />
       </Grid.RowDefinitions>
-
       <Grid.ColumnDefinitions>
         <ColumnDefinition Width="50*" />
         <ColumnDefinition Width="50*" />
@@ -36,11 +35,8 @@
                   SelectionMode="Point"
                   BindingName = "Name" Binding = "Value"
                   HeaderText="Fruit By Value" HeaderTextColor="#666666" HeaderFontSize="20"
-                  FooterText="2015 GrapeCity, inc." FooterTextColor="#666666" FooterFontSize="Small"
-                  x:Name="flexPie" 
-                  VerticalOptions="FillAndExpand"
-                    
-  />
+                  FooterText="2015 GrapeCity, inc." FooterTextColor="#666666"
+                  x:Name="flexPie"
+                  VerticalOptions="FillAndExpand"/>
   </StackLayout>
-
 </BaseSample>

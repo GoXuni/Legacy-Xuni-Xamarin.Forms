@@ -16,7 +16,7 @@ namespace FlexGrid101
         {
             InitializeComponent();
 
-            lblTitle.Text = AppResources.OnDemandTitle;
+            this.Title = AppResources.OnDemandTitle;
             search.Placeholder = AppResources.SearchPlaceholderText;
             emptyListLabel.Text = AppResources.EmptyListText;
 

@@ -10,9 +10,9 @@ namespace FlexPieDemo.Data.Model
     {
         public string Name { get; set; }
 
-        public decimal Value { get; set; }
+        public double Value { get; set; }
 
-        public FruitEntity(string name, decimal value)
+        public FruitEntity(string name, double value)
         {
             this.Name = name;
             this.Value = value;

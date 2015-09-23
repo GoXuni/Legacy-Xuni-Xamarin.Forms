@@ -23,7 +23,7 @@ namespace CollectionView101.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class AppResources {
+    public class AppResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -37,7 +37,7 @@ namespace CollectionView101.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CollectionView101.Resources.AppResources", typeof(AppResources).GetTypeInfo().Assembly);
@@ -52,7 +52,7 @@ namespace CollectionView101.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -64,7 +64,7 @@ namespace CollectionView101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Filters a list of items by typing in an Entry..
         /// </summary>
-        internal static string FilteringDescription {
+        public static string FilteringDescription {
             get {
                 return ResourceManager.GetString("FilteringDescription", resourceCulture);
             }
@@ -73,7 +73,7 @@ namespace CollectionView101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Filtering.
         /// </summary>
-        internal static string FilteringTitle {
+        public static string FilteringTitle {
             get {
                 return ResourceManager.GetString("FilteringTitle", resourceCulture);
             }
@@ -82,7 +82,7 @@ namespace CollectionView101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Enter text to filter.
         /// </summary>
-        internal static string FilterPlaceholderText {
+        public static string FilterPlaceholderText {
             get {
                 return ResourceManager.GetString("FilterPlaceholderText", resourceCulture);
             }
@@ -91,7 +91,7 @@ namespace CollectionView101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Displays a grouped list of YouTube videos..
         /// </summary>
-        internal static string GroupingDescription {
+        public static string GroupingDescription {
             get {
                 return ResourceManager.GetString("GroupingDescription", resourceCulture);
             }
@@ -100,7 +100,7 @@ namespace CollectionView101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Grouping.
         /// </summary>
-        internal static string GroupingTitle {
+        public static string GroupingTitle {
             get {
                 return ResourceManager.GetString("GroupingTitle", resourceCulture);
             }
@@ -109,7 +109,7 @@ namespace CollectionView101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to There was a problem when trying to get the data from internet. \nPlease check your internet connection.
         /// </summary>
-        internal static string InternetConnectionError {
+        public static string InternetConnectionError {
             get {
                 return ResourceManager.GetString("InternetConnectionError", resourceCulture);
             }
@@ -118,7 +118,7 @@ namespace CollectionView101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Shows a ListView whose items are loaded on demand as the user scrolls down..
         /// </summary>
-        internal static string OnDemandDescription {
+        public static string OnDemandDescription {
             get {
                 return ResourceManager.GetString("OnDemandDescription", resourceCulture);
             }
@@ -127,7 +127,7 @@ namespace CollectionView101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to On Demand.
         /// </summary>
-        internal static string OnDemandTitle {
+        public static string OnDemandTitle {
             get {
                 return ResourceManager.GetString("OnDemandTitle", resourceCulture);
             }
@@ -136,7 +136,7 @@ namespace CollectionView101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Sort a list of items from the action bar..
         /// </summary>
-        internal static string SortingDescription {
+        public static string SortingDescription {
             get {
                 return ResourceManager.GetString("SortingDescription", resourceCulture);
             }
@@ -145,7 +145,7 @@ namespace CollectionView101.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Sorting.
         /// </summary>
-        internal static string SortingTitle {
+        public static string SortingTitle {
             get {
                 return ResourceManager.GetString("SortingTitle", resourceCulture);
             }

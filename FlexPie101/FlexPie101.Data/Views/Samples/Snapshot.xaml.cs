@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using FlexPieDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.FlexPie;
+using FlexPieDemo.Data.Resources;
 
 namespace FlexPieDemo.Data.Views.Samples
 {
@@ -15,12 +16,17 @@ namespace FlexPieDemo.Data.Views.Samples
         public Snapshot()
         {
             InitializeComponent();
+            Title = AppResources.ExportImageTitle;
             this.pieChart.ItemsSource = PieChartSampleFactory.CreateEntiyList();
-            snapshotFrame.IsVisible = false;
+            snapshotFrame.IsVisible = false;           
             var tapGestureRecognizer = new TapGestureRecognizer();
             tapGestureRecognizer.Tapped += (s, e) =>
             {
                 snapshotFrame.IsVisible = false;
+
+                // Make the control mearsure and layout again. Otherwise the size of the control may incorrect.
+                pieChart.IsVisible = false;
+                pieChart.IsVisible = true;
             };
             snapshotFrame.GestureRecognizers.Add(tapGestureRecognizer);
         }

@@ -2,12 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FlexChartDemo.Data.Views.Samples.ConditionalFormatting"
-             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
-             Title="Conditional Formatting"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart" x:Name="page"
              Padding="10">
-  <xuni:FlexChart x:Name="flexChart2" BindingX="X" ChartType="LineSymbols" VerticalOptions="FillAndExpand" PlotElementLoading="OnPlotElementLoading">
-    <xuni:FlexChart.Series>
-      <xuni:ChartSeries BindingX="X" Binding="Y" />
-    </xuni:FlexChart.Series>
-  </xuni:FlexChart>
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <xuni:FlexChart x:Name="flexChart2" BindingX="X" ChartType="LineSymbols" VerticalOptions="FillAndExpand" PlotElementLoading="OnPlotElementLoading">
+      <xuni:FlexChart.Series>
+        <xuni:ChartSeries BindingX="X" Binding="Y" />
+      </xuni:FlexChart.Series>
+    </xuni:FlexChart>
+  </StackLayout>
 </ContentPage>

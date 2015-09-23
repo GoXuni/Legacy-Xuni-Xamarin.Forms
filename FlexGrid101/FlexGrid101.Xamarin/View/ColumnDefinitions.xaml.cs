@@ -15,8 +15,7 @@ namespace FlexGrid101
         {
             InitializeComponent();
 
-            lblTitle.Text = AppResources.ColumnDefinitionTitle;
-
+            this.Title = AppResources.ColumnDefinitionTitle;
             var data = Customer.GetCustomerList(100);
             grid.ItemsSource = data;
             var countries = Customer.GetCountries().Select((name, index) => new KeyValuePair<int, string>(index, name)).ToList();

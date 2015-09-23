@@ -18,6 +18,7 @@ namespace CollectionView101
         public Grouping()
         {
             InitializeComponent();
+            Title = AppResources.GroupingTitle;
 
             list.IsGroupingEnabled = true;
             list.GroupDisplayBinding = new Binding("Key");

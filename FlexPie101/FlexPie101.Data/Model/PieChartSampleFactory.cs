@@ -32,7 +32,7 @@ namespace FlexPieDemo.Data.Model
 
             for (int i = 0; i < fruits.Length; i++)
             {
-                decimal value = (decimal)random.NextDouble() * 100;
+                var value = random.NextDouble() * 100;
 
                 entityList.Add(new FruitEntity(fruits[i], value));
             }

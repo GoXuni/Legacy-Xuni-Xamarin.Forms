@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FlexGrid101.Grouping"
+             x:Class="FlexGrid101.Grouping" x:Name="page"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid"
              xmlns:local="clr-namespace:FlexGrid101;assembly=FlexGrid101.Xamarin">
   <ContentPage.ToolbarItems>
@@ -16,8 +16,8 @@
       </ToolbarItem.Icon>
     </ToolbarItem>
   </ContentPage.ToolbarItems>
-  <StackLayout VerticalOptions="FillAndExpand">
-    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <!--<Entry x:Name="filter" Placeholder="Enter text to filter videos" Completed="OnCompleted"/>-->
     <Grid VerticalOptions="FillAndExpand">
       <ActivityIndicator x:Name="activityIndicator" VerticalOptions="Center"/>
@@ -32,15 +32,15 @@
         </xuni:FlexGrid.Behaviors>
       </xuni:FlexGrid>
       <Label x:Name="emptyListLabel"
-             Text="There are no videos to show."
-             FontSize="Large"
-             HorizontalOptions="Center"/>
+              Text="There are no videos to show."
+              FontSize="Large"
+              HorizontalOptions="Center"/>
       <Label x:Name="message"
-       Text=""
-       IsVisible="False"
-       FontSize="Large"
-       XAlign="Center"
-       YAlign="Center"/>
+        Text=""
+        IsVisible="False"
+        FontSize="Large"
+        XAlign="Center"
+        YAlign="Center"/>
     </Grid>
   </StackLayout>
 </ContentPage>

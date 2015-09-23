@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{2f7ec1f9-5185-4e88-9780-f03bf2f40d7a}" Title="CollectionView101" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="CollectionView101.WinPhone author" Description="Demo for Xuni CollectionView" Publisher="CollectionView101.WinPhone" PublisherID="{8ed62b42-784e-4f38-98ba-f0b71da88c02}">
+  <Languages xmlns="">
+    <Language code="ja" />
+    <Language code="ko" />
+    <Language code="zh" />
+  </Languages>
+  <App xmlns="" ProductID="{2f7ec1f9-5185-4e88-9780-f03bf2f40d7a}" Title="CollectionView101" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Grapecity" Description="Demo for Xuni CollectionView" Publisher="Grapecity" PublisherID="{8ed62b42-784e-4f38-98ba-f0b71da88c02}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

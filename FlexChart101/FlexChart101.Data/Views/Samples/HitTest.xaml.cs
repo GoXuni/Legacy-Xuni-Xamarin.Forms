@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FlexChartDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.FlexChart;
+using FlexChartDemo.Data.Resources;
 
 namespace FlexChartDemo.Data.Views.Samples
 {
@@ -14,7 +15,8 @@ namespace FlexChartDemo.Data.Views.Samples
         public HitTest()
         {
             InitializeComponent();
-            
+            Title = AppResources.HitTestTitle;
+
             int len = 40;
             List<Point> listCosTuple = new List<Point>();
             List<Point> listSinTuple = new List<Point>();
@@ -31,9 +33,9 @@ namespace FlexChartDemo.Data.Views.Samples
             this.seriesSinX.ItemsSource = listSinTuple;
         }
 
-        void flexChart_Tapped(object sender, Xuni.Forms.Core.Events.XuniTappedEventArgs e)
+        void flexChart_Tapped(object sender, Xuni.Forms.Core.XuniTappedEventArgs e)
         {
-            FlexChartHitTestInfo hitTest = this.flexChart.HitTest(e.HitPoint);
+            var hitTest = this.flexChart.HitTest(e.HitPoint);
 
             this.stackHitTest.BindingContext = hitTest;
             this.stackData.BindingContext = hitTest.DataPoint;

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using FlexPieDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.ChartCore;
+using FlexPieDemo.Data.Resources;
 
 namespace FlexPieDemo.Data.Views.Samples
 {
@@ -14,8 +15,10 @@ namespace FlexPieDemo.Data.Views.Samples
         public SelectionSample()
         {
             InitializeComponent();
+            Title = AppResources.SelectionTitle;
+
             this.flexPie.ItemsSource = PieChartSampleFactory.CreateEntiyList();
-            this.flexPie.Palette = Xuni.Forms.ChartCore.Palettes.Superhero;
+            this.flexPie.Palette = Xuni.Forms.ChartCore.ChartPalettes.Superhero;
             Device.OnPlatform(Android: () =>
                 this.flexPie.SelectedDashes = new double[] {15, 5}
                 );

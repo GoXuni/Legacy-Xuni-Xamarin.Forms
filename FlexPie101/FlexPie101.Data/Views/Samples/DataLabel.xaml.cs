@@ -8,7 +8,7 @@ using Xamarin.Forms;
 using Xuni.Forms.ChartCore;
 using Xuni.Forms.FlexPie;
 using System.Reflection;
-using Xuni.Forms.FlexPie.Enums;
+using FlexPieDemo.Data.Resources;
 namespace FlexPieDemo.Data.Views.Samples
 {
     public partial class DataLabel
@@ -16,8 +16,9 @@ namespace FlexPieDemo.Data.Views.Samples
         public DataLabel()
         {
             InitializeComponent();
+            Title = AppResources.DataLabelsTitle;
             this.flexPie.ItemsSource = PieChartSampleFactory.CreateEntiyList();
-            this.flexPie.Palette = Xuni.Forms.ChartCore.Palettes.Organic;
+            this.flexPie.Palette = Xuni.Forms.ChartCore.ChartPalettes.Organic;
 
             foreach (var item in Enum.GetNames(typeof(PieLabelPosition)))
             {

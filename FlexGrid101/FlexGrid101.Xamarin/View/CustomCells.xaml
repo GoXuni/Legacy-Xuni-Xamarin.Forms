@@ -1,13 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FlexGrid101.CustomCells"
+             x:Class="FlexGrid101.CustomCells" x:Name="page"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid"
              xmlns:gauge="clr-namespace:Xuni.Forms.Gauge;assembly=Xuni.Forms.Gauge">
-  <StackLayout>
-    <Label x:Name="lblTitle" HorizontalOptions="Center" Font="Large"/>
-    <Grid VerticalOptions="FillAndExpand">
-      <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False" IsReadOnly="True">
+    <Grid RowSpacing="0">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition />
+      </Grid.RowDefinitions>
+      <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+      <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="1">
         <xuni:FlexGrid.Columns>
           <xuni:GridColumn Binding="First"/>
           <xuni:GridColumn Binding="Last"/>
@@ -27,5 +30,4 @@
         </xuni:FlexGrid.Columns>
       </xuni:FlexGrid>
     </Grid>
-  </StackLayout>
 </ContentPage>

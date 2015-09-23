@@ -3,17 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
-             x:Class="FlexChartDemo.Data.Views.Samples.DynamicChartsSample"
-             Title="Dynamic Charts">
-  <StackLayout >
-     <xuni:FlexChart x:Name="flexChart" BindingX="Name" ChartType="Line" IsAnimated="false" VerticalOptions="FillAndExpand">
+             x:Class="FlexChartDemo.Data.Views.Samples.DynamicChartsSample" x:Name="page">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <xuni:FlexChart x:Name="flexChart" BindingX="Name" ChartType="Line" IsAnimated="false" VerticalOptions="FillAndExpand">
       <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Trucks" Name="Trucks" />
         <xuni:ChartSeries Binding="Ships" Name="Ships" />
         <xuni:ChartSeries Binding="Planes" Name="Planes" />
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
-   
   </StackLayout>
- 
 </BaseSample>
