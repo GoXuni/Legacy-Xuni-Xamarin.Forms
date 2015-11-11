@@ -80,6 +80,24 @@ namespace FlexGrid101.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Shows column and row freezing..
+        /// </summary>
+        public static string CellFreezingDescription {
+            get {
+                return ResourceManager.GetString("CellFreezingDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cell Freezing.
+        /// </summary>
+        public static string CellFreezingTitle {
+            get {
+                return ResourceManager.GetString("CellFreezingTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Collapse.
         /// </summary>
         public static string Collapse {
@@ -103,6 +121,24 @@ namespace FlexGrid101.Resources {
         public static string ColumnDefinitionTitle {
             get {
                 return ResourceManager.GetString("ColumnDefinitionTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shows a custom column manager to modify column layout..
+        /// </summary>
+        public static string ColumnLayoutDescription {
+            get {
+                return ResourceManager.GetString("ColumnLayoutDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Column Layout.
+        /// </summary>
+        public static string ColumnLayoutTitle {
+            get {
+                return ResourceManager.GetString("ColumnLayoutTitle", resourceCulture);
             }
         }
         
@@ -139,6 +175,51 @@ namespace FlexGrid101.Resources {
         public static string CustomCellsTitle {
             get {
                 return ResourceManager.GetString("CustomCellsTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit Column Layout.
+        /// </summary>
+        public static string EditColumnLayout {
+            get {
+                return ResourceManager.GetString("EditColumnLayout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shows how to prompt the user with a confirmation dialog before committing changes to a cell..
+        /// </summary>
+        public static string EditConfirmationDescription {
+            get {
+                return ResourceManager.GetString("EditConfirmationDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you want to commit the edit?.
+        /// </summary>
+        public static string EditConfirmationQuestion {
+            get {
+                return ResourceManager.GetString("EditConfirmationQuestion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirm Edit.
+        /// </summary>
+        public static string EditConfirmationQuestionTitle {
+            get {
+                return ResourceManager.GetString("EditConfirmationQuestionTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Edit Confirmation.
+        /// </summary>
+        public static string EditConfirmationTitle {
+            get {
+                return ResourceManager.GetString("EditConfirmationTitle", resourceCulture);
             }
         }
         
@@ -278,6 +359,15 @@ namespace FlexGrid101.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to OK.
+        /// </summary>
+        public static string OK {
+            get {
+                return ResourceManager.GetString("OK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Load items on demand as the user scrolls down the grid..
         /// </summary>
         public static string OnDemandDescription {
@@ -301,6 +391,15 @@ namespace FlexGrid101.Resources {
         public static string Remove {
             get {
                 return ResourceManager.GetString("Remove", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Column Layout.
+        /// </summary>
+        public static string SaveColumnLayout {
+            get {
+                return ResourceManager.GetString("SaveColumnLayout", resourceCulture);
             }
         }
         
@@ -332,11 +431,47 @@ namespace FlexGrid101.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Please select a row first or double-tap the row directly..
+        /// </summary>
+        public static string SelectRowMessage {
+            get {
+                return ResourceManager.GetString("SelectRowMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Sort.
         /// </summary>
         public static string Sort {
             get {
                 return ResourceManager.GetString("Sort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shows a responsive column layout that uses star sizing..
+        /// </summary>
+        public static string StarSizingDescription {
+            get {
+                return ResourceManager.GetString("StarSizingDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rotate the device to see star-sizing in action..
+        /// </summary>
+        public static string StarSizingInstructions {
+            get {
+                return ResourceManager.GetString("StarSizingInstructions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Star Sizing.
+        /// </summary>
+        public static string StarSizingTitle {
+            get {
+                return ResourceManager.GetString("StarSizingTitle", resourceCulture);
             }
         }
     }

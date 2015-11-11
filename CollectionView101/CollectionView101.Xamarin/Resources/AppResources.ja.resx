@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -133,10 +133,10 @@
     <value>グループ化</value>
   </data>
   <data name="OnDemandDescription" xml:space="preserve">
-    <value>下にスクロールしたときに項目をロード</value>
+    <value>YouTube APIを使用したロードオンデマンド</value>
   </data>
   <data name="OnDemandTitle" xml:space="preserve">
-    <value>オンデマンド</value>
+    <value>YouTube オンデマンド</value>
   </data>
   <data name="SortingDescription" xml:space="preserve">
     <value>アクションバーから項目をソート</value>
@@ -146,5 +146,11 @@
   </data>
   <data name="InternetConnectionError" xml:space="preserve">
     <value>データを取得するときに問題が発生しました。ネットワーク接続を確認してください。</value>
+  </data>
+  <data name="SimpleOnDemandDescription" xml:space="preserve">
+    <value>表示時にデータを要求してリストビューにロード</value>
+  </data>
+  <data name="SimpleOnDemandTitle" xml:space="preserve">
+    <value>シンプルオンデマンド</value>
   </data>
 </root>

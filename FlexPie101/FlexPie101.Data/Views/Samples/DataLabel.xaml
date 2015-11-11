@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexPie;assembly=Xuni.Forms.FlexPie"
              xmlns:common="clr-namespace:FlexPieDemo.Data.Views.Common;assembly=FlexPie101.Data"
@@ -25,4 +25,4 @@
       </xuni:FlexPie.DataLabel>
     </xuni:FlexPie>
   </StackLayout>
-</BaseSample>
+</ContentPage>

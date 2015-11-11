@@ -20,7 +20,7 @@ namespace FlexGrid101
             Filters = new ObservableCollection<StringFilter>();
             Filters.CollectionChanged += OnFiltersChanged;
             btnFilter.Text = AppResources.Filter;
-            btnCancel.Text = "Cancel";
+            btnCancel.Text = AppResources.Cancel;
         }
 
         protected override bool OnBackButtonPressed()

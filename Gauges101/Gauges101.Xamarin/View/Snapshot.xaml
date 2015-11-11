@@ -8,14 +8,14 @@
       <ToolbarItem.Icon>
         <OnPlatform x:TypeArguments="FileImageSource"
           WinPhone="Assets/AppBar/feature.camera.png"
-          Android="ic_action_camera.png" />
+          Android="ic_action_camera" />
       </ToolbarItem.Icon>
     </ToolbarItem>
     <ToolbarItem Name="Save snapshot" Clicked="OnSaveSnapshotClicked" Order="Primary" Priority="0">
       <ToolbarItem.Icon>
         <OnPlatform x:TypeArguments="FileImageSource"
           WinPhone="Assets/AppBar/save.png"
-          Android="ic_action_save.png" />
+          Android="ic_action_save" />
       </ToolbarItem.Icon>
     </ToolbarItem>
   </ContentPage.ToolbarItems>

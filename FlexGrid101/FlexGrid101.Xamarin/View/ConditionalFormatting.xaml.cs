@@ -17,8 +17,7 @@ namespace FlexGrid101
             this.Title = AppResources.ConditionalFormattingTitle;
             var data = Customer.GetCustomerList(100);
             grid.ItemsSource = data;
-            var countries = Customer.GetCountries().Select((name, index) => new KeyValuePair<int, string>(index, name)).ToList();
-            grid.Columns[4].DataMap = new GridDataMap() { ItemsSource = countries, DisplayMemberPath = "Value", SelectedValuePath = "Key" };
+            grid.Columns[5].DataMap = new GridDataMap() { ItemsSource = Customer.GetCountries(), DisplayMemberPath = "Value", SelectedValuePath = "Key" };
 
             grid.CellFactory = new MyCellFactory();
         }
@@ -26,71 +25,59 @@ namespace FlexGrid101
 
     public class MyCellFactory : GridCellFactory
     {
-        ///
-        /// Override CreateCell to customize the cell frame/gridlines
-        ///
-        //public override GridCellView CreateCell(GridCellType cellType, GridCellRange range)
-        //{
-        //    if (cellType == GridCellType.Cell && range.Column == 3)
-        //    {
-        //        var cell = new GridCellView();
-        //        cell.BackgroundColor = Color.Green;
-        //        cell.BorderThickness = new Thickness(0, 0, Grid.GridLinesWidth, Grid.GridLinesWidth);
-        //        cell.BorderColor = cellType == GridCellType.Cell ? Grid.GridLinesColor : Grid.HeadersGridLinesColor;
-        //        cell.Padding = Grid.CellPadding;
-        //        return cell;
-        //    }
-        //    else
-        //    {
-        //        return base.CreateCell(cellType, range);
-        //    }
-        //}
+        /// <summary>
+        /// Creates the cell.
+        /// </summary>
+        /// <param name="cellType">Type of the cell.</param>
+        /// <param name="range">The range.</param>
+        /// <returns></returns>
+        public override GridCellView CreateCell(GridCellType cellType, GridCellRange range)
+        {
+            var cell = base.CreateCell(cellType, range);
+            if (cellType == GridCellType.Cell && range.Column == 4)
+            {
+                var cellValue = Grid[range.Row, range.Column] as int?;
+                if (cellValue.HasValue)
+                {
+                    cell.BackgroundColor = cellValue < 50.0 ? Color.Red : Color.Green;
+                }
+            }
+            return cell;
+        }
 
-        ///
-        /// Override BindCellContent to customize the cell content
-        /// 
+        /// <summary>
+        /// Binds the content of the cell.
+        /// </summary>
+        /// <param name="cellType">Type of the cell.</param>
+        /// <param name="range">The range.</param>
+        /// <param name="cellContent">Content of the cell.</param>
         public override void BindCellContent(GridCellType cellType, GridCellRange range, View cellContent)
         {
             base.BindCellContent(cellType, range, cellContent);
-            if (cellType == GridCellType.Cell && cellType != GridCellType.ColumnHeader && range.Column == 3)
+            if (cellType == GridCellType.Cell && range.Column == 3)
             {
                 var label = cellContent as Label;
                 if (label != null)
                 {
-                    var originalText = label.Text;
-                    double cellValue;
-                    if (double.TryParse(originalText, out cellValue))
+                    var cellValue = Grid[range.Row, range.Column] as double?;
+                    if (cellValue.HasValue)
                     {
-                        label.TextColor = cellValue < 70.0 ? Color.Red : Color.Green;
-                        label.Text = String.Format("{0:n2}", cellValue);
+                        label.TextColor = cellValue < 5000.0 ? Color.Red : Color.Green;
+                    }
+                }
+            }
+            if (cellType == GridCellType.Cell && range.Column == 4)
+            {
+                var label = cellContent as Label;
+                if (label != null)
+                {
+                    var cellValue = Grid[range.Row, range.Column] as int?;
+                    if (cellValue.HasValue)
+                    {
+                        label.BackgroundColor = cellValue < 50 ? Color.Red : Color.Green;
                     }
                 }
             }
         }
-
-        ///
-        /// Override CreateCellContent to return your own custom view as a cell
-        ///
-        //public override View CreateCellContent(GridCellType cellType, GridCellRange range, object cellContentType)
-        //{
-        //    if(cellType == GridCellType.Cell)
-        //    {
-        //        if (Grid.Columns.Count > range.Column)
-        //        {
-        //            var r = Grid.Rows[range.Row];
-        //            var c = Grid.Columns[range.Column];
-        //            return base.CreateCellContent(cellType, range, cellContentType);
-        //        }
-        //        return null;
-        //    }
-        //    else if (cellType == GridCellType.ColumnHeader)
-        //    {
-        //        return new Label();
-        //    }
-        //    else
-        //    {
-        //        return null;
-        //    }
-        //}
     }
 }

@@ -13,7 +13,7 @@
       <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False" IsReadOnly="True">
         <xuni:FlexGrid.Columns>
           <local:GridImageColumn Binding="Snippet.Thumbnails.Default.Url" Header=" " Width="50"/>
-          <xuni:GridColumn Binding="Snippet.Title" Header="Title" Width="300"/>
+          <xuni:GridColumn Binding="Snippet.Title" Header="Title" MinWidth="300" Width="*"/>
           <xuni:GridColumn Binding="Snippet.ChannelTitle" Header="Channel"/>
         </xuni:FlexGrid.Columns>
         <xuni:FlexGrid.Behaviors>

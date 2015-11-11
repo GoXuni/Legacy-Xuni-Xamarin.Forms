@@ -136,15 +136,21 @@
     <value>There was a problem when trying to get the data from internet. \nPlease check your internet connection</value>
   </data>
   <data name="OnDemandDescription" xml:space="preserve">
-    <value>Shows a ListView whose items are loaded on demand as the user scrolls down.</value>
+    <value>Shows on-demand loading with YouTube API</value>
   </data>
   <data name="OnDemandTitle" xml:space="preserve">
-    <value>On Demand</value>
+    <value>YouTube On Demand</value>
   </data>
   <data name="SortingDescription" xml:space="preserve">
     <value>Sort a list of items from the action bar.</value>
   </data>
   <data name="SortingTitle" xml:space="preserve">
     <value>Sorting</value>
+  </data>
+  <data name="SimpleOnDemandDescription" xml:space="preserve">
+    <value>Shows on-demand loading with a ListView</value>
+  </data>
+  <data name="SimpleOnDemandTitle" xml:space="preserve">
+    <value>Simple On Demand</value>
   </data>
 </root>

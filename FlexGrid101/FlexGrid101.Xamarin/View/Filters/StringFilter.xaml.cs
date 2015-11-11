@@ -22,7 +22,8 @@ namespace FlexGrid101
             operation.SelectedIndex = 0;
         }
 
-        public string Field
+        public string Field { get; set; }
+        public string FieldName
         {
             get
             {

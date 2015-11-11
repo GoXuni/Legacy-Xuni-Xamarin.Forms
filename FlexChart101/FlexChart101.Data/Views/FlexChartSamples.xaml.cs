@@ -14,7 +14,7 @@ namespace FlexChartDemo.Data
         public FlexChartSamples()
         {
             InitializeComponent();
-            Title = "FlexChart 101";
+            Title = "FlexChart101";
             BindingContext = GetSamples();
         }
 
@@ -29,22 +29,24 @@ namespace FlexChartDemo.Data
                 new Sample() { Name = AppResources.BubbleChartTitle, Description = AppResources.BubbleChartDescription, SampleViewType = 5 , Thumbnail="chart_bubble.png"},
                 new Sample() { Name = AppResources.CustomTooltipsTitle, Description = AppResources.CustomTooltipsDescription, SampleViewType = 6 , Thumbnail="chart_tooltip.png"},
                 new Sample() { Name = AppResources.DataLabelsTitle, Description = AppResources.DataLabelsDescription, SampleViewType = 7 , Thumbnail="chart_tooltip.png"},
-                new Sample() { Name = AppResources.CustomizingAxesTitle, Description = AppResources.CustomizingAxesDescription, SampleViewType = 8 , Thumbnail="chart_axes.png"},
-                new Sample() { Name = AppResources.MultipleAxesTitle, Description = AppResources.MultipleAxesDescription, SampleViewType = 9 , Thumbnail="chart_multiaxes.png"},
-                new Sample() { Name = AppResources.LegendSampleTitle, Description = AppResources.LegendSampleDescription, SampleViewType = 10 , Thumbnail="chart_title.png"},
-                new Sample() { Name = AppResources.ConditionalFormattingTitle, Description = AppResources.ConditionalFormattingDescription, SampleViewType = 11, Thumbnail="chart_format.png"},
-                new Sample() { Name = AppResources.CustomPlotElementsTitle, Description = AppResources.CustomPlotElementsDescription, SampleViewType = 12, Thumbnail="custom.png"},
-                new Sample() { Name = AppResources.SelectionModesTitle, Description = AppResources.SelectionModesDescription, SampleViewType = 13, Thumbnail="chart_selection.png"},
-                new Sample() { Name = AppResources.ToggleSeriesTitle, Description = AppResources.ToggleSeriesDescription, SampleViewType = 14, Thumbnail="chart_column.png"},
-                new Sample() { Name = AppResources.LoadAnimationTitle, Description = AppResources.LoadAnimationDescription, SampleViewType = 15, Thumbnail="chart_animation.png"},
-                new Sample() { Name = AppResources.UpdateAnimationTitle, Description = AppResources.UpdateAnimationDescription, SampleViewType = 16, Thumbnail="chart_animation.png"},
-                new Sample() { Name = AppResources.DynamicChartTitle, Description = AppResources.DynamicChartDescription, SampleViewType = 17, Thumbnail="chart_dynamic.png"},
-                new Sample() { Name = AppResources.HitTestTitle, Description = AppResources.HitTestDescription, SampleViewType = 18, Thumbnail="chart_selection.png"},
-                new Sample() { Name = AppResources.ScrollingTitle, Description = AppResources.ScrollingDescription, SampleViewType = 19, Thumbnail="chart_scrolling.png"},
-                new Sample() { Name = AppResources.ZoomingScrollingTitle, Description = AppResources.ZoomingScrollingDescription, SampleViewType = 20, Thumbnail="chart_scatter.png"},
-                new Sample() { Name = AppResources.ThemingTitle, Description = AppResources.ThemingDescription, SampleViewType = 21, Thumbnail="themes.png"},
-                new Sample() { Name = AppResources.StylingSeriesTitle, Description = AppResources.StylingSeriesDescription, SampleViewType = 22, Thumbnail="chart_composite.png"},
-                new Sample() { Name = AppResources.ExportImageTitle, Description = AppResources.ExportImageDescription, SampleViewType = 23, Thumbnail="export_image.png"},
+                  new Sample() { Name = AppResources.LineMarkerTitle, Description = AppResources.LineMarkerDescription, SampleViewType = 8, Thumbnail="chart_linemarker.png"},
+                new Sample() { Name = AppResources.CustomizingAxesTitle, Description = AppResources.CustomizingAxesDescription, SampleViewType = 9 , Thumbnail="chart_axes.png"},
+                new Sample() { Name = AppResources.MultipleAxesTitle, Description = AppResources.MultipleAxesDescription, SampleViewType = 10 , Thumbnail="chart_multiaxes.png"},
+                new Sample() { Name = AppResources.LegendSampleTitle, Description = AppResources.LegendSampleDescription, SampleViewType = 11 , Thumbnail="chart_title.png"},
+                new Sample() { Name = AppResources.ConditionalFormattingTitle, Description = AppResources.ConditionalFormattingDescription, SampleViewType = 12, Thumbnail="chart_format.png"},
+                new Sample() { Name = AppResources.CustomPlotElementsTitle, Description = AppResources.CustomPlotElementsDescription, SampleViewType = 13, Thumbnail="custom.png"},
+                new Sample() { Name = AppResources.SelectionModesTitle, Description = AppResources.SelectionModesDescription, SampleViewType = 14, Thumbnail="chart_selection.png"},
+                new Sample() { Name = AppResources.ToggleSeriesTitle, Description = AppResources.ToggleSeriesDescription, SampleViewType = 15, Thumbnail="chart_column.png"},
+                new Sample() { Name = AppResources.LoadAnimationTitle, Description = AppResources.LoadAnimationDescription, SampleViewType = 16, Thumbnail="chart_animation.png"},
+                new Sample() { Name = AppResources.UpdateAnimationTitle, Description = AppResources.UpdateAnimationDescription, SampleViewType = 17, Thumbnail="chart_animation.png"},
+                new Sample() { Name = AppResources.DynamicChartTitle, Description = AppResources.DynamicChartDescription, SampleViewType = 18, Thumbnail="chart_dynamic.png"},
+                new Sample() { Name = AppResources.HitTestTitle, Description = AppResources.HitTestDescription, SampleViewType = 19, Thumbnail="chart_selection.png"},
+                new Sample() { Name = AppResources.ScrollingTitle, Description = AppResources.ScrollingDescription, SampleViewType = 20, Thumbnail="chart_scrolling.png"},
+                new Sample() { Name = AppResources.ZoomingScrollingTitle, Description = AppResources.ZoomingScrollingDescription, SampleViewType = 21, Thumbnail="chart_scatter.png"},
+                new Sample() { Name = AppResources.ThemingTitle, Description = AppResources.ThemingDescription, SampleViewType = 22, Thumbnail="themes.png"},
+                new Sample() { Name = AppResources.StylingSeriesTitle, Description = AppResources.StylingSeriesDescription, SampleViewType = 23, Thumbnail="chart_composite.png"},
+                new Sample() { Name = AppResources.ExportImageTitle, Description = AppResources.ExportImageDescription, SampleViewType = 24, Thumbnail="export_image.png"},
+              
             };
         }
 
@@ -65,22 +67,23 @@ namespace FlexChartDemo.Data
                 case 5: return new BubbleChartSample();
                 case 6: return new TooltipsSample();
                 case 7: return new DataLabelSample();
-                case 8: return new CustomizingAxesSample();
-                case 9: return new MultipleAxesSamples();
-                case 10: return new TitleAndLegendSample();
-                case 11: return new ConditionalFormatting();
-                case 12: return new CustomPlotElements();
-                case 13: return new SelectionModesSample();
-                case 14: return new ToggleSeriesSample();
-                case 15: return new AnimationOptions();
-                case 16: return new UpdateAnimation();
-                case 17: return new DynamicChartsSample();
-                case 18: return new HitTest();
-                case 19: return new ScrollingSample();
-                case 20: return new ZoomingAndScrolling();
-                case 21: return new ThemingSample();
-                case 22: return new StylingSeriesSample();
-                case 23: return new Snapshot();
+                case 8: return new LineMarkerSample();
+                case 9: return new CustomizingAxesSample();
+                case 10: return new MultipleAxesSamples();
+                case 11: return new TitleAndLegendSample();
+                case 12: return new ConditionalFormatting();
+                case 13: return new CustomPlotElements();
+                case 14: return new SelectionModesSample();
+                case 15: return new ToggleSeriesSample();
+                case 16: return new AnimationOptions();
+                case 17: return new UpdateAnimation();
+                case 18: return new DynamicChartsSample();
+                case 19: return new HitTest();
+                case 20: return new ScrollingSample();
+                case 21: return new ZoomingAndScrolling();
+                case 22: return new ThemingSample();
+                case 23: return new StylingSeriesSample();
+                case 24: return new Snapshot();
             }
             return null;
         }

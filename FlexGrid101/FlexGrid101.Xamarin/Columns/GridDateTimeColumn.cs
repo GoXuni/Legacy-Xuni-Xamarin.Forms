@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -11,6 +12,9 @@ namespace FlexGrid101
     public class GridDateTimeColumn : GridColumn
     {
         public static readonly BindableProperty ModeProperty = BindableProperty.Create<GridDateTimeColumn, GridDateTimeColumnMode>(p => p.Mode, GridDateTimeColumnMode.Date);
+
+        public GridDateTimeColumn() : base() { }
+        public GridDateTimeColumn(PropertyInfo property) : base(property) { }
 
         public GridDateTimeColumnMode Mode
         {

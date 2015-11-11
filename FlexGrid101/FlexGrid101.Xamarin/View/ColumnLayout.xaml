@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.ColumnLayout" x:Name="page"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem x:Name="btnEditColumnLayout" Clicked="OnEditColumnLayout" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/appbar.edit.png" Android="ic_edit.png" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+    <ToolbarItem x:Name="btnSerializeColumnLayout" Clicked="OnSerializeColumnLayout" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/save.png" Android="ic_action_save.png" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+  </ContentPage.ToolbarItems>
+  <Grid RowSpacing="0">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition />
+    </Grid.RowDefinitions>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <xuni:FlexGrid x:Name="grid" Grid.Row="1"/>
+  </Grid>
+</ContentPage>

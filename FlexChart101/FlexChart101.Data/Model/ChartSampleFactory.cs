@@ -96,5 +96,17 @@ namespace FlexChartDemo.Data.Model
             }
             return listdata;
         }
+        public static IEnumerable<ChartType> GetBasicChartTypes()
+        {
+           yield return ChartType.Column;
+           yield return ChartType.Bar;
+           yield return ChartType.Scatter;
+           yield return ChartType.Line;
+           yield return ChartType.LineSymbols;
+           yield return ChartType.Area;
+           yield return ChartType.Spline;
+           yield return ChartType.SplineSymbols;
+           yield return ChartType.SplineArea;
+        }
     }
 }

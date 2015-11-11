@@ -27,7 +27,8 @@ namespace FlexChartDemo.Data.Views.Samples
             this.pickerChartType.Items.Add(ChartType.SplineSymbols.ToString());
             this.pickerChartType.Items.Add(ChartType.SplineArea.ToString());
 
-            this.pickerChartType.SelectedIndex = 0;
+            // the data labels sample should show a bar chart by default.
+            this.pickerChartType.SelectedIndex = 1;
             this.pickerChartType.IsVisible = false;
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
             this.flexChart.Palette = Xuni.Forms.ChartCore.ChartPalettes.Organic;

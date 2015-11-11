@@ -12,16 +12,16 @@
       <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
       <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="1">
         <xuni:FlexGrid.Columns>
-          <xuni:GridColumn Binding="First"/>
-          <xuni:GridColumn Binding="Last"/>
-          <xuni:GridColumn Binding="Weight" Header="Performance">
+          <xuni:GridColumn Binding="FirstName" Width="*"/>
+          <xuni:GridColumn Binding="LastName" Width="*"/>
+          <xuni:GridColumn Header="Order Total" Width="*">
             <xuni:GridColumn.CellTemplate>
               <DataTemplate>
-                <gauge:XuniRadialGauge IsAnimated="False" Value="{Binding Weight}" Min="50" Max="100" ShowText="None" ShowRanges="False" WidthRequest="50" HeightRequest="50">
+                <gauge:XuniRadialGauge IsAnimated="False" Value="{Binding OrderTotal}" Min="0" Max="10000" ShowText="None" ShowRanges="False" WidthRequest="50" HeightRequest="50">
                   <gauge:XuniRadialGauge.Ranges>
-                    <gauge:GaugeRange Min="50" Max="80" Color="Green"/>
-                    <gauge:GaugeRange Min="80" Max="90" Color="Yellow"/>
-                    <gauge:GaugeRange Min="90" Max="100" Color="Red"/>
+                    <gauge:GaugeRange Min="0" Max="2000" Color="Red"/>
+                    <gauge:GaugeRange Min="2000" Max="5000" Color="Yellow"/>
+                    <gauge:GaugeRange Min="50000" Max="10000" Color="Green"/>
                   </gauge:XuniRadialGauge.Ranges>
                 </gauge:XuniRadialGauge>
               </DataTemplate>

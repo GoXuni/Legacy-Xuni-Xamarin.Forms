@@ -3,6 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FlexGrid101.GettingStarted" x:Name="page"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid">
+  <!--<ContentPage.ToolbarItems>
+    <ToolbarItem x:Name="btnFirst" Text="First" Clicked="OnFirstClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/transport.rew.png" Android="ic_rewind" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+    <ToolbarItem x:Name="btnPrevious" Text="Previous" Clicked="OnPreviousClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/back.png" Android="ic_skip_previous" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+    <ToolbarItem x:Name="btnNext" Text="Next" Clicked="OnNextClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/next.png" Android="ic_skip_next" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+    <ToolbarItem x:Name="btnLast" Text="Last" Clicked="OnLastClicked" Order="Primary" Priority="0">
+      <ToolbarItem.Icon>
+        <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/transport.ff.png" Android="ic_fast_forward" />
+      </ToolbarItem.Icon>
+    </ToolbarItem>
+  </ContentPage.ToolbarItems>-->
   <Grid RowSpacing="0">
     <Grid.RowDefinitions>
       <RowDefinition Height="Auto"/>

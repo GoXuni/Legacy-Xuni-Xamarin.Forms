@@ -40,12 +40,12 @@
     <Entry x:Name="entryLastName" Grid.Row="2" Grid.Column="1" />
     
     <!-- hired field-->
-    <Label Text="Hired:" VerticalOptions="Center" Grid.Row="3" />
-    <DatePicker x:Name="datePickerHired" Grid.Row="3" Grid.Column="1" />
+    <Label Text="Last Order:" VerticalOptions="Center" Grid.Row="3" />
+    <DatePicker x:Name="datePickerLastOrder" Grid.Row="3" Grid.Column="1" />
     
     <!-- weight field -->
-    <Label Text="Weight:" VerticalOptions="Center" Grid.Row="4" />
-    <Entry x:Name="entryWeight" Grid.Row="4" Grid.Column="1" />
+    <Label Text="Order Total:" VerticalOptions="Center" Grid.Row="4" />
+    <Entry x:Name="entryOrderTotal" Grid.Row="4" Grid.Column="1" />
 
     <!-- Apply/cancel buttons-->
     <Grid Grid.Row="6" Grid.ColumnSpan="2">

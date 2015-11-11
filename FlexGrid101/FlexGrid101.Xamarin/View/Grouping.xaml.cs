@@ -7,13 +7,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xuni.CollectionView;
+using Xuni.Forms.FlexGrid;
 
 namespace FlexGrid101
 {
     public partial class Grouping : ContentPage
     {
-        XuniGroupedCollectionView<string, YouTubeVideo> _collectionView;
-        ObservableCollection<YouTubeVideo> _videos;
+        XuniGroupedCollectionView<string, Customer> _collectionView;
 
         public Grouping()
         {
@@ -25,35 +25,19 @@ namespace FlexGrid101
             this.Title = AppResources.GroupingTitle;
             //grid.IsGroupingEnabled = true;
             grid.GroupDisplayBinding = new Binding("Key");
+            grid.SelectionChanging += OnSelectionChanging;
             var task = UpdateVideos();
         }
 
         private async Task UpdateVideos()
         {
-            try
-            {
-                activityIndicator.IsRunning = true;
-                emptyListLabel.IsVisible = false;
-                grid.IsVisible = false;
-                message.IsVisible = false;
-
-                _videos = new ObservableCollection<YouTubeVideo>((await YouTubeCollectionView.LoadVideosAsync("Xamarin Forms", "relevance", null, 50)).Item2);
-                _collectionView = new XuniGroupedCollectionView<string, YouTubeVideo>(v => v.Snippet.ChannelTitle);
-				//grid.ItemsSource = _collectionView;
-                await _collectionView.SetSourceAsync(_videos);
-				grid.ItemsSource = _collectionView; // iOS needs this to be called after SetSourceAsync
-                _collectionView.SortChanged += OnSortChanged;
-                UpdateSortButton();
-            }
-			catch
-            {
-                message.Text = "There was a problem when trying to get the data from internet. \nPlease check your internet connection";
-                message.IsVisible = true;
-            }
-            finally
-            {
-                activityIndicator.IsRunning = false;
-            }
+            var data = Customer.GetCustomerList(100);
+            _collectionView = new XuniGroupedCollectionView<string, Customer>(c => c.Country);
+            //grid.ItemsSource = _collectionView;
+            await _collectionView.SetSourceAsync(data);
+            grid.ItemsSource = _collectionView; // iOS needs this to be called after SetSourceAsync
+            _collectionView.SortChanged += OnSortChanged;
+            UpdateSortButton();
         }
 
         private async void OnSortClicked(object sender, EventArgs e)
@@ -61,7 +45,7 @@ namespace FlexGrid101
             if (_collectionView != null)
             {
                 var direction = GetCurrentSortDirection();
-                await _collectionView.SortAsync(x => x.Snippet.Title, direction == SortDirection.Ascending ? SortDirection.Descending : SortDirection.Ascending);
+                await _collectionView.SortAsync(x => x.Name, direction == SortDirection.Ascending ? SortDirection.Descending : SortDirection.Ascending);
             }
         }
 
@@ -91,8 +75,18 @@ namespace FlexGrid101
 
         private SortDirection GetCurrentSortDirection()
         {
-            var sort = _collectionView.SortDescriptions.FirstOrDefault(sd => sd.SortPath == "Snippet.Title");
+            var sort = _collectionView.SortDescriptions.FirstOrDefault(sd => sd.SortPath == "Name");
             return sort != null ? sort.Direction : SortDirection.Descending;
+        }
+
+        public void OnSelectionChanging(object sender, GridCellRangeEventArgs e)
+        {
+            if (e.CellType == GridCellType.Cell || e.CellType == GridCellType.RowHeader)
+            {
+                var row = grid.Rows[e.CellRange.Row] as GridGroupRow;
+                if (row != null)
+                    e.Cancel = true;
+            }
         }
     }
 }

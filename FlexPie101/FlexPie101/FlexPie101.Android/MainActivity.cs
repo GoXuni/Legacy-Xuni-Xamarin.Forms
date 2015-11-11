@@ -11,7 +11,7 @@ using Xamarin.Forms.Platform.Android;
 
 namespace FlexPieDemo.Droid
 {
-    [Activity(Label = "FlexPie 101", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "FlexPie101", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity 
     {
         protected override void OnCreate(Bundle bundle)

@@ -38,6 +38,13 @@ namespace FlexGrid101
 
         private void OnSelectionChanged(object sender, GridCellRangeEventArgs e)
         {
+            if (e.CellRange.Row != -1)
+            {
+                int rowsSelected = Math.Abs(e.CellRange.Row2 - e.CellRange.Row) + 1;
+                int colsSelected = Math.Abs(e.CellRange.Column2 - e.CellRange.Column) + 1;
+                
+                lblSelection.Text = (rowsSelected * colsSelected).ToString() + " cell(s) selected";
+            }
         }
     }
 }

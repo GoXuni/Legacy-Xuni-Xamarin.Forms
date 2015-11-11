@@ -264,4 +264,10 @@
   <data name="ZoomingScrollingTitle" xml:space="preserve">
     <value>확대/축소 및 스크롤</value>
   </data>
+  <data name="LineMarkerDescription" xml:space="preserve">
+    <value>차트 위에 이동할 수 있는 표식을 표시합니다.</value>
+  </data>
+  <data name="LineMarkerTitle" xml:space="preserve">
+    <value>라인 표식</value>
+  </data>
 </root>

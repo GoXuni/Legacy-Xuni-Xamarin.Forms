@@ -28,9 +28,17 @@ namespace FlexGrid101
             orderBy.Items.Add("rating");
             orderBy.Items.Add("title");
             orderBy.SelectedIndex = 0;
+            search.Text = "Xamarin.Forms";
+            var task = PerformSearch();
         }
 
         private async void OnCompleted(object sender, EventArgs e)
+        {
+            await PerformSearch();
+            grid.Focus();
+        }
+
+        private async Task PerformSearch()
         {
             try
             {

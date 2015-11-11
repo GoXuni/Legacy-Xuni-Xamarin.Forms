@@ -6,6 +6,7 @@
   <StackLayout>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <Picker x:Name="selectionMode" Title="SelectionMode" SelectedIndexChanged="SelectionModeChanged"/>
+    <Label x:Name="lblSelection" Text="0 cell(s) selected"/>
     <Grid VerticalOptions="FillAndExpand">
       <xuni:FlexGrid x:Name="grid" HeadersVisibility="All" SelectionChanging="OnSelectionChanging" SelectionChanged="OnSelectionChanged"/>
     </Grid>

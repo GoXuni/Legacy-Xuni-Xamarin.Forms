@@ -12,13 +12,13 @@
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False" Grid.Row="1">
       <xuni:FlexGrid.Columns>
-        <xuni:GridColumn Binding="ID" Width="100"/>
-        <xuni:GridColumn Binding="First"/>
-        <xuni:GridColumn Binding="Last"/>
-        <xuni:GridColumn Binding="Weight" Format="N1"/>
-        <xuni:GridColumn Binding="CountryID" Header="Country"/>
-        <local:GridDateTimeColumn Binding="Hired" Format="d" Mode="Date"/>
-        <local:GridDateTimeColumn Binding="Hired" Format="t" Mode="Time"/>
+        <xuni:GridColumn Binding="Id" IsReadOnly="true" Width="100"/>
+        <xuni:GridColumn Binding="FirstName"/>
+        <xuni:GridColumn Binding="LastName"/>
+        <xuni:GridColumn Binding="OrderTotal" Format="C"/>
+        <xuni:GridColumn Binding="CountryId" Header="Country"/>
+        <local:GridDateTimeColumn Binding="LastOrderDate" Format="d" Mode="Date"/>
+        <local:GridDateTimeColumn Binding="LastOrderDate" Format="t" Mode="Time" Header="Last Order Time"/>
       </xuni:FlexGrid.Columns>
     </xuni:FlexGrid>
   </Grid>

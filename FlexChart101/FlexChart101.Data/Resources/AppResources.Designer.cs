@@ -305,7 +305,25 @@ namespace FlexChartDemo.Data.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Showss animation modes when data is loaded..
+        ///   Looks up a localized string similar to Shows a moveable marker on top of the chart..
+        /// </summary>
+        public static string LineMarkerDescription {
+            get {
+                return ResourceManager.GetString("LineMarkerDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Line Marker.
+        /// </summary>
+        public static string LineMarkerTitle {
+            get {
+                return ResourceManager.GetString("LineMarkerTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shows animation modes when data is loaded..
         /// </summary>
         public static string LoadAnimationDescription {
             get {
@@ -413,7 +431,7 @@ namespace FlexChartDemo.Data.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Shows customized series styling..
+        ///   Looks up a localized string similar to Shows custom series styling..
         /// </summary>
         public static string StylingSeriesDescription {
             get {

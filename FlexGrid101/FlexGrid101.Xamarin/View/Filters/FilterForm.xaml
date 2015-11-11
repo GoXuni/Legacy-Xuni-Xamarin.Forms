@@ -13,10 +13,9 @@
     <ScrollView VerticalOptions="FillAndExpand">
       <StackLayout x:Name="filters"/>
     </ScrollView>
-    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-      <Button x:Name="btnFilter" Clicked="FilterClicked"/>
-      <Button x:Name="btnCancel" Clicked="CancelClicked"/>
+    <StackLayout Orientation="Horizontal">
+      <Button x:Name="btnFilter" Clicked="FilterClicked" HorizontalOptions="FillAndExpand"/>
+      <Button x:Name="btnCancel" Clicked="CancelClicked" HorizontalOptions="FillAndExpand"/>
     </StackLayout>
-
   </StackLayout>
 </ContentPage>

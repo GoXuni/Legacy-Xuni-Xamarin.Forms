@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="page"
+             x:Class="CollectionView101.SimpleOnDemand">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <ListView x:Name="list" VerticalOptions="FillAndExpand">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <TextCell Text="{Binding ItemName}" Detail="{Binding ItemDateTime, StringFormat='Created: {0}'}" />
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+</ContentPage>

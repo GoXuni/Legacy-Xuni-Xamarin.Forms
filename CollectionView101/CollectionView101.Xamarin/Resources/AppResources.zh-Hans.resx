@@ -133,10 +133,10 @@
     <value>分组</value>
   </data>
   <data name="OnDemandDescription" xml:space="preserve">
-    <value>显示用户向下滚动时需要加载的列表视图。</value>
+    <value>Shows on-demand loading with YouTube API</value>
   </data>
   <data name="OnDemandTitle" xml:space="preserve">
-    <value>需要</value>
+    <value>YouTube On Demand</value>
   </data>
   <data name="SortingDescription" xml:space="preserve">
     <value>对操作栏上列表排序</value>
@@ -146,5 +146,11 @@
   </data>
   <data name="InternetConnectionError" xml:space="preserve">
     <value>从网络上获取数据时出现错误，请检查您的网络连接。</value>
+  </data>
+  <data name="SimpleOnDemandDescription" xml:space="preserve">
+    <value>Shows on-demand loading with a ListView</value>
+  </data>
+  <data name="SimpleOnDemandTitle" xml:space="preserve">
+    <value>Simple On Demand</value>
   </data>
 </root>

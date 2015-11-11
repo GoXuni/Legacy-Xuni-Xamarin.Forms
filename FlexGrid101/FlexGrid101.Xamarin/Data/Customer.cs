@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -17,17 +18,21 @@ namespace FlexGrid101
     {
         #region ** fields
 
-        int _id, _countryID;
+        int _id, _countryId, _orderCount;
         string _first, _last;
-        string _father, _brother, _cousin;
+        string _address, _city, _postalCode, _email;
         bool _active;
-        DateTime _hired;
-        double _weight;
+        DateTime _lastOrderDate;
+        double _orderTotal;
 
         static Random _rnd = new Random();
         static string[] _firstNames = "Andy|Ben|Charlie|Dan|Ed|Fred|Gil|Herb|Jack|Karl|Larry|Mark|Noah|Oprah|Paul|Quince|Rich|Steve|Ted|Ulrich|Vic|Xavier|Zeb".Split('|');
         static string[] _lastNames = "Ambers|Bishop|Cole|Danson|Evers|Frommer|Griswold|Heath|Jammers|Krause|Lehman|Myers|Neiman|Orsted|Paulson|Quaid|Richards|Stevens|Trask|Ulam".Split('|');
-        static string[] _countries = "China|India|United States|Indonesia|Brazil|Pakistan|Bangladesh|Nigeria|Russia|Japan|Mexico|Philippines|Vietnam|Germany|Ethiopia|Egypt|Iran|Turkey|Congo|France|Thailand|United Kingdom|Italy|Myanmar".Split('|');
+        static KeyValuePair<string, string[]>[] _countries = "China-Beijing,Chongqing,Shanghai,Tianjin,Hong Kong,Macau,Anqing,Bengbu,Bozhou,Chaohu|India-New Delhi,Mumbai,Delhi,Bangalore,Hyderabad,Ahmedabad,Chennai,Kolkata,Surat,Pune|United States-Washington,New York,Los Angeles,Chicago,Houston,Philadelphia,Phoenix,San Antonio,San Diego,Dallas|Indonesia-Jakarta,Surabaya,Bandung,Bekasi,Medan,Tangerang,Depok,Semarang,Palembang,South Tangerang|Brazil-Brasilia,San Pablo,Rio de Janeiro,Salvador,Fortaleza,Belo Horizonte,Manaus,Curitiba,Recife,Porto Alegre|Pakistan-Islamabad,Karachi,Lahore,Faisalabad,Rawalpindi,Gujranwala,Multan,Hyderabad,Peshawar,Quetta|Russia-Moscow,Saint Petersburg,Novosibirsk,Yekaterinburg,Nizhny Novgorod,Kazan,Chelyabinsk,Samara,Omsk,Rostov-na-Donu|Japan-Tokio,Yokohama,Ōsaka,Nagoya,Sapporo,Kōbe,Kyōto,Fukuoka,Kawasaki,Saitama|Mexico-Mexico City,Guadalajara,Monterrey,Puebla,Toluca,Tijuana,León,Juárez,Torreón,Querétaro".Split('|').Select(str => new KeyValuePair<string, string[]>(str.Split('-').First(), str.Split('-').Skip(1).First().Split(','))).ToArray();
+        static string[] _emailServers = "gmail|yahoo|outlook|aol".Split('|');
+        static string[] _streetNames = "Main|Broad|Grand|Panoramic|Green|Golden|Park|Fake".Split('|');
+        static string[] _streetTypes = "ST|AVE|BLVD".Split('|');
+        static string[] _streetOrientation = "S|N|W|E|SE|SW|NE|NW".Split('|');
 
         #endregion
 
@@ -37,26 +42,29 @@ namespace FlexGrid101
             : this(_rnd.Next(10000))
         {
         }
+
         public Customer(int id)
         {
-            ID = id;
-
-            First = GetString(_firstNames);
-            Last = GetString(_lastNames);
-            CountryID = _rnd.Next() % _countries.Length;
+            Id = id;
+            FirstName = GetRandomString(_firstNames);
+            LastName = GetRandomString(_lastNames);
+            Address = GetRandomAddress();
+            CountryId = _rnd.Next() % _countries.Length;
+            var cities = _countries[CountryId].Value;
+            City = GetRandomString(cities);
+            PostalCode = _rnd.Next(10000, 99999).ToString();
+            Email = string.Format("{0}@{1}.com", (FirstName + LastName.Substring(0, 1)).ToLower(), GetRandomString(_emailServers));
+            LastOrderDate = DateTime.Today.AddDays(-_rnd.Next(1, 365)).AddHours(_rnd.Next(0, 24)).AddMinutes(_rnd.Next(0, 60));
+            OrderCount = _rnd.Next(0, 100);
+			OrderTotal = Math.Round(_rnd.NextDouble () * 10000.00, 2);
             Active = _rnd.NextDouble() >= .5;
-            Hired = DateTime.Today.AddDays(-_rnd.Next(1, 365));
-            Weight = 50 + _rnd.NextDouble() * 50;
-            _father = string.Format("{0} {1}", GetString(_firstNames), Last);
-            _brother = string.Format("{0} {1}", GetString(_firstNames), Last);
-            _cousin = GetName();
         }
 
         #endregion
 
         #region ** object model
 
-        public int ID
+        public int Id
         {
             get { return _id; }
             set
@@ -64,31 +72,142 @@ namespace FlexGrid101
                 if (value != _id)
                 {
                     _id = value;
-                    RaisePropertyChanged("ID");
+                    OnPropertyChanged("Id");
                 }
             }
         }
-        
-        public string Name
-        {
-            get { return string.Format("{0} {1}", First, Last); }
-        }
-        
-        public string Country
-        {
-            get { return _countries[_countryID]; }
-        }
 
-        public int CountryID
+        public string FirstName
         {
-            get { return _countryID; }
+            get { return _first; }
             set
             {
-                if (value != _countryID && value > -1 && value < _countries.Length)
+                if (value != _first)
                 {
-                    _countryID = value;
-                    RaisePropertyChanged("CountryID");
-                    RaisePropertyChanged("Country");
+                    _first = value;
+                    OnPropertyChanged("FirstName");
+                    OnPropertyChanged("Name");
+                }
+            }
+        }
+
+        public string LastName
+        {
+            get { return _last; }
+            set
+            {
+                if (value != _last)
+                {
+                    _last = value;
+                    OnPropertyChanged("LastName");
+                    OnPropertyChanged("Name");
+                }
+            }
+        }
+
+        public string Address
+        {
+            get { return _address; }
+            set
+            {
+                if (value != _address)
+                {
+                    _address = value;
+                    OnPropertyChanged("Address");
+                }
+            }
+        }
+
+        public string City
+        {
+            get { return _city; }
+            set
+            {
+                if (value != _city)
+                {
+                    _city = value;
+                    OnPropertyChanged("City");
+                }
+            }
+        }
+
+        public int CountryId
+        {
+            get { return _countryId; }
+            set
+            {
+                if (value != _countryId && value > -1 && value < _countries.Length)
+                {
+                    _countryId = value;
+                    //_city = _countries[_countryId].Value.First();
+                    OnPropertyChanged("CountryId");
+                    OnPropertyChanged("Country");
+                    OnPropertyChanged("City");
+                }
+            }
+        }
+
+        public string PostalCode
+        {
+            get { return _postalCode; }
+            set
+            {
+                if (value != _postalCode)
+                {
+                    _postalCode = value;
+                    OnPropertyChanged("PostalCode");
+                }
+            }
+        }
+
+        public string Email
+        {
+            get { return _email; }
+            set
+            {
+                if (value != _email)
+                {
+                    _email = value;
+                    OnPropertyChanged("Email");
+                }
+            }
+        }
+
+        public DateTime LastOrderDate
+        {
+            get { return _lastOrderDate; }
+            set
+            {
+                if (value != _lastOrderDate)
+                {
+                    _lastOrderDate = value;
+                    OnPropertyChanged("LastOrderDate");
+                }
+            }
+        }
+
+        public int OrderCount
+        {
+            get { return _orderCount; }
+            set
+            {
+                if (value != _orderCount)
+                {
+                    _orderCount = value;
+                    OnPropertyChanged("OrderCount");
+                }
+            }
+        }
+
+        public double OrderTotal
+        {
+            get { return _orderTotal; }
+            set
+            {
+                if (value != _orderTotal)
+                {
+                    _orderTotal = value;
+                    OnPropertyChanged("OrderTotal");
                 }
             }
         }
@@ -101,93 +220,38 @@ namespace FlexGrid101
                 if (value != _active)
                 {
                     _active = value;
-                    RaisePropertyChanged("Active");
+                    OnPropertyChanged("Active");
                 }
             }
         }
 
-        public string First
+        public string Name
         {
-            get { return _first; }
-            set
-            {
-                if (value != _first)
-                {
-                    _first = value;
-                    RaisePropertyChanged("First");
-                    RaisePropertyChanged("Name");
-                }
-            }
-        }
-        
-        public string Last
-        {
-            get { return _last; }
-            set
-            {
-                if (value != _last)
-                {
-                    _last = value;
-                    RaisePropertyChanged("Last");
-                    RaisePropertyChanged("Name");
-                }
-            }
-        }
-        
-        public DateTime Hired
-        {
-            get { return _hired; }
-            set
-            {
-                if (value != _hired)
-                {
-                    _hired = value;
-                    RaisePropertyChanged("Hired");
-                }
-            }
-        }
-        
-        public double Weight
-        {
-            get { return _weight; }
-            set
-            {
-                if (value != _weight)
-                {
-                    _weight = value;
-                    RaisePropertyChanged("Weight");
-                }
-            }
+            get { return string.Format("{0} {1}", FirstName, LastName); }
         }
 
-        // some read-only stuff
-        public string Father
+        public string Country
         {
-            get { return _father; }
+            get { return _countries[_countryId].Key; }
         }
 
-        public string Brother
+        public double OrderAverage
         {
-            get { return _brother; }
+            get { return OrderTotal / (double)OrderCount; }
         }
-        
-        public string Cousin 
-        {
-            get { return _cousin; }
-        }
-        
+
         #endregion
 
         #region ** implementation
 
         // ** utilities
-        static string GetString(string[] arr)
+        static string GetRandomString(string[] arr)
         {
             return arr[_rnd.Next(arr.Length)];
         }
         static string GetName()
         {
-            return string.Format("{0} {1}", GetString(_firstNames), GetString(_lastNames));
+            return string.Format("{0} {1}", GetRandomString(_firstNames), GetRandomString(_lastNames));
         }
 
         // ** static list provider
@@ -201,23 +265,31 @@ namespace FlexGrid101
             return list;
         }
 
+        private static string GetRandomAddress()
+        {
+            if (_rnd.NextDouble() > 0.9)
+                return string.Format("{0} {1} {2} {3}", _rnd.Next(1, 999), GetRandomString(_streetNames), GetRandomString(_streetTypes), GetRandomString(_streetOrientation));
+            else
+                return string.Format("{0} {1} {2}", _rnd.Next(1, 999), GetRandomString(_streetNames), GetRandomString(_streetTypes));
+        }
 
         // ** static value providers
-        public static string[] GetCountries() { return _countries; }
+        public static KeyValuePair<int, string>[] GetCountries() { return _countries.Select((p, index) => new KeyValuePair<int, string>(index, p.Key)).ToArray(); }
         public static string[] GetFirstNames() { return _firstNames; }
         public static string[] GetLastNames() { return _lastNames; }
-        
+
         #endregion
 
         #region ** INotifyPropertyChanged Members
 
         // this interface allows bounds controls to react to changes in the data objects.
+        public event PropertyChangedEventHandler PropertyChanged;
 
-        void RaisePropertyChanged(string propertyName)
+        private void OnPropertyChanged(string propertyName)
         {
             OnPropertyChanged(new PropertyChangedEventArgs(propertyName));
         }
-        public event PropertyChangedEventHandler PropertyChanged;
+
         protected void OnPropertyChanged(PropertyChangedEventArgs e)
         {
             if (PropertyChanged != null)
@@ -235,10 +307,12 @@ namespace FlexGrid101
         {
             _clone = (Customer)this.MemberwiseClone();
         }
+
         public void EndEdit()
         {
             _clone = null;
         }
+
         public void CancelEdit()
         {
             if (_clone != null)
@@ -252,7 +326,6 @@ namespace FlexGrid101
                 }
             }
         }
-
 
         #endregion
     }

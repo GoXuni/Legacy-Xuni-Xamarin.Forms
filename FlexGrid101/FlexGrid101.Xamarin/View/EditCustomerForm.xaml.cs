@@ -19,10 +19,10 @@ namespace FlexGrid101
             {
                 // initialize input form with values from the selected customer
                 this.editingCustomer = cust;
-                entryFirstName.Text = cust.First;
-                entryLastName.Text = cust.Last;
-                datePickerHired.Date = cust.Hired;
-                entryWeight.Text = cust.Weight.ToString("n4");
+                entryFirstName.Text = cust.FirstName;
+                entryLastName.Text = cust.LastName;
+                datePickerLastOrder.Date = cust.LastOrderDate;
+                entryOrderTotal.Text = cust.OrderTotal.ToString("n4");
             }
 
             Title = AppResources.EditCustomer;
@@ -35,12 +35,12 @@ namespace FlexGrid101
         async void btnApply_Clicked(object sender, EventArgs e)
         {
             // save new values to the customer object
-            this.editingCustomer.First = entryFirstName.Text;
-            this.editingCustomer.Last = entryLastName.Text;
-            this.editingCustomer.Hired = datePickerHired.Date;
-            double weight;
-            if (double.TryParse(entryWeight.Text, out weight))
-                this.editingCustomer.Weight = weight;
+            this.editingCustomer.FirstName = entryFirstName.Text;
+            this.editingCustomer.LastName = entryLastName.Text;
+            this.editingCustomer.LastOrderDate = datePickerLastOrder.Date;
+            double orderTotal;
+            if (double.TryParse(entryOrderTotal.Text, out orderTotal))
+                this.editingCustomer.OrderTotal = orderTotal;
 
             // close pop-up
             await Navigation.PopModalAsync();

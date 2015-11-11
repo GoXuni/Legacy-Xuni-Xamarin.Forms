@@ -8,6 +8,7 @@ using FlexPieDemo.Data.Model;
 using Xamarin.Forms;
 using Xuni.Forms.FlexPie;
 using FlexPieDemo.Data.Resources;
+using Xuni.Forms.Core;
 
 namespace FlexPieDemo.Data.Views.Samples
 {
@@ -30,11 +31,19 @@ namespace FlexPieDemo.Data.Views.Samples
             };
             snapshotFrame.GestureRecognizers.Add(tapGestureRecognizer);
         }
-        void OnSnapshotClicked(object sender, EventArgs e)
+      async  void OnSnapshotClicked(object sender, EventArgs e)
         {
-            var imageData = this.pieChart.GetImage();
-            snapshot.Source = ImageSource.FromStream(() => new MemoryStream(imageData));
-            snapshotFrame.IsVisible = true;
+            var originalBackground = pieChart.BackgroundColor;
+            if (originalBackground == null || originalBackground.A == 0)
+            {
+                pieChart.BackgroundColor = ColorEx.ThemeBackgroundColor;
+            }
+            DependencyService.Get<IPicture>().SavePictureToDisk("PieImage", pieChart.GetImage());
+            pieChart.BackgroundColor = originalBackground;
+            //generic success message
+            await DisplayAlert("Image Saved",
+                "The image has been saved to your device's picture album.",
+                "OK");
         }
     }
 }

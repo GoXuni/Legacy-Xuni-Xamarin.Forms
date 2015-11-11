@@ -209,9 +209,48 @@
     <value>정렬</value>
   </data>
   <data name="ConditionalFormattingDescription" xml:space="preserve">
-    <value>Uses a CellFactory to apply conditional formatting.</value>
+    <value>CellFactory를 사용하여 조건부 서식을 적용할 합니다.</value>
   </data>
   <data name="ConditionalFormattingTitle" xml:space="preserve">
-    <value>Conditional Formatting</value>
+    <value>조건부 서식</value>
+  </data>
+  <data name="CellFreezingDescription" xml:space="preserve">
+    <value>열 및 행 고정을 표시합니다.</value>
+  </data>
+  <data name="CellFreezingTitle" xml:space="preserve">
+    <value>셀 고정</value>
+  </data>
+  <data name="ColumnLayoutDescription" xml:space="preserve">
+    <value>열 레이아웃을 수정하는 사용자 지정 열 관리자를 표시합니다.</value>
+  </data>
+  <data name="ColumnLayoutTitle" xml:space="preserve">
+    <value>열 레이아웃</value>
+  </data>
+  <data name="EditColumnLayout" xml:space="preserve">
+    <value>열 레이아웃 편집</value>
+  </data>
+  <data name="EditConfirmationDescription" xml:space="preserve">
+    <value>셀에 변경 사항을 적용하기 전에 사용자에게 확인 대화 상자를 표시하는 방법을 보여 줍니다.</value>
+  </data>
+  <data name="EditConfirmationQuestion" xml:space="preserve">
+    <value>편집 내용을 저장하시겠습니까?</value>
+  </data>
+  <data name="EditConfirmationQuestionTitle" xml:space="preserve">
+    <value>편집 확인</value>
+  </data>
+  <data name="EditConfirmationTitle" xml:space="preserve">
+    <value>편집 확인</value>
+  </data>
+  <data name="SaveColumnLayout" xml:space="preserve">
+    <value>열 레이아웃 저장</value>
+  </data>
+  <data name="StarSizingDescription" xml:space="preserve">
+    <value>배율 크기 조정 기능을 사용하는 응답형 열 레이아웃을 표시합니다.</value>
+  </data>
+  <data name="StarSizingTitle" xml:space="preserve">
+    <value>배율 크기 조정</value>
+  </data>
+  <data name="StarSizingInstructions" xml:space="preserve">
+    <value>장치를 회전하여 배율 크기 조정 기능이 작동하는 것을 확인합니다.</value>
   </data>
 </root>

@@ -116,7 +116,7 @@ namespace CollectionView101.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Shows a ListView whose items are loaded on demand as the user scrolls down..
+        ///   Looks up a localized string similar to Shows on-demand loading with YouTube API.
         /// </summary>
         public static string OnDemandDescription {
             get {
@@ -125,11 +125,29 @@ namespace CollectionView101.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to On Demand.
+        ///   Looks up a localized string similar to YouTube On Demand.
         /// </summary>
         public static string OnDemandTitle {
             get {
                 return ResourceManager.GetString("OnDemandTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shows on-demand loading with a ListView.
+        /// </summary>
+        public static string SimpleOnDemandDescription {
+            get {
+                return ResourceManager.GetString("SimpleOnDemandDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Simple On Demand.
+        /// </summary>
+        public static string SimpleOnDemandTitle {
+            get {
+                return ResourceManager.GetString("SimpleOnDemandTitle", resourceCulture);
             }
         }
         

@@ -264,4 +264,10 @@
   <data name="ZoomingScrollingTitle" xml:space="preserve">
     <value>缩放和滚动</value>
   </data>
+  <data name="LineMarkerDescription" xml:space="preserve">
+    <value>在图表上方显示一个可移动的标识。</value>
+  </data>
+  <data name="LineMarkerTitle" xml:space="preserve">
+    <value>行标识</value>
+  </data>
 </root>

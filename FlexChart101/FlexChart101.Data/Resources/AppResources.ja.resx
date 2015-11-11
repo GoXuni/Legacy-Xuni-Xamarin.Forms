@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -130,7 +130,7 @@
     <comment>Basic Chart Types</comment>
   </data>
   <data name="BubbleChartDescription" xml:space="preserve">
-    <value>バブルチャートを表示</value>
+    <value>バブルチャートでデータの関連性を表現</value>
     <comment>Shows a bubble chart.</comment>
   </data>
   <data name="BubbleChartTitle" xml:space="preserve">
@@ -154,11 +154,11 @@
     <comment>Customizing Axes</comment>
   </data>
   <data name="CustomPlotElementsDescription" xml:space="preserve">
-    <value>プロット要素をカスタマイズする方法</value>
+    <value>要素をカスタマイズする方法</value>
     <comment>Shows how to fully customize plot elements.</comment>
   </data>
   <data name="CustomPlotElementsTitle" xml:space="preserve">
-    <value>カスタムプロット要素</value>
+    <value>プロット要素のカスタマイズ</value>
     <comment>Custom Plot Elements</comment>
   </data>
   <data name="CustomTooltipsDescription" xml:space="preserve">
@@ -178,7 +178,7 @@
     <comment>Data Labels</comment>
   </data>
   <data name="DynamicChartDescription" xml:space="preserve">
-    <value>動的に変わる「ライブ」チャートを表示</value>
+    <value>時間の経過で変わる「ライブ」チャートを表示</value>
     <comment>Shows a dynamic, “live” chart.</comment>
   </data>
   <data name="DynamicChartTitle" xml:space="preserve">
@@ -230,7 +230,7 @@
     <comment>Showss animation modes when data is loaded.</comment>
   </data>
   <data name="LoadAnimationTitle" xml:space="preserve">
-    <value>ロードアニメーションモード</value>
+    <value>アニメーションモード</value>
     <comment>Load Animation Mode</comment>
   </data>
   <data name="MixedChartTypesDescription" xml:space="preserve">
@@ -250,7 +250,7 @@
     <comment>Multiple Axes</comment>
   </data>
   <data name="RemovePoint" xml:space="preserve">
-    <value>ポイントの削除</value>
+    <value>データ点の削除</value>
     <comment>Remove Point</comment>
   </data>
   <data name="ScrollingDescription" xml:space="preserve">
@@ -278,7 +278,7 @@
     <comment>Shows customized series styling.</comment>
   </data>
   <data name="StylingSeriesTitle" xml:space="preserve">
-    <value>系列のスタイル設定</value>
+    <value>系列のスタイルをカスタマイズ</value>
     <comment>Styling Series</comment>
   </data>
   <data name="ThemingDescription" xml:space="preserve">
@@ -298,7 +298,7 @@
     <comment>Toggle Series</comment>
   </data>
   <data name="UpdateAnimationDescription" xml:space="preserve">
-    <value>データ更新時のアニメーション</value>
+    <value>データ更新時のアニメーション効果</value>
     <comment>Shows animation when data is updated.</comment>
   </data>
   <data name="UpdateAnimationTitle" xml:space="preserve">
@@ -312,5 +312,13 @@
   <data name="ZoomingScrollingTitle" xml:space="preserve">
     <value>ズームとスクロール</value>
     <comment>Zooming and Scrolling</comment>
+  </data>
+  <data name="LineMarkerDescription" xml:space="preserve">
+    <value>チャート上で操作が可能なラインマーカー</value>
+    <comment>Shows a moveable marker on top of the chart.</comment>
+  </data>
+  <data name="LineMarkerTitle" xml:space="preserve">
+    <value>ラインマーカー</value>
+    <comment>Line Marker</comment>
   </data>
 </root>

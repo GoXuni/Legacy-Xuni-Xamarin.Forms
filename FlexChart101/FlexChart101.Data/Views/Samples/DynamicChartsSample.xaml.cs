@@ -28,6 +28,8 @@ namespace FlexChartDemo.Data.Views.Samples
             }
             this.flexChart.ItemsSource = list;
             this.flexChart.Palette = Xuni.Forms.ChartCore.ChartPalettes.Coral;
+            this.flexChart.ShowTooltips = false;
+
         }
 
         protected override void OnAppearing()

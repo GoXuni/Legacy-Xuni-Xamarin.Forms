@@ -214,4 +214,43 @@
   <data name="ConditionalFormattingTitle" xml:space="preserve">
     <value>条件格式化</value>
   </data>
+  <data name="CellFreezingDescription" xml:space="preserve">
+    <value>显示已冻结的行和列。</value>
+  </data>
+  <data name="CellFreezingTitle" xml:space="preserve">
+    <value>单元格冻结</value>
+  </data>
+  <data name="ColumnLayoutDescription" xml:space="preserve">
+    <value>简体中文显示一个自定义列来改变列布局。</value>
+  </data>
+  <data name="ColumnLayoutTitle" xml:space="preserve">
+    <value>列布局</value>
+  </data>
+  <data name="EditColumnLayout" xml:space="preserve">
+    <value>编辑列布局</value>
+  </data>
+  <data name="EditConfirmationDescription" xml:space="preserve">
+    <value>在提交单元格改变前，显示如何为用户提供一个确认对话框。</value>
+  </data>
+  <data name="EditConfirmationQuestion" xml:space="preserve">
+    <value>您确定需要编辑么？</value>
+  </data>
+  <data name="EditConfirmationQuestionTitle" xml:space="preserve">
+    <value>确认编辑</value>
+  </data>
+  <data name="EditConfirmationTitle" xml:space="preserve">
+    <value>编辑确认</value>
+  </data>
+  <data name="SaveColumnLayout" xml:space="preserve">
+    <value>保存列布局</value>
+  </data>
+  <data name="StarSizingDescription" xml:space="preserve">
+    <value>显示使用星号调整大小响应列布局。</value>
+  </data>
+  <data name="StarSizingTitle" xml:space="preserve">
+    <value>星号调整大小</value>
+  </data>
+  <data name="StarSizingInstructions" xml:space="preserve">
+    <value>旋转设备以查看到星号调整大小。</value>
+  </data>
 </root>

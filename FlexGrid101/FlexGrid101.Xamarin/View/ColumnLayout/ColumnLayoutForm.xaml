@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.ColumnLayoutForm"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Core;assembly=Xuni.Forms.Core">
+  <ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness">
+      <OnPlatform.iOS>
+        0, 20, 0, 0
+      </OnPlatform.iOS>
+    </OnPlatform>
+  </ContentPage.Padding>
+  <StackLayout>
+    <ScrollView VerticalOptions="FillAndExpand">
+      <ListView ItemsSource="{Binding}">
+        <ListView.RowHeight>
+          <OnPlatform x:TypeArguments="x:Int32" iOS="-1" Android="-1" WinPhone="70"/>
+        </ListView.RowHeight>
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <StackLayout Orientation="Horizontal">
+                <xuni:XuniCheckBox IsChecked="{Binding IsVisible,Mode=TwoWay}" VerticalOptions="Center"/>
+                <Label Text="{Binding Title}" Font="Large" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+                <Button Text="&#x25BC;" Command="{Binding DownCommand}" VerticalOptions="Center"/>
+                <Button Text="&#x25B2;" Command="{Binding UpCommand}" VerticalOptions="Center"/>
+              </StackLayout>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </ScrollView>
+    <StackLayout Orientation="Horizontal">
+      <Button x:Name="btnOK" Clicked="OKClicked" HorizontalOptions="FillAndExpand"/>
+      <Button x:Name="btnCancel" Clicked="CancelClicked" HorizontalOptions="FillAndExpand"/>
+    </StackLayout>
+  </StackLayout>
+</ContentPage>

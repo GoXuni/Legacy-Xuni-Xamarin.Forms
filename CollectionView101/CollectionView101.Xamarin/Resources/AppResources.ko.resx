@@ -133,10 +133,10 @@
     <value>그룹화</value>
   </data>
   <data name="OnDemandDescription" xml:space="preserve">
-    <value>아래로 스크롤할 때 요구되는 항목이 로드되는 ListView를 표시합니다.</value>
+    <value>Shows on-demand loading with YouTube API</value>
   </data>
   <data name="OnDemandTitle" xml:space="preserve">
-    <value>요구 시</value>
+    <value>YouTube On Demand</value>
   </data>
   <data name="SortingDescription" xml:space="preserve">
     <value>작업 표시줄에서 항목 목록을 정렬합니다.</value>
@@ -146,5 +146,11 @@
   </data>
   <data name="InternetConnectionError" xml:space="preserve">
     <value>인터넷에서 데이터를 가져오는 동안 문제가 발생했습니다. \n인터넷에 연결되어 있는지 확인하십시오.</value>
+  </data>
+  <data name="SimpleOnDemandDescription" xml:space="preserve">
+    <value>Shows on-demand loading with a ListView</value>
+  </data>
+  <data name="SimpleOnDemandTitle" xml:space="preserve">
+    <value>Simple On Demand</value>
   </data>
 </root>

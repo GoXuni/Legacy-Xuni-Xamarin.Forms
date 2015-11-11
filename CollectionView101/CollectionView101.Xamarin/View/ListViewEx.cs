@@ -10,7 +10,7 @@ namespace CollectionView101
 {
     public static class ListViewEx
     {
-        public static void LoadItemsOnDemand<T>(this ListView listview, XuniCursorCollectionView<T> collectionView)
+        public static void LoadItemsOnDemand<T>(this ListView listview, XuniCursorCollectionView<T> collectionView) where T : class
         {
             listview.ItemAppearing += (s, e) =>
             {
@@ -23,6 +23,17 @@ namespace CollectionView101
                     }
                 }
             };
+            listview.Refreshing += async (s, e) =>
+            {
+                listview.IsRefreshing = true;
+                await collectionView.RefreshAsync();
+                listview.IsRefreshing = false;
+            };
+            listview.IsPullToRefreshEnabled = true;
+            if (collectionView.HasMoreItems)
+            {
+                collectionView.LoadMoreItemsAsync();
+            }
         }
     }
 }

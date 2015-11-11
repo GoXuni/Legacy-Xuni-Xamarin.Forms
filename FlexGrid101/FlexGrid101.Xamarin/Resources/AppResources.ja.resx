@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -161,7 +161,7 @@
     <value>フィルタ</value>
   </data>
   <data name="FilterDescription" xml:space="preserve">
-    <value>生成されたフォームから列でデータをフィルタリング</value>
+    <value>列のフィルタ条件をフォームで指定</value>
   </data>
   <data name="FilterPlaceholderText" xml:space="preserve">
     <value>フィルタリングするテキストを入力</value>
@@ -188,11 +188,11 @@
     <value>グループ化</value>
   </data>
   <data name="OnDemandDescription" xml:space="preserve">
-    <value>グリッドを下にスクロールしたときにロード</value>
+    <value>スクロールの終端で表示データをロード</value>
     <comment>Load items on demand as the user scrolls down the grid.</comment>
   </data>
   <data name="OnDemandTitle" xml:space="preserve">
-    <value>オンデマンド</value>
+    <value>データオンデマンド</value>
     <comment>On Demand</comment>
   </data>
   <data name="Remove" xml:space="preserve">
@@ -218,5 +218,49 @@
   </data>
   <data name="ConditionalFormattingTitle" xml:space="preserve">
     <value>条件付き書式</value>
+  </data>
+  <data name="CellFreezingDescription" xml:space="preserve">
+    <value>行と列の固定</value>
+    <comment>Shows column and row freezing.</comment>
+  </data>
+  <data name="CellFreezingTitle" xml:space="preserve">
+    <value>セルの固定</value>
+    <comment>Cell Freezing</comment>
+  </data>
+  <data name="ColumnLayoutDescription" xml:space="preserve">
+    <value>列マネージャを利用してレイアウトを変更</value>
+    <comment>Shows a custom column manager to modify column layout.</comment>
+  </data>
+  <data name="ColumnLayoutTitle" xml:space="preserve">
+    <value>列レイアウト管理</value>
+  </data>
+  <data name="EditColumnLayout" xml:space="preserve">
+    <value>列レイアウトの編集</value>
+  </data>
+  <data name="EditConfirmationDescription" xml:space="preserve">
+    <value>セルの内容を変更する前にダイアログを表示</value>
+    <comment>Shows how to prompt the user with a confirmation dialog before committing changes to a cell.</comment>
+  </data>
+  <data name="EditConfirmationQuestion" xml:space="preserve">
+    <value>編集内容を反映しますか？</value>
+  </data>
+  <data name="EditConfirmationQuestionTitle" xml:space="preserve">
+    <value>編集確認</value>
+  </data>
+  <data name="EditConfirmationTitle" xml:space="preserve">
+    <value>編集の確認</value>
+  </data>
+  <data name="SaveColumnLayout" xml:space="preserve">
+    <value>列レイアウトの保存</value>
+  </data>
+  <data name="StarSizingDescription" xml:space="preserve">
+    <value>配分で列幅を設定するレスポンシブなレイアウト</value>
+  </data>
+  <data name="StarSizingTitle" xml:space="preserve">
+    <value>スターサイズ設定</value>
+  </data>
+  <data name="StarSizingInstructions" xml:space="preserve">
+    <value>デバイスの回転でスターサイズ機能の動作を確認</value>
+    <comment>Rotate the device to see star-sizing in action.</comment>
   </data>
 </root>

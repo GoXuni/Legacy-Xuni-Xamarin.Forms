@@ -24,6 +24,7 @@ namespace CollectionView101
                 new Sample() { Name = AppResources.SortingTitle, Description= AppResources.SortingDescription, SampleViewType = 0, Thumbnail="sort.png" },
                 new Sample() { Name = AppResources.FilteringTitle, Description= AppResources.FilteringDescription, SampleViewType = 1, Thumbnail="filter.png" },
                 new Sample() { Name = AppResources.GroupingTitle, Description= AppResources.GroupingDescription, SampleViewType = 2, Thumbnail="flexgrid_grouping.png"},
+                new Sample() { Name = AppResources.SimpleOnDemandTitle, Description= AppResources.SimpleOnDemandDescription, SampleViewType = 4, Thumbnail="flexgrid_loading.png" },
                 new Sample() { Name = AppResources.OnDemandTitle, Description= AppResources.OnDemandDescription, SampleViewType = 3, Thumbnail="flexgrid_loading.png" },
             };
         }
@@ -42,6 +43,7 @@ namespace CollectionView101
                 case 1: return new Filtering();
                 case 2: return new Grouping();
                 case 3: return new OnDemand();
+                case 4: return new SimpleOnDemand();
             }
             return null;
         }

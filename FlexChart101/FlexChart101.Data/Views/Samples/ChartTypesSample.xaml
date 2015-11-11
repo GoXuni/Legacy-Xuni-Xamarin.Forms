@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:s="clr-namespace:FlexChartDemo.Data.Views.Samples;assembly=FlexChart101.Data"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
              x:Class="FlexChartDemo.Data.Views.Samples.ChartTypesSample" x:Name="page"
@@ -35,4 +36,4 @@
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
   </StackLayout>
-</BaseSample>
+</ContentPage>

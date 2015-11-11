@@ -14,7 +14,7 @@ namespace FlexGrid101
         {
             InitializeComponent();
             BindingContext = GetSamples();
-            this.Title = "FlexGrid 101";
+            this.Title = "FlexGrid101";
         }
 
         private List<Sample> GetSamples()
@@ -24,14 +24,17 @@ namespace FlexGrid101
                 new Sample() { Name = AppResources.GettingStartedTitle, Description = AppResources.GettingStartedDescription, SampleViewType = 1 , Thumbnail="flexgrid.png"},
                 new Sample() { Name = AppResources.ColumnDefinitionTitle, Description = AppResources.ColumnDefinitionDescription, SampleViewType = 2 , Thumbnail="flexgrid_columns.png"},
                 new Sample() { Name = AppResources.SelectionModesTitle, Description = AppResources.SelectionModesDescription, SampleViewType = 3 , Thumbnail="flexgrid_selection.png"},
-                new Sample() { Name = AppResources.EditingTitle, Description = AppResources.EditingDescription, SampleViewType = 4 , Thumbnail="input_form.png"},
-                new Sample() { Name = AppResources.CustomCellsTitle, Description = AppResources.CustomCellsDescription, SampleViewType = 5 , Thumbnail="flexgrid_custom.png"},
-                new Sample() { Name = AppResources.GroupingTitle, Description = AppResources.GroupingDescription, SampleViewType = 6 , Thumbnail="flexgrid_grouping.png"},
-                new Sample() { Name = AppResources.FilterTitle, Description = AppResources.FilterDescription, SampleViewType = 7 , Thumbnail="flexgrid_filter.png"},
-                new Sample() { Name = AppResources.FullTextFilterTitle, Description = AppResources.FullTextFilterDescription, SampleViewType = 8 , Thumbnail="filter.png"},
-                new Sample() { Name = AppResources.OnDemandTitle, Description = AppResources.OnDemandDescription, SampleViewType = 9 , Thumbnail="flexgrid_loading.png"},
-                new Sample() { Name = AppResources.ConditionalFormattingTitle, Description = AppResources.ConditionalFormattingDescription, SampleViewType = 10 , Thumbnail="flexgrid.png"},
-                
+                new Sample() { Name = AppResources.EditConfirmationTitle, Description = AppResources.EditConfirmationDescription, SampleViewType = 4 , Thumbnail="flexgrid.png"},
+                new Sample() { Name = AppResources.EditingTitle, Description = AppResources.EditingDescription, SampleViewType = 5 , Thumbnail="input_form.png"},
+                new Sample() { Name = AppResources.ConditionalFormattingTitle, Description = AppResources.ConditionalFormattingDescription, SampleViewType = 6 , Thumbnail="flexgrid.png"},
+                new Sample() { Name = AppResources.CustomCellsTitle, Description = AppResources.CustomCellsDescription, SampleViewType = 7 , Thumbnail="flexgrid_custom.png"},
+                new Sample() { Name = AppResources.GroupingTitle, Description = AppResources.GroupingDescription, SampleViewType = 8 , Thumbnail="flexgrid_grouping.png"},
+                new Sample() { Name = AppResources.FilterTitle, Description = AppResources.FilterDescription, SampleViewType = 9 , Thumbnail="flexgrid_filter.png"},
+                new Sample() { Name = AppResources.FullTextFilterTitle, Description = AppResources.FullTextFilterDescription, SampleViewType = 10 , Thumbnail="filter.png"},
+                new Sample() { Name = AppResources.ColumnLayoutTitle, Description = AppResources.ColumnLayoutDescription, SampleViewType = 11 , Thumbnail="flexgrid_columns.png"},
+                new Sample() { Name = AppResources.StarSizingTitle, Description = AppResources.StarSizingDescription, SampleViewType = 12 , Thumbnail="flexgrid.png"},
+                new Sample() { Name = AppResources.CellFreezingTitle, Description = AppResources.CellFreezingDescription, SampleViewType = 13 , Thumbnail="flexgrid_freezing.png"},
+                new Sample() { Name = AppResources.OnDemandTitle, Description = AppResources.OnDemandDescription, SampleViewType = 14 , Thumbnail="flexgrid_loading.png"},
             };
         }
 
@@ -48,13 +51,17 @@ namespace FlexGrid101
                 case 1: return new GettingStarted();
                 case 2: return new ColumnDefinitions();
                 case 3: return new SelectionModes();
-                case 4: return new Editing();
-                case 5: return new CustomCells();
-                case 6: return new Grouping();
-                case 7: return new Filter();
-                case 8: return new FullTextFilter();
-                case 9: return new OnDemand();
-                case 10: return new ConditionalFormatting();
+                case 4: return new EditConfirmation();
+                case 5: return new Editing();
+                case 6: return new ConditionalFormatting();
+                case 7: return new CustomCells();
+                case 8: return new Grouping();
+                case 9: return new Filter();
+                case 10: return new FullTextFilter();
+                case 11: return new ColumnLayout();
+                case 12: return new StarSizing();
+                case 13: return new CellFreezing();
+                case 14: return new OnDemand();
             }
             return null;
         }

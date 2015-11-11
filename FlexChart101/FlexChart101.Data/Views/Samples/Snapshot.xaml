@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
@@ -9,7 +9,7 @@
       <ToolbarItem.Icon>
         <OnPlatform x:TypeArguments="FileImageSource"
           WinPhone="Assets/AppBar/feature.camera.png"
-          Android="ic_action_camera.png" />
+          Android="ic_action_camera" />
       </ToolbarItem.Icon>
     </ToolbarItem>
   </ContentPage.ToolbarItems>
@@ -34,4 +34,4 @@
       </StackLayout>
     </Grid>
   </StackLayout>
-</BaseSample>
+</ContentPage>

@@ -37,6 +37,7 @@ namespace FlexGrid101
                     {
                         var stringFilter = new StringFilter();
                         stringFilter.Field = column.Binding;
+                        stringFilter.FieldName = column.ActualHeader;
                         var existingFilter = currentFilters.FirstOrDefault(f => f.FilterPath == column.Binding);
                         if (existingFilter != null)
                         {

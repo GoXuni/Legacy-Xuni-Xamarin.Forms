@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<BaseSample xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
              xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
+             xmlns:s="clr-namespace:FlexChartDemo.Data.Views.Samples;assembly=FlexChart101.Data"
+
              x:Class="FlexChartDemo.Data.Views.Samples.CustomizingAxesSample" x:Name="page">
   <StackLayout>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
@@ -18,11 +20,10 @@
                         MajorTickWidth="2"
                         MajorTickOverlap= "0"
                         MinorTickOverlap="0"
-                        LabelAngle= "90"/>
+                        />
       </xuni:FlexChart.AxisX>
       <xuni:FlexChart.AxisY>
         <xuni:ChartAxis LineWidth="2"
-                        LabelAngle="90"
                         MajorTickWidth = "2"
                         MajorTickOverlap= "0"
                         MajorGridColor = "#C4C4C4"
@@ -33,10 +34,10 @@
                         MinorGridDashes ="4,4"
                         AxisLineVisible = "true"
                         MinorTickWidth="1"
-                        Format = "c0"
+                      
                         Max="10000"
                         MajorUnit="2000"/>
       </xuni:FlexChart.AxisY>
     </xuni:FlexChart>
   </StackLayout>
-</BaseSample>
+</ContentPage>

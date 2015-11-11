@@ -38,6 +38,7 @@ namespace FlexPieDemo.Data.Views.Samples
             this.pickerPosition.SelectedIndex = 3;
             
             root.SizeChanged += root_SizeChanged;
+          
         }
 
         void root_SizeChanged(object sender, EventArgs e)

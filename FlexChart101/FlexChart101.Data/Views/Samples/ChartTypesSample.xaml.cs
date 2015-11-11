@@ -19,15 +19,10 @@ namespace FlexChartDemo.Data.Views.Samples
             
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
 
-            this.pickerChartType.Items.Add(ChartType.Column.ToString());
-            this.pickerChartType.Items.Add(ChartType.Bar.ToString());
-            this.pickerChartType.Items.Add(ChartType.Scatter.ToString());
-            this.pickerChartType.Items.Add(ChartType.Line.ToString());
-            this.pickerChartType.Items.Add(ChartType.LineSymbols.ToString());
-            this.pickerChartType.Items.Add(ChartType.Area.ToString());
-            this.pickerChartType.Items.Add(ChartType.Spline.ToString());
-            this.pickerChartType.Items.Add(ChartType.SplineSymbols.ToString());
-            this.pickerChartType.Items.Add(ChartType.SplineArea.ToString());
+            foreach (var item in ChartSampleFactory.GetBasicChartTypes())
+            {
+                this.pickerChartType.Items.Add(item.ToString());
+            }
             foreach (var item in Enum.GetNames(typeof(ChartStackingType)))
             {
                 this.pickerStackType.Items.Add(item);
@@ -44,7 +39,9 @@ namespace FlexChartDemo.Data.Views.Samples
 
         void pickerStackType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.flexChart.Stacking = (ChartStackingType)Enum.Parse(typeof(ChartStackingType), this.pickerStackType.Items[this.pickerStackType.SelectedIndex]);
+            ChartStackingType stacking=(ChartStackingType)Enum.Parse(typeof(ChartStackingType), this.pickerStackType.Items[this.pickerStackType.SelectedIndex]);
+            this.flexChart.Stacking = stacking;
+            this.flexChart.AxisY.Format = stacking == ChartStackingType.Stacked100pc ? "F2" : string.Empty;
         }      
     }
 }

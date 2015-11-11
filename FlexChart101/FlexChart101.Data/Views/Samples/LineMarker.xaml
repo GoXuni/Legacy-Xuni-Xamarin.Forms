@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
+             xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
+            xmlns:local="clr-namespace:FlexChartDemo.Data.Views.Samples;assembly=FlexChart101.Data"
+             x:Class="FlexChartDemo.Data.Views.Samples.LineMarkerSample" x:Name="page"
+            Padding="10">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid>
+      <Grid.BackgroundColor>
+        <OnPlatform x:TypeArguments="Color" iOS="#F1F1F1" />
+      </Grid.BackgroundColor>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="Auto"/>
+       
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="5*"/>
+        <ColumnDefinition Width="5*"/>
+      </Grid.ColumnDefinitions>
+      <Label Text="Interaction" Grid.Row="0" Grid.Column="0" />
+      <Picker x:Name="pickerInteraction" Grid.Row="1" Grid.Column="0" Title="Interraction" HorizontalOptions="FillAndExpand" SelectedIndexChanged="pickerInterraction_SelectedIndexChanged" />
+      <Label Text="Vertical Position" Grid.Row="0" Grid.Column="1" />
+      <Picker x:Name="pickerVerPosition" Grid.Row="1" Grid.Column="1" Title="Vertical Position" HorizontalOptions="FillAndExpand" SelectedIndexChanged="pickerVerPosition_SelectedIndexChanged" />
+    </Grid>
+    <xuni:FlexChart x:Name="flexChart" ChartType="LineSymbols" BindingX="Name" VerticalOptions="FillAndExpand" ShowTooltips="False">
+      <xuni:FlexChart.Series>
+        <xuni:ChartSeries Binding="Sales" Name="Sales" />
+        <xuni:ChartSeries Binding="Expenses" Name="Expenses" />
+        <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
+      </xuni:FlexChart.Series>
+    <xuni:FlexChart.LineMarker>
+      <xuni:ChartLineMarker VerticalLineColor="Gray" DragContent="True" HorizontalLineColor="Gray">
+        <xuni:ChartLineMarker.Content>
+          <Frame Padding="2" HasShadow="false">
+          <Frame.BackgroundColor>
+              <OnPlatform x:TypeArguments="Color" WinPhone="#55ffffff" Android="#55ffffff" iOS="#55808080"/>
+          </Frame.BackgroundColor>
+
+            <StackLayout>
+              <Label Text="{Binding [0].ValueX}">
+              <Label.FontSize>
+              <OnPlatform x:TypeArguments="x:Double" iOS="12" WinPhone="20"/>
+              </Label.FontSize>
+              </Label>
+              <Label Text="{Binding [0].Value, StringFormat='Sales:{0:F0}'}">
+              <Label.FontSize>
+              <OnPlatform x:TypeArguments="x:Double" iOS="12"  WinPhone="20"/>
+              </Label.FontSize>
+              </Label>
+              <Label Text="{Binding [1].Value, StringFormat='Expenses:{0:F0}'}">
+              <Label.FontSize>
+              <OnPlatform x:TypeArguments="x:Double" iOS="12"  WinPhone="20"/>
+              </Label.FontSize>
+              </Label>
+              <Label Text="{Binding [2].Value, StringFormat='Downloads:{0:F0}'}">
+              <Label.FontSize>
+              <OnPlatform x:TypeArguments="x:Double" iOS="12"  WinPhone="20"/>
+              </Label.FontSize>
+              </Label>
+            </StackLayout>
+            </Frame>
+        </xuni:ChartLineMarker.Content>
+      </xuni:ChartLineMarker>
+    </xuni:FlexChart.LineMarker>
+    </xuni:FlexChart>
+  </StackLayout>
+</ContentPage>

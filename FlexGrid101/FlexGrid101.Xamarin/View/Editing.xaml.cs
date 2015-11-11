@@ -20,6 +20,7 @@ namespace FlexGrid101
             grid.ItemsSource = data;
             grid.HeadersVisibility = GridHeadersVisibility.All;
             grid.SelectionChanged += grid_SelectionChanged;
+            grid.CellDoubleTapped += OnCellDoubleTapped;
             grid.IsReadOnly = true;
 
             toolbarItemEdit.Text = AppResources.EditRow;
@@ -32,6 +33,16 @@ namespace FlexGrid101
             this.selectedRange = e.CellRange;
         }
 
+        async void OnCellDoubleTapped(object sender, GridCellRangeEventArgs e)
+        {
+            if(e.CellType == GridCellType.Cell)
+            {
+                Customer c = grid.Rows[e.CellRange.Row].DataItem as Customer;
+                if (c != null)
+                    await Navigation.PushModalAsync(new EditCustomerForm(c));
+            }
+        }
+
         private async void OnEditButtonClicked(object sender, EventArgs e)
         {
             if (this.selectedRange != null)
@@ -40,7 +51,10 @@ namespace FlexGrid101
                 if(c != null)
                     await Navigation.PushModalAsync(new EditCustomerForm(c));
             }
-
+            else
+            {
+                await DisplayAlert("", AppResources.SelectRowMessage, AppResources.OK);
+            }
         }
 
     }

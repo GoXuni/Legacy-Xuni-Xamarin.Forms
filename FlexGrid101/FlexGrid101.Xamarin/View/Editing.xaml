@@ -20,10 +20,11 @@
                  AutoGenerateColumns="False"
                  SelectionMode="Row" Grid.Row="1">
       <xuni:FlexGrid.Columns>
-        <xuni:GridColumn Binding="First" />
-        <xuni:GridColumn Binding="Last" />
-        <xuni:GridColumn Binding="Hired" Format="d" />
-        <xuni:GridColumn Binding="Weight" Format="n4" />
+        <xuni:GridColumn Binding="Id" />
+        <xuni:GridColumn Binding="FirstName" />
+        <xuni:GridColumn Binding="LastName" />
+        <xuni:GridColumn Binding="LastOrderDate" Format="d" />
+        <xuni:GridColumn Binding="OrderTotal" Format="n2" />
       </xuni:FlexGrid.Columns>
     </xuni:FlexGrid>
   </Grid>

@@ -29,7 +29,7 @@ namespace FlexChartDemo.Data.Views.Samples
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             ChartSeriesVisibilityType visible = (ChartSeriesVisibilityType)value;
-            return visible == ChartSeriesVisibilityType.Visible;
+            return visible != ChartSeriesVisibilityType.Hidden;
            
         }
 

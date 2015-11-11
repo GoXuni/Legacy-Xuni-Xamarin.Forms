@@ -199,7 +199,7 @@
     <value>Legend and Titles</value>
   </data>
   <data name="LoadAnimationDescription" xml:space="preserve">
-    <value>Showss animation modes when data is loaded.</value>
+    <value>Shows animation modes when data is loaded.</value>
   </data>
   <data name="LoadAnimationTitle" xml:space="preserve">
     <value>Load Animation Mode</value>
@@ -235,7 +235,7 @@
     <value>Selection Modes</value>
   </data>
   <data name="StylingSeriesDescription" xml:space="preserve">
-    <value>Shows customized series styling.</value>
+    <value>Shows custom series styling.</value>
   </data>
   <data name="StylingSeriesTitle" xml:space="preserve">
     <value>Styling Series</value>
@@ -263,5 +263,11 @@
   </data>
   <data name="ZoomingScrollingTitle" xml:space="preserve">
     <value>Zooming and Scrolling</value>
+  </data>
+  <data name="LineMarkerTitle" xml:space="preserve">
+    <value>Line Marker</value>
+  </data>
+  <data name="LineMarkerDescription" xml:space="preserve">
+    <value>Shows a moveable marker on top of the chart.</value>
   </data>
 </root>
