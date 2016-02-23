@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FlexGridCustomRenderer;assembly=FlexGridCustomRenderer"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid"
+             x:Class="FlexGridCustomRenderer.MainPage">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <local:ChangeTextColorConverter x:Key="changeTextColorConverter" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition />
+      <RowDefinition Height="Auto"/>
+      <RowDefinition />
+    </Grid.RowDefinitions>
+    <Label Text="FlexGrid with a Custom Renderer" />
+    <xuni:FlexGrid x:Name="grid1" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="1">
+      <xuni:FlexGrid.Columns>
+          <xuni:GridColumn Binding="Symbol" Width="*"/>
+          <xuni:GridColumn Binding="Open" Format="n2" Width="*"/>
+          <xuni:GridColumn Binding="Close" Format="n2" Width="*"/>
+          <xuni:GridColumn Header="Change" Width="2*">
+            <xuni:GridColumn.Binding>
+              <OnPlatform x:TypeArguments="x:String" iOS="Blank" /> <!-- temp iOS workaround -->
+            </xuni:GridColumn.Binding>
+            <xuni:GridColumn.CellTemplate>
+              <DataTemplate>
+                <local:CustomChangeView Value="{Binding Change}"/>
+
+              </DataTemplate>
+            </xuni:GridColumn.CellTemplate>
+          </xuni:GridColumn>
+        </xuni:FlexGrid.Columns>
+      </xuni:FlexGrid>
+  <Label Text="FlexGrid without Custom Renderer" Grid.Row="2"/>
+  <xuni:FlexGrid x:Name="grid2" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="3">
+        <xuni:FlexGrid.Columns>
+          <xuni:GridColumn Binding="Symbol" Width="*"/>
+          <xuni:GridColumn Binding="Open" Format="n2" Width="*"/>
+          <xuni:GridColumn Binding="Close" Format="n2" Width="*"/>
+          <xuni:GridColumn Header="Change" Width="2*">
+            <xuni:GridColumn.Binding>
+              <OnPlatform x:TypeArguments="x:String" iOS="Blank" /> <!-- temp iOS workaround -->
+            </xuni:GridColumn.Binding>
+            <xuni:GridColumn.CellTemplate>
+              <DataTemplate>
+                <StackLayout Orientation="Horizontal" Spacing="0">
+                  <Image Source="{Binding ChangeImageSource}"/>
+                  <Label Text="{Binding Change, StringFormat='{0:n2}'}"
+                         TextColor="{Binding Change, Converter={StaticResource changeTextColorConverter}}"
+                         VerticalOptions="Center">
+                  	<Label.FontSize>
+                  		<OnPlatform x:TypeArguments="x:Double" iOS="14" Android="16" WinPhone="18" />
+                  	</Label.FontSize>
+                  </Label>
+                </StackLayout>
+              </DataTemplate>
+            </xuni:GridColumn.CellTemplate>
+          </xuni:GridColumn>
+        </xuni:FlexGrid.Columns>
+      </xuni:FlexGrid>
+  </Grid>
+  
+</ContentPage>
