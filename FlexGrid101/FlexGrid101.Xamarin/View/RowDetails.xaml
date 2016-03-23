@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.RowDetails" x:Name="page"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid">
+  <Grid RowSpacing="0">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition />
+    </Grid.RowDefinitions>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <StackLayout Orientation="Horizontal" Grid.Row="1">
+      <Label Text="DetailsVisibilityMode" VerticalOptions="Center"/>
+      <Picker x:Name="showItemsPicker" Title="DetailsVisibilityMode" SelectedIndex="{Binding ShowTextSelectedIndex,Mode=TwoWay}" HorizontalOptions="FillAndExpand"/>
+    </StackLayout>
+    <xuni:FlexGrid x:Name="grid" Grid.Row="3" AutoGenerateColumns="False">
+      <xuni:FlexGrid.Columns>
+        <xuni:GridColumn Binding="Id" Width="Auto"/>
+        <xuni:GridColumn Binding="FirstName" Width="*"/>
+        <xuni:GridColumn Binding="LastName" Width="*"/>
+      </xuni:FlexGrid.Columns>
+      <xuni:FlexGrid.Behaviors>
+        <xuni:FlexGridDetailProvider x:Name="details" Height="170" RowHeaderLoading="OnRowHeaderLoading">
+          <DataTemplate> 
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+              </Grid.ColumnDefinitions>
+              <Label Text="Country:"/>
+              <Label Text="{Binding Country}" Grid.Column="1"/>
+              <Label Text="City:" Grid.Row="1"/>
+              <Label Text="{Binding City}" Grid.Row="1" Grid.Column="1"/>
+              <Label Text="Address:" Grid.Row="2"/>
+              <Label Text="{Binding Address}" Grid.Row="2" Grid.Column="1"/>
+              <Label Text="PostalCode:" Grid.Row="3"/>
+              <Label Text="{Binding PostalCode}" Grid.Row="3" Grid.Column="1"/>
+            </Grid>
+          </DataTemplate>
+        </xuni:FlexGridDetailProvider>
+      </xuni:FlexGrid.Behaviors>
+    </xuni:FlexGrid>
+  </Grid>
+</ContentPage>

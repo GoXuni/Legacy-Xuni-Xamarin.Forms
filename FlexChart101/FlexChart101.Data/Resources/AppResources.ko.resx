@@ -270,4 +270,19 @@
   <data name="LineMarkerTitle" xml:space="preserve">
     <value>라인 표식</value>
   </data>
+  <data name="ImageSavedDescription" xml:space="preserve">
+    <value>이미지가 장치의 그림 앨범에 저장되었습니다.</value>
+  </data>
+  <data name="ImageSavedTitle" xml:space="preserve">
+    <value>이미지 저장됨</value>
+  </data>
+  <data name="OKTitle" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="AnnotationDescription" xml:space="preserve">
+    <value>FlexChart에 주석을 표시하는 방법을 보여줍니다.</value>
+  </data>
+  <data name="AnnotationTitle" xml:space="preserve">
+    <value>주석</value>
+  </data>
 </root>

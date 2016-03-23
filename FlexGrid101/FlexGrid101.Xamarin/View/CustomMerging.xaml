@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexGrid101.CustomMerging" x:Name="page"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid">
+  <Grid RowSpacing="0">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition />
+      <RowDefinition />
+    </Grid.RowDefinitions>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <xuni:FlexGrid x:Name="grid" IsReadOnly="True" Grid.Row="1" SelectionMode="Cell" AllowMerging="Cells">
+      <xuni:FlexGrid.Columns>
+        <xuni:GridColumn Header="Monday" Width="*" MinWidth="120" AllowMerging="True" HeaderHorizontalAlignment="Center" HorizontalAlignment="Center"/>
+        <xuni:GridColumn Header="Tuesday" Width="*" MinWidth="120" AllowMerging="True" HeaderHorizontalAlignment="Center" HorizontalAlignment="Center"/>
+        <xuni:GridColumn Header="Wednesday" Width="*" MinWidth="120" AllowMerging="True" HeaderHorizontalAlignment="Center" HorizontalAlignment="Center"/>
+        <xuni:GridColumn Header="Thursday" Width="*" MinWidth="120" AllowMerging="True" HeaderHorizontalAlignment="Center" HorizontalAlignment="Center"/>
+        <xuni:GridColumn Header="Friday" Width="*" MinWidth="120" AllowMerging="True" HeaderHorizontalAlignment="Center" HorizontalAlignment="Center"/>
+        <xuni:GridColumn Header="Saturday" Width="*" MinWidth="120" AllowMerging="True" HeaderHorizontalAlignment="Center" HorizontalAlignment="Center"/>
+        <xuni:GridColumn Header="Sunday" Width="*" MinWidth="120" AllowMerging="True" HeaderHorizontalAlignment="Center" HorizontalAlignment="Center"/>
+      </xuni:FlexGrid.Columns>
+      <xuni:FlexGrid.Rows>
+        <xuni:GridRow/>
+        <xuni:GridRow/>
+        <xuni:GridRow/>
+        <xuni:GridRow/>
+        <xuni:GridRow/>
+        <xuni:GridRow/>
+        <xuni:GridRow/>
+      </xuni:FlexGrid.Rows>
+    </xuni:FlexGrid>
+    <Grid Grid.Row="2" Padding="5">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition />
+      </Grid.RowDefinitions>
+      <StackLayout Orientation="Horizontal">
+        <Image x:Name="imgTV" WidthRequest="50" HeightRequest="50" />
+        <Label x:Name="labelShowName" FontSize="30" VerticalOptions="Center"/>
+      </StackLayout>
+      <Label x:Name="labelShowTimes" Grid.Row="1" />
+    </Grid>
+  </Grid>
+</ContentPage>

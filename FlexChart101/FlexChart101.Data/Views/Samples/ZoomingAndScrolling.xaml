@@ -21,6 +21,7 @@
       <Label Text="Zoom Mode" Grid.Row="0" Grid.Column="0" />
       <Picker x:Name="pickerZoomMode" Grid.Row="1" Grid.Column="0" Title="Zoom Mode" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerZoomMode_SelectedIndexChanged"/>
     </Grid>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart x:Name="flexChart"
                     BindingX="X"
                     ChartType = "Scatter"
@@ -38,5 +39,6 @@
         <xuni:ChartSeries Binding="Y" Name="Normal Distribution" />
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </ContentPage>

@@ -52,9 +52,9 @@ namespace Gauges101
             DependencyService.Get<IPicture>().SavePictureToDisk("Gauge", gauge.GetImage());
             gauge.BackgroundColor = originalBackground;
             //generic success message
-            await DisplayAlert("Image Saved",
-                "The image has been saved to your device's picture album.",
-                "OK");
+            await DisplayAlert(AppResources.ImageSavedTitle,
+              AppResources.ImageSavedDescription,
+              AppResources.OKTitle);
         }
 
         protected override async void OnAppearing()

@@ -1,9 +1,9 @@
-﻿using System;
+﻿using DashboardDemo.Resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 
 namespace DashboardDemo
@@ -13,7 +13,7 @@ namespace DashboardDemo
         public PhoneDash()
         {
             InitializeComponent();
-            this.Title = "Sales Dashboard";
+            this.Title = AppResources.SalesDashboardTitle;
             DataSource ds = new DataSource();
             this.chart.BindingContext = ds;
             this.pie.BindingContext = ds;
@@ -44,17 +44,20 @@ namespace DashboardDemo
             this.chart.AxisY.MajorTickWidth = 0;
             this.SizeChanged += PhoneDash_SizeChanged;
             this.graph3.IsReadOnly = true;
-            
+
         }
 
         void pie_SelectionChanged(object sender, Xuni.Forms.FlexPie.PieSelectionChangedEventArgs e)
         {
+
 			if (e.HitTestInfo.DataPoint != null && e.HitTestInfo.DataPoint.DataObject != null) 
 			{
 				//this.graph3.SetBinding(Xuni.Forms.Gauge.XuniBulletGraph.ValueProperty, new Binding("DownloadsGoal"));
 				Quarter selectedQuarter = e.HitTestInfo.DataPoint.DataObject as Quarter;
+
 				if(pie.Binding.Equals("Downloads"))
 				{
+					System.Diagnostics.Debug.WriteLine ("DL");
 					this.graph3.Value = selectedQuarter.DownloadsGoal;
 					this.label1.Text = selectedQuarter.Name + " Downloads Goal";
 				}

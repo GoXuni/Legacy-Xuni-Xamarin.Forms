@@ -270,4 +270,19 @@
   <data name="LineMarkerDescription" xml:space="preserve">
     <value>Shows a moveable marker on top of the chart.</value>
   </data>
+  <data name="AnnotationDescription" xml:space="preserve">
+    <value>Shows how to display annotations on FlexChart.</value>
+  </data>
+  <data name="AnnotationTitle" xml:space="preserve">
+    <value>Annotations</value>
+  </data>
+  <data name="ImageSavedDescription" xml:space="preserve">
+    <value>The image has been saved to your device's picture album.</value>
+  </data>
+  <data name="ImageSavedTitle" xml:space="preserve">
+    <value>Image Saved</value>
+  </data>
+  <data name="OKTitle" xml:space="preserve">
+    <value>OK</value>
+  </data>
 </root>

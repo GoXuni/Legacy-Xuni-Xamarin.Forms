@@ -30,6 +30,7 @@
       <Label Grid.Row="0" Grid.Column="2" Text="Downloads" HorizontalOptions="Center" />
       <Switch Grid.Row="1" Grid.Column="2" BindingContext="{x:Reference downloads}" HorizontalOptions="Center" IsToggled="{Binding Visibility, Converter={StaticResource converter},Mode=TwoWay}" />
     </Grid>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart x:Name="flexChart"
                     BindingX="Date"
                     ChartType="LineSymbols"
@@ -40,5 +41,6 @@
         <xuni:ChartSeries x:Name="downloads" Binding="Downloads"  Name="Downloads" />
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </sample:BaseSample>

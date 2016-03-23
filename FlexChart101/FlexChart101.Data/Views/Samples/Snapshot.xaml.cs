@@ -14,18 +14,17 @@ namespace FlexChartDemo.Data.Views.Samples
 {
     public partial class Snapshot
     {
-
         public Snapshot()
         {
             InitializeComponent();
             Title = AppResources.ExportImageTitle;
 
+            snapshotFrame.Opacity = 0;
             this.flexChart.ItemsSource = ChartSampleFactory.CreateEntityList();
-            snapshotFrame.IsVisible = false;
             var tapGestureRecognizer = new TapGestureRecognizer();
             tapGestureRecognizer.Tapped += (s, e) =>
             {
-                snapshotFrame.IsVisible = false;
+                snapshotFrame.Opacity = 1;
             };
             snapshotFrame.GestureRecognizers.Add(tapGestureRecognizer);
         }
@@ -45,9 +44,9 @@ namespace FlexChartDemo.Data.Views.Samples
             DependencyService.Get<IPicture>().SavePictureToDisk("ChartImage", flexChart.GetImage());
             flexChart.BackgroundColor = originalBackground;
             //generic success message
-            await DisplayAlert("Image Saved",
-                "The image has been saved to your device's picture album.",
-                "OK");
+            await DisplayAlert(AppResources.ImageSavedTitle,
+                AppResources.ImageSavedDescription,
+                AppResources.OKTitle);
         }
 
     }

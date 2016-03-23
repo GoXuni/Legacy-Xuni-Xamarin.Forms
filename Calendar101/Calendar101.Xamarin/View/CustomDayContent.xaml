@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Calendar;assembly=Xuni.Forms.Calendar"
+             x:Class="Calendar101.CustomDayContent" x:Name="page"
+             Padding="20">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <xuni:XuniCalendar DayOfWeekFontSize="8" DayOfWeekFormat="dddd" DayOfWeekFontAttributes="Italic" DaySlotLoading="OnDaySlotLoading" DayOfWeekSlotLoading="OnDayOfWeekSlotLoading" VerticalOptions="FillAndExpand">
+      <xuni:XuniCalendar.DaySlotTemplate>
+        <DataTemplate>
+          <xuni:CalendarViewDaySlot>
+            <xuni:CalendarViewDaySlot.View>
+              <StackLayout Padding="4">
+                <Label Text="{Binding Day}" VerticalOptions="FillAndExpand"/>
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Spacing="2">
+                  <Grid WidthRequest="4" HeightRequest="4" BackgroundColor="Red" IsVisible="{Binding RedDotVisible}"/>
+                  <Grid WidthRequest="4" HeightRequest="4" BackgroundColor="Green" IsVisible="{Binding GreenDotVisible}"/>
+                  <Grid WidthRequest="4" HeightRequest="4" BackgroundColor="Blue" IsVisible="{Binding BlueDotVisible}"/>
+                </StackLayout>
+              </StackLayout>
+            </xuni:CalendarViewDaySlot.View>
+          </xuni:CalendarViewDaySlot>
+        </DataTemplate>
+      </xuni:XuniCalendar.DaySlotTemplate>
+      <xuni:XuniCalendar.AdjacentDaySlotTemplate>
+        <DataTemplate>
+          <xuni:CalendarDaySlot DayText="{Binding Day}" DayHorizontalAlignment="Center" DayVerticalAlignment="Start"/>
+        </DataTemplate>
+      </xuni:XuniCalendar.AdjacentDaySlotTemplate>
+    </xuni:XuniCalendar>
+  </StackLayout>
+</ContentPage>

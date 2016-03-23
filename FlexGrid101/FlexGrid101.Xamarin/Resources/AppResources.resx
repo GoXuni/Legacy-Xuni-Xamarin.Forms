@@ -221,10 +221,10 @@
     <value>Please select a row first or double-tap the row directly.</value>
   </data>
   <data name="CellFreezingDescription" xml:space="preserve">
-    <value>Shows column and row freezing.</value>
+    <value>Shows frozen columns, rows and cell merging.</value>
   </data>
   <data name="CellFreezingTitle" xml:space="preserve">
-    <value>Cell Freezing</value>
+    <value>Cell Freezing &amp; Merging</value>
   </data>
   <data name="StarSizingDescription" xml:space="preserve">
     <value>Shows a responsive column layout that uses star sizing.</value>
@@ -251,12 +251,24 @@
     <value>Column Layout</value>
   </data>
   <data name="EditColumnLayout" xml:space="preserve">
-    <value>Edit Column Layout</value>
+    <value>Edit</value>
   </data>
   <data name="SaveColumnLayout" xml:space="preserve">
-    <value>Save Column Layout</value>
+    <value>Save</value>
   </data>
   <data name="StarSizingInstructions" xml:space="preserve">
     <value>Rotate the device to see star-sizing in action.</value>
+  </data>
+  <data name="RowDetailsDescription" xml:space="preserve">
+    <value>Expand and collapse row details.</value>
+  </data>
+  <data name="RowDetailsTitle" xml:space="preserve">
+    <value>Row Details</value>
+  </data>
+  <data name="CustomMergingDescription" xml:space="preserve">
+    <value>Shows a grid with custom cell merging.</value>
+  </data>
+  <data name="CustomMergingTitle" xml:space="preserve">
+    <value>Custom Merging</value>
   </data>
 </root>

@@ -20,6 +20,7 @@
         <Picker x:Name="pickPostion" Title="Label Position" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickPostion_SelectedIndexChanged" />
       </StackLayout>
     </Grid>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart x:Name="flexChart" IsAnimated="False" ShowTooltips="False" VerticalOptions = "LayoutOptions.FillAndExpand" BindingX="Name" >
       <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Expenses" Name="Total Expenses" />
@@ -45,5 +46,6 @@
         <xuni:ChartAxis Position="Left" MajorGridVisible="False" MinorGridVisible="False" MajorTickWidth="0" LabelFontSize="12" LabelsVisible="False"/>
       </xuni:FlexChart.AxisY>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </ContentPage>

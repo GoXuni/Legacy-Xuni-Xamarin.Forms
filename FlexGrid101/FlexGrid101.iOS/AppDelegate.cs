@@ -16,6 +16,7 @@ namespace FlexGrid101.iOS
 			Xuni.Forms.FlexGrid.Platform.iOS.Forms.Init();
 			Xuni.Forms.Gauge.Platform.iOS.Forms.Init();
 
+
 			LoadApplication(new App()); 
 
 			return base.FinishedLaunching(application, launchOptions);

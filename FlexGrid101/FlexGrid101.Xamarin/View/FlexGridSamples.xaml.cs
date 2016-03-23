@@ -29,12 +29,16 @@ namespace FlexGrid101
                 new Sample() { Name = AppResources.ConditionalFormattingTitle, Description = AppResources.ConditionalFormattingDescription, SampleViewType = 6 , Thumbnail="flexgrid.png"},
                 new Sample() { Name = AppResources.CustomCellsTitle, Description = AppResources.CustomCellsDescription, SampleViewType = 7 , Thumbnail="flexgrid_custom.png"},
                 new Sample() { Name = AppResources.GroupingTitle, Description = AppResources.GroupingDescription, SampleViewType = 8 , Thumbnail="flexgrid_grouping.png"},
+                new Sample() { Name = AppResources.RowDetailsTitle, Description = AppResources.RowDetailsDescription, SampleViewType = 15 , Thumbnail="flexgrid_rowdetails.png"},
                 new Sample() { Name = AppResources.FilterTitle, Description = AppResources.FilterDescription, SampleViewType = 9 , Thumbnail="flexgrid_filter.png"},
                 new Sample() { Name = AppResources.FullTextFilterTitle, Description = AppResources.FullTextFilterDescription, SampleViewType = 10 , Thumbnail="filter.png"},
                 new Sample() { Name = AppResources.ColumnLayoutTitle, Description = AppResources.ColumnLayoutDescription, SampleViewType = 11 , Thumbnail="flexgrid_columns.png"},
                 new Sample() { Name = AppResources.StarSizingTitle, Description = AppResources.StarSizingDescription, SampleViewType = 12 , Thumbnail="flexgrid.png"},
                 new Sample() { Name = AppResources.CellFreezingTitle, Description = AppResources.CellFreezingDescription, SampleViewType = 13 , Thumbnail="flexgrid_freezing.png"},
+                 new Sample() { Name = AppResources.CustomMergingTitle, Description = AppResources.CustomMergingDescription, SampleViewType = 16 , Thumbnail="flexgrid_merging.png"},
                 new Sample() { Name = AppResources.OnDemandTitle, Description = AppResources.OnDemandDescription, SampleViewType = 14 , Thumbnail="flexgrid_loading.png"},
+                
+               
             };
         }
 
@@ -62,6 +66,8 @@ namespace FlexGrid101
                 case 12: return new StarSizing();
                 case 13: return new CellFreezing();
                 case 14: return new OnDemand();
+                case 15: return new RowDetails();
+                case 16: return new CustomMerging();
             }
             return null;
         }

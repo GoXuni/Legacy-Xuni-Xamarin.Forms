@@ -133,7 +133,8 @@
     <value>Grouping</value>
   </data>
   <data name="InternetConnectionError" xml:space="preserve">
-    <value>There was a problem when trying to get the data from internet. \nPlease check your internet connection</value>
+    <value>There was a problem when trying to get the data from internet.
+Please check your internet connection</value>
   </data>
   <data name="OnDemandDescription" xml:space="preserve">
     <value>Shows on-demand loading with YouTube API</value>
@@ -152,5 +153,8 @@
   </data>
   <data name="SimpleOnDemandTitle" xml:space="preserve">
     <value>Simple On Demand</value>
+  </data>
+  <data name="SearchPlaceholderText" xml:space="preserve">
+    <value>Enter text to search videos on YouTube</value>
   </data>
 </root>

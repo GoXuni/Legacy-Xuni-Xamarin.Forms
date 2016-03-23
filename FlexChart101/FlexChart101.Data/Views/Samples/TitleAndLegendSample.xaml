@@ -6,6 +6,7 @@
              x:Class="FlexChartDemo.Data.Views.Samples.TitleAndLegendSample" x:Name="page">
   <StackLayout>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart x:Name="flexChart"
                     BindingX="Name"
                     ChartType="Scatter"
@@ -32,5 +33,6 @@
         <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </ContentPage>

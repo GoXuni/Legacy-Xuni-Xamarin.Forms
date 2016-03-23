@@ -133,10 +133,10 @@
     <value>그룹화</value>
   </data>
   <data name="OnDemandDescription" xml:space="preserve">
-    <value>Shows on-demand loading with YouTube API</value>
+    <value>YouTube API를 이용한 요청 시 로드를 보여 줍니다.</value>
   </data>
   <data name="OnDemandTitle" xml:space="preserve">
-    <value>YouTube On Demand</value>
+    <value>YouTube 요청 (YouTube On Demand)</value>
   </data>
   <data name="SortingDescription" xml:space="preserve">
     <value>작업 표시줄에서 항목 목록을 정렬합니다.</value>
@@ -148,9 +148,12 @@
     <value>인터넷에서 데이터를 가져오는 동안 문제가 발생했습니다. \n인터넷에 연결되어 있는지 확인하십시오.</value>
   </data>
   <data name="SimpleOnDemandDescription" xml:space="preserve">
-    <value>Shows on-demand loading with a ListView</value>
+    <value>요청 시 ListView가 있는 로드를 표시합니다.</value>
   </data>
   <data name="SimpleOnDemandTitle" xml:space="preserve">
-    <value>Simple On Demand</value>
+    <value>단순 요청 시</value>
+  </data>
+  <data name="SearchPlaceholderText" xml:space="preserve">
+    <value>텍스트를 입력하여 YouTube에서 비디오를 검색합니다.</value>
   </data>
 </root>

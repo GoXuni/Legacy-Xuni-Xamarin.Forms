@@ -25,7 +25,7 @@ namespace Gauges101
             SweepAngleStepper.ValueChanged += OnSweepAngleChanged;
             StartAngleLabel.Text = StartAngleStepper.Value.ToString("N0");
             SweepAngleLabel.Text = SweepAngleStepper.Value.ToString("N0");
-            Gauge.UpdateAnimation.Duration = _stepDuration;
+            Gauge.UpdateAnimation.Duration = _stepDuration-500;
         }
 
         void OnStartAngleChanged(object sender, ValueChangedEventArgs e)

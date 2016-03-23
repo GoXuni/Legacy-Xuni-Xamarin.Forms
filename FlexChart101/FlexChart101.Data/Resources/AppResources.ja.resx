@@ -202,7 +202,7 @@
     <comment>Financial Chart</comment>
   </data>
   <data name="GettingStartedDescription" xml:space="preserve">
-    <value>ツールチップを備えたチャート</value>
+    <value>ツールチップを備えたチャートの概要</value>
     <comment>Shows a simple chart with tooltips.</comment>
   </data>
   <data name="GettingStartedTitle" xml:space="preserve">
@@ -320,5 +320,25 @@
   <data name="LineMarkerTitle" xml:space="preserve">
     <value>ラインマーカー</value>
     <comment>Line Marker</comment>
+  </data>
+  <data name="ImageSavedDescription" xml:space="preserve">
+    <value>画像をデバイスに保存しました</value>
+    <comment>The image has been saved to your device's picture album.</comment>
+  </data>
+  <data name="ImageSavedTitle" xml:space="preserve">
+    <value>画像の保存</value>
+    <comment>Image Saved</comment>
+  </data>
+  <data name="OKTitle" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
+  <data name="AnnotationDescription" xml:space="preserve">
+    <value>チャートに注釈を表示する方法</value>
+    <comment>Shows how to display annotations on FlexChart.</comment>
+  </data>
+  <data name="AnnotationTitle" xml:space="preserve">
+    <value>チャートの注釈</value>
+    <comment>Annotations</comment>
   </data>
 </root>

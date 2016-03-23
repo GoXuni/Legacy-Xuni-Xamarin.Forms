@@ -4,7 +4,7 @@
              x:Class="CollectionView101.OnDemand" x:Name="page">
   <StackLayout VerticalOptions="FillAndExpand">
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
-    <Entry x:Name="search" Placeholder="Enter text to search videos on YouTube" Completed="OnCompleted"/>
+    <Entry x:Name="search" Placeholder="Enter text to search videos on YouTube" TextChanged="OnTextChanged"/>
     <Picker x:Name="orderBy"  Title="OrderBy" SelectedIndexChanged="OrderByChanged"/>
     <Grid VerticalOptions="FillAndExpand">
       <ActivityIndicator x:Name="activityIndicator" VerticalOptions="Center"/>

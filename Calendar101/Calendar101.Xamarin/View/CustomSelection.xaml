@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Calendar;assembly=Xuni.Forms.Calendar"
+             x:Class="Calendar101.CustomSelection" x:Name="page"
+             Padding="20">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Label BindingContext="{x:Reference page}" Text="{Binding CustomSelectionMessage}"/>
+    <xuni:XuniCalendar SelectionChanging="OnSelectionChanging" MaxSelectionCount="-1"  VerticalOptions="FillAndExpand"/>
+  </StackLayout>
+</ContentPage>

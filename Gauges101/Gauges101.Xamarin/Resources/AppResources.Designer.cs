@@ -188,6 +188,33 @@ namespace Gauges101.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The image has been saved to your device&apos;s picture album..
+        /// </summary>
+        public static string ImageSavedDescription {
+            get {
+                return ResourceManager.GetString("ImageSavedDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image Saved.
+        /// </summary>
+        public static string ImageSavedTitle {
+            get {
+                return ResourceManager.GetString("ImageSavedTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to OK.
+        /// </summary>
+        public static string OKTitle {
+            get {
+                return ResourceManager.GetString("OKTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Shows customized ranges behind the pointer..
         /// </summary>
         public static string UsingRangesDescription {

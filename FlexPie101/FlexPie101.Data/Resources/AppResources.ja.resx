@@ -165,6 +165,14 @@
     <value>FlexPie の基本機能</value>
     <comment>Getting Started</comment>
   </data>
+  <data name="ImageSavedDescription" xml:space="preserve">
+    <value>画像をデバイスに保存しました</value>
+    <comment>The image has been saved to your device's picture album.</comment>
+  </data>
+  <data name="ImageSavedTitle" xml:space="preserve">
+    <value>画像の保存</value>
+    <comment>Image Saved</comment>
+  </data>
   <data name="LegendSampleDescription" xml:space="preserve">
     <value>ヘッダ、フッタ、凡例の配置</value>
     <comment>Shows basic header, footer, and legend positioning.</comment>
@@ -172,6 +180,10 @@
   <data name="LegendSampleTitle" xml:space="preserve">
     <value>凡例とタイトル</value>
     <comment>Legend and Titles</comment>
+  </data>
+  <data name="OKTitle" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
   </data>
   <data name="Save" xml:space="preserve">
     <value>保存</value>

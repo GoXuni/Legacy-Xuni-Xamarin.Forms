@@ -32,7 +32,7 @@ namespace FlexGrid101
         {
             if (DataType == typeof(DateTime))
             {
-                var original = (DateTime)GetCellValue(row);
+                var original = (DateTime)GetCellValue(GridCellType.Cell, row);
                 if (Mode == GridDateTimeColumnMode.Date)
                 {
                     var datePicker = new DatePicker();
@@ -41,7 +41,6 @@ namespace FlexGrid101
                     {
                         if (e.PropertyName == DatePicker.DateProperty.PropertyName && sender == datePicker)
                         {
-                            SetCellValue(row, new DateTime(datePicker.Date.Year, datePicker.Date.Month, datePicker.Date.Day, original.Hour, original.Minute, original.Second));
                             Grid.FinishEditing();
                         }
                     };
@@ -55,7 +54,6 @@ namespace FlexGrid101
                     {
                         if (e.PropertyName == TimePicker.TimeProperty.PropertyName && sender == timePicker)
                         {
-                            SetCellValue(row, new DateTime(original.Year, original.Month, original.Day, timePicker.Time.Hours, timePicker.Time.Minutes, timePicker.Time.Seconds));
                             Grid.FinishEditing();
                         }
                     };
@@ -66,6 +64,22 @@ namespace FlexGrid101
             {
                 return base.CreateCellEditor(row);
             }
+        }
+
+        protected override object GetEditorValue(GridRow row, View editor)
+        {
+            var original = (DateTime)GetCellValue(GridCellType.Cell, row);
+            if (editor is DatePicker)
+            {
+                var datePicker = editor as DatePicker;
+                return new DateTime(datePicker.Date.Year, datePicker.Date.Month, datePicker.Date.Day, original.Hour, original.Minute, original.Second);
+            }
+            else if (editor is TimePicker)
+            {
+                var timePicker = editor as TimePicker;
+                return new DateTime(original.Year, original.Month, original.Day, timePicker.Time.Hours, timePicker.Time.Minutes, timePicker.Time.Seconds);
+            }
+            return null;
         }
     }
 

@@ -41,7 +41,7 @@ namespace FlexChartDemo.Data.Model
                 double expenses = random.NextDouble() * 5000;
                 double downloads = Math.Round(random.NextDouble() * 20000);
 
-                entityList.Add(new SalesExpensesDownloadsEntity(countries[i], sales, expenses, downloads, DateTime.Now.AddDays(i)));
+                entityList.Add(new SalesExpensesDownloadsEntity(countries[i], sales, expenses, downloads, DateTime.Today.AddDays(i)));
             }
             return entityList;
         }

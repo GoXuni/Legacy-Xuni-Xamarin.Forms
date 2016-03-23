@@ -71,6 +71,24 @@ namespace FlexChartDemo.Data.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Shows how to display annotations on FlexChart..
+        /// </summary>
+        public static string AnnotationDescription {
+            get {
+                return ResourceManager.GetString("AnnotationDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Annotations.
+        /// </summary>
+        public static string AnnotationTitle {
+            get {
+                return ResourceManager.GetString("AnnotationTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Shows the basic chart types and stacking options..
         /// </summary>
         public static string BasicChartTypesDescription {
@@ -287,6 +305,24 @@ namespace FlexChartDemo.Data.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The image has been saved to your device&apos;s picture album..
+        /// </summary>
+        public static string ImageSavedDescription {
+            get {
+                return ResourceManager.GetString("ImageSavedDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image Saved.
+        /// </summary>
+        public static string ImageSavedTitle {
+            get {
+                return ResourceManager.GetString("ImageSavedTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Shows basic chart headers and axis titles..
         /// </summary>
         public static string LegendSampleDescription {
@@ -373,6 +409,15 @@ namespace FlexChartDemo.Data.Resources {
         public static string MultipleAxesTitle {
             get {
                 return ResourceManager.GetString("MultipleAxesTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to OK.
+        /// </summary>
+        public static string OKTitle {
+            get {
+                return ResourceManager.GetString("OKTitle", resourceCulture);
             }
         }
         

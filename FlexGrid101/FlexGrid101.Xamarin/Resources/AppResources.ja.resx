@@ -126,7 +126,7 @@
     <comment>Cancel</comment>
   </data>
   <data name="Collapse" xml:space="preserve">
-    <value>折りたたむ</value>
+    <value>折りたたみ</value>
     <comment>Collapse</comment>
   </data>
   <data name="ColumnDefinitionDescription" xml:space="preserve">
@@ -220,12 +220,12 @@
     <value>条件付き書式</value>
   </data>
   <data name="CellFreezingDescription" xml:space="preserve">
-    <value>行と列の固定</value>
-    <comment>Shows column and row freezing.</comment>
+    <value>行、列のセルを固定表示する方法</value>
+    <comment>Shows frozen columns, rows and cell merging.</comment>
   </data>
   <data name="CellFreezingTitle" xml:space="preserve">
     <value>セルの固定</value>
-    <comment>Cell Freezing</comment>
+    <comment>Cell Freezing &amp; Merging</comment>
   </data>
   <data name="ColumnLayoutDescription" xml:space="preserve">
     <value>列マネージャを利用してレイアウトを変更</value>
@@ -262,5 +262,27 @@
   <data name="StarSizingInstructions" xml:space="preserve">
     <value>デバイスの回転でスターサイズ機能の動作を確認</value>
     <comment>Rotate the device to see star-sizing in action.</comment>
+  </data>
+  <data name="SelectRowMessage" xml:space="preserve">
+    <value>編集する行を選択してください。対象の行をダブルタップしても編集できます。</value>
+    <comment>Please select a row first or double-tap the row directly.</comment>
+  </data>
+  <data name="CustomMergingDescription" xml:space="preserve">
+    <value>隣接セルをマージして表示する</value>
+    <comment>Shows a grid with custom cell merging.</comment>
+  </data>
+  <data name="CustomMergingTitle" xml:space="preserve">
+    <value>セルのマージ</value>
+    <comment>Custom Merging</comment>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="RowDetailsDescription" xml:space="preserve">
+    <value>グリッドを展開／折りたたみして明細を表示</value>
+    <comment>Expand and collapse row details.</comment>
+  </data>
+  <data name="RowDetailsTitle" xml:space="preserve">
+    <value>明細行</value>
   </data>
 </root>

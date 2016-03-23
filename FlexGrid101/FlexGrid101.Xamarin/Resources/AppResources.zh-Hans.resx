@@ -215,10 +215,12 @@
     <value>条件格式化</value>
   </data>
   <data name="CellFreezingDescription" xml:space="preserve">
-    <value>显示已冻结的行和列。</value>
+    <value>显示冻结列、行和单元格合并。</value>
+    <comment>Shows frozen columns, rows and cell merging.</comment>
   </data>
   <data name="CellFreezingTitle" xml:space="preserve">
-    <value>单元格冻结</value>
+    <value>单元格冻结和合并</value>
+    <comment>Cell Freezing &amp;amp; Merging</comment>
   </data>
   <data name="ColumnLayoutDescription" xml:space="preserve">
     <value>简体中文显示一个自定义列来改变列布局。</value>
@@ -252,5 +254,24 @@
   </data>
   <data name="StarSizingInstructions" xml:space="preserve">
     <value>旋转设备以查看到星号调整大小。</value>
+  </data>
+  <data name="CustomMergingDescription" xml:space="preserve">
+    <value>显示一个自定义单元格合并的网格。</value>
+    <comment>Shows a grid with custom cell merging.</comment>
+  </data>
+  <data name="CustomMergingTitle" xml:space="preserve">
+    <value>自定义合并</value>
+    <comment>Custom Merging</comment>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="RowDetailsDescription" xml:space="preserve">
+    <value>展开、折叠行明细。</value>
+    <comment>Expand and collapse row details.</comment>
+  </data>
+  <data name="RowDetailsTitle" xml:space="preserve">
+    <value>行明细</value>
+    <comment>Row Details</comment>
   </data>
 </root>

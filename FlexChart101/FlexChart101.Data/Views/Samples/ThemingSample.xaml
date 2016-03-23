@@ -21,6 +21,7 @@
       <Label Text="Palettes" Grid.Row="0" Grid.Column="0" />
       <Picker x:Name="picker" Grid.Row="1" Grid.Column="0" Title="Palettes" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "picker_SelectedIndexChanged"/>
     </Grid>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart x:Name="flexChart" BindingX="Name" VerticalOptions="FillAndExpand">
       <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
@@ -28,5 +29,6 @@
         <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </ContentPage>

@@ -8,6 +8,7 @@
              x:Class="FlexChartDemo.Data.Views.Samples.CustomizingAxesSample" x:Name="page">
   <StackLayout>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart x:Name="flexChart" BindingX="Name" VerticalOptions="FillAndExpand">
       <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
@@ -39,5 +40,6 @@
                         MajorUnit="2000"/>
       </xuni:FlexChart.AxisY>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </ContentPage>

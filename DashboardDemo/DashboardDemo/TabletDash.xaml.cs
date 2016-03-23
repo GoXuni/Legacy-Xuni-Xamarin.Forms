@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DashboardDemo.Resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace DashboardDemo
         public TabletDash()
         {
             InitializeComponent();
-            this.Title = "Sales Dashboard";
+            this.Title =AppResources.SalesDashboardTitle;
             DataSource ds = new DataSource();
             this.chart.BindingContext = ds;
             this.pie.BindingContext = ds;

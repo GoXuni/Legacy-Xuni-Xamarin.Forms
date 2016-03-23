@@ -6,10 +6,12 @@
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart" x:Name="page">
   <StackLayout>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart x:Name="flexChart1" BindingX="Name" VerticalOptions="FillAndExpand" PlotElementLoading="OnPlotElementLoading">
       <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="DevicesSold" Name="Devices sold" />
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </ContentPage>

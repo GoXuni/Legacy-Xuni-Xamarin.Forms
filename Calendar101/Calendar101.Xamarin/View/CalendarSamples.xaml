@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calendar101.CalendarSamples" x:Name="page">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <ListView x:Name="listView" ItemsSource="{Binding}" ItemTapped="OnItemTapped" VerticalOptions="FillAndExpand">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ImageCell Text="{Binding Name}" TextColor="#B00F50" Detail="{Binding Description}" DetailColor="Gray" ImageSource="{Binding ThumbnailImageSource}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+</ContentPage>

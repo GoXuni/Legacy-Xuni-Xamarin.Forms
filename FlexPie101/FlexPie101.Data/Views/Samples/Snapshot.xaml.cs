@@ -19,11 +19,11 @@ namespace FlexPieDemo.Data.Views.Samples
             InitializeComponent();
             Title = AppResources.ExportImageTitle;
             this.pieChart.ItemsSource = PieChartSampleFactory.CreateEntiyList();
-            snapshotFrame.IsVisible = false;           
+            snapshotFrame.Opacity=0;           
             var tapGestureRecognizer = new TapGestureRecognizer();
             tapGestureRecognizer.Tapped += (s, e) =>
             {
-                snapshotFrame.IsVisible = false;
+                snapshotFrame.Opacity = 1;
 
                 // Make the control mearsure and layout again. Otherwise the size of the control may incorrect.
                 pieChart.IsVisible = false;
@@ -41,9 +41,9 @@ namespace FlexPieDemo.Data.Views.Samples
             DependencyService.Get<IPicture>().SavePictureToDisk("PieImage", pieChart.GetImage());
             pieChart.BackgroundColor = originalBackground;
             //generic success message
-            await DisplayAlert("Image Saved",
-                "The image has been saved to your device's picture album.",
-                "OK");
+            await DisplayAlert(AppResources.ImageSavedTitle,
+               AppResources.ImageSavedDescription,
+               AppResources.OKTitle);
         }
     }
 }

@@ -9,6 +9,6 @@
       <RowDefinition />
     </Grid.RowDefinitions>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
-    <xuni:FlexGrid x:Name="grid" Grid.Row="1" FrozenColumns="1" FrozenRows="1"/>
+    <xuni:FlexGrid x:Name="grid" Grid.Row="1" FrozenColumns="1" FrozenRows="1" AllowMerging="Cells"/>
   </Grid>
 </ContentPage>

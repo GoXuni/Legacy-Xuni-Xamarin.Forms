@@ -41,7 +41,7 @@ namespace FlexChartDemo.Data.Views.Samples
         {
             ChartStackingType stacking=(ChartStackingType)Enum.Parse(typeof(ChartStackingType), this.pickerStackType.Items[this.pickerStackType.SelectedIndex]);
             this.flexChart.Stacking = stacking;
-            this.flexChart.AxisY.Format = stacking == ChartStackingType.Stacked100pc ? "F2" : string.Empty;
+            this.flexChart.AxisY.Format = stacking == ChartStackingType.Stacked100pc ? "P0" : string.Empty;
         }      
     }
 }

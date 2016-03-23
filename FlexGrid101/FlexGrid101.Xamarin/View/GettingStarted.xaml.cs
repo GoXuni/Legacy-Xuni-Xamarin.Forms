@@ -27,7 +27,7 @@ namespace FlexGrid101
             grid.SelectionChanged += OnSelectionChanged;
             _collView.CurrentChanged += OnCurrentChanged;
 
-			grid.IsReadOnly = false;
+            grid.IsReadOnly = false; 
 
             Appearing += OnAppearing;
         }
@@ -53,6 +53,7 @@ namespace FlexGrid101
             {
                 //Sets the DataMap to the country column so a picker is used to select the country.
                 e.Column.Header = "Country";
+                e.Column.HorizontalAlignment = LayoutAlignment.Start;
                 e.Column.DataMap = new GridDataMap() { ItemsSource = Customer.GetCountries(), DisplayMemberPath = "Value", SelectedValuePath = "Key" };
             }
             else if (e.Property.Name == "OrderTotal" || e.Property.Name == "OrderAverage")
@@ -69,6 +70,8 @@ namespace FlexGrid101
             {
                 e.Column.WordWrap = true;
             }
+
+
         }
 
         private void OnFirstClicked(object sender, EventArgs e)
@@ -93,6 +96,9 @@ namespace FlexGrid101
 
         void OnCurrentChanged(object sender, EventArgs e)
         {
+			if (grid.Selection == null)
+				return;
+
             if (grid.Selection.Row != _collView.CurrentPosition)
             {
                 grid.Selection = new GridCellRange(_collView.CurrentPosition, -1);

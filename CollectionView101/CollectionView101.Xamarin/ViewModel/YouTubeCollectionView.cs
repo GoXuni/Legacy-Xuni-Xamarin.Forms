@@ -25,6 +25,11 @@ namespace CollectionView101
 
         public int PageSize { get; set; }
 
+        public override bool HasMoreItems
+        {
+            get { return _q != null && base.HasMoreItems; }
+        }
+
         public async Task SearchAsync(string q)
         {
             _q = q;

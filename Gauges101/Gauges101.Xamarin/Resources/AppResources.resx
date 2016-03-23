@@ -159,6 +159,15 @@
   <data name="GettingStartedTitle" xml:space="preserve">
     <value>Getting Started</value>
   </data>
+  <data name="ImageSavedDescription" xml:space="preserve">
+    <value>The image has been saved to your device's picture album.</value>
+  </data>
+  <data name="ImageSavedTitle" xml:space="preserve">
+    <value>Image Saved</value>
+  </data>
+  <data name="OKTitle" xml:space="preserve">
+    <value>OK</value>
+  </data>
   <data name="UsingRangesDescription" xml:space="preserve">
     <value>Shows customized ranges behind the pointer.</value>
   </data>

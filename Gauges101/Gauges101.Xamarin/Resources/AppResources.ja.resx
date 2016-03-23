@@ -173,6 +173,18 @@
     <value>Gaugeの基本機能</value>
     <comment>Getting Started</comment>
   </data>
+  <data name="ImageSavedDescription" xml:space="preserve">
+    <value>画像をデバイスに保存しました</value>
+    <comment>The image has been saved to your device's picture album.</comment>
+  </data>
+  <data name="ImageSavedTitle" xml:space="preserve">
+    <value>画像の保存</value>
+    <comment>Image Saved</comment>
+  </data>
+  <data name="OKTitle" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK</comment>
+  </data>
   <data name="UsingRangesDescription" xml:space="preserve">
     <value>カスタマイズされた範囲を背後に表示</value>
     <comment>Shows customized ranges behind the pointer.</comment>

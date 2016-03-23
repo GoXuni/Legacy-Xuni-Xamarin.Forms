@@ -18,7 +18,7 @@ namespace FlexGrid101
             this.Title = AppResources.ColumnDefinitionTitle;
             var data = Customer.GetCustomerList(100);
             grid.ItemsSource = data;
-            grid.Columns[4].DataMap = new GridDataMap() { ItemsSource = Customer.GetCountries(), DisplayMemberPath = "Value", SelectedValuePath = "Key" };
+            grid.Columns[5].DataMap = new GridDataMap() { ItemsSource = Customer.GetCountries(), DisplayMemberPath = "Value", SelectedValuePath = "Key" };
             grid.BeginningEdit += OnBeginningEdit;
         }
 

@@ -12,23 +12,23 @@ namespace FlexGrid101
 {
     public class GridImageColumn : GridColumn
     {
-        protected override object GetCellContentType()
+        protected override object GetCellContentType(GridCellType cellType)
         {
             return typeof(Image);
         }
 
-        protected override View CreateCellContent(object cellContentType)
+        protected override View CreateCellContent(GridCellType cellType, object cellContentType)
         {
             return new Image();
         }
 
-        protected override void BindCellContent(View cellContent, GridRow row)
+        protected override void BindCellContent(View cellContent, GridCellType cellType, GridRow row)
         {
             var dataItem = row.DataItem;
             var image = cellContent as Image;
             if (image != null && dataItem != null)
             {
-                var value = GetCellValue(row);
+                var value = GetCellValue(cellType, row);
                 image.Source = new ImageConverter().Convert(value, typeof(ImageSource), null, CultureInfo.InvariantCulture) as ImageSource;
                 //image.SetBinding(Image.SourceProperty, new Binding(Binding, converter: new ImageConverter(), source: dataItem));
             }
@@ -43,7 +43,7 @@ namespace FlexGrid101
             {
                 return ImageSource.FromUri(new Uri(value as string));
             }
-            else if(value is Uri)
+            else if (value is Uri)
             {
                 return ImageSource.FromUri(value as Uri);
             }

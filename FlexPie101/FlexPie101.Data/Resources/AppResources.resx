@@ -153,11 +153,20 @@
   <data name="GettingStartedTitle" xml:space="preserve">
     <value>Getting Started</value>
   </data>
+  <data name="ImageSavedDescription" xml:space="preserve">
+    <value>The image has been saved to your device's picture album.</value>
+  </data>
+  <data name="ImageSavedTitle" xml:space="preserve">
+    <value>Image Saved</value>
+  </data>
   <data name="LegendSampleDescription" xml:space="preserve">
     <value>Shows basic header, footer, and legend positioning.</value>
   </data>
   <data name="LegendSampleTitle" xml:space="preserve">
     <value>Legend and Titles</value>
+  </data>
+  <data name="OKTitle" xml:space="preserve">
+    <value>OK</value>
   </data>
   <data name="Save" xml:space="preserve">
     <value>Save</value>

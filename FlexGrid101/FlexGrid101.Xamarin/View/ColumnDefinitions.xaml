@@ -12,6 +12,7 @@
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False" Grid.Row="1">
       <xuni:FlexGrid.Columns>
+      	<xuni:GridColumn Binding="Active" Width="70"/>
         <xuni:GridColumn Binding="Id" IsReadOnly="true" Width="100"/>
         <xuni:GridColumn Binding="FirstName"/>
         <xuni:GridColumn Binding="LastName"/>
@@ -21,5 +22,5 @@
         <local:GridDateTimeColumn Binding="LastOrderDate" Format="t" Mode="Time" Header="Last Order Time"/>
       </xuni:FlexGrid.Columns>
     </xuni:FlexGrid>
-  </Grid>
+  </Grid> 
 </ContentPage>

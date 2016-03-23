@@ -9,7 +9,7 @@ using Xamarin.Forms;
 
 namespace FlexChartDemo.Data
 {
-    public partial class FlexChartSamples : ContentPage
+    public partial class FlexChartSamples 
     {
         public FlexChartSamples()
         {
@@ -29,7 +29,8 @@ namespace FlexChartDemo.Data
                 new Sample() { Name = AppResources.BubbleChartTitle, Description = AppResources.BubbleChartDescription, SampleViewType = 5 , Thumbnail="chart_bubble.png"},
                 new Sample() { Name = AppResources.CustomTooltipsTitle, Description = AppResources.CustomTooltipsDescription, SampleViewType = 6 , Thumbnail="chart_tooltip.png"},
                 new Sample() { Name = AppResources.DataLabelsTitle, Description = AppResources.DataLabelsDescription, SampleViewType = 7 , Thumbnail="chart_tooltip.png"},
-                  new Sample() { Name = AppResources.LineMarkerTitle, Description = AppResources.LineMarkerDescription, SampleViewType = 8, Thumbnail="chart_linemarker.png"},
+                 new Sample() { Name = AppResources.AnnotationTitle, Description = AppResources.AnnotationDescription, SampleViewType = 25 , Thumbnail="chart_annotation.png"},
+                new Sample() { Name = AppResources.LineMarkerTitle, Description = AppResources.LineMarkerDescription, SampleViewType = 8, Thumbnail="chart_linemarker.png"},
                 new Sample() { Name = AppResources.CustomizingAxesTitle, Description = AppResources.CustomizingAxesDescription, SampleViewType = 9 , Thumbnail="chart_axes.png"},
                 new Sample() { Name = AppResources.MultipleAxesTitle, Description = AppResources.MultipleAxesDescription, SampleViewType = 10 , Thumbnail="chart_multiaxes.png"},
                 new Sample() { Name = AppResources.LegendSampleTitle, Description = AppResources.LegendSampleDescription, SampleViewType = 11 , Thumbnail="chart_title.png"},
@@ -46,6 +47,7 @@ namespace FlexChartDemo.Data
                 new Sample() { Name = AppResources.ThemingTitle, Description = AppResources.ThemingDescription, SampleViewType = 22, Thumbnail="themes.png"},
                 new Sample() { Name = AppResources.StylingSeriesTitle, Description = AppResources.StylingSeriesDescription, SampleViewType = 23, Thumbnail="chart_composite.png"},
                 new Sample() { Name = AppResources.ExportImageTitle, Description = AppResources.ExportImageDescription, SampleViewType = 24, Thumbnail="export_image.png"},
+                
               
             };
         }
@@ -84,6 +86,7 @@ namespace FlexChartDemo.Data
                 case 22: return new ThemingSample();
                 case 23: return new StylingSeriesSample();
                 case 24: return new Snapshot();
+                case 25: return new Annotation();
             }
             return null;
         }

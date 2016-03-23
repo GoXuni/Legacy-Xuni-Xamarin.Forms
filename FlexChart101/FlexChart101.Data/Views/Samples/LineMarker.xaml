@@ -26,6 +26,7 @@
       <Label Text="Vertical Position" Grid.Row="0" Grid.Column="1" />
       <Picker x:Name="pickerVerPosition" Grid.Row="1" Grid.Column="1" Title="Vertical Position" HorizontalOptions="FillAndExpand" SelectedIndexChanged="pickerVerPosition_SelectedIndexChanged" />
     </Grid>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart x:Name="flexChart" ChartType="LineSymbols" BindingX="Name" VerticalOptions="FillAndExpand" ShowTooltips="False">
       <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
@@ -67,5 +68,6 @@
       </xuni:ChartLineMarker>
     </xuni:FlexChart.LineMarker>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </ContentPage>

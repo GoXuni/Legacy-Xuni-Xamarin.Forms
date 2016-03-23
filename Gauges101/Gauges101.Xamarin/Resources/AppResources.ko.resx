@@ -159,6 +159,15 @@
   <data name="GettingStartedTitle" xml:space="preserve">
     <value>시작하기</value>
   </data>
+  <data name="ImageSavedDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageSavedTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OKTitle" xml:space="preserve">
+    <value />
+  </data>
   <data name="UsingRangesDescription" xml:space="preserve">
     <value>포인터 뒤에 사용자 지정된 범위를 표시합니다.</value>
   </data>

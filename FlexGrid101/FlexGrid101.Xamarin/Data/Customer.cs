@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 
 namespace FlexGrid101
 {
@@ -56,7 +57,7 @@ namespace FlexGrid101
             Email = string.Format("{0}@{1}.com", (FirstName + LastName.Substring(0, 1)).ToLower(), GetRandomString(_emailServers));
             LastOrderDate = DateTime.Today.AddDays(-_rnd.Next(1, 365)).AddHours(_rnd.Next(0, 24)).AddMinutes(_rnd.Next(0, 60));
             OrderCount = _rnd.Next(0, 100);
-			OrderTotal = Math.Round(_rnd.NextDouble () * 10000.00, 2);
+            OrderTotal = Math.Round(_rnd.NextDouble () * 10000.00, 2);
             Active = _rnd.NextDouble() >= .5;
         }
 
@@ -72,7 +73,7 @@ namespace FlexGrid101
                 if (value != _id)
                 {
                     _id = value;
-                    OnPropertyChanged("Id");
+                    OnPropertyChanged();
                 }
             }
         }
@@ -85,7 +86,7 @@ namespace FlexGrid101
                 if (value != _first)
                 {
                     _first = value;
-                    OnPropertyChanged("FirstName");
+                    OnPropertyChanged();
                     OnPropertyChanged("Name");
                 }
             }
@@ -99,7 +100,7 @@ namespace FlexGrid101
                 if (value != _last)
                 {
                     _last = value;
-                    OnPropertyChanged("LastName");
+                    OnPropertyChanged();
                     OnPropertyChanged("Name");
                 }
             }
@@ -113,7 +114,7 @@ namespace FlexGrid101
                 if (value != _address)
                 {
                     _address = value;
-                    OnPropertyChanged("Address");
+                    OnPropertyChanged();
                 }
             }
         }
@@ -126,7 +127,7 @@ namespace FlexGrid101
                 if (value != _city)
                 {
                     _city = value;
-                    OnPropertyChanged("City");
+                    OnPropertyChanged();
                 }
             }
         }
@@ -140,7 +141,7 @@ namespace FlexGrid101
                 {
                     _countryId = value;
                     //_city = _countries[_countryId].Value.First();
-                    OnPropertyChanged("CountryId");
+                    OnPropertyChanged();
                     OnPropertyChanged("Country");
                     OnPropertyChanged("City");
                 }
@@ -155,7 +156,7 @@ namespace FlexGrid101
                 if (value != _postalCode)
                 {
                     _postalCode = value;
-                    OnPropertyChanged("PostalCode");
+                    OnPropertyChanged();
                 }
             }
         }
@@ -168,7 +169,7 @@ namespace FlexGrid101
                 if (value != _email)
                 {
                     _email = value;
-                    OnPropertyChanged("Email");
+                    OnPropertyChanged();
                 }
             }
         }
@@ -181,7 +182,7 @@ namespace FlexGrid101
                 if (value != _lastOrderDate)
                 {
                     _lastOrderDate = value;
-                    OnPropertyChanged("LastOrderDate");
+                    OnPropertyChanged();
                 }
             }
         }
@@ -194,7 +195,7 @@ namespace FlexGrid101
                 if (value != _orderCount)
                 {
                     _orderCount = value;
-                    OnPropertyChanged("OrderCount");
+                    OnPropertyChanged();
                 }
             }
         }
@@ -207,7 +208,7 @@ namespace FlexGrid101
                 if (value != _orderTotal)
                 {
                     _orderTotal = value;
-                    OnPropertyChanged("OrderTotal");
+                    OnPropertyChanged();
                 }
             }
         }
@@ -220,7 +221,7 @@ namespace FlexGrid101
                 if (value != _active)
                 {
                     _active = value;
-                    OnPropertyChanged("Active");
+                    OnPropertyChanged();
                 }
             }
         }
@@ -272,7 +273,7 @@ namespace FlexGrid101
             else
                 return string.Format("{0} {1} {2}", _rnd.Next(1, 999), GetRandomString(_streetNames), GetRandomString(_streetTypes));
         }
-
+		 
         // ** static value providers
         public static KeyValuePair<int, string>[] GetCountries() { return _countries.Select((p, index) => new KeyValuePair<int, string>(index, p.Key)).ToArray(); }
         public static string[] GetFirstNames() { return _firstNames; }
@@ -285,7 +286,7 @@ namespace FlexGrid101
         // this interface allows bounds controls to react to changes in the data objects.
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private void OnPropertyChanged(string propertyName)
+        private void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
             OnPropertyChanged(new PropertyChangedEventArgs(propertyName));
         }

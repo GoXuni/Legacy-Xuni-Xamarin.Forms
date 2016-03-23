@@ -14,9 +14,10 @@
         <xuni:FlexGrid.Columns>
           <xuni:GridColumn Binding="FirstName" Width="*"/>
           <xuni:GridColumn Binding="LastName" Width="*"/>
-          <xuni:GridColumn Header="Order Total" Width="*">
+          <xuni:GridColumn Binding="OrderTotal" Header="Order Total" Width="*">
             <xuni:GridColumn.CellTemplate>
               <DataTemplate>
+                       
                 <gauge:XuniRadialGauge IsAnimated="False" Value="{Binding OrderTotal}" Min="0" Max="10000" ShowText="None" ShowRanges="False" WidthRequest="50" HeightRequest="50">
                   <gauge:XuniRadialGauge.Ranges>
                     <gauge:GaugeRange Min="0" Max="2000" Color="Red"/>
@@ -24,6 +25,7 @@
                     <gauge:GaugeRange Min="50000" Max="10000" Color="Green"/>
                   </gauge:XuniRadialGauge.Ranges>
                 </gauge:XuniRadialGauge>
+
               </DataTemplate>
             </xuni:GridColumn.CellTemplate>
           </xuni:GridColumn>

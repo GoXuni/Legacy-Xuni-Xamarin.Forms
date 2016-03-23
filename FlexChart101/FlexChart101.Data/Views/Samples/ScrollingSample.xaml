@@ -5,6 +5,7 @@
              x:Class="FlexChartDemo.Data.Views.Samples.ScrollingSample" x:Name="page" Padding="10">
   <StackLayout>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart x:Name="flexChart"
                   BindingX="Date"
                   ChartType="Column"
@@ -38,5 +39,6 @@
                         MajorTickWidth="0"/>
       </xuni:FlexChart.Axes>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </ContentPage>

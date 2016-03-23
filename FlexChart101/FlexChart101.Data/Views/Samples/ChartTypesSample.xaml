@@ -28,6 +28,7 @@
       <Picker x:Name="pickerStackType" Grid.Row="1" Grid.Column="1" Title="Stacking Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged="pickerStackType_SelectedIndexChanged" />
       <Switch x:Name="toggleRotated" Grid.Row="1" Grid.Column="2" BindingContext="{x:Reference flexChart}" IsToggled="{Binding Rotated,Mode=OneWayToSource}" />
     </Grid>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart x:Name="flexChart" BindingX="Name" VerticalOptions="FillAndExpand">
       <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Sales" Name="Sales" />
@@ -35,5 +36,6 @@
         <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </ContentPage>

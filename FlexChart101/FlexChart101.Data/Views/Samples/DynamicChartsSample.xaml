@@ -6,6 +6,7 @@
              x:Class="FlexChartDemo.Data.Views.Samples.DynamicChartsSample" x:Name="page">
   <StackLayout>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart x:Name="flexChart" BindingX="Name" ChartType="Line" IsAnimated="false" VerticalOptions="FillAndExpand">
       <xuni:FlexChart.Series>
         <xuni:ChartSeries Binding="Trucks" Name="Trucks" />
@@ -13,5 +14,6 @@
         <xuni:ChartSeries Binding="Planes" Name="Planes" />
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </ContentPage>

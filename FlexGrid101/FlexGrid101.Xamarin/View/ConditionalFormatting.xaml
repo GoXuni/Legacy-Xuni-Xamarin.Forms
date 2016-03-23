@@ -19,7 +19,7 @@
         <xuni:GridColumn Binding="OrderCount" Format="N1"/>
         <xuni:GridColumn Binding="CountryId" Header="Country"/>
         <local:GridDateTimeColumn Binding="LastOrderDate" Format="d" Mode="Date"/>
-        <local:GridDateTimeColumn Binding="LastOrderDate" Format="t" Mode="Time"/>
+        <local:GridDateTimeColumn Binding="LastOrderDate" Header="Last Order Time" Format="t" Mode="Time"/>
       </xuni:FlexGrid.Columns>
     </xuni:FlexGrid>
   </Grid>

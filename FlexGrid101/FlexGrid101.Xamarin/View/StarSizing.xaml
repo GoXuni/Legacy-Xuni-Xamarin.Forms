@@ -14,7 +14,7 @@
         <xuni:GridColumn Binding="FirstName" Width="*"/>
         <xuni:GridColumn Binding="LastName" Width="*"/>
         <xuni:GridColumn Binding="LastOrderDate" Width="*" Format="d"/>
-        <xuni:GridColumn Binding="OrderTotal" Width="*" Format="N"/>
+        <xuni:GridColumn Binding="OrderTotal" Width="*" Format="N" HorizontalAlignment="End"/>
       </xuni:FlexGrid.Columns>
     </xuni:FlexGrid>
   </Grid>

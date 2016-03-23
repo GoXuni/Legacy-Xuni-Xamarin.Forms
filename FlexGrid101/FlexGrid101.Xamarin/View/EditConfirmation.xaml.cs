@@ -22,10 +22,14 @@ namespace FlexGrid101
         }
 
         private object _originalValue;
+		private int row;
+		private int column;
 
         private void OnBeginningEdit(object sender, GridCellRangeEventArgs e)
         {
             _originalValue = grid[e.CellRange.Row, e.CellRange.Column];
+			row = e.CellRange.Row;
+			column = e.CellRange.Column;
         }
 
         private void OnCellEditEnded(object sender, GridCellRangeEventArgs e)
@@ -34,7 +38,7 @@ namespace FlexGrid101
             {
                 if (!t.Result)
                 {
-                    grid[e.CellRange.Row, e.CellRange.Column] = _originalValue;
+					grid[row, column] = _originalValue;
                     grid.Refresh(range: e.CellRange);
                 }
             }, TaskScheduler.FromCurrentSynchronizationContext());

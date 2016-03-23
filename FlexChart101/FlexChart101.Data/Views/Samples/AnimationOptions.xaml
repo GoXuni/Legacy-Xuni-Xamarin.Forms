@@ -23,6 +23,7 @@
       <Picker x:Name="pickerChartType" Grid.Row="1" Grid.Column="0" Title="Chart Type" HorizontalOptions="FillAndExpand" SelectedIndexChanged = "pickerChartType_SelectedIndexChanged" />
       <Picker x:Name="pickerAnimationMode" Grid.Row="1" Grid.Column="1" Title="Animation Mode" HorizontalOptions="FillAndExpand" SelectedIndexChanged="pickerAnimationMode_SelectedIndexChanged" />
     </Grid>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart
       x:Name="flexChart"
       BindingX="Date"
@@ -36,5 +37,6 @@
         <xuni:ChartSeries Binding="Downloads"  Name="Downloads" />
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </ContentPage>

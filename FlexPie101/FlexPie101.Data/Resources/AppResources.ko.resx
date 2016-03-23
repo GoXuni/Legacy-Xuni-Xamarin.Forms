@@ -153,11 +153,20 @@
   <data name="GettingStartedTitle" xml:space="preserve">
     <value>시작하기</value>
   </data>
+  <data name="ImageSavedDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageSavedTitle" xml:space="preserve">
+    <value />
+  </data>
   <data name="LegendSampleDescription" xml:space="preserve">
     <value>기본 머리글, 바닥글 및 범례 위치를 표시합니다.</value>
   </data>
   <data name="LegendSampleTitle" xml:space="preserve">
     <value>범례 및 제목</value>
+  </data>
+  <data name="OKTitle" xml:space="preserve">
+    <value />
   </data>
   <data name="Save" xml:space="preserve">
     <value>저장</value>

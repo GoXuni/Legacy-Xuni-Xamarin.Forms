@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.FlexChart;assembly=Xuni.Forms.FlexChart"
+             xmlns:core="clr-namespace:Xuni.Forms.ChartCore;assembly=Xuni.Forms.ChartCore"
+             xmlns:sample="clr-namespace:FlexChartDemo.Data.Views;assembly=FlexChart101.Data"
+             x:Class="FlexChartDemo.Data.Views.Samples.Annotation" x:Name="page">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid  VerticalOptions="FillAndExpand">
+    <xuni:FlexChart x:Name="flexChart" BindingX="Name" VerticalOptions="FillAndExpand" ChartType="Line" ItemsSource="{Binding ItemsSource}">
+      <xuni:FlexChart.Series>
+        <xuni:ChartSeries Binding="Downloads" Name="Downloads" />
+      </xuni:FlexChart.Series>
+      <xuni:FlexChart.Annotations>
+        <core:ChartPolygonAnnotation x:Name="polygonAnnotation" Text="Absolute"
+                                     Color="#FFFE2E2E" BorderColor="#FF01A9DB" BorderWidth="3">
+          <core:ChartPolygonAnnotation.Points>
+            <Point X="60" Y="30"/>
+            <Point X="10" Y="80"/>
+            <Point X="35" Y="130"/>
+            <Point X="85" Y="130"/>
+            <Point X="110" Y="80"/>
+          </core:ChartPolygonAnnotation.Points>
+        </core:ChartPolygonAnnotation>
+        <core:ChartEllipseAnnotation x:Name="ellipseAnnotation" Point="0.8,0.2" Width="110" Height="80" Text="Relative" Attachment="Relative" 
+                                     Color="#FFF5BC78" BorderColor="#FFC2955F" BorderWidth="2" />
+        <core:ChartLineAnnotation x:Name="lineAnnotation" Color="#FF3F48CC" LineWidth="4" Attachment="DataCoordinate"
+                                  Start="{Binding PointStart}" End="{Binding PointEnd}"/>
+        <core:ChartTextAnnotation x:Name="textAnnotation" Text="Data Coordinate" Attachment="DataCoordinate"
+                                  Point="{Binding PointStart}" Position="Right" Offset="0,-20"/>
+        <core:ChartImageAnnotation x:Name="imageAnnotation" Offset="0,20" Width="80" Height="80" PointIndex="2" Attachment="DataIndex" 
+                                   Source="{Binding ImageSource}" />
+        <core:ChartRectangleAnnotation x:Name="rectAnnotation" Width="80" Height="80" PointIndex="6" Position="Bottom" Attachment="DataIndex"
+                                        Text="Data&#10;Index" Color="#FFB5E627" BorderColor="#FF22B14C" BorderWidth="4" />
+      </xuni:FlexChart.Annotations>
+    </xuni:FlexChart>
+    </Grid>
+  </StackLayout>
+</ContentPage>

@@ -270,4 +270,23 @@
   <data name="LineMarkerTitle" xml:space="preserve">
     <value>行标识</value>
   </data>
+  <data name="ImageSavedDescription" xml:space="preserve">
+    <value>照片已经保存在您的设备的相册中。</value>
+    <comment>The image has been saved to your device's picture album.</comment>
+  </data>
+  <data name="ImageSavedTitle" xml:space="preserve">
+    <value>照片保存</value>
+    <comment>Image Saved</comment>
+  </data>
+  <data name="OKTitle" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="AnnotationDescription" xml:space="preserve">
+    <value>如何在FlexChart中显示注释。</value>
+    <comment>Shows how to display annotations on FlexChart.</comment>
+  </data>
+  <data name="AnnotationTitle" xml:space="preserve">
+    <value>注释</value>
+    <comment>Annotations</comment>
+  </data>
 </root>

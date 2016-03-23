@@ -153,4 +153,7 @@
   <data name="SimpleOnDemandTitle" xml:space="preserve">
     <value>シンプルオンデマンド</value>
   </data>
+  <data name="SearchPlaceholderText" xml:space="preserve">
+    <value>YouTube で検索するビデオのテキストを入力</value>
+  </data>
 </root>

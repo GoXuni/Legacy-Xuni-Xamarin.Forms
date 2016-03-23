@@ -215,10 +215,10 @@
     <value>조건부 서식</value>
   </data>
   <data name="CellFreezingDescription" xml:space="preserve">
-    <value>열 및 행 고정을 표시합니다.</value>
+    <value>고정된 열, 행 및 셀 병합을 표시합니다.</value>
   </data>
   <data name="CellFreezingTitle" xml:space="preserve">
-    <value>셀 고정</value>
+    <value>셀 고정 및 병합</value>
   </data>
   <data name="ColumnLayoutDescription" xml:space="preserve">
     <value>열 레이아웃을 수정하는 사용자 지정 열 관리자를 표시합니다.</value>
@@ -252,5 +252,20 @@
   </data>
   <data name="StarSizingInstructions" xml:space="preserve">
     <value>장치를 회전하여 배율 크기 조정 기능이 작동하는 것을 확인합니다.</value>
+  </data>
+  <data name="CustomMergingDescription" xml:space="preserve">
+    <value>사용자 지정 셀 병합이 적용된 그리드를 표시합니다.</value>
+  </data>
+  <data name="CustomMergingTitle" xml:space="preserve">
+    <value>사용자 지정 병합</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="RowDetailsDescription" xml:space="preserve">
+    <value>행(row) 세부 정보를 확장하거나 축소합니다.</value>
+  </data>
+  <data name="RowDetailsTitle" xml:space="preserve">
+    <value>행 세부 정보</value>
   </data>
 </root>

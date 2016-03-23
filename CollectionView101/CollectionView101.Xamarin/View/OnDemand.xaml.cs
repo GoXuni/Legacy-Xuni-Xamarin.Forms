@@ -17,7 +17,7 @@ namespace CollectionView101
         {
             InitializeComponent();
             Title = AppResources.OnDemandTitle;
-
+            search.Placeholder = AppResources.SearchPlaceholderText;
             _collectionView = new YouTubeCollectionView();
             list.ItemsSource = _collectionView;
             list.LoadItemsOnDemand(_collectionView);
@@ -26,9 +26,10 @@ namespace CollectionView101
             orderBy.Items.Add("viewCount");
             orderBy.Items.Add("rating");
             orderBy.Items.Add("title");
+            orderBy.SelectedIndex = 0;
         }
 
-        private async void OnCompleted(object sender, EventArgs e)
+        private async void OnTextChanged(object sender, EventArgs e)
         {
             try
             {

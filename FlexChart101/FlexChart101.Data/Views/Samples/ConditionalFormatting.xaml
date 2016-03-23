@@ -7,10 +7,12 @@
              Padding="10">
   <StackLayout>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:FlexChart x:Name="flexChart2" BindingX="X" ChartType="LineSymbols" VerticalOptions="FillAndExpand" PlotElementLoading="OnPlotElementLoading">
       <xuni:FlexChart.Series>
         <xuni:ChartSeries BindingX="X" Binding="Y" />
       </xuni:FlexChart.Series>
     </xuni:FlexChart>
+    </Grid>
   </StackLayout>
 </ContentPage>

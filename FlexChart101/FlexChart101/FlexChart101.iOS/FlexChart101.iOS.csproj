@@ -103,49 +103,49 @@
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
-    <Reference Include="Xamarin.Forms.Core, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Forms.1.5.1.6471\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
+    <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.2.1.0.6529\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Forms.1.5.1.6471\lib\Xamarin.iOS10\Xamarin.Forms.Platform.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.Forms.2.1.0.6529\lib\Xamarin.iOS10\Xamarin.Forms.Platform.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Forms.Platform.iOS, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Forms.1.5.1.6471\lib\Xamarin.iOS10\Xamarin.Forms.Platform.iOS.dll</HintPath>
+    <Reference Include="Xamarin.Forms.Platform.iOS, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.2.1.0.6529\lib\Xamarin.iOS10\Xamarin.Forms.Platform.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Xamarin.Forms.Xaml, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Forms.1.5.1.6471\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+    <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Xamarin.Forms.2.1.0.6529\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Xamarin.iOS" />
     <Reference Include="Xuni.CollectionView">
-      <HintPath>..\..\packages\Xuni.CollectionView.1.5.20153.60\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.CollectionView.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.CollectionView.2.1.20161.86\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xuni.CollectionView.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.ChartCore">
-      <HintPath>..\..\packages\Xuni.Forms.ChartCore.1.5.20153.60\lib\Xamarin.iOS10\Xuni.Forms.ChartCore.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.Forms.ChartCore.2.1.20161.86\lib\Xamarin.iOS10\Xuni.Forms.ChartCore.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.Core">
-      <HintPath>..\..\packages\Xuni.Forms.Core.1.5.20153.60\lib\Xamarin.iOS10\Xuni.Forms.Core.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.Forms.Core.2.1.20161.86\lib\Xamarin.iOS10\Xuni.Forms.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.Core.Platform.iOS">
-      <HintPath>..\..\packages\Xuni.Forms.Core.1.5.20153.60\lib\Xamarin.iOS10\Xuni.Forms.Core.Platform.iOS.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.Forms.Core.2.1.20161.86\lib\Xamarin.iOS10\Xuni.Forms.Core.Platform.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.FlexChart">
-      <HintPath>..\..\packages\Xuni.Forms.FlexChart.1.5.20153.60\lib\Xamarin.iOS10\Xuni.Forms.FlexChart.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.Forms.FlexChart.2.1.20161.86\lib\Xamarin.iOS10\Xuni.Forms.FlexChart.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.Forms.FlexChart.Platform.iOS">
-      <HintPath>..\..\packages\Xuni.Forms.FlexChart.1.5.20153.60\lib\Xamarin.iOS10\Xuni.Forms.FlexChart.Platform.iOS.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.Forms.FlexChart.2.1.20161.86\lib\Xamarin.iOS10\Xuni.Forms.FlexChart.Platform.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.iOS.ChartCore">
-      <HintPath>..\..\packages\Xuni.iOS.ChartCore.1.5.20153.60\lib\Xamarin.iOS10\Xuni.iOS.ChartCore.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.iOS.ChartCore.2.1.20161.86\lib\Xamarin.iOS10\Xuni.iOS.ChartCore.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.iOS.Core">
-      <HintPath>..\..\packages\Xuni.iOS.Core.1.5.20153.60\lib\Xamarin.iOS10\Xuni.iOS.Core.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.iOS.Core.2.1.20161.86\lib\Xamarin.iOS10\Xuni.iOS.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xuni.iOS.FlexChart">
-      <HintPath>..\..\packages\Xuni.iOS.FlexChart.1.5.20153.60\lib\Xamarin.iOS10\Xuni.iOS.FlexChart.dll</HintPath>
+      <HintPath>..\..\packages\Xuni.iOS.FlexChart.2.1.20161.86\lib\Xamarin.iOS10\Xuni.iOS.FlexChart.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -182,11 +182,11 @@
     <BundleResource Include="Resources\Default-Portrait%402x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <Import Project="..\..\packages\Xamarin.Forms.1.5.1.6471\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.5.1.6471\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <Import Project="..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.1.5.1.6471\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.1.5.1.6471\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
   </Target>
 </Project>

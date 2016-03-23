@@ -26,7 +26,10 @@ namespace FlexGrid101
             //grid.IsGroupingEnabled = true;
             grid.GroupDisplayBinding = new Binding("Key");
             grid.SelectionChanging += OnSelectionChanging;
+
             var task = UpdateVideos();
+
+
         }
 
         private async Task UpdateVideos()
@@ -61,15 +64,14 @@ namespace FlexGrid101
 
         private void UpdateSortButton()
         {
-            ToolbarItem sortButton = ToolbarItems.FirstOrDefault(t => t.Text == "Sort");
             var direction = GetCurrentSortDirection();
             if (direction == SortDirection.Ascending)
             {
-                sortButton.Icon = Device.OnPlatform<FileImageSource>(null, new FileImageSource() { File = "ic_sort_descending.png" }, new FileImageSource() { File = "Assets/AppBar/appbar.sort.alphabetical.descending.png" });
+                toolbarItemSort.Icon = Device.OnPlatform<FileImageSource>(null, new FileImageSource() { File = "ic_sort_descending.png" }, new FileImageSource() { File = "Assets/AppBar/appbar.sort.alphabetical.descending.png" });
             }
             else
             {
-                sortButton.Icon = Device.OnPlatform<FileImageSource>(null, new FileImageSource() { File = "ic_sort_ascending.png" }, new FileImageSource() { File = "Assets/AppBar/appbar.sort.alphabetical.ascending.png" });
+                toolbarItemSort.Icon = Device.OnPlatform<FileImageSource>(null, new FileImageSource() { File = "ic_sort_ascending.png" }, new FileImageSource() { File = "Assets/AppBar/appbar.sort.alphabetical.ascending.png" });
             }
         }
 
@@ -85,8 +87,8 @@ namespace FlexGrid101
             {
                 var row = grid.Rows[e.CellRange.Row] as GridGroupRow;
                 if (row != null)
-                    e.Cancel = true;
-            }
-        }
-    }
+                     e.Cancel = true;   
+            }   
+        } 
+    } 
 }
