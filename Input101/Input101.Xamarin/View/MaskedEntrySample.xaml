@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Input;assembly=Xuni.Forms.Input"
+             x:Class="Input101.MaskedEntrySample" x:Name="page"
+             Padding="20">
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="120"/>
+        <ColumnDefinition />
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition />
+        <RowDefinition />
+        <RowDefinition />
+        <RowDefinition />
+      </Grid.RowDefinitions>
+      <Label Text="ID:"  VerticalOptions="Center"  />
+      <xuni:XuniMaskedEntry x:Name="c1MaskedTextBox1" Mask="000-00-0000" Grid.Column="1"  />
+      <Label Text="DOB:"  VerticalOptions="Center"  Grid.Row="1" />
+      <xuni:XuniMaskedEntry x:Name="c1MaskedTextBox2" Keyboard="Numeric" Mask="90/90/0000"  Grid.Row="1" Grid.Column="1" />
+      <Label Text="Phone:"  VerticalOptions="Center"  Grid.Row="2"  />
+      <xuni:XuniMaskedEntry x:Name="c1MaskedTextBox3" Mask="(999) 000-0000" Keyboard="Telephone" Grid.Row="2" Grid.Column="1"   />
+      <Label Text="State:" VerticalOptions="Center"   Grid.Row="3" />
+      <xuni:XuniMaskedEntry x:Name="c1MaskedTextBox4" Mask="LL" Grid.Row="3" Grid.Column="1"   />
+    </Grid>
+  </StackLayout>
+</ContentPage>

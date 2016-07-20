@@ -1,8 +1,4 @@
 ﻿using FlexGrid101.Resources;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xuni.Forms.FlexGrid;
@@ -22,26 +18,29 @@ namespace FlexGrid101
         }
 
         private object _originalValue;
-		private int row;
-		private int column;
+        private int row;
+        private int column;
 
-        private void OnBeginningEdit(object sender, GridCellRangeEventArgs e)
+        private void OnBeginningEdit(object sender, GridCellEditEventArgs e)
         {
             _originalValue = grid[e.CellRange.Row, e.CellRange.Column];
-			row = e.CellRange.Row;
-			column = e.CellRange.Column;
+            row = e.CellRange.Row;
+            column = e.CellRange.Column;
         }
 
-        private void OnCellEditEnded(object sender, GridCellRangeEventArgs e)
+        private void OnCellEditEnded(object sender, GridCellEditEventArgs e)
         {
-            DisplayAlert(AppResources.EditConfirmationQuestionTitle, AppResources.EditConfirmationQuestion, AppResources.Apply, AppResources.Cancel).ContinueWith(t =>
+            if (!e.CancelEdits)
             {
-                if (!t.Result)
+                DisplayAlert(AppResources.EditConfirmationQuestionTitle, AppResources.EditConfirmationQuestion, AppResources.Apply, AppResources.Cancel).ContinueWith(t =>
                 {
-					grid[row, column] = _originalValue;
-                    grid.Refresh(range: e.CellRange);
-                }
-            }, TaskScheduler.FromCurrentSynchronizationContext());
+                    if (!t.Result)
+                    {
+                        grid[row, column] = _originalValue;
+                        grid.Refresh(range: e.CellRange);
+                    }
+                }, TaskScheduler.FromCurrentSynchronizationContext());
+            }
         }
     }
 }

@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FlexGrid101.GettingStarted" x:Name="page"
              xmlns:xuni="clr-namespace:Xuni.Forms.FlexGrid;assembly=Xuni.Forms.FlexGrid">
-  <!--<ContentPage.ToolbarItems>
-    <ToolbarItem x:Name="btnFirst" Text="First" Clicked="OnFirstClicked" Order="Primary" Priority="0">
+  <ContentPage.ToolbarItems>
+    <!--<ToolbarItem x:Name="btnFirst" Text="First" Clicked="OnFirstClicked" Order="Primary" Priority="0">
       <ToolbarItem.Icon>
         <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/transport.rew.png" Android="ic_rewind" />
       </ToolbarItem.Icon>
@@ -23,8 +23,8 @@
       <ToolbarItem.Icon>
         <OnPlatform x:TypeArguments="FileImageSource" WinPhone="Assets/AppBar/transport.ff.png" Android="ic_fast_forward" />
       </ToolbarItem.Icon>
-    </ToolbarItem>
-  </ContentPage.ToolbarItems>-->
+    </ToolbarItem>-->
+  </ContentPage.ToolbarItems>
   <Grid RowSpacing="0">
     <Grid.RowDefinitions>
       <RowDefinition Height="Auto"/>

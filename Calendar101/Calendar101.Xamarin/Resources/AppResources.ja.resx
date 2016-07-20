@@ -170,7 +170,7 @@ Observe: The weekend days are not selected</comment>
     <comment>Getting Started</comment>
   </data>
   <data name="MonthLabel" xml:space="preserve">
-    <value>月</value>
+    <value>月表示(Month View)</value>
     <comment>Month</comment>
   </data>
   <data name="PickDateLabel" xml:space="preserve">
@@ -198,11 +198,11 @@ Observe: The weekend days are not selected</comment>
     <comment>Shows a calendar with vertical navigation/scrolling.</comment>
   </data>
   <data name="VerticalOrientationTitle" xml:space="preserve">
-    <value>垂直方向</value>
+    <value>垂直方向の操作</value>
     <comment>Vertical Orientation</comment>
   </data>
   <data name="YearLabel" xml:space="preserve">
-    <value>年</value>
+    <value>年表示(Year View)</value>
     <comment>Year</comment>
   </data>
 </root>

@@ -268,4 +268,10 @@
   <data name="RowDetailsTitle" xml:space="preserve">
     <value>행 세부 정보</value>
   </data>
+  <data name="UnboundDescription" xml:space="preserve">
+    <value>언바운드 그리드를 생성하기 위해 빈 행과 열을 추가합니다.</value>
+  </data>
+  <data name="UnboundTitle" xml:space="preserve">
+    <value>언바운드</value>
+  </data>
 </root>

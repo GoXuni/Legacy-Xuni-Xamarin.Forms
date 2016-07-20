@@ -1,10 +1,6 @@
 ﻿using FlexGrid101.Resources;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xuni.Forms.FlexGrid;
@@ -104,9 +100,9 @@ namespace FlexGrid101
         private void MoveUp()
         {
             var currentIndex = Columns.IndexOf(this);
-            //Columns.Move(currentIndex, currentIndex - 1);
-            Columns.RemoveAt(currentIndex);
-            Columns.Insert(currentIndex - 1, this);
+            Columns.Move(currentIndex, currentIndex - 1);
+            //Columns.RemoveAt(currentIndex);
+            //Columns.Insert(currentIndex - 1, this);
             UpdateCommands();
         }
 
@@ -118,9 +114,9 @@ namespace FlexGrid101
         private void MoveDown()
         {
             var currentIndex = Columns.IndexOf(this);
-            //Columns.Move(currentIndex, currentIndex + 1);
-            Columns.RemoveAt(currentIndex);
-            Columns.Insert(currentIndex + 1, this);
+            Columns.Move(currentIndex, currentIndex + 1);
+            //Columns.RemoveAt(currentIndex);
+            //Columns.Insert(currentIndex + 1, this);
             UpdateCommands();
         }
 

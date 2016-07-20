@@ -1,9 +1,6 @@
 ﻿using Gauges101.Resources;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xuni.Forms.Core;
@@ -29,9 +26,7 @@ namespace Gauges101
                 snapshotFrameBorder.IsVisible = false;
             };
             snapshotFrameBorder.GestureRecognizers.Add(tapGestureRecognizer);
-
-            //gauge.UpdateAnimation = null;
-            gauge.IsAnimated = false;
+            gauge.UpdateAnimation.Duration = _stepDuration;
         }
 
         async void OnSnapshotClicked(object sender, EventArgs e)
@@ -66,10 +61,14 @@ namespace Gauges101
 
         private async Task AnimateNextStep()
         {
-            var viewModel = BindingContext as SampleViewModel;
-            double nextValue = _rand.Next((int)viewModel.Min, (int)viewModel.Max);
-            var gaugeAnimation = new Animation(d => gauge.Value = d, gauge.Value, nextValue, Easing.CubicInOut);
-            this.Animate("GaugeAnimation", gaugeAnimation, rate: 60, length: _stepDuration, finished: (d2, b) => AnimateNextStep(), repeat: () => false);
+            if (IsVisible)
+            {
+                var viewModel = BindingContext as SampleViewModel;
+                double nextValue = _rand.Next((int)viewModel.Min, (int)viewModel.Max);
+                gauge.Value = nextValue;
+                await Task.Delay(TimeSpan.FromMilliseconds(_stepDuration));
+                AnimateNextStep();
+            }
         }
     }
 }

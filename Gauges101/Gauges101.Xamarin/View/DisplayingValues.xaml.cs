@@ -1,14 +1,9 @@
 ﻿using Gauges101.Resources;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xuni.Forms.Gauge;
+using Xamarin.Forms;
 
 namespace Gauges101
 {
-    public partial class DisplayingValues
+    public partial class DisplayingValues : ContentPage
     {
         public DisplayingValues()
         {

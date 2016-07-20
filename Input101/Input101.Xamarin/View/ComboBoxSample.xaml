@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Input;assembly=Xuni.Forms.Input"
+             xmlns:sample="clr-namespace:Input101;assembly=Input101.Xamarin"
+             x:Class="Input101.ComboBoxSample" x:Name="page"
+             Padding="20">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <sample:DateTimeStringConverter x:Key="converter" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <StackLayout Orientation="Vertical">
+      <Label Text="Editable"/>
+      <xuni:XuniComboBox 
+        x:Name="cbxEdit" 
+        HorizontalOptions="FillAndExpand" 
+        DisplayMemberPath="Name" 
+        VerticalOptions="Start" />
+      <Label Text="Non-editable"/>
+      <xuni:XuniComboBox x:Name="cbxNoneEdit" 
+      	IsEditable="false"
+        DropDownBehavior="HeaderTap"  
+        HorizontalOptions="FillAndExpand" 
+        DisplayMemberPath="Name" 
+        VerticalOptions="Start" />
+    </StackLayout>
+  </StackLayout>
+</ContentPage>

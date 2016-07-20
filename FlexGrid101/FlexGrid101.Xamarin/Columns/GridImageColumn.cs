@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xuni.Core;
 using Xuni.Forms.FlexGrid;
 
 namespace FlexGrid101
@@ -14,23 +9,36 @@ namespace FlexGrid101
     {
         protected override object GetCellContentType(GridCellType cellType)
         {
-            return typeof(Image);
+            if (cellType == GridCellType.Cell)
+                return typeof(Image);
+            else
+                return base.GetCellContentType(cellType);
         }
 
         protected override View CreateCellContent(GridCellType cellType, object cellContentType)
         {
-            return new Image();
+            if (cellType == GridCellType.Cell)
+                return new Image();
+            else
+                return base.CreateCellContent(cellType, cellContentType);
         }
 
         protected override void BindCellContent(View cellContent, GridCellType cellType, GridRow row)
         {
-            var dataItem = row.DataItem;
-            var image = cellContent as Image;
-            if (image != null && dataItem != null)
+            if (cellType == GridCellType.Cell)
             {
-                var value = GetCellValue(cellType, row);
-                image.Source = new ImageConverter().Convert(value, typeof(ImageSource), null, CultureInfo.InvariantCulture) as ImageSource;
-                //image.SetBinding(Image.SourceProperty, new Binding(Binding, converter: new ImageConverter(), source: dataItem));
+                var dataItem = row.DataItem;
+                var image = cellContent as Image;
+                if (image != null && dataItem != null)
+                {
+                    var value = GetCellValue(cellType, row);
+                    image.Source = new ImageConverter().Convert(value, typeof(ImageSource), null, CultureInfo.InvariantCulture) as ImageSource;
+                    //image.SetBinding(Image.SourceProperty, new Binding(Binding, converter: new ImageConverter(), source: dataItem));
+                }
+            }
+            else
+            {
+                base.BindCellContent(cellContent, cellType, row);
             }
         }
     }

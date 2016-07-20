@@ -274,4 +274,12 @@
     <value>行明细</value>
     <comment>Row Details</comment>
   </data>
+  <data name="UnboundDescription" xml:space="preserve">
+    <value>增加空行和列来创建一个非绑定表格</value>
+    <comment>Add empty rows and columns to create an unbound grid.</comment>
+  </data>
+  <data name="UnboundTitle" xml:space="preserve">
+    <value>非绑定</value>
+    <comment>Unbound</comment>
+  </data>
 </root>

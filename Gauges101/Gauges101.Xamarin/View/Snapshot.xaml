@@ -4,14 +4,14 @@
              x:Class="Gauges101.Snapshot" x:Name="page"
              xmlns:xuni="clr-namespace:Xuni.Forms.Gauge;assembly=Xuni.Forms.Gauge">
   <ContentPage.ToolbarItems>
-    <ToolbarItem Name="Take snapshot" Clicked="OnSnapshotClicked" Order="Primary" Priority="0">
+    <ToolbarItem Name="Take" Clicked="OnSnapshotClicked" Order="Primary" Priority="0">
       <ToolbarItem.Icon>
         <OnPlatform x:TypeArguments="FileImageSource"
           WinPhone="Assets/AppBar/feature.camera.png"
           Android="ic_action_camera" />
       </ToolbarItem.Icon>
     </ToolbarItem>
-    <ToolbarItem Name="Save snapshot" Clicked="OnSaveSnapshotClicked" Order="Primary" Priority="0">
+    <ToolbarItem Name="Save" Clicked="OnSaveSnapshotClicked" Order="Primary" Priority="0">
       <ToolbarItem.Icon>
         <OnPlatform x:TypeArguments="FileImageSource"
           WinPhone="Assets/AppBar/save.png"

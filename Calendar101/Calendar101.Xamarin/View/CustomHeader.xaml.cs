@@ -14,7 +14,7 @@ namespace Calendar101
 
             modePicker.Items.Add(AppResources.MonthLabel);
             modePicker.Items.Add(AppResources.YearLabel);
-            //modePicker.Items.Add(AppResources.DecadeLabel);
+            modePicker.Items.Add(AppResources.DecadeLabel);
             modePicker.SelectedIndex = 0;
             modePicker.SelectedIndexChanged += OnModeChanged;
 
@@ -32,25 +32,26 @@ namespace Calendar101
             }
         }
 
-        private void OnModeChanged(object sender, System.EventArgs e)
+        private async void OnModeChanged(object sender, System.EventArgs e)
         {
             switch (modePicker.SelectedIndex)
             {
                 case 0:
-                    calendar.ChangeViewModeAsync(CalendarViewMode.Month);
+                    await calendar.ChangeViewModeAsync(CalendarViewMode.Month);
                     break;
                 case 1:
-                    calendar.ChangeViewModeAsync(CalendarViewMode.Year);
+                    await calendar.ChangeViewModeAsync(CalendarViewMode.Year);
                     break;
                 case 2:
-                    calendar.ChangeViewModeAsync(CalendarViewMode.Decade);
+                    await calendar.ChangeViewModeAsync(CalendarViewMode.Decade);
                     break;
             }
         }
 
-        private void OnTodayClicked(object sender, System.EventArgs e)
+        private async void OnTodayClicked(object sender, System.EventArgs e)
         {
-            calendar.ChangeViewModeAsync(CalendarViewMode.Month, DateTime.Today);
+            await calendar.ChangeViewModeAsync(CalendarViewMode.Month, DateTime.Today);
+            calendar.SelectedDate = DateTime.Today;
         }
 
         private void OnViewModeChanged(object sender, EventArgs e)
@@ -76,8 +77,7 @@ namespace Calendar101
 
         private void UpdateMonthLabel()
         {
-            monthLabel.Text = string.Format("{0:MMMM yyy}", calendar.DisplayDate);
-            modePicker.SelectedIndex = 0;
+            monthLabel.Text = calendar.DisplayDate.ToString("Y");
         }
     }
 }

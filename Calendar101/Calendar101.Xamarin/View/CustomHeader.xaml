@@ -15,6 +15,8 @@
       <Button x:Name="todayButton" BindingContext="{x:Reference page}" Text="{Binding TodayLabel}" Grid.Column="1"/>
     </Grid>
       <Label x:Name="monthLabel" HorizontalOptions="Center"/>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:XuniCalendar x:Name="calendar" ShowHeader="False"  VerticalOptions="FillAndExpand"/>
+    </Grid>
   </StackLayout>
 </ContentPage>

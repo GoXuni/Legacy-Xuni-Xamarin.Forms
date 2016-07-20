@@ -6,7 +6,7 @@
     <Language code="ja" />
     <Language code="ko" />
   </Languages>
-  <App xmlns="" ProductID="{6211822a-289a-4638-8171-c284cc1eb39f}" Title="Calendar101" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Grapecity" Description="Demo app for Xuni Calendar" Publisher="Grapecity" PublisherID="{2398fb8f-c1ce-472f-afd0-15b317b29000}">
+  <App xmlns="" ProductID="{E1F2B66F-8837-4B14-A69F-BC5F0B8CB708}" Title="Calendar101" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Grapecity" Description="Demo app for Xuni Calendar" Publisher="Grapecity" PublisherID="{2398fb8f-c1ce-472f-afd0-15b317b29000}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

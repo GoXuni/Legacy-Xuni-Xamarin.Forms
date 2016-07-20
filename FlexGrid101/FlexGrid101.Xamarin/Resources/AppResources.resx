@@ -271,4 +271,10 @@
   <data name="CustomMergingTitle" xml:space="preserve">
     <value>Custom Merging</value>
   </data>
+  <data name="UnboundDescription" xml:space="preserve">
+    <value>Add empty rows and columns to create an unbound grid.</value>
+  </data>
+  <data name="UnboundTitle" xml:space="preserve">
+    <value>Unbound</value>
+  </data>
 </root>

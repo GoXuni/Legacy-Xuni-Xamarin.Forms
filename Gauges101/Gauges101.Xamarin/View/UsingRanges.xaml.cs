@@ -1,13 +1,9 @@
 ﻿using Gauges101.Resources;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace Gauges101
 {
-    public partial class UsingRanges
+    public partial class UsingRanges : ContentPage
     {
         public UsingRanges()
         {

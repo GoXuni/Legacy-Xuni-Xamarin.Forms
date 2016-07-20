@@ -7,6 +7,8 @@
   <StackLayout>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
     <Label BindingContext="{x:Reference page}" Text="{Binding CustomSelectionMessage}"/>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:XuniCalendar SelectionChanging="OnSelectionChanging" MaxSelectionCount="-1"  VerticalOptions="FillAndExpand"/>
+    </Grid>
   </StackLayout>
 </ContentPage>

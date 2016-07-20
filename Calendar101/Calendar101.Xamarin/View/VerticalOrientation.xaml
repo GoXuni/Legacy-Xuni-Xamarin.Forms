@@ -6,6 +6,8 @@
              Padding="20">
   <StackLayout>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:XuniCalendar Orientation="Vertical"  VerticalOptions="FillAndExpand"/>
+    </Grid>
   </StackLayout>
 </ContentPage>

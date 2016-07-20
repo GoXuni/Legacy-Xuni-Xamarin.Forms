@@ -10,7 +10,7 @@
       <RowDefinition />
     </Grid.RowDefinitions>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
-    <xuni:FlexGrid x:Name="grid" IsReadOnly="True" Grid.Row="1" SelectionMode="Cell" AllowMerging="Cells">
+    <xuni:FlexGrid x:Name="grid" IsReadOnly="True" Grid.Row="1" SelectionMode="Cell" AllowMerging="All">
       <xuni:FlexGrid.Columns>
         <xuni:GridColumn Header="Monday" Width="*" MinWidth="120" AllowMerging="True" HeaderHorizontalAlignment="Center" HorizontalAlignment="Center"/>
         <xuni:GridColumn Header="Tuesday" Width="*" MinWidth="120" AllowMerging="True" HeaderHorizontalAlignment="Center" HorizontalAlignment="Center"/>

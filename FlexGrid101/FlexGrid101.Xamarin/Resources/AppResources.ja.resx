@@ -125,6 +125,14 @@
     <value>キャンセル</value>
     <comment>Cancel</comment>
   </data>
+  <data name="CellFreezingDescription" xml:space="preserve">
+    <value>行、列のセルを固定表示する方法</value>
+    <comment>Shows frozen columns, rows and cell merging.</comment>
+  </data>
+  <data name="CellFreezingTitle" xml:space="preserve">
+    <value>セルの固定</value>
+    <comment>Cell Freezing &amp; Merging</comment>
+  </data>
   <data name="Collapse" xml:space="preserve">
     <value>折りたたみ</value>
     <comment>Collapse</comment>
@@ -135,11 +143,49 @@
   <data name="ColumnDefinitionTitle" xml:space="preserve">
     <value>列の定義</value>
   </data>
+  <data name="ColumnLayoutDescription" xml:space="preserve">
+    <value>列マネージャを利用してレイアウトを変更</value>
+    <comment>Shows a custom column manager to modify column layout.</comment>
+  </data>
+  <data name="ColumnLayoutTitle" xml:space="preserve">
+    <value>列レイアウト</value>
+  </data>
+  <data name="ConditionalFormattingDescription" xml:space="preserve">
+    <value>CellFactory を利用した書式の設定</value>
+    <comment>Uses a CellFactory to apply conditional formatting.</comment>
+  </data>
+  <data name="ConditionalFormattingTitle" xml:space="preserve">
+    <value>条件付き書式</value>
+  </data>
   <data name="CustomCellsDescription" xml:space="preserve">
     <value>数値をゲージで表示するセル</value>
   </data>
   <data name="CustomCellsTitle" xml:space="preserve">
     <value>カスタムセル</value>
+  </data>
+  <data name="CustomMergingDescription" xml:space="preserve">
+    <value>隣接セルをマージして表示する</value>
+    <comment>Shows a grid with custom cell merging.</comment>
+  </data>
+  <data name="CustomMergingTitle" xml:space="preserve">
+    <value>セル結合の応用</value>
+    <comment>Custom Merging</comment>
+  </data>
+  <data name="EditColumnLayout" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="EditConfirmationDescription" xml:space="preserve">
+    <value>セルの内容を変更する前にダイアログを表示</value>
+    <comment>Shows how to prompt the user with a confirmation dialog before committing changes to a cell.</comment>
+  </data>
+  <data name="EditConfirmationQuestion" xml:space="preserve">
+    <value>編集内容を反映しますか？</value>
+  </data>
+  <data name="EditConfirmationQuestionTitle" xml:space="preserve">
+    <value>編集確認</value>
+  </data>
+  <data name="EditConfirmationTitle" xml:space="preserve">
+    <value>編集の確認</value>
   </data>
   <data name="EditCustomer" xml:space="preserve">
     <value>顧客データの編集</value>
@@ -187,6 +233,9 @@
   <data name="GroupingTitle" xml:space="preserve">
     <value>グループ化</value>
   </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
   <data name="OnDemandDescription" xml:space="preserve">
     <value>スクロールの終端で表示データをロード</value>
     <comment>Load items on demand as the user scrolls down the grid.</comment>
@@ -199,6 +248,16 @@
     <value>フィルタを解除</value>
     <comment>remove filter</comment>
   </data>
+  <data name="RowDetailsDescription" xml:space="preserve">
+    <value>グリッドを展開／折りたたみして明細を表示</value>
+    <comment>Expand and collapse row details.</comment>
+  </data>
+  <data name="RowDetailsTitle" xml:space="preserve">
+    <value>明細行</value>
+  </data>
+  <data name="SaveColumnLayout" xml:space="preserve">
+    <value>保存</value>
+  </data>
   <data name="SearchPlaceholderText" xml:space="preserve">
     <value>YouTube で検索するビデオのテキストを入力</value>
   </data>
@@ -209,80 +268,29 @@
   <data name="SelectionModesTitle" xml:space="preserve">
     <value>選択モード</value>
   </data>
+  <data name="SelectRowMessage" xml:space="preserve">
+    <value>編集する行を選択してください。対象の行をダブルタップしても編集できます。</value>
+    <comment>Please select a row first or double-tap the row directly.</comment>
+  </data>
   <data name="Sort" xml:space="preserve">
     <value>ソート</value>
   </data>
-  <data name="ConditionalFormattingDescription" xml:space="preserve">
-    <value>CellFactory を利用した書式の設定</value>
-    <comment>Uses a CellFactory to apply conditional formatting.</comment>
-  </data>
-  <data name="ConditionalFormattingTitle" xml:space="preserve">
-    <value>条件付き書式</value>
-  </data>
-  <data name="CellFreezingDescription" xml:space="preserve">
-    <value>行、列のセルを固定表示する方法</value>
-    <comment>Shows frozen columns, rows and cell merging.</comment>
-  </data>
-  <data name="CellFreezingTitle" xml:space="preserve">
-    <value>セルの固定</value>
-    <comment>Cell Freezing &amp; Merging</comment>
-  </data>
-  <data name="ColumnLayoutDescription" xml:space="preserve">
-    <value>列マネージャを利用してレイアウトを変更</value>
-    <comment>Shows a custom column manager to modify column layout.</comment>
-  </data>
-  <data name="ColumnLayoutTitle" xml:space="preserve">
-    <value>列レイアウト管理</value>
-  </data>
-  <data name="EditColumnLayout" xml:space="preserve">
-    <value>列レイアウトの編集</value>
-  </data>
-  <data name="EditConfirmationDescription" xml:space="preserve">
-    <value>セルの内容を変更する前にダイアログを表示</value>
-    <comment>Shows how to prompt the user with a confirmation dialog before committing changes to a cell.</comment>
-  </data>
-  <data name="EditConfirmationQuestion" xml:space="preserve">
-    <value>編集内容を反映しますか？</value>
-  </data>
-  <data name="EditConfirmationQuestionTitle" xml:space="preserve">
-    <value>編集確認</value>
-  </data>
-  <data name="EditConfirmationTitle" xml:space="preserve">
-    <value>編集の確認</value>
-  </data>
-  <data name="SaveColumnLayout" xml:space="preserve">
-    <value>列レイアウトの保存</value>
-  </data>
   <data name="StarSizingDescription" xml:space="preserve">
     <value>配分で列幅を設定するレスポンシブなレイアウト</value>
-  </data>
-  <data name="StarSizingTitle" xml:space="preserve">
-    <value>スターサイズ設定</value>
   </data>
   <data name="StarSizingInstructions" xml:space="preserve">
     <value>デバイスの回転でスターサイズ機能の動作を確認</value>
     <comment>Rotate the device to see star-sizing in action.</comment>
   </data>
-  <data name="SelectRowMessage" xml:space="preserve">
-    <value>編集する行を選択してください。対象の行をダブルタップしても編集できます。</value>
-    <comment>Please select a row first or double-tap the row directly.</comment>
+  <data name="StarSizingTitle" xml:space="preserve">
+    <value>スターサイズ設定</value>
   </data>
-  <data name="CustomMergingDescription" xml:space="preserve">
-    <value>隣接セルをマージして表示する</value>
-    <comment>Shows a grid with custom cell merging.</comment>
+  <data name="UnboundDescription" xml:space="preserve">
+    <value>データソースに接続しない行と列で表を作成</value>
+    <comment>Add empty rows and columns to create an unbound grid.</comment>
   </data>
-  <data name="CustomMergingTitle" xml:space="preserve">
-    <value>セルのマージ</value>
-    <comment>Custom Merging</comment>
-  </data>
-  <data name="OK" xml:space="preserve">
-    <value>OK</value>
-  </data>
-  <data name="RowDetailsDescription" xml:space="preserve">
-    <value>グリッドを展開／折りたたみして明細を表示</value>
-    <comment>Expand and collapse row details.</comment>
-  </data>
-  <data name="RowDetailsTitle" xml:space="preserve">
-    <value>明細行</value>
+  <data name="UnboundTitle" xml:space="preserve">
+    <value>アンバウンド(データ非接続)</value>
+    <comment>Unbound</comment>
   </data>
 </root>

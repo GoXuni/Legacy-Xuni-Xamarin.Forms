@@ -24,7 +24,7 @@
         <xuni:FlexGrid.Columns>
           <xuni:GridColumn Binding="Active" Width="70"/>
           <xuni:GridColumn Binding="Name" Width="*"/>
-          <xuni:GridColumn Binding="OrderTotal" Width="160" Format="C" Aggregate="Sum" HorizontalAlignment="End"/>
+          <xuni:GridColumn Binding="OrderTotal" Width="140" Format="C" Aggregate="Sum" HorizontalAlignment="End"/>
         </xuni:FlexGrid.Columns>
         <xuni:FlexGrid.Behaviors>
           <xuni:EmptyGridBehavior EmptyView="{x:Reference Name=emptyListLabel}" />

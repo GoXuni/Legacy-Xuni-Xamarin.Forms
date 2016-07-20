@@ -16,6 +16,6 @@
     <Label Text="BulletGraph"/>
     <xuni:XuniBulletGraph Value="{Binding Value,Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" ShowText="{Binding ShowText}" Good="80" Bad="45" Target="90"/>
     <Label Text="RadialGauge"/>
-    <xuni:XuniRadialGauge Value="{Binding Value,Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" ShowText="{Binding ShowText}"/>
+    <xuni:XuniRadialGauge Value="{Binding Value,Mode=TwoWay}" IsReadOnly="{Binding IsReadOnly}" ShowText="{Binding ShowText}" HeightRequest="200"/>
   </StackLayout>
 </ContentPage>

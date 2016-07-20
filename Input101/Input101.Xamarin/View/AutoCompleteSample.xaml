@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Input;assembly=Xuni.Forms.Input"
+             xmlns:sample="clr-namespace:Input101;assembly=Input101.Xamarin"
+             x:Class="Input101.AutoCompleteSample" x:Name="page"
+             Padding="20">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <sample:FlagConverter x:Key="flagConverter" />
+      <DataTemplate x:Key="flagTemplate">
+        <StackLayout Orientation="Horizontal" Padding="0, 2, 0, 2">
+          <Image Source="{Binding Name, Converter={StaticResource flagConverter}}" WidthRequest="48" HeightRequest="48" />
+          <Label Text="{Binding Name}" VerticalTextAlignment="Center"/>
+        </StackLayout>
+      </DataTemplate>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+
+  <StackLayout BindingContext="{x:Reference page}">
+    <Label  Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <StackLayout Orientation="Vertical" >
+      <Label Text="Highlights" />
+      <xuni:XuniAutoComplete      
+        ItemsSource="{Binding ItemsSource}"
+        HorizontalOptions="FillAndExpand"
+        DisplayMemberPath="Name" >
+      </xuni:XuniAutoComplete>
+
+      <Label Text="Delay" />
+      <xuni:XuniAutoComplete 
+      ItemsSource="{Binding ItemsSource}"
+      HorizontalOptions="FillAndExpand"
+      Delay="1500"
+      DisplayMemberPath="Name" >
+      </xuni:XuniAutoComplete>
+      
+      <Label Text="Custom Drop-down" />
+      <xuni:XuniAutoComplete
+        ItemsSource="{Binding ItemsSource}"
+        HorizontalOptions="FillAndExpand"
+        DisplayMemberPath="Name">
+        <xuni:XuniAutoComplete.ListView>
+          <ListView   ItemTemplate="{StaticResource flagTemplate}" />
+        </xuni:XuniAutoComplete.ListView>
+      </xuni:XuniAutoComplete>
+
+      <Label Text="Dynamic"  />
+      <xuni:XuniAutoComplete
+        ItemsSource="{Binding ItemsSource}"
+         x:Name="auto2"        
+         HorizontalOptions="FillAndExpand"
+        DisplayMemberPath="Name">
+      </xuni:XuniAutoComplete>
+    </StackLayout>
+  </StackLayout>
+</ContentPage>

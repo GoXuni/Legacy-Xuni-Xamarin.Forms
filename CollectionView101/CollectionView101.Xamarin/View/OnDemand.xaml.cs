@@ -26,7 +26,7 @@ namespace CollectionView101
             orderBy.Items.Add("viewCount");
             orderBy.Items.Add("rating");
             orderBy.Items.Add("title");
-            orderBy.SelectedIndex = 0;
+			orderBy.SelectedIndex = 0;
         }
 
         private async void OnTextChanged(object sender, EventArgs e)

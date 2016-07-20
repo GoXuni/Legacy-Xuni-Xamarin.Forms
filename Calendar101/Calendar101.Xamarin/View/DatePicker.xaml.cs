@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace Calendar101
 {
-    public partial class DatePicker
+    public partial class DatePicker : ContentPage
     {
         private TaskCompletionSource<DateTime> _completion;
 

@@ -1,9 +1,5 @@
 ﻿using FlexGrid101.Resources;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xuni.CollectionView;
 using Xuni.Forms.FlexGrid;
@@ -14,29 +10,27 @@ namespace FlexGrid101
     {
         private XuniCollectionView<Customer> _collView;
 
+
         public GettingStarted()
         {
             InitializeComponent();
             this.Title = AppResources.GettingStartedTitle;
 
-
             grid.AutoGeneratingColumn += OnAutoGeneratingColumn;
-            var data = Customer.GetCustomerList(1000);
+            var data = Customer.GetCustomerList(100);
             _collView = new XuniCollectionView<Customer>(data);
             grid.ItemsSource = _collView;
-            grid.SelectionChanged += OnSelectionChanged;
-            _collView.CurrentChanged += OnCurrentChanged;
-
-            grid.IsReadOnly = false; 
-
+			//grid.SelectionChanged += OnSelectionChanged;
+			//_collView.CurrentChanged += OnCurrentChanged;
+        
             Appearing += OnAppearing;
         }
 
         private void OnAppearing(object sender, EventArgs e)
         {
             //grid.AutoSizeColumns(0, grid.Columns.Count - 1);
-            //grid.AutoSizeRows(0, grid.Rows.Count - 1);
-        }
+            //grid.AutoSizeRows(0, grid.Rows.Count - 1)
+        } 
 
         private void OnAutoGeneratingColumn(object sender, GridAutoGeneratingColumnEventArgs e)
         {
@@ -55,7 +49,7 @@ namespace FlexGrid101
                 e.Column.Header = "Country";
                 e.Column.HorizontalAlignment = LayoutAlignment.Start;
                 e.Column.DataMap = new GridDataMap() { ItemsSource = Customer.GetCountries(), DisplayMemberPath = "Value", SelectedValuePath = "Key" };
-            }
+            } 
             else if (e.Property.Name == "OrderTotal" || e.Property.Name == "OrderAverage")
             {
                 //Sets currency format the these columns
@@ -96,8 +90,8 @@ namespace FlexGrid101
 
         void OnCurrentChanged(object sender, EventArgs e)
         {
-			if (grid.Selection == null)
-				return;
+            if (grid.Selection == null)
+                return;
 
             if (grid.Selection.Row != _collView.CurrentPosition)
             {
@@ -113,4 +107,6 @@ namespace FlexGrid101
             }
         }
     }
+
+
 }

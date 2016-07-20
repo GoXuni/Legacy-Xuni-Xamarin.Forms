@@ -10,7 +10,7 @@
     <Picker x:Name="orderBy" Title="OrderBy" SelectedIndexChanged="OrderByChanged"/>
     <Grid VerticalOptions="FillAndExpand">
       <ActivityIndicator x:Name="activityIndicator" VerticalOptions="Center"/>
-      <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False" IsReadOnly="True">
+      <xuni:FlexGrid x:Name="grid" AutoGenerateColumns="False" HeadersVisibility="Column" IsReadOnly="True">
         <xuni:FlexGrid.Columns>
           <local:GridImageColumn Binding="Snippet.Thumbnails.Default.Url" Header=" " Width="50"/>
           <xuni:GridColumn Binding="Snippet.Title" Header="Title" MinWidth="300" Width="*"/>

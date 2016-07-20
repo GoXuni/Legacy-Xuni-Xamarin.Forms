@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Input;assembly=Xuni.Forms.Input"
+             xmlns:sample="clr-namespace:Input101;assembly=Input101.Xamarin"
+             xmlns:calendar="clr-namespace:Xuni.Forms.Calendar;assembly=Xuni.Forms.Calendar"
+             x:Class="Input101.DropDownSample" x:Name="page"
+             Padding="20">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <sample:DateTimeStringConverter x:Key="converter" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <StackLayout>
+    <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid VerticalOptions="FillAndExpand" >
+      <xuni:XuniDropDown
+                         x:Name="dropdown"  
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="Start" >
+        <xuni:XuniDropDown.Header>
+          <xuni:XuniMaskedEntry 
+            x:Name="mask"
+            BindingContext="{x:Reference calendar}"
+            Mask="00/00/0000"
+            Value="{Binding SelectedDate, Converter={StaticResource converter}}"
+            />
+        </xuni:XuniDropDown.Header>
+        <xuni:XuniDropDown.DropDown> 
+          <calendar:XuniCalendar HorizontalOptions="FillAndExpand" x:Name="calendar" BackgroundColor="Transparent"></calendar:XuniCalendar>
+        </xuni:XuniDropDown.DropDown>
+      </xuni:XuniDropDown>
+    </Grid>
+  </StackLayout>
+</ContentPage>

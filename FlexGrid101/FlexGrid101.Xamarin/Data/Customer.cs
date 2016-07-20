@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Linq;
-using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
@@ -57,7 +56,7 @@ namespace FlexGrid101
             Email = string.Format("{0}@{1}.com", (FirstName + LastName.Substring(0, 1)).ToLower(), GetRandomString(_emailServers));
             LastOrderDate = DateTime.Today.AddDays(-_rnd.Next(1, 365)).AddHours(_rnd.Next(0, 24)).AddMinutes(_rnd.Next(0, 60));
             OrderCount = _rnd.Next(0, 100);
-            OrderTotal = Math.Round(_rnd.NextDouble () * 10000.00, 2);
+            OrderTotal = Math.Round(_rnd.NextDouble() * 10000.00, 2);
             Active = _rnd.NextDouble() >= .5;
         }
 
@@ -187,6 +186,14 @@ namespace FlexGrid101
             }
         }
 
+        public TimeSpan LastOrderTime
+        {
+            get
+            {
+                return LastOrderDate.TimeOfDay;
+            }
+        }
+
         public int OrderCount
         {
             get { return _orderCount; }
@@ -273,7 +280,7 @@ namespace FlexGrid101
             else
                 return string.Format("{0} {1} {2}", _rnd.Next(1, 999), GetRandomString(_streetNames), GetRandomString(_streetTypes));
         }
-		 
+
         // ** static value providers
         public static KeyValuePair<int, string>[] GetCountries() { return _countries.Select((p, index) => new KeyValuePair<int, string>(index, p.Key)).ToArray(); }
         public static string[] GetFirstNames() { return _firstNames; }

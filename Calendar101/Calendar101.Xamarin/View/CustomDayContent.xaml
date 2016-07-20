@@ -6,6 +6,7 @@
              Padding="20">
   <StackLayout>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:XuniCalendar DayOfWeekFontSize="8" DayOfWeekFormat="dddd" DayOfWeekFontAttributes="Italic" DaySlotLoading="OnDaySlotLoading" DayOfWeekSlotLoading="OnDayOfWeekSlotLoading" VerticalOptions="FillAndExpand">
       <xuni:XuniCalendar.DaySlotTemplate>
         <DataTemplate>
@@ -29,5 +30,6 @@
         </DataTemplate>
       </xuni:XuniCalendar.AdjacentDaySlotTemplate>
     </xuni:XuniCalendar>
+    </Grid>
   </StackLayout>
 </ContentPage>

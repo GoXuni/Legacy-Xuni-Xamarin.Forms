@@ -11,6 +11,8 @@ namespace Calendar101
         public App()
         {
             InitializeComponent();
+            if (Xamarin.Forms.Device.OS == Xamarin.Forms.TargetPlatform.Windows)
+                Resources["TitleVisible"] = false;
             MainPage = new Xamarin.Forms.NavigationPage(new CalendarSamples());
         }
 

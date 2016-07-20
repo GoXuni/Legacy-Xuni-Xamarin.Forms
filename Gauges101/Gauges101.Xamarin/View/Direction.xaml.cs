@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xuni.Forms.Gauge;
+﻿using Gauges101.Resources;
+using System;
 using Xamarin.Forms;
-using Gauges101.Resources;
 
 namespace Gauges101
 {
-    public partial class Direction
+    public partial class Direction : ContentPage
     {
         public Direction()
         {
@@ -23,8 +18,8 @@ namespace Gauges101
 
         void directionPicker_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string item = directionPicker.Items [directionPicker.SelectedIndex];
-            
+            string item = directionPicker.Items[directionPicker.SelectedIndex];
+
         }
 
         protected override void OnBindingContextChanged()

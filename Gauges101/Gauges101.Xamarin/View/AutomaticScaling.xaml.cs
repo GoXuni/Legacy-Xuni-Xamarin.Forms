@@ -1,15 +1,12 @@
 ﻿using Gauges101.Resources;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xuni.Forms.Gauge;
 
 namespace Gauges101
 {
-    public partial class AutomaticScaling
+    public partial class AutomaticScaling : ContentPage
     {
         private Random _rand = new Random();
         private uint _stepDuration = 4000;
@@ -25,7 +22,7 @@ namespace Gauges101
             SweepAngleStepper.ValueChanged += OnSweepAngleChanged;
             StartAngleLabel.Text = StartAngleStepper.Value.ToString("N0");
             SweepAngleLabel.Text = SweepAngleStepper.Value.ToString("N0");
-            Gauge.UpdateAnimation.Duration = _stepDuration-500;
+            Gauge.UpdateAnimation.Duration = _stepDuration - 500;
         }
 
         void OnStartAngleChanged(object sender, ValueChangedEventArgs e)

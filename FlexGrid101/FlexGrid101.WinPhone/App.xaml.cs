@@ -94,6 +94,11 @@ namespace FlexGrid101.WinPhone
         // Code to execute on Unhandled Exceptions
         private void Application_UnhandledException(object sender, ApplicationUnhandledExceptionEventArgs e)
         {
+            if(e.ExceptionObject.Message == "Layout cycle detected.  Layout could not complete.")
+            {
+                e.Handled = true;
+                return;
+            }
             if (Debugger.IsAttached)
             {
                 // An unhandled exception has occurred; break into the debugger

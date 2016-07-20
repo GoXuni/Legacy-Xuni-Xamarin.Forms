@@ -6,6 +6,7 @@
              Padding="20">
   <StackLayout>
     <Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>
+    <Grid  VerticalOptions="FillAndExpand">
     <xuni:XuniCalendar x:Name="calendar" BackgroundColor="#FFEBEBEB" VerticalOptions="FillAndExpand"
                        TextColor="Black"
                        AdjacentDayTextColor="#FFA5A5A3"
@@ -25,6 +26,8 @@
                        HeaderFontFamily="Arial Black"
                        HeaderFontSize="21"
                        SelectionBackgroundColor="#FFD2D2D2"
+                       SelectionTextColor="Black"
                        TodayFontAttributes="Italic"/>
+    </Grid>
   </StackLayout>
 </ContentPage>

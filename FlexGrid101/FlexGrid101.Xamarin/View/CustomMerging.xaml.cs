@@ -1,9 +1,5 @@
 ﻿using FlexGrid101.Resources;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xuni.Forms.FlexGrid;
@@ -22,46 +18,9 @@ namespace FlexGrid101
                 imgTV.Source = ImageSource.FromResource("FlexGrid101.Images.retro_TV_filled-50_dark.png");
             else
                 imgTV.Source = ImageSource.FromResource("FlexGrid101.Images.retro_TV_filled-50_light.png");
-			
+
             PopulateGrid();
 
-        }
-
-        private void Grid_SelectionChanged(object sender, GridCellRangeEventArgs e)
-        {
-
-            string selectedText = grid[e.CellRange.Row, e.CellRange.Column].ToString();
-            labelShowName.Text = selectedText;
-            labelShowTimes.Text = "";
-            for (int c = 0; c < grid.Columns.Count; c++)
-            {
-                string dayName = grid.GetCellValue(GridCellType.ColumnHeader, new GridCellRange(0, c)).ToString();
-                string startTime = "";
-                for (int r = 0; r < grid.Rows.Count; r++)
-                {
-                    string cellValue = grid[r, c].ToString();
-
-                    if (cellValue.Equals(selectedText))
-                    {
-                        if (startTime == "")
-                        {
-                            startTime = grid.GetCellValue(GridCellType.RowHeader, grid.Rows[r], grid.Columns[0]).ToString();
-                            labelShowTimes.Text = labelShowTimes.Text + dayName + " " + startTime + "-";
-                        }
-                    }
-                    else if (startTime != "" && labelShowTimes.Text.EndsWith("-"))
-                    {
-                        string endTime = grid.GetCellValue(GridCellType.RowHeader, grid.Rows[r], grid.Columns[0]).ToString();
-                        labelShowTimes.Text = labelShowTimes.Text + endTime + "\n";
-                    }
-
-                    // handle last row exception
-                    if (r == grid.Rows.Count - 1 && startTime != "" && labelShowTimes.Text.EndsWith("-"))
-                    {
-                        labelShowTimes.Text = labelShowTimes.Text + "19:00\n";
-                    }
-                }
-            }
         }
 
         protected override void OnAppearing()
@@ -71,14 +30,22 @@ namespace FlexGrid101
 
         private void PopulateGrid()
         {
+            grid.ColumnHeaders.Rows.Insert(0, new GridRow() { AllowMerging = true });
+            grid.ColumnHeaders[0, 0] = "Weekday";
+            grid.ColumnHeaders[0, 1] = "Weekday";
+            grid.ColumnHeaders[0, 2] = "Weekday";
+            grid.ColumnHeaders[0, 3] = "Weekday";
+            grid.ColumnHeaders[0, 4] = "Weekday";
+            grid.ColumnHeaders[0, 5] = "Weekend";
+            grid.ColumnHeaders[0, 6] = "Weekend";
 
-			grid.SetCellValue(GridCellType.RowHeader, 0, 0, "12:00");
-            grid.SetCellValue(GridCellType.RowHeader, 1, 0, "13:00");
-            grid.SetCellValue(GridCellType.RowHeader, 2, 0, "14:00");
-            grid.SetCellValue(GridCellType.RowHeader, 3, 0, "15:00");
-            grid.SetCellValue(GridCellType.RowHeader, 4, 0, "16:00");
-            grid.SetCellValue(GridCellType.RowHeader, 5, 0, "17:00");
-            grid.SetCellValue(GridCellType.RowHeader, 6, 0, "18:00");
+            grid.RowHeaders[0, 0] = "12:00";
+            grid.RowHeaders[1, 0] = "13:00";
+            grid.RowHeaders[2, 0] = "14:00";
+            grid.RowHeaders[3, 0] = "15:00";
+            grid.RowHeaders[4, 0] = "16:00";
+            grid.RowHeaders[5, 0] = "17:00";
+            grid.RowHeaders[6, 0] = "18:00";
 
             grid[0, 0] = "Walker";
             grid[0, 1] = "Morning Show";
@@ -115,9 +82,9 @@ namespace FlexGrid101
             grid[4, 2] = "News";
             grid[4, 3] = "News";
             grid[4, 4] = "News";
-            grid[5, 0] = "Weel of Fortune";
-            grid[5, 1] = "Weel of Fortune";
-            grid[5, 2] = "Weel of Fortune";
+            grid[5, 0] = "Wheel of Fortune";
+            grid[5, 1] = "Wheel of Fortune";
+            grid[5, 2] = "Wheel of Fortune";
             grid[5, 3] = "Jeopardy";
             grid[5, 4] = "Jeopardy";
             grid[5, 5] = "Movie";
@@ -129,6 +96,43 @@ namespace FlexGrid101
             grid[6, 2] = "Sports";
             grid[6, 3] = "Big Brother";
             grid[6, 4] = "Big Brother";
+        }
+
+        private void Grid_SelectionChanged(object sender, GridCellRangeEventArgs e)
+        {
+
+            string selectedText = grid[e.CellRange.Row, e.CellRange.Column].ToString();
+            labelShowName.Text = selectedText;
+            labelShowTimes.Text = "";
+            for (int c = 0; c < grid.Columns.Count; c++)
+            {
+                string dayName = grid.GetCellValue(GridCellType.ColumnHeader, new GridCellRange(1, c)).ToString();
+                string startTime = "";
+                for (int r = 0; r < grid.Rows.Count; r++)
+                {
+                    string cellValue = grid[r, c].ToString();
+
+                    if (cellValue.Equals(selectedText))
+                    {
+                        if (startTime == "")
+                        {
+                            startTime = grid.GetCellValue(GridCellType.RowHeader, grid.Rows[r], grid.Columns[0]).ToString();
+                            labelShowTimes.Text = labelShowTimes.Text + dayName + " " + startTime + "-";
+                        }
+                    }
+                    else if (startTime != "" && labelShowTimes.Text.EndsWith("-"))
+                    {
+                        string endTime = grid.GetCellValue(GridCellType.RowHeader, grid.Rows[r], grid.Columns[0]).ToString();
+                        labelShowTimes.Text = labelShowTimes.Text + endTime + "\n";
+                    }
+
+                    // handle last row exception
+                    if (r == grid.Rows.Count - 1 && startTime != "" && labelShowTimes.Text.EndsWith("-"))
+                    {
+                        labelShowTimes.Text = labelShowTimes.Text + "19:00\n";
+                    }
+                }
+            }
         }
     }
 }

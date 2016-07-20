@@ -1,9 +1,5 @@
 ﻿using FlexGrid101.Resources;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace FlexGrid101
@@ -29,16 +25,17 @@ namespace FlexGrid101
                 new Sample() { Name = AppResources.ConditionalFormattingTitle, Description = AppResources.ConditionalFormattingDescription, SampleViewType = 6 , Thumbnail="flexgrid.png"},
                 new Sample() { Name = AppResources.CustomCellsTitle, Description = AppResources.CustomCellsDescription, SampleViewType = 7 , Thumbnail="flexgrid_custom.png"},
                 new Sample() { Name = AppResources.GroupingTitle, Description = AppResources.GroupingDescription, SampleViewType = 8 , Thumbnail="flexgrid_grouping.png"},
-                new Sample() { Name = AppResources.RowDetailsTitle, Description = AppResources.RowDetailsDescription, SampleViewType = 15 , Thumbnail="flexgrid_rowdetails.png"},
-                new Sample() { Name = AppResources.FilterTitle, Description = AppResources.FilterDescription, SampleViewType = 9 , Thumbnail="flexgrid_filter.png"},
-                new Sample() { Name = AppResources.FullTextFilterTitle, Description = AppResources.FullTextFilterDescription, SampleViewType = 10 , Thumbnail="filter.png"},
-                new Sample() { Name = AppResources.ColumnLayoutTitle, Description = AppResources.ColumnLayoutDescription, SampleViewType = 11 , Thumbnail="flexgrid_columns.png"},
-                new Sample() { Name = AppResources.StarSizingTitle, Description = AppResources.StarSizingDescription, SampleViewType = 12 , Thumbnail="flexgrid.png"},
-                new Sample() { Name = AppResources.CellFreezingTitle, Description = AppResources.CellFreezingDescription, SampleViewType = 13 , Thumbnail="flexgrid_freezing.png"},
-                 new Sample() { Name = AppResources.CustomMergingTitle, Description = AppResources.CustomMergingDescription, SampleViewType = 16 , Thumbnail="flexgrid_merging.png"},
-                new Sample() { Name = AppResources.OnDemandTitle, Description = AppResources.OnDemandDescription, SampleViewType = 14 , Thumbnail="flexgrid_loading.png"},
-                
-               
+                new Sample() { Name = AppResources.RowDetailsTitle, Description = AppResources.RowDetailsDescription, SampleViewType = 9 , Thumbnail="flexgrid_rowdetails.png"},
+                new Sample() { Name = AppResources.FilterTitle, Description = AppResources.FilterDescription, SampleViewType = 10 , Thumbnail="flexgrid_filter.png"},
+                new Sample() { Name = AppResources.FullTextFilterTitle, Description = AppResources.FullTextFilterDescription, SampleViewType = 11 , Thumbnail="filter.png"},
+                new Sample() { Name = AppResources.ColumnLayoutTitle, Description = AppResources.ColumnLayoutDescription, SampleViewType = 12 , Thumbnail="flexgrid_columns.png"},
+                new Sample() { Name = AppResources.StarSizingTitle, Description = AppResources.StarSizingDescription, SampleViewType = 13 , Thumbnail="flexgrid.png"},
+                new Sample() { Name = AppResources.CellFreezingTitle, Description = AppResources.CellFreezingDescription, SampleViewType = 14 , Thumbnail="flexgrid_freezing.png"},
+                new Sample() { Name = AppResources.CustomMergingTitle, Description = AppResources.CustomMergingDescription, SampleViewType = 15 , Thumbnail="flexgrid_merging.png"},
+                new Sample() { Name = AppResources.UnboundTitle, Description = AppResources.UnboundDescription, SampleViewType = 16 , Thumbnail="flexgrid_headers.png"},
+                new Sample() { Name = AppResources.OnDemandTitle, Description = AppResources.OnDemandDescription, SampleViewType = 17 , Thumbnail="flexgrid_loading.png"},
+
+
             };
         }
 
@@ -60,14 +57,15 @@ namespace FlexGrid101
                 case 6: return new ConditionalFormatting();
                 case 7: return new CustomCells();
                 case 8: return new Grouping();
-                case 9: return new Filter();
-                case 10: return new FullTextFilter();
-                case 11: return new ColumnLayout();
-                case 12: return new StarSizing();
-                case 13: return new CellFreezing();
-                case 14: return new OnDemand();
-                case 15: return new RowDetails();
-                case 16: return new CustomMerging();
+                case 9: return new RowDetails();
+                case 10: return new Filter();
+                case 11: return new FullTextFilter();
+                case 12: return new ColumnLayout();
+                case 13: return new StarSizing();
+                case 14: return new CellFreezing();
+                case 15: return new CustomMerging();
+                case 16: return new Unbound();
+                case 17: return new OnDemand();
             }
             return null;
         }

@@ -1,9 +1,5 @@
 ﻿using FlexGrid101.Resources;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xuni.Forms.FlexGrid;
 
@@ -38,7 +34,7 @@ namespace FlexGrid101
 
         private void OnSelectionChanged(object sender, GridCellRangeEventArgs e)
         {
-            if (e.CellRange.Row != -1)
+            if (e.CellRange != null && e.CellRange.Row != -1)
             {
                 int rowsSelected = Math.Abs(e.CellRange.Row2 - e.CellRange.Row) + 1;
                 int colsSelected = Math.Abs(e.CellRange.Column2 - e.CellRange.Column) + 1;
