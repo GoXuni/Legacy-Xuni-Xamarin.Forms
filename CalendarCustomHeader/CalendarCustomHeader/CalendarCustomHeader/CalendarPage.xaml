@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Calendar;assembly=Xuni.Forms.Calendar"
+            xmlns:local="clr-namespace:CalendarCustomHeader;assembly=CalendarCustomHeader"
+             x:Class="CalendarCustomHeader.CalendarPage" Title="Xuni Calendar Custom Header">
+  <NavigationPage Title="No Buttons">
+    <x:Arguments>
+      <local:NoButtons />
+    </x:Arguments>
+  </NavigationPage>
+  <NavigationPage Title="Custom Format String">
+    <x:Arguments>
+      <local:CustomFormatString />
+    </x:Arguments>
+  </NavigationPage>
+  <NavigationPage Title="Custom Buttons">
+        <x:Arguments>
+            <local:CustomButtons />
+        </x:Arguments>
+    </NavigationPage>
+  <NavigationPage Title="Header Loading Event">
+    <x:Arguments>
+      <local:HeaderLoadingEvent />
+    </x:Arguments>
+  </NavigationPage>
+</TabbedPage>

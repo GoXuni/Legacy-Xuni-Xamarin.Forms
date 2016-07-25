@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Calendar;assembly=Xuni.Forms.Calendar"
+             x:Class="CalendarCustomHeader.CustomButtons">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <Grid Padding="20, 0, 20, 0">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="Auto"/>
+      </Grid.ColumnDefinitions>
+      <Label x:Name="lblMonthYear" FontSize="20" TextColor="Default" VerticalTextAlignment="Center"/>
+      <Image x:Name="btnPrevMonth" Source="CollapseArrow.png" WidthRequest="35" Grid.Column="1"/>
+      <Image x:Name="btnNextMonth" Source="ExpandArrow.png" WidthRequest="35" Grid.Column="2"/>
+    </Grid>
+    <xuni:XuniCalendar x:Name="calendar" Grid.Row="1" DayOfWeekBackgroundColor="Transparent" 
+                       DayOfWeekFontSize="10" DayOfWeekFormat="dddd" ShowHeader="False" Orientation="Vertical"/>
+  </Grid>
+</ContentPage>
